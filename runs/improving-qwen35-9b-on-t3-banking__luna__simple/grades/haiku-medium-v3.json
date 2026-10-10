@@ -1,0 +1,78 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:26.821Z",
+ "main_idea": "Training raised Qwen3.5-9B pass@5 from 11.3% to 17.5%",
+ "ideas": [
+  "Qwen3.5-9B pass@5 improves after training",
+  "Gain is 6.2 percentage points",
+  "Before versus after comparison"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and focused; the only gap is that the graphic never names the benchmark (τ³-Banking) behind the pass@5 numbers.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "benchmark name",
+   "why": "The post names τ³-Banking, but the graphic never says what pass@5 was measured on."
+  }
+ ],
+ "completeness_score": 6,
+ "defects": [],
+ "cost": {
+  "seconds": 8.5,
+  "usd": 0.00193647,
+  "tokens": 24774,
+  "outputTokens": 1389
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Main visual: bars, values, change annotation, and category labels, all needed.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo and model header",
+   "reason": "One brand mark, model name, and metric label orient the reader.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 8.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 9,
+  "textElements": 7
+ }
+}

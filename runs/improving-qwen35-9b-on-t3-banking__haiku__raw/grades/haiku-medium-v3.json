@@ -1,0 +1,186 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:23.070Z",
+ "main_idea": "Training lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "Training raised pass@5 on τ³-Banking from 11.3% to 17.5%",
+  "Distilling a larger teacher, then pivot RL, drove the gain",
+  "Only 50 teacher tasks were needed",
+  "Evaluated on 97 tasks with 5 attempts each",
+  "Six general benchmarks showed no significant change"
+ ],
+ "clutter_score": 5,
+ "summary": "A clear before/after chart is the main visual, but the method cards, the dataset stats row, the duplicate wordmark and the badge are clutter, and the headline and subtitle are wordy; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 15.7,
+  "usd": 0.0028322599999999996,
+  "tokens": 28369,
+  "outputTokens": 3143
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo mark",
+   "reason": "Single brand mark, kept as the one logo.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "repetition",
+   "name": "Duplicate wordmark",
+   "reason": "Brand name already shown by the logo beside it.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research date badge",
+   "reason": "Category tag and pill add no information about the result.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long headline",
+   "reason": "Thirteen-word method headline; shorten to a finding like '5x-ish uplift on τ³-Banking'.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method subtitle",
+   "reason": "Restates the method in a sentence; a footnote or shorter line would do.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass@5 comparison chart",
+   "reason": "Main visual: labelled before/after pass@5 values and bars with metric and model.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method pipeline cards",
+   "reason": "Method matters but full cards are too much; fold steps into a footnote.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset and benchmark stats row",
+   "reason": "Second point about dataset sizes and general benchmarks, not the main chart.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Website contact line",
+   "reason": "Quiet contact line for readers who want more.",
+   "ids": [
+    "e45"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline and dot",
+   "reason": "Decorative dot and tagline add nothing to the finding.",
+   "ids": [
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 28.5,
+   "orange": 51.8,
+   "red": 19.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 45.6,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1,
+   "unneeded": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "grader": "luna-low-v4",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:20.159Z",
+ "main_idea": "GRPO improved Qwen3.8-27B’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 by 11.3 points.",
+  "The training set included 500 tasks across 422 repositories.",
+  "Training reward rose over 15 updates.",
+  "The task mix was mostly feature requests.",
+  "Entropy stayed within a reported range."
+ ],
+ "clutter_score": 5,
+ "summary": "The reward, dataset, task mix, and entropy details distract from the pass-rate result; the graphic lacks nothing needed to understand it.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 11.1,
+  "usd": null,
+  "tokens": 8158,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The sole brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category",
+   "reason": "Eyebrow tag adds no information needed to read the result.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Names the model, benchmark, and training method.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Evaluation subtitle",
+   "reason": "A long sentence repeats evaluation details that could be a brief footnote.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate comparison",
+   "reason": "The chart clearly compares base and trained DeepSWE pass@1.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Uplift callout",
+   "reason": "The chart values already show the improvement.",
+   "ids": [
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quietly gives useful setup context.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset statistics",
+   "reason": "Task count, repository count, and attempts introduce details beyond the main result.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Reward trend chart",
+   "reason": "Training reward is a separate diagnostic point.",
+   "ids": [
+    "e28",
+    "e30",
+    "e33",
+    "e34",
+    "e35",
+    "e39",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type breakdown",
+   "reason": "The task mix is a separate point from the pass-rate result.",
+   "ids": [
+    "e29",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy note",
+   "reason": "Entropy stability is another training diagnostic.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Repeats the AfterQuery brand already shown in the logo.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.5,
+   "orange": 9.1,
+   "red": 38.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 43.1,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

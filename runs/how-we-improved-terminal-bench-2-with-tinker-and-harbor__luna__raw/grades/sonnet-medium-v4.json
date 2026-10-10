@@ -1,0 +1,205 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:14.506Z",
+ "main_idea": "Post-training lifted gpt-oss-20b on Terminal-Bench 2.0 from 3.1% to 17.0%, over 5x.",
+ "ideas": [
+  "Pass rate rose from 3.1% to 17.0%",
+  "5.5x relative improvement",
+  "+10.4 percentage point gain",
+  "RLVR adds 3.5 points after SFT",
+  "Two-stage pipeline: SFT then RL"
+ ],
+ "clutter_score": 7,
+ "summary": "The bar chart is complete, but two stat cards, an RLVR callout, pipeline cards, header and eyebrow tags, a long headline and a footer wordmark clutter it.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo glyph is nearly white on a light background, barely visible"
+ ],
+ "cost": {
+  "seconds": 9.4,
+  "usd": 0.03495720000000001,
+  "tokens": 28703,
+  "outputTokens": 1143
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept. The logo glyph is faint but present.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag",
+   "reason": "Category tag in the header, not needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Kicker above the headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Slogan headline",
+   "reason": "Two-sentence headline at 61px. Could be '5× on Terminal-Bench 2.0'.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric subtitle",
+   "reason": "Short context naming the model, metric and benchmark.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Bars, values, category labels and metric label.",
+   "ids": [
+    "e7",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e15",
+    "e20",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "5.5x stat card",
+   "reason": "Restates the ratio the bars already show.",
+   "ids": [
+    "e8",
+    "e9",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "+10.4 stat card",
+   "reason": "Restates the difference between the two bars.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "RLVR +3.5 callout",
+   "reason": "Second point about the RLVR stage, unrelated to the chart.",
+   "ids": [
+    "e21",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Pipeline cards",
+   "reason": "Method cards under a results chart, repeating the 17.0% result.",
+   "ids": [
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Quiet evaluation details.",
+   "ids": [
+    "e46"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark when a logo already exists.",
+   "ids": [
+    "e44",
+    "e45"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 40.2,
+   "orange": 25.9,
+   "red": 34,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30
+  },
+  "clutterShare": 47,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 3,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 105,
+  "textElements": 32
+ }
+}

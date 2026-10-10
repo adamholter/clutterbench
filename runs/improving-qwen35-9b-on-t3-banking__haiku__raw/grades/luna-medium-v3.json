@@ -1,0 +1,174 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:58.533Z",
+ "main_idea": "PivotRL training raised Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "Qwen3.5-9B pass@5 improved from 11.3% to 17.5%.",
+  "Training used teacher distillation and PivotRL on 50 tasks.",
+  "The selected checkpoint showed no significant change on six general benchmarks."
+ ],
+ "clutter_score": 6,
+ "summary": "The method cards and extra metrics row compete with the pass@5 comparison; the graphic is otherwise complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.7,
+  "usd": null,
+  "tokens": 8184,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The logo identifies the publisher.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research badge",
+   "reason": "The date pill and research tag add no context needed to read the result.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Names the model, benchmark, method, and task scale, though it is longer than needed.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method subtitle",
+   "reason": "Adds useful method context, but the long sentence can be shortened.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate chart",
+   "reason": "Clearly compares baseline and trained pass@5 with values and model context.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method cards",
+   "reason": "The training steps and verifier are useful context, but cards take too much room.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Metrics row",
+   "reason": "Task counts and general benchmark results add a second point below the main comparison.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "A small, quiet contact line is acceptable context.",
+   "ids": [
+    "e45"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "The decorative dot and lab tagline do not help explain the chart.",
+   "ids": [
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 59,
+   "orange": 22.2,
+   "red": 18.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 29.9,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

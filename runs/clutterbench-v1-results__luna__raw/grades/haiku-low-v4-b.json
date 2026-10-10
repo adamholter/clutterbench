@@ -1,0 +1,184 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:49.478Z",
+ "main_idea": "Simple prompts cut clutter to near zero across models, versus raw prompts.",
+ "ideas": [
+  "Simple prompts cut clutter to almost nothing",
+  "Raw prompts leave high clutter in every model",
+  "GPT-6 Luna still has some clutter under simple prompts"
+ ],
+ "clutter_score": 2,
+ "summary": "Clutter is limited to an eyebrow, two takeaway cards restating the chart, and a repeated footer wordmark around a clear, complete bar chart.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.9,
+  "usd": 0.00148085,
+  "tokens": 27362,
+  "outputTokens": 2463
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark identifying the publisher.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Colour legend",
+   "reason": "One legend needed to read the blue, orange and red marks.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline adds no information.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline and metric",
+   "reason": "Seven-word finding headline, plus the metric definition as subtitle.",
+   "ids": [
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Clutter bar chart",
+   "reason": "Main visual: labelled bars and values by model and prompt, with sample size note.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Takeaway callout cards",
+   "reason": "Both cards restate numbers the bar chart already shows, such as 0% and 6%.",
+   "ids": [
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving the run size and number of models and posts.",
+   "ids": [
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark when the header logo already shows the brand.",
+   "ids": [
+    "e66"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 81.2,
+   "orange": 0,
+   "red": 18.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 26.4
+  },
+  "clutterShare": 18.8,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 114,
+  "textElements": 33
+ }
+}

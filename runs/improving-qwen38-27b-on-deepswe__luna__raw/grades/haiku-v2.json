@@ -1,0 +1,226 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:17:21.014Z",
+ "main_idea": "GRPO training raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training improved DeepSWE pass@1 by 11.3 points",
+  "Base model scored 27.8%, step 15 scored 39.1%",
+  "Training used 500 expert-authored software engineering tasks",
+  "Training data came from diverse real-world codebases",
+  "Training used eight attempts per task with GRPO"
+ ],
+ "clutter_score": 8,
+ "summary": "Clutter: slogan headline, eyebrow, subtitle, frames, stats row, method cards and footer bury the clean bar chart. Missing: the model name, which only appears in the removed eyebrow.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "Qwen3.8-27B appears only in the eyebrow, which is removed, so the chart does not name the model."
+  }
+ ],
+ "completeness_score": 7,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header research tag",
+   "reason": "Series tag and header rule; says nothing the chart needs.",
+   "ids": [
+    "e0",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The one brand mark; the post's company logo.",
+   "ids": [
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow category line",
+   "reason": "Category tag above headline; does not state the finding.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan, not a finding; does not state the result.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle restating chart",
+   "reason": "Restates training method and task count the reader sees elsewhere.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card frame",
+   "reason": "Border drawn around the main chart card.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart metric title",
+   "reason": "Names the benchmark, metric, and averaging for the chart.",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Comparison pill",
+   "reason": "Repeats the Base model and Step 15 category labels already on the axis.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and value labels",
+   "reason": "The chart marks with one value label per bar.",
+   "ids": [
+    "e13",
+    "e14",
+    "e16",
+    "e17",
+    "e18",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Change arrow annotation",
+   "reason": "Shows the 11.3-point gain directly on the chart.",
+   "ids": [
+    "e19",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Scale ticks needed to read bar heights.",
+   "ids": [
+    "e15",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Identify what each bar represents.",
+   "ids": [
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training scale stats row",
+   "reason": "Dataset and training-scale stats serve a separate idea from the result.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method and data cards",
+   "reason": "Method and data description cards serve a second point beside the results chart.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer taglines",
+   "reason": "Footer tagline and company descriptor; nothing the chart needs.",
+   "ids": [
+    "e41",
+    "e42",
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 19.3,
+   "orange": 0,
+   "red": 80.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 80.7,
+  "ideaCount": 5,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 6,
+   "repetition": 1,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

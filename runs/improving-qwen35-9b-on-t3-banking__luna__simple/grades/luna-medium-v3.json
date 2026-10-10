@@ -1,0 +1,133 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:59.253Z",
+ "main_idea": "Qwen3.5-9B improved from 11.3% to 17.5% pass@5 on τ³-Banking.",
+ "ideas": [
+  "Qwen3.5-9B improved from 11.3% to 17.5% pass@5 on τ³-Banking."
+ ],
+ "clutter_score": 0,
+ "summary": "clean and complete",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 7.1,
+  "usd": null,
+  "tokens": 9181,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart frame",
+   "reason": "Container for the main chart.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Model title",
+   "reason": "Identifies the model being evaluated.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass at five",
+   "reason": "Names the evaluation metric.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart gridlines",
+   "reason": "Provides scale and structure for the bars.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Change annotation",
+   "reason": "Summarizes the improvement between bars.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "After result",
+   "reason": "Shows the after value and its bar.",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Before result",
+   "reason": "Shows the before value and its bar.",
+   "ids": [
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar labels",
+   "reason": "Identifies the two comparison categories.",
+   "ids": [
+    "e10",
+    "e11"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 8.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 9,
+  "textElements": 7
+ }
+}

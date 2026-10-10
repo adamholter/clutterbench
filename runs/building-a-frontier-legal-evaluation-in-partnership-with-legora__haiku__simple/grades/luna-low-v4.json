@@ -1,0 +1,70 @@
+{
+ "grader": "luna-low-v4",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:07:41.598Z",
+ "main_idea": "BAR-informed harness changes improved output quality by 5% in one month.",
+ "ideas": [
+  "Harness changes informed by BAR improved output quality by 5%."
+ ],
+ "clutter_score": 1,
+ "summary": "The result explanation is wordier than needed; otherwise the graphic is clean and complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.1,
+  "usd": null,
+  "tokens": 11837,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "A single brand mark identifies who conducted the work.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Five percent result",
+   "reason": "The large value makes the main result immediately visible.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Result explanation",
+   "reason": "The sentence explains the result at length; a short BAR context label would suffice.",
+   "ids": [
+    "e2"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 92.1,
+   "orange": 7.9,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.7
+  },
+  "clutterShare": 4,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 2
+ }
+}

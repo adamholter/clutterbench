@@ -1,0 +1,125 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:21.299Z",
+ "main_idea": "Simple prompts cut clutter from 29-61% down to near zero across all four models.",
+ "ideas": [
+  "Simple prompts cut clutter to near zero",
+  "Raw prompts leave clutter at 29-61%",
+  "Clutter score falls for each model"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and complete: a single dumbbell chart with short title, legend, labels and footnote, with nothing to remove.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "The 6% label sits tight against the baseline on the GPT-6 Luna column"
+ ],
+ "cost": {
+  "seconds": 8.9,
+  "usd": 0.0019495,
+  "tokens": 25223,
+  "outputTokens": 1534
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "Single brand mark, small and quiet.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline that states the finding, not a slogan.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric and prompt legend",
+   "reason": "Names the metric and maps the two dot colours to prompts.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Dumbbell chart by model",
+   "reason": "Main visual: model names, both values, marks and baseline, all needed to read it.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Scale and evaluation footnote",
+   "reason": "Quiet footnote stating direction and averaging.",
+   "ids": [
+    "e35"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 56
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 42,
+  "textElements": 20
+ }
+}

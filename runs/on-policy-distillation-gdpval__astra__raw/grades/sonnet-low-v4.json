@@ -1,0 +1,173 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:44:05.764Z",
+ "main_idea": "On-policy distillation gives large GDPval net win-loss gains on both Nemotron and Qwen students.",
+ "ideas": [
+  "Distillation improves GDPval win-loss on two model families",
+  "Mean rubric score also rises",
+  "How on-policy distillation works (pipeline)",
+  "Training data excluded public GDPval examples"
+ ],
+ "clutter_score": 6,
+ "summary": "The stat comparison is clear, but a large method pipeline, eyebrow, subtitle and slogan headline add clutter; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 8.2,
+  "usd": 0.0786613,
+  "tokens": 33156,
+  "outputTokens": 896
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Category tag above headline adds nothing.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Slogan headline",
+   "reason": "Huge two-line slogan, not a crisp finding; should be shortened.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Restates what the stats show.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-loss stats",
+   "reason": "Main result: model names, net margins, metric labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Rubric score gains",
+   "reason": "Small secondary metric supporting the main result.",
+   "ids": [
+    "e13",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Pipeline diagram",
+   "reason": "Method diagram is a second idea unrelated to reading results.",
+   "ids": [
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Training data footnote",
+   "reason": "Small evaluation-detail note.",
+   "ids": [
+    "e32"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark footer",
+   "reason": "Names benchmark and comparison context.",
+   "ids": [
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention beyond logo.",
+   "ids": [
+    "e35"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 45.8,
+   "orange": 21.9,
+   "red": 32.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.5
+  },
+  "clutterShare": 43.3,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 104,
+  "textElements": 25
+ }
+}

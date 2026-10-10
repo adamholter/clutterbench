@@ -1,0 +1,106 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:00.865Z",
+ "main_idea": "Qwen3.5-9B improved from 11.3% to 17.5% pass@5 on τ³-Banking.",
+ "ideas": [
+  "Qwen3.5-9B improved from 11.3% to 17.5% pass@5 on τ³-Banking."
+ ],
+ "clutter_score": 0,
+ "summary": "clean and complete",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12,
+  "usd": null,
+  "tokens": 9135,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "A single visible brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart heading",
+   "reason": "Names the model and metric; the box is part of the heading layout.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "The bars and chart gridlines show the before and after results.",
+   "ids": [
+    "e4",
+    "e7",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Change annotation",
+   "reason": "Summarizes the difference between the two bars.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar values",
+   "reason": "Labels each bar with its pass rate.",
+   "ids": [
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar labels",
+   "reason": "Identify the before and after categories.",
+   "ids": [
+    "e10",
+    "e11"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 8.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 9,
+  "textElements": 7
+ }
+}

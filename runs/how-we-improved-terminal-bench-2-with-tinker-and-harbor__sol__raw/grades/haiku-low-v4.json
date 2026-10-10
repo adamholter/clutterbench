@@ -1,0 +1,171 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:09.872Z",
+ "main_idea": "Post-training lifts gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Post-training lifts pass rate from 3.1% to 17.0%",
+  "SFT alone reaches 13.5%",
+  "SFT then RLVR is the two-stage pipeline",
+  "Explore-then-act workflow is taught by SFT"
+ ],
+ "clutter_score": 4,
+ "summary": "The bar chart is clear, but a slogan headline, a category tag, bar sublabels, and a SFT/RLVR method-card strip add clutter; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 14.5,
+  "usd": 0.0045213,
+  "tokens": 31261,
+  "outputTokens": 2693
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, identifies the source.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and system subtitle",
+   "reason": "Short context naming model and tools.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names the benchmark and metric.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars, values and gridlines",
+   "reason": "The main visual with one value label per bar.",
+   "ids": [
+    "e5",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Names each bar, needed to read the chart.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote with benchmark, runs and contact URL.",
+   "ids": [
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Series tag above the chart, tells the reader nothing new.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bar sublabels",
+   "reason": "Descriptive subtitles under bars restate the chart and add little.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "SFT and RLVR method cards",
+   "reason": "Method explanation beside the results chart serves a second point.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 64.6,
+   "orange": 0,
+   "red": 35.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 45.3
+  },
+  "clutterShare": 35.4,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 90,
+  "textElements": 25
+ }
+}

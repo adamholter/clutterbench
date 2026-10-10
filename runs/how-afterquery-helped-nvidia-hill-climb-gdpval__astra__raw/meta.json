@@ -1,0 +1,19 @@
+{
+  "id": "how-afterquery-helped-nvidia-hill-climb-gdpval__astra__raw",
+  "task": "how-afterquery-helped-nvidia-hill-climb-gdpval",
+  "title": "How AfterQuery Helped NVIDIA Hill-Climb GDPval",
+  "model": "astra",
+  "modelId": "gpt-6-astra",
+  "effort": "low",
+  "variant": "raw",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 67,
+  "flags": [],
+  "createdAt": "2026-10-10T20:41:12.872Z"
+}

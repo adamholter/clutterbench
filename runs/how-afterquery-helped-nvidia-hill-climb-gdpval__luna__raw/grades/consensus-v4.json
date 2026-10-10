@@ -1,0 +1,189 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.895Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 1,
+  "tiebreak": true,
+  "scores": [
+   6,
+   4,
+   5
+  ]
+ },
+ "main_idea": "AfterQuery warmup lifts Nemotron 3 Ultra GDPval score from 35.3 to 46.7, near teacher.",
+ "ideas": [
+  "Warmup raises GDPval score substantially",
+  "Warmup result nearly matches specialized teacher",
+  "AfterQuery data helped NVIDIA's model"
+ ],
+ "summary": "A clear bar chart is cluttered by a slogan headline, eyebrow, tag, subtitle, legend, a +11.4 callout and a footer wordmark and tagline.",
+ "clutter_score": 5,
+ "completeness_score": 9,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Header logo",
+   "reason": "Single brand mark; the header box takes the label of what it contains.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Research · Model training tag is a kicker with no information needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow",
+   "reason": "Eyebrow line above headline.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan, not a finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle sentence",
+   "reason": "Sentence restating what the chart shows.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names benchmark, setting, and metric; short and useful.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Bars, values, axis ticks, category labels and gain connector.",
+   "ids": [
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval score bar chart",
+   "reason": "Main visual with title, metric, labelled bars, values, axis, legend and change annotation",
+   "ids": [
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Gain callout",
+   "reason": "Stat card restating the difference the bars already show.",
+   "ids": [
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark; logo already at top.",
+   "ids": [
+    "e41"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline",
+   "reason": "Footer tagline is unneeded.",
+   "ids": [
+    "e42"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.3,
+   "orange": 0,
+   "red": 47.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22.4
+  },
+  "clutterShare": 47.7,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "repetition": 6
+  },
+  "coverage": 100,
+  "words": 84,
+  "textElements": 29
+ }
+}

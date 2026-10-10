@@ -1,0 +1,190 @@
+{
+ "grader": "luna-low-v4",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:25.152Z",
+ "main_idea": "GRPO training improved Qwen3.8-27B-Medium’s DeepSWE pass@1 by 11.3 points.",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%.",
+  "Training used 500 tasks across 422 repositories.",
+  "Tasks came from enterprise codebases and covered five languages.",
+  "Training used eight attempts per task and 15 updates."
+ ],
+ "clutter_score": 5,
+ "summary": "The chart is clear, but the long headline, repeated training counts, method and provenance cards, and footer add clutter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.2,
+  "usd": null,
+  "tokens": 7921,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the publisher.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart context",
+   "reason": "DeepSWE context helps orient the reader.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "The kicker repeats the model and research topic above the headline.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "The sentence is long and omits the measured DeepSWE result.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle",
+   "reason": "This sentence adds detail the chart and compact context can convey.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE chart",
+   "reason": "The chart names the metric, labels both models, shows values, and marks the gain.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Training stats",
+   "reason": "Task count and update count repeat chart context; repository count adds a side detail.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training method",
+   "reason": "The method explanation is a separate detail beneath the results chart.",
+   "ids": [
+    "e35",
+    "e37",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task provenance",
+   "reason": "Codebase provenance and language coverage add a second point.",
+   "ids": [
+    "e36",
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer branding",
+   "reason": "The footer repeats the AfterQuery brand already shown in the logo.",
+   "ids": [
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "The tagline adds no information needed to read the chart.",
+   "ids": [
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 34.8,
+   "orange": 26.2,
+   "red": 38.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 52,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 2,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

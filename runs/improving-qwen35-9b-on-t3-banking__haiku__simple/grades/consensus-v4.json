@@ -1,0 +1,76 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.918Z",
+ "consensus": {
+  "haikuAgreed": true,
+  "elementsChanged": 0,
+  "tiebreak": false,
+  "scores": [
+   0
+  ]
+ },
+ "main_idea": "Training lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "Training raises pass@5 on τ³-Banking",
+  "Base 11.3% versus after training 17.5%"
+ ],
+ "summary": "Clean and complete: one before-and-after bar chart with a short title, labelled values, and a single logo.",
+ "clutter_score": 0,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the model, metric, and benchmark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Main before-after bars",
+   "reason": "The bars, their value labels, and category labels make the single comparison.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand mark",
+   "reason": "One small logo, visible in the screenshot, with no duplicate branding.",
+   "ids": [
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 27.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

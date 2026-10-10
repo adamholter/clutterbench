@@ -1,0 +1,219 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:37.931Z",
+ "main_idea": "On-policy distillation lifts GDPval net win-loss margin in two model families.",
+ "ideas": [
+  "Distillation lifts GDPval net win-loss margin over base",
+  "Nemotron Nano student: +20.9% net margin",
+  "Same recipe transfers to Qwen3.5-9B: +21.4%",
+  "Student learns from its own generations via reverse-KL"
+ ],
+ "clutter_score": 6,
+ "summary": "The Nemotron margin chart is a clear core visual, but the slogan headline, kicker, pipeline cards, Qwen stat panel and repeated footer add clutter; the graphic is complete and names the benchmark and metrics.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo (e1) is near-invisible: pale strokes on cream background",
+  "Subtitle wraps with a single orphan word, 'GDPval.'"
+ ],
+ "cost": {
+  "seconds": 26.9,
+  "usd": 0.00620022,
+  "tokens": 40971,
+  "outputTokens": 5516
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand mark",
+   "reason": "One brand mark (logo and wordmark) is allowed.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron margin chart",
+   "reason": "Main visual: headline margin, labelled wins/ties/losses bar, context.",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark footnote",
+   "reason": "Quiet footnote naming the benchmark.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle sentence",
+   "reason": "Real facts (50 steps, method) but a long sentence; shorten.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Qwen headline stat",
+   "reason": "Transfer result worth keeping, but shrink to one stat and label.",
+   "ids": [
+    "e8",
+    "e10",
+    "e12",
+    "e14",
+    "e16",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Nemotron footer stats",
+   "reason": "Win rate and rubric gain are useful; fold into the chart or a footnote.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method pipeline cards",
+   "reason": "Method matters, but four cards take too much room; reduce to a footnote.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Qwen secondary stats",
+   "reason": "Second panel with extra rubric and win-rate figures beside the main chart.",
+   "ids": [
+    "e19",
+    "e21",
+    "e25",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway sentence",
+   "reason": "Restates the pipeline in a sentence the reader does not need.",
+   "ids": [
+    "e65"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Kicker and slogan headline",
+   "reason": "Tag, eyebrow, and slogan headline; none states the finding.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer tagline",
+   "reason": "Second brand mention and tagline; the header already shows the brand.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 20.5,
+   "orange": 43.2,
+   "red": 36.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 57.9,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "extra_idea": 1,
+   "unneeded": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:00.600Z",
+ "main_idea": "PivotRL raised Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "PivotRL improved task success from 11.3% to 17.5%.",
+  "The method used 50 solved trajectories and profiled 193 pivot states.",
+  "Fewer examples can produce more capable agents."
+ ],
+ "clutter_score": 5,
+ "summary": "The chart clearly shows the pass@5 gain, while the long subtitle, decorative motif, dataset cards, and tagline add clutter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.8,
+  "usd": null,
+  "tokens": 9779,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research category",
+   "reason": "Category tag adds no chart context.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark label",
+   "reason": "Names the model and benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline states the result.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative motif",
+   "reason": "Faint decorative shapes add no information.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method subtitle",
+   "reason": "Useful method details take too many words.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate chart",
+   "reason": "Shows the benchmark, metric, labels, values, and scale.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Trajectory count",
+   "reason": "Dataset size adds a secondary point beside the result.",
+   "ids": [
+    "e23",
+    "e25",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Pivot count",
+   "reason": "Pivot count adds a secondary point beside the result.",
+   "ids": [
+    "e24",
+    "e26",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Promotional takeaway and research label are unnecessary.",
+   "ids": [
+    "e27",
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 53.7,
+   "orange": 17.6,
+   "red": 28.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 37.5,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

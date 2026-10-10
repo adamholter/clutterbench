@@ -1,0 +1,563 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 50,
+  "textElements": 22,
+  "words": 98,
+  "fontSizes": 11,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "box",
+   "tag": "header",
+   "x": 64,
+   "y": 58,
+   "w": 1072,
+   "h": 70,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "shape",
+   "tag": "path",
+   "x": 80,
+   "y": 58,
+   "w": 6,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e2",
+   "kind": "shape",
+   "tag": "path",
+   "x": 130,
+   "y": 61,
+   "w": 10,
+   "h": 23,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e3",
+   "kind": "shape",
+   "tag": "path",
+   "x": 78,
+   "y": 62,
+   "w": 6,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "path",
+   "x": 107,
+   "y": 62,
+   "w": 21,
+   "h": 21,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "path",
+   "x": 176,
+   "y": 62,
+   "w": 19,
+   "h": 27,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "div",
+   "x": 880,
+   "y": 63,
+   "w": 256,
+   "h": 30,
+   "text": "In partnership with Legora",
+   "fontSize": 23,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e7",
+   "kind": "shape",
+   "tag": "path",
+   "x": 76,
+   "y": 66,
+   "w": 9,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e8",
+   "kind": "shape",
+   "tag": "path",
+   "x": 139,
+   "y": 66,
+   "w": 9,
+   "h": 18,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e9",
+   "kind": "shape",
+   "tag": "path",
+   "x": 150,
+   "y": 69,
+   "w": 12,
+   "h": 15,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e10",
+   "kind": "shape",
+   "tag": "path",
+   "x": 163,
+   "y": 69,
+   "w": 11,
+   "h": 15,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e11",
+   "kind": "shape",
+   "tag": "path",
+   "x": 197,
+   "y": 69,
+   "w": 16,
+   "h": 15,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e12",
+   "kind": "shape",
+   "tag": "path",
+   "x": 214,
+   "y": 69,
+   "w": 12,
+   "h": 15,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e13",
+   "kind": "shape",
+   "tag": "path",
+   "x": 227,
+   "y": 69,
+   "w": 11,
+   "h": 15,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e14",
+   "kind": "shape",
+   "tag": "path",
+   "x": 239,
+   "y": 69,
+   "w": 15,
+   "h": 22,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e15",
+   "kind": "shape",
+   "tag": "path",
+   "x": 74,
+   "y": 70,
+   "w": 5,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e16",
+   "kind": "shape",
+   "tag": "path",
+   "x": 72,
+   "y": 73,
+   "w": 17,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e17",
+   "kind": "shape",
+   "tag": "path",
+   "x": 70,
+   "y": 77,
+   "w": 6,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e18",
+   "kind": "shape",
+   "tag": "path",
+   "x": 88,
+   "y": 77,
+   "w": 5,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e19",
+   "kind": "shape",
+   "tag": "path",
+   "x": 69,
+   "y": 81,
+   "w": 6,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e20",
+   "kind": "shape",
+   "tag": "path",
+   "x": 90,
+   "y": 81,
+   "w": 6,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e21",
+   "kind": "shape",
+   "tag": "path",
+   "x": 64,
+   "y": 85,
+   "w": 13,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e22",
+   "kind": "shape",
+   "tag": "path",
+   "x": 88,
+   "y": 85,
+   "w": 11,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e23",
+   "kind": "text",
+   "tag": "div",
+   "x": 64,
+   "y": 170,
+   "w": 295,
+   "h": 22,
+   "text": "Frontier legal evaluation",
+   "fontSize": 17,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e24",
+   "kind": "text",
+   "tag": "h1",
+   "x": 64,
+   "y": 192,
+   "w": 932,
+   "h": 187,
+   "text": "Real legal work. A benchmark built to improve it.",
+   "fontSize": 72,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e25",
+   "kind": "text",
+   "tag": "p",
+   "x": 64,
+   "y": 384,
+   "w": 720,
+   "h": 68,
+   "text": "BAR — Benchmark for Agentic Reasoning Evaluating end-to-end legal work inside Legora’s custom harness.",
+   "fontSize": 25,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e26",
+   "kind": "box",
+   "tag": "section",
+   "x": 64,
+   "y": 491,
+   "w": 1072,
+   "h": 155,
+   "color": "rgba(0, 0, 0, 0.2)"
+  },
+  {
+   "id": "e27",
+   "kind": "text",
+   "tag": "div",
+   "x": 64,
+   "y": 509,
+   "w": 117,
+   "h": 79,
+   "text": "5,161",
+   "fontSize": 60,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e28",
+   "kind": "text",
+   "tag": "div",
+   "x": 452,
+   "y": 509,
+   "w": 66,
+   "h": 79,
+   "text": "28",
+   "fontSize": 60,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e29",
+   "kind": "text",
+   "tag": "div",
+   "x": 810,
+   "y": 509,
+   "w": 147,
+   "h": 79,
+   "text": "11,075",
+   "fontSize": 60,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e30",
+   "kind": "box",
+   "tag": "div",
+   "x": 421,
+   "y": 519,
+   "w": 357,
+   "h": 98,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e31",
+   "kind": "box",
+   "tag": "div",
+   "x": 779,
+   "y": 519,
+   "w": 357,
+   "h": 98,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e32",
+   "kind": "text",
+   "tag": "div",
+   "x": 64,
+   "y": 591,
+   "w": 51,
+   "h": 26,
+   "text": "cases",
+   "fontSize": 20,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e33",
+   "kind": "text",
+   "tag": "div",
+   "x": 452,
+   "y": 591,
+   "w": 124,
+   "h": 26,
+   "text": "practice areas",
+   "fontSize": 20,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e34",
+   "kind": "text",
+   "tag": "div",
+   "x": 810,
+   "y": 591,
+   "w": 164,
+   "h": 26,
+   "text": "source documents",
+   "fontSize": 20,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e35",
+   "kind": "text",
+   "tag": "div",
+   "x": 64,
+   "y": 679,
+   "w": 513,
+   "h": 21,
+   "text": "From realistic matters to repeatable evaluation",
+   "fontSize": 16,
+   "color": "rgba(0, 0, 0, 0.533)"
+  },
+  {
+   "id": "e36",
+   "kind": "text",
+   "tag": "div",
+   "x": 64,
+   "y": 722,
+   "w": 173,
+   "h": 33,
+   "text": "Define the work",
+   "fontSize": 25,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e37",
+   "kind": "text",
+   "tag": "div",
+   "x": 445,
+   "y": 722,
+   "w": 188,
+   "h": 33,
+   "text": "Validate together",
+   "fontSize": 25,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e38",
+   "kind": "text",
+   "tag": "div",
+   "x": 826,
+   "y": 722,
+   "w": 224,
+   "h": 33,
+   "text": "Improve the harness",
+   "fontSize": 25,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e39",
+   "kind": "shape",
+   "tag": "path",
+   "x": 392,
+   "y": 758,
+   "w": 32,
+   "h": 18,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e40",
+   "kind": "shape",
+   "tag": "path",
+   "x": 773,
+   "y": 758,
+   "w": 32,
+   "h": 18,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e41",
+   "kind": "text",
+   "tag": "div",
+   "x": 64,
+   "y": 764,
+   "w": 241,
+   "h": 47,
+   "text": "Source evidence, expected outputs and scoring standards",
+   "fontSize": 18,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e42",
+   "kind": "text",
+   "tag": "div",
+   "x": 445,
+   "y": 764,
+   "w": 203,
+   "h": 47,
+   "text": "Review failure cases and refine rubrics with Legora",
+   "fontSize": 18,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e43",
+   "kind": "text",
+   "tag": "div",
+   "x": 826,
+   "y": 764,
+   "w": 203,
+   "h": 47,
+   "text": "Use benchmark findings to guide product changes",
+   "fontSize": 18,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e44",
+   "kind": "box",
+   "tag": "section",
+   "x": 64,
+   "y": 847,
+   "w": 1072,
+   "h": 166,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e45",
+   "kind": "text",
+   "tag": "div",
+   "x": 100,
+   "y": 849,
+   "w": 181,
+   "h": 162,
+   "text": "+5%",
+   "fontSize": 104,
+   "color": "rgb(248, 248, 243)"
+  },
+  {
+   "id": "e46",
+   "kind": "text",
+   "tag": "div",
+   "x": 319,
+   "y": 879,
+   "w": 355,
+   "h": 38,
+   "text": "Output quality in one month",
+   "fontSize": 29,
+   "color": "rgb(248, 248, 243)"
+  },
+  {
+   "id": "e47",
+   "kind": "text",
+   "tag": "div",
+   "x": 319,
+   "y": 926,
+   "w": 588,
+   "h": 52,
+   "text": "Harness changes informed by BAR increased output quality across the same production models.",
+   "fontSize": 19,
+   "color": "rgb(248, 248, 243)"
+  },
+  {
+   "id": "e48",
+   "kind": "text",
+   "tag": "span",
+   "x": 64,
+   "y": 1133,
+   "w": 357,
+   "h": 21,
+   "text": "Expert-grounded evaluation. Measurable progress.",
+   "fontSize": 16,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e49",
+   "kind": "text",
+   "tag": "span",
+   "x": 1030,
+   "y": 1133,
+   "w": 106,
+   "h": 21,
+   "text": "afterquery.com",
+   "fontSize": 16,
+   "color": "rgba(0, 0, 0, 0.533)"
+  }
+ ]
+}

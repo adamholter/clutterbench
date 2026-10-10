@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+<title>AfterQuery · Qwen3.8-27B DeepSWE</title>
+<style>
+@font-face{font-family:Diatype;src:url('./assets/diatype-regular.woff2')}@font-face{font-family:Martina;src:url('./assets/martina-regular.woff2')}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f7f6f2;color:#17221f}
+.frame{width:1200px;height:1200px;padding:52px 64px 46px;position:relative;background:radial-gradient(ellipse at 92% 5%,rgba(200,223,207,.25),transparent 34%),#f7f6f2}
+.top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #d9ddd6;padding-bottom:20px}
+.brand{display:flex;gap:12px;align-items:center;font:20px Diatype,sans-serif;letter-spacing:-.04em}.mark{width:30px;height:30px;border-radius:50%;background:#153c32;display:grid;place-items:center}.mark svg{width:17px;height:17px}
+.tag{font:12px Diatype,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:#68746e}
+.eyebrow{font:13px Diatype,sans-serif;text-transform:uppercase;letter-spacing:.16em;color:#597066;margin:35px 0 14px}
+h1{font:56px/1.04 Martina,Georgia,serif;letter-spacing:-.045em;font-weight:400;margin:0;max-width:850px;color:#16241f}
+.sub{font:19px/1.45 Diatype,sans-serif;color:#66736c;margin:17px 0 0}
+.hero{margin-top:42px;background:#fff;border:1px solid #e1e5de;border-radius:18px;padding:34px 38px 29px;box-shadow:0 12px 36px rgba(27,48,39,.045)}
+.section-head{display:flex;align-items:flex-start;justify-content:space-between}
+.section-title{font:14px Diatype,sans-serif;color:#59675f;letter-spacing:.02em}.bench{font:12px Diatype,sans-serif;color:#839087;border:1px solid #e4e8e2;border-radius:20px;padding:8px 12px}
+.chart{height:280px;margin-top:23px;position:relative}
+.chart svg{width:100%;height:100%;overflow:visible}.grid{stroke:#e8ebe6;stroke-width:1}.axis{font:13px Diatype,sans-serif;fill:#89938d}.barbase{fill:#b8c2ba}.barnew{fill:#7eb88b}.bar{rx:8}.pill{fill:#183b30}.pilltxt{font:15px Diatype,sans-serif;fill:white}.label{font:15px Diatype,sans-serif;fill:#28372f}.delta{font:16px Diatype,sans-serif;fill:#4b805a}
+.metrics{display:flex;border-top:1px solid #e7eae5;padding-top:22px;gap:0}.metric{width:33.333%;padding:0 24px;border-right:1px solid #e7eae5}.metric:first-child{padding-left:0}.metric:last-child{border:0}.mval{font:31px Martina,Georgia,serif;letter-spacing:-.03em;color:#1b3027}.mlabel{font:12px Diatype,sans-serif;color:#738078;margin-top:5px}
+.bottom{margin-top:33px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.note{border:1px solid #dce3db;border-radius:14px;padding:21px 23px;background:rgba(255,255,255,.4);min-height:124px}
+.ntitle{font:12px Diatype,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:#748178;margin-bottom:10px}.ncopy{font:15px/1.45 Diatype,sans-serif;color:#3f5047}
+.foot{position:absolute;bottom:37px;left:64px;right:64px;display:flex;justify-content:space-between;align-items:center;padding-top:17px;border-top:1px solid #d9ddd6;font:12px Diatype,sans-serif;color:#78847c}.foot strong{color:#30473a;font-weight:400}
+</style></head>
+<body><main class="frame">
+<header class="top"><div class="brand"><span class="mark"><svg viewBox="0 0 20 20" fill="none"><path d="M3 14.8 8.1 5l2.2 5.1L13 5l4 9.8" stroke="#d9ecd9" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="10" r="8.4" stroke="#9fc4a7" stroke-width=".8"/></svg></span>AfterQuery</div><div class="tag">Research note&nbsp;&nbsp; / &nbsp;&nbsp;DeepSWE</div></header>
+<p class="eyebrow">Reinforcement learning · Qwen3.8-27B-Medium</p>
+<h1>More capable coding,<br>learned from real work.</h1>
+<p class="sub">GRPO training on 500 expert-authored software engineering tasks</p>
+<section class="hero">
+ <div class="section-head"><div><div class="section-title">DeepSWE pass@1 · average of 3 attempts</div></div><div class="bench">Base model → step 15 checkpoint</div></div>
+ <div class="chart"><svg viewBox="0 0 1000 280" role="img" aria-label="DeepSWE pass at one increased from 27.8 percent to 39.1 percent">
+  <line x1="90" y1="224" x2="955" y2="224" class="grid"/><line x1="90" y1="154" x2="955" y2="154" class="grid"/><line x1="90" y1="84" x2="955" y2="84" class="grid"/>
+  <text x="52" y="229" class="axis">0%</text><text x="43" y="159" class="axis">20%</text><text x="43" y="89" class="axis">40%</text>
+  <rect x="245" y="126.7" width="176" height="97.3" class="bar barbase"/><rect x="650" y="87.2" width="176" height="136.8" class="bar barnew"/>
+  <rect x="286" y="91" width="94" height="29" rx="14.5" class="pill"/><text x="333" y="110" text-anchor="middle" class="pilltxt">27.8%</text>
+  <rect x="691" y="51" width="94" height="29" rx="14.5" class="pill"/><text x="738" y="70" text-anchor="middle" class="pilltxt">39.1%</text>
+  <text x="333" y="255" text-anchor="middle" class="label">Base model</text><text x="738" y="255" text-anchor="middle" class="label">Step 15</text>
+  <path d="M461 145h71m-8-8 8 8-8 8" fill="none" stroke="#94a79a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text x="496" y="128" text-anchor="middle" class="delta">+11.3 pts</text>
+ </svg></div>
+ <div class="metrics"><div class="metric"><div class="mval">500</div><div class="mlabel">training tasks</div></div><div class="metric"><div class="mval">422</div><div class="mlabel">repositories represented</div></div><div class="metric"><div class="mval">15</div><div class="mlabel">training updates</div></div></div>
+</section>
+<div class="bottom"><div class="note"><div class="ntitle">Training signal</div><div class="ncopy">Eight attempts per task. GRPO updated all model parameters using each attempt’s reward relative to the others.</div></div><div class="note"><div class="ntitle">Real engineering work</div><div class="ncopy">Tasks came from private, enterprise-grade codebases and covered Python, TypeScript, Go, Rust, and JavaScript.</div></div></div>
+<footer class="foot"><span>AfterQuery · Applied research for foundation models</span><strong>Better thinking, built from better data.</strong></footer>
+</main></body></html>

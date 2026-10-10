@@ -1,0 +1,210 @@
+{
+ "grader": "haiku-v1",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T14:59:39.434Z",
+ "main_idea": "PivotRL lifts Qwen3.5-9B task success from 11.3% to 17.5% pass@5",
+ "ideas": [
+  "PivotRL raises pass@5 task success from 11.3% to 17.5%",
+  "Only 50 solved teacher trajectories were needed",
+  "Smaller models can match larger agent capability"
+ ],
+ "clutter_score": 6,
+ "summary": "Two extra stat cards, a tagline, a subtitle and kicker, a logo, and decorative shapes sit around a chart that needs only its bars, labels and headline.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "chart card frame",
+   "reason": "Container framing the main bar chart",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "before and after bars",
+   "reason": "The chart marks showing the comparison",
+   "ids": [
+    "e11",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "row labels",
+   "reason": "Category labels needed to read the bars",
+   "ids": [
+    "e12",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "value labels",
+   "reason": "One value label per bar, the key numbers",
+   "ids": [
+    "e10",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "axis ticks",
+   "reason": "Scale labels for reading the bars",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "two-line headline",
+   "reason": "Could be shorter; the claim fits in a few words",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "chart metric label",
+   "reason": "Metric subtitle is wordier than needed; 'Pass@5' suffices",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "logo",
+   "reason": "Branding not needed to get the point",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "top-right tag",
+   "reason": "Series/category tag; the reader gets the point without it",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "eyebrow kicker",
+   "reason": "Kicker label repeats the model and benchmark context",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "explanatory subtitle",
+   "reason": "Paragraph explains the chart and restates the headline",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "task success side label",
+   "reason": "Decorative arrow and vertical label repeat the chart metric",
+   "ids": [
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "decorative blocks",
+   "reason": "Faded decorative shapes with no information",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "data-efficiency stat cards",
+   "reason": "Second point about 50 trajectories and 193 pivots",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "tagline",
+   "reason": "Slogan restating the headline; a separate message",
+   "ids": [
+    "e27"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer attribution",
+   "reason": "Footer credit line not needed to read the chart",
+   "ids": [
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 68.2,
+   "orange": 9.8,
+   "red": 22,
+   "unlabelled": 0,
+   "paintedOfCanvas": 42.5
+  },
+  "clutterShare": 26.9,
+  "ideaCount": 3,
+  "redByType": {
+   "unneeded": 7,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

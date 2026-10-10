@@ -1,0 +1,98 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:09.460Z",
+ "main_idea": "Warmup brings Nemotron 3 Ultra close to the teacher on GDPval.",
+ "ideas": [
+  "Warmup closes most of the GDPval gap to the teacher."
+ ],
+ "clutter_score": 2,
+ "summary": "The two-line headline restates the chart’s finding, and the GDPval score scale is unexplained.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "GDPval score unit",
+   "why": "The score axis lacks a unit or explanation of its scale."
+  }
+ ],
+ "completeness_score": 9,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the company.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model benchmark tag",
+   "reason": "Names the model and benchmark.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding headline",
+   "reason": "Two-line headline spells out the chart’s result.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "Bars, values, ticks, and condition labels make the comparison readable.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 1,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

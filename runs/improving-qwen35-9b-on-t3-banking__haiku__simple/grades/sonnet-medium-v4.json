@@ -1,0 +1,84 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:15.430Z",
+ "main_idea": "Training lifted Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "Qwen3.5-9B improves on τ³-Banking after training"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one two-bar chart with a short title, labels, values and a single logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 5.1,
+  "usd": 0.0274156,
+  "tokens": 21924,
+  "outputTokens": 456
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short context naming model, metric and benchmark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "Two bars with one value label each.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Short labels identify what each bar is.",
+   "ids": [
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and quiet.",
+   "ids": [
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 27.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

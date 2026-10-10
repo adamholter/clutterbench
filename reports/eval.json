@@ -1,0 +1,326 @@
+{
+ "test": [
+  {
+   "grader": "luna-low-v4",
+   "runs": 12,
+   "elements": 395,
+   "labelAcc": 77.7,
+   "runAcc": 83.6,
+   "cutAcc": 81.8,
+   "scoreMAE": 1.67,
+   "scoreRho": 0.97,
+   "shareMAE": 11.1,
+   "missing": "1/2 caught, 0 false",
+   "seconds": 9,
+   "usd": null,
+   "tokens": 9762,
+   "conf": {
+    "blue": {
+     "blue": 200,
+     "orange": 2,
+     "red": 1
+    },
+    "orange": {
+     "blue": 14,
+     "orange": 3,
+     "red": 39
+    },
+    "red": {
+     "blue": 28,
+     "orange": 4,
+     "red": 104
+    }
+   }
+  },
+  {
+   "grader": "consensus-v4",
+   "runs": 12,
+   "elements": 397,
+   "labelAcc": 80.9,
+   "runAcc": 82.8,
+   "cutAcc": 84.9,
+   "scoreMAE": 1.33,
+   "scoreRho": 0.91,
+   "shareMAE": 5.4,
+   "missing": "1/2 caught, 1 false",
+   "seconds": null,
+   "usd": null,
+   "tokens": null,
+   "conf": {
+    "blue": {
+     "blue": 193,
+     "orange": 1,
+     "red": 9
+    },
+    "orange": {
+     "blue": 15,
+     "orange": 4,
+     "red": 37
+    },
+    "red": {
+     "blue": 14,
+     "orange": 0,
+     "red": 124
+    }
+   }
+  },
+  {
+   "grader": "haiku-low-v4-b",
+   "runs": 12,
+   "elements": 397,
+   "labelAcc": 80.9,
+   "runAcc": 82.7,
+   "cutAcc": 85.1,
+   "scoreMAE": 1.33,
+   "scoreRho": 0.92,
+   "shareMAE": 5.5,
+   "missing": "1/2 caught, 1 false",
+   "seconds": 13.7,
+   "usd": 0.004,
+   "tokens": 29275,
+   "conf": {
+    "blue": {
+     "blue": 194,
+     "orange": 0,
+     "red": 9
+    },
+    "orange": {
+     "blue": 17,
+     "orange": 5,
+     "red": 34
+    },
+    "red": {
+     "blue": 14,
+     "orange": 2,
+     "red": 122
+    }
+   }
+  },
+  {
+   "grader": "haiku-low-v4",
+   "runs": 12,
+   "elements": 397,
+   "labelAcc": 77.3,
+   "runAcc": 79.6,
+   "cutAcc": 79.3,
+   "scoreMAE": 1.33,
+   "scoreRho": 0.91,
+   "shareMAE": 7.6,
+   "missing": "1/2 caught, 1 false",
+   "seconds": 13,
+   "usd": 0.004,
+   "tokens": 29332,
+   "conf": {
+    "blue": {
+     "blue": 187,
+     "orange": 0,
+     "red": 16
+    },
+    "orange": {
+     "blue": 8,
+     "orange": 2,
+     "red": 46
+    },
+    "red": {
+     "blue": 17,
+     "orange": 3,
+     "red": 118
+    }
+   }
+  },
+  {
+   "grader": "sonnet-low-v4",
+   "runs": 12,
+   "elements": 397,
+   "labelAcc": 76.3,
+   "runAcc": 76.4,
+   "cutAcc": 81.6,
+   "scoreMAE": 1.42,
+   "scoreRho": 0.84,
+   "shareMAE": 12.6,
+   "missing": "0/2 caught, 1 false",
+   "seconds": 8.7,
+   "usd": 0.057,
+   "tokens": 26185,
+   "conf": {
+    "blue": {
+     "blue": 176,
+     "orange": 7,
+     "red": 20
+    },
+    "orange": {
+     "blue": 14,
+     "orange": 3,
+     "red": 39
+    },
+    "red": {
+     "blue": 14,
+     "orange": 0,
+     "red": 124
+    }
+   }
+  }
+ ],
+ "dev": [
+  {
+   "grader": "consensus-v4",
+   "runs": 12,
+   "elements": 211,
+   "labelAcc": 89.6,
+   "runAcc": 93.6,
+   "cutAcc": 90,
+   "scoreMAE": 0.75,
+   "scoreRho": 0.92,
+   "shareMAE": 6.5,
+   "missing": "1/1 caught, 0 false",
+   "seconds": null,
+   "usd": null,
+   "tokens": null,
+   "conf": {
+    "blue": {
+     "blue": 118,
+     "orange": 0,
+     "red": 1
+    },
+    "orange": {
+     "blue": 1,
+     "orange": 5,
+     "red": 16
+    },
+    "red": {
+     "blue": 4,
+     "orange": 0,
+     "red": 66
+    }
+   }
+  },
+  {
+   "grader": "haiku-low-v4-b",
+   "runs": 12,
+   "elements": 211,
+   "labelAcc": 89.6,
+   "runAcc": 93.6,
+   "cutAcc": 90,
+   "scoreMAE": 0.75,
+   "scoreRho": 0.92,
+   "shareMAE": 6.5,
+   "missing": "1/1 caught, 0 false",
+   "seconds": 10.8,
+   "usd": 0.004,
+   "tokens": 27891,
+   "conf": {
+    "blue": {
+     "blue": 118,
+     "orange": 0,
+     "red": 1
+    },
+    "orange": {
+     "blue": 1,
+     "orange": 5,
+     "red": 16
+    },
+    "red": {
+     "blue": 3,
+     "orange": 1,
+     "red": 66
+    }
+   }
+  },
+  {
+   "grader": "luna-low-v4",
+   "runs": 12,
+   "elements": 211,
+   "labelAcc": 89.1,
+   "runAcc": 93.5,
+   "cutAcc": 91,
+   "scoreMAE": 0.5,
+   "scoreRho": 0.95,
+   "shareMAE": 6.7,
+   "missing": "0/1 caught, 0 false",
+   "seconds": 10,
+   "usd": null,
+   "tokens": 8201,
+   "conf": {
+    "blue": {
+     "blue": 118,
+     "orange": 0,
+     "red": 1
+    },
+    "orange": {
+     "blue": 4,
+     "orange": 4,
+     "red": 14
+    },
+    "red": {
+     "blue": 4,
+     "orange": 0,
+     "red": 66
+    }
+   }
+  },
+  {
+   "grader": "haiku-low-v4",
+   "runs": 12,
+   "elements": 211,
+   "labelAcc": 89.1,
+   "runAcc": 92.8,
+   "cutAcc": 89.6,
+   "scoreMAE": 1,
+   "scoreRho": 0.89,
+   "shareMAE": 7.7,
+   "missing": "1/1 caught, 0 false",
+   "seconds": 11.2,
+   "usd": 0.003,
+   "tokens": 28032,
+   "conf": {
+    "blue": {
+     "blue": 117,
+     "orange": 0,
+     "red": 2
+    },
+    "orange": {
+     "blue": 1,
+     "orange": 5,
+     "red": 16
+    },
+    "red": {
+     "blue": 4,
+     "orange": 0,
+     "red": 66
+    }
+   }
+  },
+  {
+   "grader": "sonnet-low-v4",
+   "runs": 12,
+   "elements": 211,
+   "labelAcc": 87.2,
+   "runAcc": 92.1,
+   "cutAcc": 90,
+   "scoreMAE": 0.58,
+   "scoreRho": 0.94,
+   "shareMAE": 6.4,
+   "missing": "1/1 caught, 0 false",
+   "seconds": 8,
+   "usd": 0.055,
+   "tokens": 25201,
+   "conf": {
+    "blue": {
+     "blue": 112,
+     "orange": 5,
+     "red": 2
+    },
+    "orange": {
+     "blue": 1,
+     "orange": 5,
+     "red": 16
+    },
+    "red": {
+     "blue": 3,
+     "orange": 0,
+     "red": 67
+    }
+   }
+  }
+ ]
+}

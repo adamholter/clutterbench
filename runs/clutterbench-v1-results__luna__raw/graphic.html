@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+<style>
+@font-face{font-family:Outfit;src:url('./assets/outfit.woff2') format('woff2');font-weight:400 700;font-display:swap}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#fff;color:#101828;font-family:Outfit,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.page{width:1200px;height:1200px;padding:52px 64px 54px;position:relative;display:flex;flex-direction:column}
+.brand{font-size:23px;font-weight:700;letter-spacing:-.5px}.brand span{color:#1971c2}
+.kicker{font-size:14px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:#475467;margin-top:62px}
+h1{font-size:54px;line-height:1.04;letter-spacing:-1.5px;margin:12px 0 0;font-weight:700;max-width:900px}
+.sub{font-size:18px;color:#475467;margin-top:12px}
+.legend{display:flex;gap:22px;position:absolute;right:64px;top:61px;font-size:14px;color:#475467}.legend span{display:flex;align-items:center;gap:8px}.dot{width:10px;height:10px;border-radius:50%;display:inline-block}.blue{background:#1971c2}.orange{background:#f08c00}.red{background:#e03131}
+.chart{margin-top:46px;border:1px solid #e4e7ec;border-radius:12px;padding:25px 28px 24px;background:#fff}
+.charthead{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.charthead strong{font-size:18px;font-weight:600}.charthead small{font-size:13px;color:#667085}
+.cols{display:grid;grid-template-columns:220px 1fr 1fr;column-gap:24px;align-items:center}.colhead{font-size:13px;font-weight:600;color:#667085;padding:0 0 13px}.colhead:nth-child(2),.colhead:nth-child(3){text-align:right}
+.row{display:contents}.model{height:69px;border-top:1px solid #eef0f3;display:flex;align-items:center;gap:12px;font-size:17px;font-weight:600}.model:before{content:'';width:8px;height:8px;border-radius:50%;background:#1971c2}.cells{height:69px;border-top:1px solid #eef0f3;display:flex;align-items:center;gap:13px}.track{height:13px;flex:1;background:#f5f7fa;border-radius:8px;overflow:hidden}.fill{height:100%;border-radius:8px}.val{font-size:17px;font-weight:600;font-variant-numeric:tabular-nums;width:44px;text-align:right}.raw .fill{background:#e03131}.simple .fill{background:#1971c2}
+.takeaway{margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:24px}.note{border-radius:12px;padding:22px 24px 21px;background:#f5f7fa;min-height:126px}.note-title{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:600;margin-bottom:8px}.note p{font-size:15px;line-height:1.45;color:#475467;margin:0}.note b{color:#101828;font-weight:600}.note.signal{background:#eef6ff;border-left:4px solid #1971c2}.note.exception{background:#fff8eb;border-left:4px solid #f08c00}
+.footer{margin-top:auto;border-top:1px solid #e4e7ec;padding-top:17px;display:flex;justify-content:space-between;color:#667085;font-size:13px}.footer b{color:#475467;font-weight:600}
+</style>
+</head>
+<body><main class="page">
+<div class="brand"><span>Clutter</span>Bench</div>
+<div class="legend"><span><i class="dot blue"></i>Keep</span><span><i class="dot" style="background:#f08c00"></i>Shrink</span><span><i class="dot red"></i>Remove</span></div>
+<div class="kicker">The clutter gap</div>
+<h1>Simple prompts cut clutter<br>to almost nothing.</h1>
+<div class="sub">Share of graphic area marked remove or shrink · lower is better</div>
+<section class="chart">
+ <div class="charthead"><strong>Clutter by model and prompt</strong><small>Mean of 6 graphics per cell</small></div>
+ <div class="cols">
+  <div></div><div class="colhead">RAW PROMPT</div><div class="colhead">SIMPLE PROMPT</div>
+  <div class="model">Claude Sonnet 5.5</div><div class="cells raw"><div class="track"><div class="fill" style="width:47.54%"></div></div><div class="val">29%</div></div><div class="cells simple"><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0%</div></div>
+  <div class="model">Claude Haiku 5.5</div><div class="cells raw"><div class="track"><div class="fill" style="width:68.85%"></div></div><div class="val">42%</div></div><div class="cells simple"><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0%</div></div>
+  <div class="model">GPT-6.1 Sol</div><div class="cells raw"><div class="track"><div class="fill" style="width:75.41%"></div></div><div class="val">46%</div></div><div class="cells simple"><div class="track"><div class="fill" style="width:0%"></div></div><div class="val">0%</div></div>
+  <div class="model">GPT-6 Luna</div><div class="cells raw"><div class="track"><div class="fill" style="width:100%"></div></div><div class="val">61%</div></div><div class="cells simple"><div class="track"><div class="fill" style="width:9.84%"></div></div><div class="val">6%</div></div>
+ </div>
+</section>
+<section class="takeaway">
+ <div class="note signal"><div class="note-title"><i class="dot blue"></i>Clean is possible</div><p><b>3 of 4 models</b> had nothing to remove under the simple prompt. The clutter is a default, not a limit.</p></div>
+ <div class="note exception"><div class="note-title"><i class="dot" style="background:#f08c00"></i>One exception</div><p>GPT-6 Luna still had <b>6%</b> clutter; on <b>3 of 6</b> simple graphics, readers could not tell what was being measured.</p></div>
+</section>
+<div class="footer"><span>First run · 4 models · 6 posts</span><b>ClutterBench</b></div>
+</main></body></html>

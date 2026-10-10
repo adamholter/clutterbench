@@ -1,0 +1,253 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:03:23.865Z",
+ "main_idea": "BAR evaluates agents on end-to-end legal work: evidence, deliverable, rubric scoring.",
+ "ideas": [
+  "BAR tests agents on end-to-end legal work",
+  "Evaluation runs evidence, execution, then rubric scoring",
+  "Harness changes informed by BAR raised output quality 5%",
+  "Benchmark spans 5,161 cases and 28 practice areas",
+  "Built with Legora using expert-validated rubrics"
+ ],
+ "clutter_score": 6,
+ "summary": "The method diagram is the core, but the hero question, dataset stats, +5% band, eyebrow, tags and decorative bars clutter it; the subtitle and step descriptions are wordy; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Header logo image (e1) renders too small to read at 32px."
+ ],
+ "cost": {
+  "seconds": 67.1,
+  "usd": 0.00864111,
+  "tokens": 39391,
+  "outputTokens": 14762
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand lockup",
+   "reason": "One AfterQuery brand mark, logo plus wordmark, in the header.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Partner category tag",
+   "reason": "Category-style tag; Legora is already named in the subtitle and footer.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow above headline",
+   "reason": "Kicker above the headline; the card label already names the benchmark.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Question headline",
+   "reason": "Rhetorical question, not a finding; the diagram title carries the topic.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Case-count stat card",
+   "reason": "Dataset size is a second point beside the method diagram.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Real facts in a 20-word sentence; shorten to the benchmark's purpose.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset counts row",
+   "reason": "Practice areas, documents and synthetic case count serve no point about the method.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Diagram title",
+   "reason": "Short headline and label naming what the diagram shows; said once.",
+   "ids": [
+    "e19",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Three-step evaluation flow",
+   "reason": "Main visual: the three steps, their titles, and the connecting flow.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e34",
+    "e35",
+    "e36",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Step descriptions",
+   "reason": "Full sentences under each step; cut each to a few words.",
+   "ids": [
+    "e37",
+    "e38",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Step number badges",
+   "reason": "Section numbers add nothing the left-to-right order does not already show.",
+   "ids": [
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Step category tags",
+   "reason": "Evidence, Execution, Evaluation tags restate the step titles.",
+   "ids": [
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative progress bars",
+   "reason": "Three-segment bars under each card have no data behind them.",
+   "ids": [
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Product impact band",
+   "reason": "The +5% harness result is a second point, unrelated to reading the method diagram.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Slogan tagline that says nothing about the benchmark.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand repeat",
+   "reason": "Brand and partner names repeat the header lockup.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 33.3,
+   "orange": 16.9,
+   "red": 49.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 58.3,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 7,
+   "extra_idea": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

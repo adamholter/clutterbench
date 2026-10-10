@@ -1,0 +1,160 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:18:08.537Z",
+ "main_idea": "A simple prompt sharply cuts clutter across all four models compared with a raw prompt.",
+ "ideas": [
+  "Simple prompt reduces clutter score",
+  "Raw prompt clutter varies by model"
+ ],
+ "clutter_score": 1,
+ "summary": "Mostly clean, but stray left-axis percent labels add clutter, and the bars are misaligned with model labels, which makes the chart confusing.",
+ "missing": [],
+ "completeness_score": 7,
+ "defects": [
+  "Left percent labels misaligned with model labels and bars",
+  "Bars overlap and are misaligned with the model rows",
+  "Raw and simple bars not clearly grouped per model",
+  "Models labels sit between gridlines, not beside their bars"
+ ],
+ "cost": {
+  "seconds": 9.2,
+  "usd": 0.0575641,
+  "tokens": 23139,
+  "outputTokens": 826
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench logo",
+   "reason": "Single brand mark, small and quiet.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the finding.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Series labels",
+   "reason": "Identify the two prompt conditions.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "The main chart marks with one value label each.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e17",
+    "e18",
+    "e20",
+    "e21",
+    "e22",
+    "e24",
+    "e26",
+    "e28",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model labels",
+   "reason": "Category labels needed to read the bars.",
+   "ids": [
+    "e9",
+    "e16",
+    "e23",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "X-axis ticks",
+   "reason": "Axis ticks for reading values.",
+   "ids": [
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Left percent ticks",
+   "reason": "Duplicate y-axis percent labels that mislead and repeat the x-axis scale.",
+   "ids": [
+    "e5",
+    "e10",
+    "e19",
+    "e25",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer note",
+   "reason": "Metric and evaluation detail, small and quiet.",
+   "ids": [
+    "e36",
+    "e37",
+    "e38",
+    "e39"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 99.3,
+   "orange": 0,
+   "red": 0.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.1
+  },
+  "clutterShare": 0.7,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 51,
+  "textElements": 30
+ }
+}

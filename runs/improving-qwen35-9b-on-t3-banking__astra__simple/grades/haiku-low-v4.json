@@ -1,0 +1,95 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:42:59.402Z",
+ "main_idea": "Hybrid OPD plus PivotRL lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "Training raises Qwen3.5-9B pass@5 on τ³-Banking",
+  "Base 11.3% versus trained 17.5%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple two-bar chart with a short title, named metric, labelled values, and one logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.3,
+  "usd": 0.00311286,
+  "tokens": 24117,
+  "outputTokens": 1023
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Result bars",
+   "reason": "The main chart marks showing the before and after comparison",
+   "ids": [
+    "e4",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, as required for reading the chart",
+   "ids": [
+    "e3",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Names each bar: Base and the Hybrid OPD + PivotRL method",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Title and metric",
+   "reason": "Names the model, benchmark, and pass@5 metric like a short chart title",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "The single brand mark, shown once and rendered visibly",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.4
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 11,
+  "textElements": 6
+ }
+}

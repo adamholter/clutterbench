@@ -1,0 +1,98 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:33.584Z",
+ "main_idea": "On-policy distillation gives about +21% GDPval net win-loss margin on two model families",
+ "ideas": [
+  "Distillation lifts GDPval net win-loss margin over base",
+  "Two model families show similar ~21% gains",
+  "Results are versus the base model"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete chart; the only defect is the brand mark e1 that fails to render at top right.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo element e1 at top right is not visible in the screenshot"
+ ],
+ "cost": {
+  "seconds": 8.1,
+  "usd": 0.00414048,
+  "tokens": 33553,
+  "outputTokens": 1123
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Title and subtitle",
+   "reason": "Names the benchmark, metric, and comparison baseline in short text",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand mark",
+   "reason": "Single brand mark, but it does not render in the screenshot",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, as the calibration requires",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "The chart marks carrying the comparison",
+   "ids": [
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Identify which model each bar represents",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 44.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 6
+ }
+}

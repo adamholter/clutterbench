@@ -1,0 +1,66 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:04:03.243Z",
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO raises DeepSWE pass@1 from 27.8% to 39.1%",
+  "Base model compared with the post-GRPO model"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a two-bar chart with a benchmark and metric label and value labels, with nothing to remove; the top-right logo is visible but not in the element list.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.3,
+  "usd": 0.00198335,
+  "tokens": 24317,
+  "outputTokens": 1494
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bar chart",
+   "reason": "The main visual: two labelled bars with value labels and category labels.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e1",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Short context naming the benchmark and metric, said once.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

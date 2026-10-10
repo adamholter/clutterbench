@@ -1,0 +1,179 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:54.109Z",
+ "main_idea": "BAR is a large legal benchmark: 5,161 cases across 28 practice areas.",
+ "ideas": [
+  "Legal benchmark co-designed by AfterQuery and Legora",
+  "BAR spans 28 practice areas",
+  "BAR has 5,161 cases and 11,075 source documents",
+  "BAR-informed harness changes raised output quality 5%"
+ ],
+ "clutter_score": 6,
+ "summary": "The 28-cell practice-area grid is the real visual, but a four-stat row, a subtitle that restates the benchmark, a category tag, and a sentence and wordmark footer crowd it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 21,
+  "usd": 0.0030837399999999997,
+  "tokens": 27782,
+  "outputTokens": 3662
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark, identifies the publisher.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Blog and case-study tag above the page adds nothing the reader needs.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the topic, about four words.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle sentence",
+   "reason": "Real facts about the benchmark, but a long sentence; shorten to a line.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset and +5% stats row",
+   "reason": "Dataset sizes and the +5% result serve other points, not the practice-area visual.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Practice-area grid",
+   "reason": "Main visual: 28 cells with its caption, showing the number of practice areas.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Grid explanatory sentence",
+   "reason": "Generic sentence restating that cases are realistic; not needed to read the grid.",
+   "ids": [
+    "e40"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark and tagline",
+   "reason": "Brand already shown by the header logo; tagline is decorative.",
+   "ids": [
+    "e48"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "Quiet contact line for follow-up, acceptable footer content.",
+   "ids": [
+    "e49",
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 57,
+   "orange": 17.8,
+   "red": 25.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 34.1,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:08:48.754Z",
+ "main_idea": "BAR-informed harness changes raised Legora's output quality 5% in one month",
+ "ideas": [
+  "BAR is a frontier legal agent benchmark built with Legora",
+  "BAR-informed harness changes raised output quality 5%"
+ ],
+ "clutter_score": 4,
+ "summary": "The +5% callout is a clear main result, but the dataset stats row, a duplicate co-brand wordmark, and a long four-line headline add clutter; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 10.1,
+  "usd": 0.0033641599999999997,
+  "tokens": 24280,
+  "outputTokens": 1619
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, required identification.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "repetition",
+   "name": "Co-brand wordmark",
+   "reason": "Second brand mark already shown by the logo.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "Long 84px title that could be shortened to a name like 'BAR: frontier legal benchmark'.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats row",
+   "reason": "Dataset counts serve a second point, not the 5% result.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result callout",
+   "reason": "Main result stat with its label stating what was measured.",
+   "ids": [
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Website footer",
+   "reason": "Quiet contact line for the source.",
+   "ids": [
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 21.3,
+   "orange": 59.7,
+   "red": 19,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38
+  },
+  "clutterShare": 48.9,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 39,
+  "textElements": 12
+ }
+}

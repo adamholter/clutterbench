@@ -1,0 +1,206 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:53.821Z",
+ "main_idea": "BAR-informed harness changes raised Legora's output quality 5% in one month.",
+ "ideas": [
+  "BAR-informed harness changes improved output quality by 5%",
+  "BAR benchmark evaluates agents on end-to-end legal work",
+  "Benchmark scale: 5,161 cases, 28 areas, 11,075 documents",
+  "Pipeline: read matter, deliver work, score with standards",
+  "Expert-validated synthetic case published"
+ ],
+ "clutter_score": 8,
+ "summary": "The 5% result is clear but is a small block under a large method diagram, dataset stats, a question headline and a footer, so most of the canvas is extras; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 15.9,
+  "usd": 0.0042761000000000006,
+  "tokens": 27452,
+  "outputTokens": 3085
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand mark",
+   "reason": "One brand mark, logo plus wordmark, kept once.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name",
+   "reason": "Short context naming the benchmark being measured.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% impact result",
+   "reason": "The main finding: the 5% figure with its short label and caption.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Top-right tag",
+   "reason": "Series tag repeating partnership context already named elsewhere.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Question headline",
+   "reason": "Slogan-style question that does not state the finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Intro paragraph",
+   "reason": "Subtitle paragraph that restates the headline and benchmark.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline with no information the reader needs.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "5,161 cases stat card",
+   "reason": "Dataset size stat serves a second point, not the 5% result.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Practice areas, documents and synthetic case counts are a separate point.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Evaluation pipeline cards",
+   "reason": "Method cards explain how BAR works, a second idea beside the result.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand shown again in the footer when the logo already appears at top.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 19.7,
+   "orange": 0,
+   "red": 80.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 80.3,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

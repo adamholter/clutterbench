@@ -1,0 +1,112 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:36.220Z",
+ "main_idea": "Training lifts gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Training lifts terminal task pass rate more than 5×",
+  "Base model passes 3.1% of Terminal-Bench 2.0 tasks",
+  "AfterQuery-trained model passes 17.0% of tasks",
+  "Model is openai/gpt-oss-20b, scored Pass@1"
+ ],
+ "clutter_score": 2,
+ "summary": "Clean and nearly complete; a decorative card frame and footer rule add clutter, and the logo mark is effectively invisible.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "legible AfterQuery logo",
+   "why": "The logo mark at top left is nearly invisible against the background."
+  }
+ ],
+ "completeness_score": 8,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand and benchmark header",
+   "reason": "One logo and the benchmark name orient the reader.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "States the finding in a few words.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars with values and labels",
+   "reason": "The chart marks, one value per bar, and category labels.",
+   "ids": [
+    "e5",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric footer",
+   "reason": "Names the model and metric, which the reader needs.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card frame",
+   "reason": "Border around the chart card adds nothing.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer divider rule",
+   "reason": "Decorative rule with no information.",
+   "ids": [
+    "e12"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 79,
+   "orange": 0,
+   "red": 21,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 21,
+  "ideaCount": 4,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

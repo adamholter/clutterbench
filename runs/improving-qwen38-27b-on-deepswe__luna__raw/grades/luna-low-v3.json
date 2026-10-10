@@ -1,0 +1,180 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:05.271Z",
+ "main_idea": "GRPO training improved Qwen3.8-27B-Medium’s DeepSWE pass rate by 11.3 points.",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%.",
+  "Training used 500 tasks across 422 repositories.",
+  "The training used eight attempts per task.",
+  "Tasks came from enterprise codebases across five languages."
+ ],
+ "clutter_score": 5,
+ "summary": "The chart is clear and complete, but header labels, separate statistics, method cards, and footer branding add clutter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10,
+  "usd": null,
+  "tokens": 9984,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "A single visible brand mark identifies the source.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header labels",
+   "reason": "The research tag and category kicker add little to the result.",
+   "ids": [
+    "e3",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "A short headline names the improvement.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Training subtitle",
+   "reason": "Useful training context could be stated more compactly.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE chart",
+   "reason": "The metric, values, labels, and delta clearly show the improvement.",
+   "ids": [
+    "e9",
+    "e10",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Checkpoint badge",
+   "reason": "The pill repeats the base-to-step comparison already shown by the bars.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training statistics",
+   "reason": "Task, repository, and update counts add a separate dataset scale point.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Training method card",
+   "reason": "Method details matter but can fit in a short footnote.",
+   "ids": [
+    "e35",
+    "e37",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Data source card",
+   "reason": "Codebase and language details can be shortened to a footnote.",
+   "ids": [
+    "e36",
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer branding",
+   "reason": "The footer repeats the brand and adds a tagline.",
+   "ids": [
+    "e41",
+    "e42",
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.9,
+   "orange": 24.6,
+   "red": 22.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 34.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 8,
+  "textElements": 5,
+  "words": 10,
+  "fontSizes": 3,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "div",
+   "x": 80,
+   "y": 72,
+   "w": 433,
+   "h": 32,
+   "text": "Qwen3.5-9B · pass@5 on τ³-Banking",
+   "fontSize": 26,
+   "color": "rgb(57, 57, 57)"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "text",
+   "x": 692,
+   "y": 218,
+   "w": 217,
+   "h": 110,
+   "text": "17.5%",
+   "fontSize": 88,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e2",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 660,
+   "y": 340,
+   "w": 280,
+   "h": 700,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 294,
+   "y": 466,
+   "w": 212,
+   "h": 110,
+   "text": "11.3%",
+   "fontSize": 88,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 260,
+   "y": 588,
+   "w": 280,
+   "h": 452,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "text",
+   "x": 367,
+   "y": 1067,
+   "w": 66,
+   "h": 37,
+   "text": "Base",
+   "fontSize": 30,
+   "color": "rgb(57, 57, 57)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "text",
+   "x": 713,
+   "y": 1067,
+   "w": 174,
+   "h": 37,
+   "text": "After training",
+   "fontSize": 30,
+   "color": "rgb(57, 57, 57)"
+  },
+  {
+   "id": "e7",
+   "kind": "image",
+   "tag": "img",
+   "x": 80,
+   "y": 1100,
+   "w": 44,
+   "h": 36,
+   "text": "AfterQuery"
+  }
+ ]
+}

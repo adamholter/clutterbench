@@ -1,0 +1,106 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:54.860Z",
+ "main_idea": "Training raises the Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Training lifts terminal task pass rate more than 5x",
+  "Base model 3.1% versus AfterQuery trained 17.0%",
+  "Benchmark is Terminal-Bench 2.0, model is gpt-oss-20b"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete: the headline is a wordy sentence restating the bars, a decorative footer rule can go, and the logo does not render.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo image e1 is not visible in the screenshot; header logo area appears blank",
+  "Header and footer rules are faint but render; no text overlap or clipping"
+ ],
+ "cost": {
+  "seconds": 11.2,
+  "usd": 0.0035724800000000003,
+  "tokens": 29660,
+  "outputTokens": 1882
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Main visual with value labels and category labels; the chart itself.",
+   "ids": [
+    "e6",
+    "e7",
+    "e9",
+    "e5",
+    "e8",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand and benchmark header",
+   "reason": "One brand mark plus the benchmark name; short and quiet context.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote naming the model and metric.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "Real finding but a full sentence that restates the bars; shorten to '5x uplift on Terminal-Bench 2.0'.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer rule",
+   "reason": "Decorative divider line adding nothing the reader needs.",
+   "ids": [
+    "e12"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 62.3,
+   "orange": 24.3,
+   "red": 13.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 25.6,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

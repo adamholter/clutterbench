@@ -1,0 +1,232 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:25.386Z",
+ "main_idea": "BAR-informed harness changes improved legal-agent output quality by 5%.",
+ "ideas": [
+  "BAR evaluates agents on end-to-end legal work.",
+  "BAR covers 5,161 cases, 28 practice areas, and 11,075 documents.",
+  "One expert-validated synthetic case was published.",
+  "BAR-informed harness changes improved output quality by 5%."
+ ],
+ "clutter_score": 7,
+ "summary": "The oversized evaluation process, benchmark overview, and secondary dataset counts crowd the 5% result; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.4,
+  "usd": null,
+  "tokens": 13678,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single visible brand mark.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Partner label",
+   "reason": "Partner names are repeated in the footer.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Benchmark eyebrow",
+   "reason": "Kicker repeats the benchmark name without stating the finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Question is broad and lengthy; shorten it to state the result.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "BAR case count",
+   "reason": "Identifies the benchmark and labels its case count.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Benchmark subtitle",
+   "reason": "Relevant context is explained in a long sentence.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Practice area count",
+   "reason": "Dataset scale is a secondary point unrelated to the 5% result.",
+   "ids": [
+    "e14",
+    "e11",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Source document count",
+   "reason": "Dataset scale is a secondary point unrelated to the 5% result.",
+   "ids": [
+    "e15",
+    "e12",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Published case count",
+   "reason": "Publication detail is a secondary point unrelated to the 5% result.",
+   "ids": [
+    "e13",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Process section heading",
+   "reason": "Introduces a lengthy process diagram that could be summarized briefly.",
+   "ids": [
+    "e19",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Evaluation process",
+   "reason": "Process cards take substantial space; their method details could fit in a footnote.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Five percent result",
+   "reason": "Main finding with its concise result and comparison context.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Generic slogan adds no information needed to read the finding.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated partner mark",
+   "reason": "AfterQuery and Legora are already named in the header.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 22.5,
+   "orange": 65.3,
+   "red": 12.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 44.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

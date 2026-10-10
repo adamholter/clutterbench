@@ -1,0 +1,19 @@
+{
+  "id": "building-a-frontier-legal-evaluation-in-partnership-with-legora__haiku__raw",
+  "task": "building-a-frontier-legal-evaluation-in-partnership-with-legora",
+  "title": "Building a Frontier Legal Evaluation in Partnership with Legora",
+  "model": "haiku",
+  "modelId": "claude-haiku-5-5",
+  "effort": "low",
+  "variant": "raw",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 47,
+  "flags": [],
+  "createdAt": "2026-10-10T16:15:13.358Z"
+}

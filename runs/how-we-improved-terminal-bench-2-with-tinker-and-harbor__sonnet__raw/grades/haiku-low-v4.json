@@ -1,0 +1,98 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:11.059Z",
+ "main_idea": "SFT then RLVR raised gpt-oss-20b pass rate on Terminal-Bench 2.0 about 5x.",
+ "ideas": [
+  "Pass rate rises from 3.1% to 17.0%",
+  "SFT and RLVR each add gains",
+  "Gains come without training on eval tasks"
+ ],
+ "clutter_score": 1,
+ "summary": "Nearly clean: one bar chart with a clear headline, benchmark and footnote; only the repeated afterquery.com URL beside the logo should go.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10.2,
+  "usd": 0.00392086,
+  "tokens": 29423,
+  "outputTokens": 1661
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo, eyebrow, headline",
+   "reason": "Brand mark, benchmark and model context, and a short finding headline.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Three-bar pass rate chart",
+   "reason": "Main visual with labelled stages, bars and one value label each.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footer stating the evaluation detail, no training tasks from eval set.",
+   "ids": [
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated domain URL",
+   "reason": "Brand already shown by the logo; the URL adds nothing the reader needs.",
+   "ids": [
+    "e17"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 99,
+   "orange": 0,
+   "red": 1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 25.8
+  },
+  "clutterShare": 1,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 37,
+  "textElements": 13
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:55.178Z",
+ "main_idea": "Qwen3.5-9B improved from 11.3% to 17.5% pass@5 on τ³-Banking.",
+ "ideas": [
+  "Qwen3.5-9B improved pass@5 on τ³-Banking after training."
+ ],
+ "clutter_score": 0,
+ "summary": "clean and complete",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10.9,
+  "usd": null,
+  "tokens": 8921,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names the model, metric, and benchmark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate bars",
+   "reason": "Values, bars, and category labels show the before-and-after comparison.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "A single visible brand mark is allowed.",
+   "ids": [
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 27.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

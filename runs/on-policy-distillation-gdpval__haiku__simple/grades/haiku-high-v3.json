@@ -1,0 +1,80 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:04:38.523Z",
+ "main_idea": "Distilled model beats the base model on GDPval: 123 wins vs 77 losses, +20.9% net margin",
+ "ideas": [
+  "Distilled model beats base model on GDPval tasks",
+  "Net win-loss margin is +20.9%",
+  "123 wins, 20 ties, 77 losses"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and complete: one stacked win/tie/loss bar under a finding headline, with only the headline slightly long; the AfterQuery logo is visible but absent from the element list, so it was not graded.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 21.4,
+  "usd": 0.0033574500000000005,
+  "tokens": 36773,
+  "outputTokens": 4034
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Names the finding, metric and benchmark; nine words, slightly longer than ideal.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss stacked bar",
+   "reason": "Main visual; each segment has one value and one category label.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Plain background fill; harmless and not clutter.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

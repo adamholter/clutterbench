@@ -1,0 +1,137 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:33.944Z",
+ "main_idea": "Distilled Qwen3.5-9B beats the base model on GDPval: 123 wins, 20 ties, 77 losses.",
+ "ideas": [
+  "Distilled Qwen wins most GDPval task pairs against base",
+  "Wins, ties and losses out of 220 pairs"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and focused; only a duplicate footer logo should go, and it lacks the base-model baseline for the wins and losses.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline",
+   "why": "Reader cannot tell wins and losses are against the base model."
+  },
+  {
+   "mid": "m1",
+   "what": "benchmark name in chart",
+   "why": "GDPval appears only in the headline; the subtitle should name the metric."
+  }
+ ],
+ "completeness_score": 7,
+ "defects": [
+  "Losses legend swatch is nearly invisible against the cream background",
+  "Tie count '20' uses a smaller font than the other two counts"
+ ],
+ "cost": {
+  "seconds": 10.4,
+  "usd": 0.0045125600000000005,
+  "tokens": 34518,
+  "outputTokens": 1801
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline stating the result, about six words.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and pair count",
+   "reason": "Names the model and the 220 task pairs being compared.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar",
+   "reason": "The main visual: segmented bar with its count values.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Single legend",
+   "reason": "One legend is the only place that names the three categories.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Top brand logo",
+   "reason": "The one brand mark kept on the graphic.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact URL footer",
+   "reason": "Quiet contact line, allowed as footer context.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark repeats the top-right logo.",
+   "ids": [
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 97.5,
+   "orange": 0,
+   "red": 2.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 2.5,
+  "ideaCount": 2,
+  "missingCount": 2,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

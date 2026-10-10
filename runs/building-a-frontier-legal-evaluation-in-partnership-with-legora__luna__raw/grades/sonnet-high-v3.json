@@ -1,0 +1,209 @@
+{
+ "grader": "sonnet-high-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:05:34.096Z",
+ "main_idea": "BAR is a legal benchmark testing whether agents can do end-to-end legal work.",
+ "ideas": [
+  "BAR tests agents on end-to-end legal work",
+  "BAR has 5,161 cases",
+  "Dataset spans 28 areas, 11,075 documents",
+  "BAR pipeline: evidence, execution, evaluation",
+  "BAR-informed changes improved quality 5%"
+ ],
+ "clutter_score": 7,
+ "summary": "A text-heavy infographic with no real chart: a slogan headline, a dataset stats row, process cards, a +5% banner and footer branding all compete, and the one main idea is buried.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Tiny logo image beside the wordmark is barely legible",
+  "Large empty padding inside the process panel"
+ ],
+ "cost": {
+  "seconds": 17.8,
+  "usd": 0.0432593,
+  "tokens": 25078,
+  "outputTokens": 2019
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and quiet.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag",
+   "reason": "Category tag above the headline; tells the reader nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name",
+   "reason": "Names the benchmark being shown.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Question headline",
+   "reason": "Rhetorical slogan, not a finding, and it takes the largest space.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Useful description of BAR but a full sentence; shorten it.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "5,161 cases stat",
+   "reason": "Gives the benchmark's scale in one compact number.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset counts for practice areas, documents and a sample case; secondary facts.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Three-step method cards",
+   "reason": "Method cards with decoration and tags; a short footnote would do.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "+5% impact banner",
+   "reason": "A second claim (product impact) in a big dark box, with a sentence that restates it.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Brand tagline that says nothing about the result.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand and partner shown again; the logo and header tag already carry them.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 12,
+   "orange": 47.5,
+   "red": 40.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 64.3,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

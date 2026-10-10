@@ -1,0 +1,16 @@
+<!doctype html><meta charset=utf-8><style>
+@font-face{font-family:D;src:url(assets/diatype-r.woff2)}
+@font-face{font-family:DM;src:url(assets/diatype-m.woff2)}
+@font-face{font-family:M;src:url(assets/martina.woff2)}
+body{margin:0;width:1200px;height:1200px;background:#000;color:#e8e8e3;position:relative;overflow:hidden;font-family:D}
+.k{position:absolute;left:100px;top:80px;font:15px DM;letter-spacing:.14em;text-transform:uppercase;color:#a8a7a1}
+h1{position:absolute;left:100px;top:130px;margin:0;font:400 76px/1.05 M;width:1000px}
+p{position:absolute;left:100px;top:350px;margin:0;font:22px/1.4 D;color:#a8a7a1;width:900px}
+.lab{font:26px M;fill:#e8e8e3}.v{font:15px DM;fill:#a8a7a1}.hi{fill:#e8e8e3}.c{font:13px DM}
+.f{position:absolute;left:100px;bottom:60px;right:100px;display:flex;justify-content:space-between;align-items:center;font:15px D;color:#a8a7a1}
+.f img{height:34px}
+</style><div class=k>NVIDIA · Nemotron 3 Ultra</div>
+<h1>Light SFT warmup lifts GDPval from 35.3 to 46.7</h1>
+<p>Warmup on AfterQuery rollouts leaves Ultra 2.8 points behind the office teacher.</p>
+<svg width=1200 height=1200 style="position:absolute;left:0;top:0"><text x="100" y="470" class="lab">GDPval</text><rect x="100" y="492" width="525" height="26" fill="#3a3a38"/><text x="637" y="511" class="v">28.9</text><text x="106" y="510" class="c" fill="#a8a7a1">Student</text><rect x="100" y="528" width="642" height="26" fill="#6b6a66"/><text x="754" y="547" class="v">35.3</text><text x="106" y="546" class="c" fill="#a8a7a1">No warmup</text><rect x="100" y="564" width="849" height="26" fill="#e8e8e3"/><text x="961" y="583" class="v hi">46.7</text><text x="106" y="582" class="c" fill="#000">Warmup</text><rect x="100" y="600" width="900" height="26" fill="none" stroke="#e8e8e3" stroke-dasharray="4 4"/><text x="1012" y="619" class="v">49.5</text><text x="106" y="618" class="c" fill="#a8a7a1">Teacher</text><text x="100" y="685" class="lab">BrowseComp</text><rect x="100" y="707" width="564" height="26" fill="#3a3a38"/><text x="676" y="726" class="v">31.0</text><rect x="100" y="743" width="600" height="26" fill="#6b6a66"/><text x="712" y="762" class="v">33.0</text><rect x="100" y="779" width="807" height="26" fill="#e8e8e3"/><text x="919" y="798" class="v hi">44.4</text><rect x="100" y="815" width="927" height="26" fill="none" stroke="#e8e8e3" stroke-dasharray="4 4"/><text x="1039" y="834" class="v">51.0</text><text x="100" y="900" class="lab">HLE (no tools)</text><rect x="100" y="922" width="465" height="26" fill="#3a3a38"/><text x="577" y="941" class="v">25.6</text><rect x="100" y="958" width="478" height="26" fill="#6b6a66"/><text x="590" y="977" class="v">26.3</text><rect x="100" y="994" width="485" height="26" fill="#e8e8e3"/><text x="597" y="1013" class="v hi">26.7</text><rect x="100" y="1030" width="584" height="26" fill="none" stroke="#e8e8e3" stroke-dasharray="4 4"/><text x="696" y="1049" class="v">32.1</text></svg>
+<div class=f><span>Source: NVIDIA Nemotron 3 Ultra technical report, Tables 4–5</span><span style="display:flex;gap:12px;align-items:center"><img src=assets/icon.svg>AfterQuery</span></div>

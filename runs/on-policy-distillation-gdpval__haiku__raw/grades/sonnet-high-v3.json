@@ -1,0 +1,160 @@
+{
+ "grader": "sonnet-high-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:06:29.673Z",
+ "main_idea": "On-policy distillation lifts GDPval win-loss margin about 21% on both Nemotron and Qwen students.",
+ "ideas": [
+  "Distillation gives about +21% net win-loss margin on GDPval",
+  "Result replicates across Nemotron and Qwen models",
+  "Nemotron wins 123, ties 20, loses 77 of 220 tasks",
+  "Gain is statistically significant (p ≈ 0.001)"
+ ],
+ "clutter_score": 4,
+ "summary": "A decent stat-row main visual is cluttered by the eyebrow tag, the long subtitle, wordy sublines and a repeated win/tie/loss bar. Nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 18.4,
+  "usd": 0.0446251,
+  "tokens": 34524,
+  "outputTokens": 2071
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, legible.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Category tag 'Research · GDPval' adds nothing the reader needs.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short topic title naming method and domain, six words.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle sentence",
+   "reason": "Two-sentence method and eval description, longer than needed.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model result rows",
+   "reason": "Main result: per-model margin and rubric gain, each labelled with its metric.",
+   "ids": [
+    "e5",
+    "e6",
+    "e14",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e12",
+    "e13",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Teacher/recipe sublines",
+   "reason": "Useful teacher and step details, but wordy; could be a footnote.",
+   "ids": [
+    "e11",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Win/tie/loss bar",
+   "reason": "Breaks down the +20.9% margin already stated in the Nemotron row.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnotes",
+   "reason": "Small, quiet evaluation details: sign test and training set size.",
+   "ids": [
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom rule",
+   "reason": "Decorative line with no content.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 64,
+   "orange": 15,
+   "red": 21,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 28.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

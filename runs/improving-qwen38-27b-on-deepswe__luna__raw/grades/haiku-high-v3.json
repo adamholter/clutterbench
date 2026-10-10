@@ -1,0 +1,191 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:04:24.189Z",
+ "main_idea": "GRPO lifted Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raises DeepSWE pass@1 by 11.3 points",
+  "Training used 500 expert-authored software engineering tasks",
+  "Tasks come from private, enterprise-grade codebases",
+  "Eight attempts per task, GRPO updates all parameters",
+  "Training ran for 15 updates across 422 repositories"
+ ],
+ "clutter_score": 6,
+ "summary": "The bar chart is clear and complete, but a slogan headline, kicker, header tag, stats row, method cards, and repeated footer brand lines clutter it.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 29.4,
+  "usd": 0.00438712,
+  "tokens": 30757,
+  "outputTokens": 6269
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, small and quiet, identifies the source.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE bar chart",
+   "reason": "Main visual: labelled bars, axis, metric title, and change annotation.",
+   "ids": [
+    "e9",
+    "e10",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "header category tag",
+   "reason": "Section tag 'Research note / DeepSWE' tells the reader nothing new.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "eyebrow kicker line",
+   "reason": "Category kicker above the headline; the chart already names the metric.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "slogan headline",
+   "reason": "Slogan that does not state the finding; the chart carries the result.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "subtitle with method facts",
+   "reason": "Carries real facts (method, task count); fold into chart title or footnote.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "base-to-step pill",
+   "reason": "Repeats the 'Base model' and 'Step 15' bar labels already on the chart.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "dataset stats row",
+   "reason": "Dataset and update counts serve a second point, not reading the bars.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "method and data cards",
+   "reason": "Method and data details matter but take whole cards; shrink to a footnote.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "footer brand line",
+   "reason": "Second brand mention; the header logo already identifies AfterQuery.",
+   "ids": [
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer tagline",
+   "reason": "Tagline with no bearing on the measured result.",
+   "ids": [
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 31.3,
+   "orange": 24.6,
+   "red": 44.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 56.4,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

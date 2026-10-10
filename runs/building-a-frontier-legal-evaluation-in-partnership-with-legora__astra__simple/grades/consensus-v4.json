@@ -1,0 +1,137 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.857Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 7,
+  "tiebreak": true,
+  "scores": [
+   1,
+   2,
+   3
+  ]
+ },
+ "main_idea": "BAR-informed harness changes raised output quality 5% on the same production models in one month.",
+ "ideas": [
+  "BAR-informed harness changes improved output quality",
+  "Improvement happened with the same production models",
+  "Gain occurred within one month"
+ ],
+ "summary": "Clean, simple flow diagram that makes one point; only slightly redundant in its framing, and it lacks nothing essential.",
+ "clutter_score": 2,
+ "completeness_score": 9,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the finding.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "BAR evaluation box",
+   "reason": "Names the benchmark that starts the flow.",
+   "ids": [
+    "e2",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Document icon",
+   "reason": "Decorative icon with no informational content.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Same models frame",
+   "reason": "Short context that the models were unchanged.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Harness changes",
+   "reason": "Names the intervention in the flow.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "One month label",
+   "reason": "Short timeframe annotation on the arrow.",
+   "ids": [
+    "e14"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% output quality",
+   "reason": "The result: the single key value with its metric.",
+   "ids": [
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 99.1,
+   "orange": 0,
+   "red": 0.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 65.1
+  },
+  "clutterShare": 0.9,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 17,
+  "textElements": 7
+ }
+}

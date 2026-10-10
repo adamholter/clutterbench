@@ -1,0 +1,84 @@
+{
+ "grader": "luna-high-v3",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:02.603Z",
+ "main_idea": "Warmup raises Nemotron 3 Ultra’s GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup raises the GDPval score from 35.3 to 46.7."
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 16.3,
+  "usd": null,
+  "tokens": 10295,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart background",
+   "reason": "Light background supports the chart without adding competing information.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names the benchmark, metric, and model.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Warmup result",
+   "reason": "Bar, value, and label show the warmup score.",
+   "ids": [
+    "e2",
+    "e3",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Baseline result",
+   "reason": "Bar, value, and label show the no-warmup score.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

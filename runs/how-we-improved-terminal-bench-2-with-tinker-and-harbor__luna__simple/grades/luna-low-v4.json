@@ -1,0 +1,99 @@
+{
+ "grader": "luna-low-v4",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:05.831Z",
+ "main_idea": "Training raises Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "AfterQuery training increases terminal task pass rate over fivefold."
+ ],
+ "clutter_score": 1,
+ "summary": "The graphic is clean and complete; its full sentence headline could be shortened.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.9,
+  "usd": null,
+  "tokens": 6330,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the research group.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark label",
+   "reason": "Names the benchmark being measured.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding headline",
+   "reason": "States the chart's finding in a full sentence; a shorter title would suffice.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate chart",
+   "reason": "Bars, values, and category labels show the base and trained pass rates.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model metric footer",
+   "reason": "Quietly identifies the model and Pass@1 metric.",
+   "ids": [
+    "e12",
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 75.7,
+   "orange": 24.3,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 12.2,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

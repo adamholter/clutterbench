@@ -1,0 +1,171 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:51.927Z",
+ "main_idea": "Training lifts gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Over 5x pass rate on Terminal-Bench 2.0",
+  "Base 3.1% vs SFT 13.5% vs SFT+RLVR 17.0%",
+  "SFT and RLVR stage methods",
+  "RLVR adds 3.5 points"
+ ],
+ "clutter_score": 4,
+ "summary": "The bar chart is a clear main visual, but the stage cards, long subtitle, nav tag, eyebrow, and repeated model name clutter it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Value labels 13.5% and 17.0% run slightly past the right content margin",
+  "Stage card badges and text are not clipped; no overlap found"
+ ],
+ "cost": {
+  "seconds": 18.3,
+  "usd": 0.00459198,
+  "tokens": 32836,
+  "outputTokens": 3619
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, with its header frame.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog nav tag",
+   "reason": "Site section label that does not inform the finding.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline; restates genre only.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline finding",
+   "reason": "Short headline naming the result, about five words.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Carries real facts, but is a long sentence; shorten.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Main visual: labelled bars, values, metric title and rules.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated model name",
+   "reason": "Model name already given in the subtitle and the headline context.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Stage method cards",
+   "reason": "Method matters, but full cards take too much room; fold into a footnote.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer evaluation note",
+   "reason": "Quiet footnote with benchmark, task count, averaging, and contact line.",
+   "ids": [
+    "e38",
+    "e39",
+    "e40"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 66.5,
+   "orange": 30.8,
+   "red": 2.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 18.1,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:36.951Z",
+ "main_idea": "Distilled Qwen3.5-9B beats the base model on GDPval: 123 wins, 20 ties, 77 losses.",
+ "ideas": [
+  "Distilled model wins most GDPval task pairs"
+ ],
+ "clutter_score": 2,
+ "summary": "A clean single-bar chart, with only a redundant footer brand and a vague headline; it never says wins are against the base model.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline named",
+   "why": "Not stated that wins are versus the base model; 'wins' against what is unclear."
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 7,
+  "usd": 0.030285,
+  "tokens": 31781,
+  "outputTokens": 651
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Vague slogan-like headline; could name the finding, e.g. '123 wins vs 77 losses on GDPval'.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Top logo",
+   "reason": "Single brand mark, keep.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and sample size",
+   "reason": "Short context: model and 220 task pairs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bar",
+   "reason": "Main chart with segment value labels.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Legend",
+   "reason": "One legend identifying segments.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand",
+   "reason": "Second AfterQuery logo and URL repeat the top brand mark.",
+   "ids": [
+    "e15",
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 60.2,
+   "orange": 35.5,
+   "red": 4.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 22.1,
+  "ideaCount": 1,
+  "missingCount": 1,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

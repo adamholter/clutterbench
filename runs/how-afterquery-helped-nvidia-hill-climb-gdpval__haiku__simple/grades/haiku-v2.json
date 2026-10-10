@@ -1,0 +1,88 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:02.616Z",
+ "main_idea": "Warmup raises Nemotron 3 Ultra's GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup raises the GDPval score",
+  "Nemotron 3 Ultra scores 46.7 with warmup",
+  "Nemotron 3 Ultra scores 35.3 without warmup"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple two-bar chart with a title naming the metric and model, bar labels for both conditions, and values for each bar.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names the metric, benchmark, and model in a short line.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "The chart marks showing the two conditions being compared.",
+   "ids": [
+    "e3",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, giving the exact scores.",
+   "ids": [
+    "e2",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Say what each bar means: no warmup versus warmup.",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Plain background fill, not a decorative shape or frame.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

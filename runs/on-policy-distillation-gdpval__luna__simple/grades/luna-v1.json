@@ -1,0 +1,103 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:27.771Z",
+ "main_idea": "Distilled Qwen3.5-9B won more GDPval task pairs than it lost.",
+ "ideas": [
+  "Qwen3.5-9B wins 123 pairs, ties 20, and loses 77. "
+ ],
+ "clutter_score": 4,
+ "summary": "Branding and the redundant subtitle add clutter, while the oversized headline could be shorter.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "orange",
+   "type": "verbose",
+   "name": "headline",
+   "reason": "Two-line headline is longer than needed; the win-loss counts already carry the point.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "top logo",
+   "reason": "Brand mark is not needed to read the result.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "subtitle",
+   "reason": "Model and pair count repeat information available elsewhere.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "result bar",
+   "reason": "The three segments and their counts show wins, ties, and losses.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "bar legend",
+   "reason": "Category labels and swatches identify each segment.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer branding",
+   "reason": "Footer URL and second logo add no information about the result.",
+   "ids": [
+    "e15",
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 86.2,
+   "orange": 9.6,
+   "red": 4.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.6
+  },
+  "clutterShare": 8.9,
+  "ideaCount": 1,
+  "redByType": {
+   "unneeded": 3
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

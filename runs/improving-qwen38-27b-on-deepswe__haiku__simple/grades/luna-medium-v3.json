@@ -1,0 +1,56 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:04.308Z",
+ "main_idea": "GRPO improved Qwen3.8-27B’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "After GRPO, DeepSWE pass@1 rose from 27.8% to 39.1%."
+ ],
+ "clutter_score": 0,
+ "summary": "clean and complete",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 5,
+  "usd": null,
+  "tokens": 6647,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE comparison",
+   "reason": "Metric, values, bars, and labels clearly show the before-and-after result.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

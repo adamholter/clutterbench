@@ -1,0 +1,190 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:14.393Z",
+ "main_idea": "GRPO on 500 tasks lifted Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 by 11.3 points",
+  "Training used 500 expert-authored engineering tasks",
+  "Base model versus step 15 checkpoint comparison",
+  "Training data is real, enterprise engineering work"
+ ],
+ "clutter_score": 6,
+ "summary": "The bar chart is clear, but the slogan headline, stats row, method cards, and repeated brand footer clutter it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 15.1,
+  "usd": 0.0037659799999999995,
+  "tokens": 27446,
+  "outputTokens": 2958
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand logo",
+   "reason": "One brand mark identifies the source of the graphic.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE before-after bar chart",
+   "reason": "Bars, values, axis, labels, metric, and +11.3 change annotation form the main visual.",
+   "ids": [
+    "e9",
+    "e10",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle with training facts",
+   "reason": "Carries real facts (method, task count) but could shrink to a few words.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method and data cards",
+   "reason": "Method and data details are worth a footnote or bar labels, not full cards.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research note header tag",
+   "reason": "Category tag adds nothing the reader needs to read the chart.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker line",
+   "reason": "Kicker above headline; category tag restates topic.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; the chart carries the point.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Base-to-step pill badge",
+   "reason": "Pill restates the bar labels Base model and Step 15.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset and update counts serve a second point, not the before-after result.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer tagline with brand",
+   "reason": "Repeats the brand already shown in the header logo.",
+   "ids": [
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer slogan",
+   "reason": "Tagline that does not state the finding.",
+   "ids": [
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 31.3,
+   "orange": 24.6,
+   "red": 44.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 56.4,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

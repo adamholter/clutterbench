@@ -1,0 +1,150 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:26.080Z",
+ "main_idea": "GRPO lifts Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO raises DeepSWE pass@1 from 27.8% to 39.1%",
+  "Gain is +11.3 points after GRPO training",
+  "Evaluation used identical mini-swe-agent medium-reasoning settings"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid before/after bar chart is surrounded by a slogan headline, an eyebrow tag, a repeated gain callout, and a dataset stats row that should go; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Callout box bounds overlap the 39.1% value label",
+  "Callout text box overlaps the 39.1% label box"
+ ],
+ "cost": {
+  "seconds": 11.2,
+  "usd": 0.00368851,
+  "tokens": 25720,
+  "outputTokens": 2060
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart and labels",
+   "reason": "Bars, value labels, axis, and category labels carry the main finding",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e13",
+    "e12",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Names the benchmark, metric, and model in short form",
+   "ids": [
+    "e4",
+    "e7",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving evaluation details and site",
+   "ids": [
+    "e27",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; chart title already names it",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Category tag above the chart adds no information",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Callout box",
+   "reason": "Restates the 11.3-point gain the bars already show",
+   "ids": [
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset counts serve a second point, not reading the bars",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 56.3,
+   "orange": 0,
+   "red": 43.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35
+  },
+  "clutterShare": 43.7,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 21
+ }
+}

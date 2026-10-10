@@ -1,0 +1,204 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:36.499Z",
+ "main_idea": "The two-stage pipeline lifts gpt-oss-20b from 3.1% to 17.0% on Terminal-Bench 2.0",
+ "ideas": [
+  "Pipeline raises gpt-oss-20b pass rate 3.1% to 17.0%",
+  "Over 5x gain on Terminal-Bench 2.0",
+  "Two-stage training: SFT then RL",
+  "RLVR adds 3.5 points after SFT"
+ ],
+ "clutter_score": 7,
+ "summary": "Clutter comes from two stat cards repeating the bars, a stage-method card row, a side RLVR callout, and a kicker and tag; the chart, benchmark labels, and footnote are complete, but the logo is barely visible.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "AfterQuery logo mark (e1) is nearly invisible, rendering as faint outline on light background"
+ ],
+ "cost": {
+  "seconds": 14.5,
+  "usd": 0.00459584,
+  "tokens": 31843,
+  "outputTokens": 2727
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Main visual: bars, values, category labels, and benchmark or metric context.",
+   "ids": [
+    "e7",
+    "e15",
+    "e20",
+    "e12",
+    "e13",
+    "e22",
+    "e23",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric subtitle",
+   "reason": "Names the model, benchmark, and metric in one short line.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark, though it renders barely visible.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving benchmark, task count, and averaging.",
+   "ids": [
+    "e44",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "Slogan opener plus finding; shorten to something like '5x on Terminal-Bench 2.0'.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag repeats the chart context and adds nothing.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline; decorative.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "5.5x stat card",
+   "reason": "Restates the 3.1% to 17.0% ratio the bars already show.",
+   "ids": [
+    "e8",
+    "e9",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "+10.4 points stat card",
+   "reason": "Restates the bar difference already visible in the chart.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "RLVR +3.5 callout",
+   "reason": "Side callout about the RLVR stage; serves a second point beside the chart.",
+   "ids": [
+    "e21",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Two-stage method cards",
+   "reason": "Pipeline method cards are a separate point beside the results chart.",
+   "ids": [
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark after the header logo; tagline is not needed.",
+   "ids": [
+    "e45"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 43.1,
+   "orange": 25.9,
+   "red": 31,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30
+  },
+  "clutterShare": 44,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 3,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 105,
+  "textElements": 32
+ }
+}

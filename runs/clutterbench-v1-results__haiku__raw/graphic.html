@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ClutterBench: raw vs. simple prompt</title>
+<style>
+  @font-face { font-family: 'Outfit'; src: url('assets/outfit.woff2') format('woff2'); font-weight: 400 700; }
+  :root { --blue: #1971c2; --red: #e03131; --ink: #101828; --soft: #475467; --line: #e4e7ec; --wash: #f5f7fa; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1200px; height: 1200px; overflow: hidden; background: #fff; }
+  body { position: relative; font-family: 'Outfit', system-ui, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .mark { position: absolute; left: 80px; top: 80px; font-size: 30px; font-weight: 700; line-height: 1; }
+  .mark span { color: var(--blue); }
+  h1 { position: absolute; left: 80px; top: 150px; width: 1040px; margin: 0; font-size: 56px; line-height: 1.08; font-weight: 700; letter-spacing: -0.01em; }
+  .sub { position: absolute; left: 80px; top: 296px; width: 900px; margin: 0; font-size: 22px; line-height: 1.4; color: var(--soft); }
+  svg { position: absolute; left: 0; top: 0; width: 1200px; height: 1200px; font-family: 'Outfit', system-ui, sans-serif; }
+  .foot { position: absolute; left: 80px; right: 80px; bottom: 80px; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid var(--line); padding-top: 24px; font-size: 18px; color: var(--soft); }
+  .foot b { color: var(--ink); font-weight: 600; }
+</style>
+</head>
+<body>
+
+<div class="mark"><span>Clutter</span>Bench</div>
+<h1>Five plain instructions cut clutter from 29–61% to 0–6%</h1>
+<p class="sub">Share of each model's drawn area that the grader would remove or shrink, with a bare prompt and with a simple one. Lower is better.</p>
+
+<svg viewBox="0 0 1200 1200" aria-label="Dumbbell chart of clutter by model, raw prompt versus simple prompt">
+  <!-- legend -->
+  <circle cx="360" cy="420" r="9" fill="#e03131"/>
+  <text x="378" y="426" font-size="20" font-weight="500" fill="#101828">Raw prompt</text>
+  <circle cx="540" cy="420" r="9" fill="#1971c2"/>
+  <text x="558" y="426" font-size="20" font-weight="500" fill="#101828">Simple prompt</text>
+
+  <!-- gridlines: x = 360 + 7.2 * percent -->
+  <g stroke="#e4e7ec" stroke-width="2">
+    <line x1="360" y1="470" x2="360" y2="960"/>
+    <line x1="540" y1="470" x2="540" y2="960"/>
+    <line x1="720" y1="470" x2="720" y2="960"/>
+    <line x1="900" y1="470" x2="900" y2="960"/>
+    <line x1="1080" y1="470" x2="1080" y2="960"/>
+  </g>
+  <line x1="360" y1="960" x2="1080" y2="960" stroke="#98a2b3" stroke-width="2"/>
+  <g font-size="18" fill="#475467" text-anchor="middle">
+    <text x="360" y="1000">0%</text>
+    <text x="540" y="1000">25%</text>
+    <text x="720" y="1000">50%</text>
+    <text x="900" y="1000">75%</text>
+    <text x="1080" y="1000">100%</text>
+  </g>
+
+  <!-- Claude Sonnet 5.5: raw 29, simple 0 -->
+  <g>
+    <text x="80" y="538" font-size="26" font-weight="600" fill="#101828">Claude Sonnet 5.5</text>
+    <line x1="360" y1="530" x2="568.8" y2="530" stroke="#d0d5dd" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="568.8" cy="530" r="14" fill="#e03131"/>
+    <circle cx="360" cy="530" r="14" fill="#1971c2"/>
+    <text x="568.8" y="484" font-size="24" font-weight="600" fill="#e03131" text-anchor="middle">29%</text>
+    <text x="360" y="484" font-size="24" font-weight="600" fill="#1971c2" text-anchor="middle">0%</text>
+  </g>
+
+  <!-- Claude Haiku 5.5: raw 42, simple 0 -->
+  <g>
+    <text x="80" y="658" font-size="26" font-weight="600" fill="#101828">Claude Haiku 5.5</text>
+    <line x1="360" y1="650" x2="662.4" y2="650" stroke="#d0d5dd" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="662.4" cy="650" r="14" fill="#e03131"/>
+    <circle cx="360" cy="650" r="14" fill="#1971c2"/>
+    <text x="662.4" y="604" font-size="24" font-weight="600" fill="#e03131" text-anchor="middle">42%</text>
+    <text x="360" y="604" font-size="24" font-weight="600" fill="#1971c2" text-anchor="middle">0%</text>
+  </g>
+
+  <!-- GPT-6.1 Sol: raw 46, simple 0 -->
+  <g>
+    <text x="80" y="778" font-size="26" font-weight="600" fill="#101828">GPT-6.1 Sol</text>
+    <line x1="360" y1="770" x2="691.2" y2="770" stroke="#d0d5dd" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="691.2" cy="770" r="14" fill="#e03131"/>
+    <circle cx="360" cy="770" r="14" fill="#1971c2"/>
+    <text x="691.2" y="724" font-size="24" font-weight="600" fill="#e03131" text-anchor="middle">46%</text>
+    <text x="360" y="724" font-size="24" font-weight="600" fill="#1971c2" text-anchor="middle">0%</text>
+  </g>
+
+  <!-- GPT-6 Luna: raw 61, simple 6 -->
+  <g>
+    <text x="80" y="898" font-size="26" font-weight="600" fill="#101828">GPT-6 Luna</text>
+    <line x1="403.2" y1="890" x2="799.2" y2="890" stroke="#d0d5dd" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="799.2" cy="890" r="14" fill="#e03131"/>
+    <circle cx="403.2" cy="890" r="14" fill="#1971c2"/>
+    <text x="799.2" y="844" font-size="24" font-weight="600" fill="#e03131" text-anchor="middle">61%</text>
+    <text x="403.2" y="844" font-size="24" font-weight="600" fill="#1971c2" text-anchor="middle">6%</text>
+  </g>
+</svg>
+
+<div class="foot">
+  <span>Clutter score: share of drawn area marked remove, plus half of the area marked shrink.</span>
+  <span><b>48</b> graphics · <b>6</b> posts · <b>4</b> models</span>
+</div>
+
+</body>
+</html>

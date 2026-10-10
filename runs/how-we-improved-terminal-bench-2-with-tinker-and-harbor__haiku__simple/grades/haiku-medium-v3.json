@@ -1,0 +1,76 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:06.713Z",
+ "main_idea": "AfterQuery lifts Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Pass rate rose from 3.1% to 17.0%",
+  "Trained model far outperforms the base model on Terminal-Bench 2.0"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a two-bar chart with a benchmark title, labelled bars and values, and no extras.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.1,
+  "usd": 0.00206837,
+  "tokens": 29086,
+  "outputTokens": 1557
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short metric and benchmark title; identifies what is measured.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "Main chart marks with one value label per bar and category labels.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Plain background fill, not visible clutter.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

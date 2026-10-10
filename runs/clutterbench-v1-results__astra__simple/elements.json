@@ -1,0 +1,323 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 27,
+  "textElements": 17,
+  "words": 26,
+  "fontSizes": 4,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "text",
+   "x": 64,
+   "y": 43,
+   "w": 210,
+   "h": 45,
+   "text": "Clutter score",
+   "fontSize": 36,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "tspan",
+   "x": 992,
+   "y": 53,
+   "w": 76,
+   "h": 30,
+   "text": "Clutter",
+   "fontSize": 24,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "tspan",
+   "x": 1068,
+   "y": 53,
+   "w": 68,
+   "h": 30,
+   "text": "Bench",
+   "fontSize": 24,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 92,
+   "y": 115,
+   "w": 120,
+   "h": 28,
+   "text": "Raw prompt",
+   "fontSize": 22,
+   "color": "rgb(71, 84, 103)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "text",
+   "x": 276,
+   "y": 115,
+   "w": 143,
+   "h": 28,
+   "text": "Simple prompt",
+   "fontSize": 22,
+   "color": "rgb(71, 84, 103)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 66,
+   "y": 123,
+   "w": 14,
+   "h": 14,
+   "color": "rgb(224, 49, 49)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 250,
+   "y": 123,
+   "w": 14,
+   "h": 14,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 64,
+   "y": 217,
+   "w": 227,
+   "h": 35,
+   "text": "Claude Sonnet 5.5",
+   "fontSize": 28,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e8",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 88,
+   "y": 303,
+   "w": 24,
+   "h": 24,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e9",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 559,
+   "y": 303,
+   "w": 24,
+   "h": 24,
+   "color": "rgb(224, 49, 49)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "text",
+   "x": 82,
+   "y": 338,
+   "w": 35,
+   "h": 35,
+   "text": "0%",
+   "fontSize": 28,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "text",
+   "x": 545,
+   "y": 338,
+   "w": 52,
+   "h": 35,
+   "text": "29%",
+   "fontSize": 28,
+   "color": "rgb(224, 49, 49)"
+  },
+  {
+   "id": "e12",
+   "kind": "text",
+   "tag": "text",
+   "x": 64,
+   "y": 447,
+   "w": 211,
+   "h": 35,
+   "text": "Claude Haiku 5.5",
+   "fontSize": 28,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e13",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 88,
+   "y": 533,
+   "w": 24,
+   "h": 24,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e14",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 770,
+   "y": 533,
+   "w": 24,
+   "h": 24,
+   "color": "rgb(224, 49, 49)"
+  },
+  {
+   "id": "e15",
+   "kind": "text",
+   "tag": "text",
+   "x": 82,
+   "y": 568,
+   "w": 35,
+   "h": 35,
+   "text": "0%",
+   "fontSize": 28,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e16",
+   "kind": "text",
+   "tag": "text",
+   "x": 756,
+   "y": 568,
+   "w": 52,
+   "h": 35,
+   "text": "42%",
+   "fontSize": 28,
+   "color": "rgb(224, 49, 49)"
+  },
+  {
+   "id": "e17",
+   "kind": "text",
+   "tag": "text",
+   "x": 64,
+   "y": 677,
+   "w": 151,
+   "h": 35,
+   "text": "GPT-6.1 Sol",
+   "fontSize": 28,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e18",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 88,
+   "y": 763,
+   "w": 24,
+   "h": 24,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e19",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 835,
+   "y": 763,
+   "w": 24,
+   "h": 24,
+   "color": "rgb(224, 49, 49)"
+  },
+  {
+   "id": "e20",
+   "kind": "text",
+   "tag": "text",
+   "x": 82,
+   "y": 798,
+   "w": 35,
+   "h": 35,
+   "text": "0%",
+   "fontSize": 28,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e21",
+   "kind": "text",
+   "tag": "text",
+   "x": 821,
+   "y": 798,
+   "w": 52,
+   "h": 35,
+   "text": "46%",
+   "fontSize": 28,
+   "color": "rgb(224, 49, 49)"
+  },
+  {
+   "id": "e22",
+   "kind": "text",
+   "tag": "text",
+   "x": 64,
+   "y": 907,
+   "w": 150,
+   "h": 35,
+   "text": "GPT-6 Luna",
+   "fontSize": 28,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e23",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 185,
+   "y": 993,
+   "w": 24,
+   "h": 24,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e24",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 1078,
+   "y": 993,
+   "w": 24,
+   "h": 24,
+   "color": "rgb(224, 49, 49)"
+  },
+  {
+   "id": "e25",
+   "kind": "text",
+   "tag": "text",
+   "x": 180,
+   "y": 1028,
+   "w": 35,
+   "h": 35,
+   "text": "6%",
+   "fontSize": 28,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e26",
+   "kind": "text",
+   "tag": "text",
+   "x": 1064,
+   "y": 1028,
+   "w": 52,
+   "h": 35,
+   "text": "61%",
+   "fontSize": 28,
+   "color": "rgb(224, 49, 49)"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:43.454Z",
+ "main_idea": "AfterQuery warmup improves Nemotron 3 Ultra’s GDPval score by 11.4 points.",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7.",
+  "Warmup score comes within 2.8 points of the teacher."
+ ],
+ "clutter_score": 4,
+ "summary": "The slogan, category tags, long subtitle, gain callout, and footer extras clutter a complete GDPval comparison.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.9,
+  "usd": null,
+  "tokens": 10632,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the source.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "The category tag adds no needed chart context.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Model eyebrow",
+   "reason": "The eyebrow is redundant with chart context and the subtitle.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "This slogan does not state the chart’s finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Explanatory subtitle",
+   "reason": "It states the result in a long sentence; a concise finding title would suffice.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "The chart gives the benchmark, comparison categories, scores, scale, and legend.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Gain callout",
+   "reason": "The gain repeats the bar difference, and the takeaway repeats the chart’s teacher gap.",
+   "ids": [
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "The brand is already shown in the logo.",
+   "ids": [
+    "e41"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "The tagline adds no information needed to read the chart.",
+   "ids": [
+    "e42"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.3,
+   "orange": 8.2,
+   "red": 39.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22.4
+  },
+  "clutterShare": 43.6,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 84,
+  "textElements": 29
+ }
+}

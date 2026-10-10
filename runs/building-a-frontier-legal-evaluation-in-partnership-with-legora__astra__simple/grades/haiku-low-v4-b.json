@@ -1,0 +1,89 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:22.839Z",
+ "main_idea": "Harness changes lifted output quality 5% in one month on the same models",
+ "ideas": [
+  "Harness changes lifted output quality 5% on same models",
+  "BAR evaluation is the benchmark used to measure work"
+ ],
+ "clutter_score": 3,
+ "summary": "Clean and focused: the +5% result is the clear main visual, with only the BAR evaluation method card as an extra that should go.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 10.5,
+  "usd": 0.0010765899999999999,
+  "tokens": 24274,
+  "outputTokens": 1701
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline and brand logo",
+   "reason": "Short finding-style headline and one logo mark",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Harness-to-quality result flow",
+   "reason": "The main visual: harness changes, timeframe, and the +5% result with its label",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "BAR evaluation method card",
+   "reason": "Method step beside the result; it explains the benchmark rather than showing the finding",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 75.3,
+   "orange": 0,
+   "red": 24.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 65.1
+  },
+  "clutterShare": 24.7,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 17,
+  "textElements": 7
+ }
+}

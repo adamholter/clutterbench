@@ -1,0 +1,205 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:31.844Z",
+ "main_idea": "SFT and RLVR raise GPT-OSS-20B’s Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "SFT and RLVR improve Terminal-Bench pass rate.",
+  "SFT delivers the largest gain.",
+  "RLVR adds 3.5 points."
+ ],
+ "clutter_score": 7,
+ "summary": "The method cards, headline, subtitle, navigation, and footer crowd a complete pass-rate comparison of the model’s three training conditions.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark orients readers to the publisher.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Navigation label",
+   "reason": "Blog and Research are site navigation, not chart context.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "The kicker adds no information needed to read the result.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline finding",
+   "reason": "The two-line headline states the result the chart already shows.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Restates the model, values, training methods, and evaluation exclusion.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Names the pass-rate metric and agent used.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart separators",
+   "reason": "Separates the comparison rows for easier reading.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Base model row",
+   "reason": "Shows the base condition, model, bar, and 3.1% value.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "SFT result row",
+   "reason": "Shows the SFT condition, trajectory label, bar, and 13.5% value.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "SFT plus RLVR row",
+   "reason": "Shows the pipeline condition, bar, and 17.0% value.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "SFT method card",
+   "reason": "Adds training details and a largest-gain takeaway beside the results.",
+   "ids": [
+    "e24",
+    "e26",
+    "e28",
+    "e30",
+    "e32",
+    "e34",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "RLVR method card",
+   "reason": "Adds method details and a 3.5-point takeaway beside the results.",
+   "ids": [
+    "e25",
+    "e27",
+    "e29",
+    "e31",
+    "e33",
+    "e35",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Evaluation footer",
+   "reason": "Repeats benchmark and agent context and adds task count and averaging details.",
+   "ids": [
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Contact address",
+   "reason": "Contact information does not help explain the chart.",
+   "ids": [
+    "e39"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 35.1,
+   "orange": 26.7,
+   "red": 38.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 51.5,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:05:16.314Z",
+ "main_idea": "On-policy distillation lifts GDPval net win-loss margin about +21% across two model families.",
+ "ideas": [
+  "On-policy distillation improves student performance on GDPval",
+  "Gains hold across two model families",
+  "Net win-loss margin of +20.9% (Nemotron) and +21.4% (Qwen)",
+  "Paired comparisons show wins, ties and losses versus base",
+  "Rubric score rises 5.1 and 7.9 points",
+  "Student learns from its own generations via teacher feedback"
+ ],
+ "clutter_score": 5,
+ "summary": "Clutter: method flow, rubric and win-rate side panels, and repeated footer and takeaway lines compete with the two net-margin stats; the logo nearly disappears. Nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "AfterQuery logo mark is near-white and nearly invisible on the cream background",
+  "Subtitle wraps leaving single-word orphan 'GDPval.' on its own line"
+ ],
+ "cost": {
+  "seconds": 54,
+  "usd": 0.00736292,
+  "tokens": 47443,
+  "outputTokens": 11993
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand mark",
+   "reason": "One brand mark, logo plus wordmark, kept once.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Main headline",
+   "reason": "Seven-word headline naming the finding across two families.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron margin and paired bar",
+   "reason": "Main stat, unit label, and win/tie/loss bar with values; the core visual.",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen net margin stat",
+   "reason": "Parallel main stat and unit label for the second model family.",
+   "ids": [
+    "e8",
+    "e10",
+    "e14",
+    "e16",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval evaluation footnote",
+   "reason": "Quiet footnote naming the benchmark being measured.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag in header; the footnote already names GDPval.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline; restates the topic only.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line subtitle",
+   "reason": "Real facts, but a long sentence; shorten to a few words.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full model names",
+   "reason": "Full model names are wordier than needed; a footnote or short label suffices.",
+   "ids": [
+    "e12"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Rubric +7.9 stat block",
+   "reason": "Second metric (rubric score) beside a win-loss result; serves another point.",
+   "ids": [
+    "e19",
+    "e21",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Win-rate chip row",
+   "reason": "Side panel of win rate, a second metric beside the main margin visual.",
+   "ids": [
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Left card footer summary",
+   "reason": "Restates the win rate the bar already shows, plus a second rubric figure.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Right card takeaway line",
+   "reason": "Takeaway sentence restating the transfer claim the headline already makes.",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Four-step method cards",
+   "reason": "Method matters to the result, but four boxes take too much room; fold into a footnote.",
+   "ids": [
+    "e46",
+    "e47",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Method section tag",
+   "reason": "Category tag on the method panel; adds nothing for reading the chart.",
+   "ids": [
+    "e48"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Method takeaway sentence",
+   "reason": "Takeaway sentence restating the method; not needed to read the main visual.",
+   "ids": [
+    "e65"
+   ]
+  },
+  {
+   "rid": "r16",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand line",
+   "reason": "Brand shown a second time; the logo already appears at the top.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 50.6,
+   "orange": 30.2,
+   "red": 19.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 34.3,
+  "ideaCount": 6,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 2,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

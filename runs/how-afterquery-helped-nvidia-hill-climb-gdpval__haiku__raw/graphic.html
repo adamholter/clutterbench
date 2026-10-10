@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>How AfterQuery Helped NVIDIA Hill-Climb GDPval</title>
+<style>
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Bold-s.p.2g11yfly1dr71.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Martina Plantijn"; src: url("assets/MartinaPlantijn_Regular-s.p.09bvmw9c6lxyi.woff2") format("woff2"); }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1200px; height: 1200px; overflow: hidden; }
+  body {
+    position: relative;
+    background: #0c0c0c;
+    color: #f6f5ee;
+    font-family: "ABC Diatype", "Inter", system-ui, sans-serif;
+  }
+  .abs { position: absolute; }
+  .eyebrow { font-size: 22px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: #a8a7a1; }
+  h1 {
+    font-family: "Martina Plantijn", Georgia, serif;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+  }
+  h1 em { font-style: normal; color: #e8a85f; }
+  .lede { font-size: 27px; line-height: 1.4; color: #e9e7e0; }
+  .card {
+    background: #161614;
+    border: 1px solid #2a2a27;
+    border-radius: 6px;
+  }
+  .tile {
+    background: #161614;
+    border: 1px solid #2a2a27;
+    border-radius: 6px;
+    padding: 28px 30px;
+  }
+  .tile .num {
+    font-family: "Martina Plantijn", Georgia, serif;
+    font-size: 96px;
+    line-height: 1;
+    color: #f6f5ee;
+  }
+  .tile .num.accent { color: #e8a85f; }
+  .tile .label { margin-top: 14px; font-size: 22px; line-height: 1.35; color: #a8a7a1; }
+  .cat { font-size: 22px; font-weight: 500; color: #e9e7e0; text-align: center; }
+  .cat small { display: block; font-size: 18px; font-weight: 400; color: #a8a7a1; margin-top: 4px; }
+  .val { font-size: 30px; font-weight: 700; text-align: center; }
+</style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="abs" style="left:80px; top:56px; width:1040px; height:64px; display:flex; align-items:center; justify-content:space-between;">
+    <div style="display:flex; align-items:center; gap:18px;">
+      <img src="assets/hero-mark.svg" width="59" height="48" alt="">
+      <span style="font-size:30px; font-weight:700; letter-spacing:-0.01em;">AfterQuery</span>
+    </div>
+    <span class="eyebrow">Blog · Case study</span>
+  </div>
+
+  <!-- Headline -->
+  <div class="abs" style="left:80px; top:150px; width:1040px;">
+    <h1>How AfterQuery helped <em>NVIDIA</em> hill-climb GDPval</h1>
+  </div>
+
+  <!-- Chart card -->
+  <div class="abs card" style="left:80px; top:336px; width:1040px; height:462px;"></div>
+  <div class="abs" style="left:120px; top:362px; width:960px;">
+    <div style="font-size:24px; font-weight:500;">GDPval score by training stage</div>
+    <div style="font-size:18px; color:#a8a7a1; margin-top:4px;">Nemotron 3 Ultra · NVIDIA technical report</div>
+  </div>
+
+  <svg class="abs" style="left:0; top:0;" width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+    <!-- baseline -->
+    <line x1="120" y1="720" x2="1080" y2="720" stroke="#3a3a36" stroke-width="2"/>
+    <!-- scale: 6.5 px per point, baseline y=720 -->
+    <!-- Student 28.9 -->
+    <rect x="200" y="532.2" width="170" height="187.9" fill="#4a4a45"/>
+    <!-- No warmup 35.3 -->
+    <rect x="410" y="490.6" width="170" height="229.4" fill="#6e6d66"/>
+    <!-- Warmup 46.7 (highlight) -->
+    <rect x="620" y="416.5" width="170" height="303.5" fill="#e8a85f"/>
+    <!-- Teacher 49.5 -->
+    <rect x="830" y="398.3" width="170" height="321.7" fill="none" stroke="#e9e7e0" stroke-width="2" stroke-dasharray="6 6"/>
+    <!-- delta bracket between No warmup and Warmup -->
+    <line x1="495" y1="490.6" x2="705" y2="490.6" stroke="#e9e7e0" stroke-width="1.5" stroke-dasharray="4 5"/>
+  </svg>
+
+  <!-- Value labels -->
+  <div class="abs val" style="left:200px; width:170px; top:500px;">28.9</div>
+  <div class="abs val" style="left:410px; width:170px; top:458px;">35.3</div>
+  <div class="abs val" style="left:620px; width:170px; top:384px; color:#e8a85f;">46.7</div>
+  <div class="abs val" style="left:830px; width:170px; top:366px;">49.5</div>
+
+
+  <!-- Category labels -->
+  <div class="abs cat" style="left:200px; width:170px; top:738px;">Student<small>start checkpoint</small></div>
+  <div class="abs cat" style="left:410px; width:170px; top:738px;">No warmup<small>no AQ SFT warmup</small></div>
+  <div class="abs cat" style="left:620px; width:170px; top:738px; color:#e8a85f;">Warmup<small>AQ warmup + RL</small></div>
+  <div class="abs cat" style="left:830px; width:170px; top:738px;">Teacher<small>specialized model</small></div>
+
+
+  <!-- Stat tiles -->
+  <div class="abs tile" style="left:80px; top:830px; width:323px; height:200px;">
+    <div class="num accent">+11.4</div>
+    <div class="label">GDPval points from warmup, 35.3 to 46.7</div>
+  </div>
+  <div class="abs tile" style="left:438px; top:830px; width:323px; height:200px;">
+    <div class="num">2.8</div>
+    <div class="label">points behind the office/workplace teacher on GDPval</div>
+  </div>
+  <div class="abs tile" style="left:796px; top:830px; width:323px; height:200px;">
+    <div class="num">~6×</div>
+    <div class="label">throughput of comparable open models on long-horizon agentic tasks</div>
+  </div>
+
+  <!-- Footer -->
+  <div class="abs" style="left:80px; top:1072px; width:1040px; display:flex; justify-content:space-between; align-items:flex-end; font-size:20px; color:#a8a7a1;">
+    <span>NVIDIA publicly used AfterQuery’s Office Agent training dataset. Source: NVIDIA Nemotron 3 Ultra technical report.</span>
+    <span style="color:#f6f5ee; font-weight:500;">afterquery.com</span>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:09:05.309Z",
+ "main_idea": "BAR is a large legal agent benchmark whose findings improved Legora's product quality.",
+ "ideas": [
+  "BAR is a frontier legal agent benchmark",
+  "BAR scale: cases, areas, documents",
+  "How BAR tasks flow from matter to scoring",
+  "BAR-informed changes improved quality by 5%"
+ ],
+ "clutter_score": 7,
+ "summary": "A results banner and case count are buried under a pipeline diagram, a stats row, tags, a subtitle and footers; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo icon tiny and barely legible beside wordmark",
+  "Large empty padding inside pipeline container"
+ ],
+ "cost": {
+  "seconds": 11.2,
+  "usd": 0.0544424,
+  "tokens": 23860,
+  "outputTokens": 1049
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark with wordmark.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag",
+   "reason": "Category tag adds nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name",
+   "reason": "Names the benchmark being shown.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Question headline",
+   "reason": "Large 66px question headline doesn't state a finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle paragraph",
+   "reason": "Explanatory subtitle restates the benchmark.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Case count stat",
+   "reason": "Key benchmark scale number, labelled.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset size stats serve a secondary idea.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Pipeline cards",
+   "reason": "Method process diagram is a separate idea from results.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% impact banner",
+   "reason": "The only result; the key claim.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline adds nothing.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand",
+   "reason": "Brand repeated again in footer.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 24.3,
+   "orange": 17.8,
+   "red": 57.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 66.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

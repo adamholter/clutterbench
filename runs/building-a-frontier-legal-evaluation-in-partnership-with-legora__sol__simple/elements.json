@@ -1,0 +1,131 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 10,
+  "textElements": 6,
+  "words": 14,
+  "fontSizes": 6,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "shape",
+   "tag": "div",
+   "x": 64,
+   "y": 46,
+   "w": 150,
+   "h": 26,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 64,
+   "y": 130,
+   "w": 1072,
+   "h": 204,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "text",
+   "x": 539,
+   "y": 153,
+   "w": 123,
+   "h": 94,
+   "text": "BAR",
+   "fontSize": 60,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 504,
+   "y": 250,
+   "w": 192,
+   "h": 36,
+   "text": "Legal evaluation",
+   "fontSize": 27,
+   "color": "rgb(85, 86, 80)"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 64,
+   "y": 432,
+   "w": 1072,
+   "h": 174,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "text",
+   "x": 415,
+   "y": 477,
+   "w": 371,
+   "h": 81,
+   "text": "Harness changes",
+   "fontSize": 52,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "text",
+   "x": 402,
+   "y": 668,
+   "w": 397,
+   "h": 334,
+   "text": "+5%",
+   "fontSize": 214,
+   "color": "rgb(248, 248, 243)"
+  },
+  {
+   "id": "e7",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 64,
+   "y": 704,
+   "w": 1072,
+   "h": 432,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "text",
+   "x": 494,
+   "y": 957,
+   "w": 213,
+   "h": 45,
+   "text": "Output quality",
+   "fontSize": 34,
+   "color": "rgb(248, 248, 243)"
+  },
+  {
+   "id": "e9",
+   "kind": "text",
+   "tag": "text",
+   "x": 391,
+   "y": 1051,
+   "w": 417,
+   "h": 33,
+   "text": "Same production models · One month",
+   "fontSize": 25,
+   "color": "rgb(248, 248, 243)"
+  }
+ ]
+}

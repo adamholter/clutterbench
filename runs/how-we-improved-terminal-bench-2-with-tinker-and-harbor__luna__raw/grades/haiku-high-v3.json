@@ -1,0 +1,232 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:03:51.968Z",
+ "main_idea": "Two-stage training lifts gpt-oss-20b Terminal-Bench 2.0 pass rate 5x.",
+ "ideas": [
+  "Training lifts pass rate from 3.1% to 17.0%",
+  "Pass rate on Terminal-Bench 2.0 rises about 5x",
+  "Two-stage pipeline: SFT then RLVR drives the gain",
+  "RLVR adds 3.5 points after SFT",
+  "Gain comes from training data quality"
+ ],
+ "clutter_score": 6,
+ "summary": "Clutter: two repeated stat cards, a result card, a RLVR callout, a wordy method strip, and tags and a second wordmark; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Header logo mark (e1) looks faint and low contrast on the off-white background"
+ ],
+ "cost": {
+  "seconds": 42.3,
+  "usd": 0.006112679999999999,
+  "tokens": 38979,
+  "outputTokens": 9615
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand mark",
+   "reason": "One logo and wordmark; the single brand mark.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag restating research and benchmark; adds nothing new.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker above headline names the method, not the finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Two-line claim is too long; shorten to a 5x uplift phrase.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric subtitle",
+   "reason": "Names model, metric, and benchmark in one short line.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Main visual: labelled bars, value labels, category labels, chart title.",
+   "ids": [
+    "e7",
+    "e10",
+    "e12",
+    "e13",
+    "e15",
+    "e20",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Chart benchmark tag",
+   "reason": "Benchmark already named in subtitle and footer.",
+   "ids": [
+    "e11"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "5.5x stat card",
+   "reason": "Restates the 3.1% vs 17.0% bars as a ratio the reader can already see.",
+   "ids": [
+    "e8",
+    "e9",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "+10.4 stat card",
+   "reason": "Restates the bar difference already shown in the chart.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "RLVR +3.5 callout",
+   "reason": "Stage contribution is a second point, not the main bar visual.",
+   "ids": [
+    "e21",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Strip section kicker",
+   "reason": "Section kicker above the stage strip; decorative, states nothing new.",
+   "ids": [
+    "e29"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method cards",
+   "reason": "Stage steps matter to the result but belong in a footnote or bar labels.",
+   "ids": [
+    "e28",
+    "e30",
+    "e31",
+    "e33",
+    "e34",
+    "e36",
+    "e37",
+    "e39",
+    "e40",
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "repetition",
+   "name": "Result card",
+   "reason": "Third card repeats the 17.0% bar in a box of its own.",
+   "ids": [
+    "e32",
+    "e35",
+    "e38",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footer giving benchmark, task count, and averaging method.",
+   "ids": [
+    "e44",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark after the header logo and wordmark.",
+   "ids": [
+    "e45"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 42.3,
+   "orange": 35.4,
+   "red": 22.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30
+  },
+  "clutterShare": 40,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "repetition": 5,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 105,
+  "textElements": 32
+ }
+}

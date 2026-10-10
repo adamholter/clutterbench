@@ -1,0 +1,163 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:09.339Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "AfterQuery warmup raises GDPval score",
+  "Warmup stage beats no-warmup stage",
+  "Ultra trails the teacher by 2.8 points",
+  "Ultra runs about 6x faster than open models"
+ ],
+ "clutter_score": 4,
+ "summary": "A clear bar chart is buried under three stat cards, a tag, and a long footer; the cards repeat the bars or add an unrelated throughput claim. Nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 12.5,
+  "usd": 0.00417349,
+  "tokens": 28920,
+  "outputTokens": 2435
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Names the subject and the benchmark in about seven words",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo brand mark",
+   "reason": "The one brand mark on the graphic",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Bars, values, stage labels, chart title and source line show the result",
+   "ids": [
+    "e5",
+    "e6",
+    "e9",
+    "e10",
+    "e11",
+    "e13",
+    "e15",
+    "e7",
+    "e8",
+    "e12",
+    "e14",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Section tag above the headline that tells the reader nothing new",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "+11.4 stat card",
+   "reason": "Restates the 35.3 to 46.7 difference the bars already show",
+   "ids": [
+    "e24",
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "2.8 stat card",
+   "reason": "Restates the gap to the teacher that the bars already show",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Throughput stat card",
+   "reason": "Throughput claim serves a second point unrelated to the training chart",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Footer sentence and source",
+   "reason": "Shorten to a quiet source line; drop the explanatory sentence",
+   "ids": [
+    "e33"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer website",
+   "reason": "Second brand mark when the logo already appears top left",
+   "ids": [
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 76.6,
+   "orange": 5.2,
+   "red": 18.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 20.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

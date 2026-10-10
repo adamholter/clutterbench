@@ -1,0 +1,197 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:03:07.489Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup lifts GDPval score from 35.3 to 46.7",
+  "Warmup gain is +11.4 points",
+  "Warmup comes within 2.8 points of the teacher",
+  "AfterQuery office tasks drove the warmup gain"
+ ],
+ "clutter_score": 4,
+ "summary": "Slogan headline, eyebrow, category tag, stat card, takeaway sentence, and footer repeat or pad a solid bar chart; the subtitle is wordy, and nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 28.2,
+  "usd": 0.004357499999999999,
+  "tokens": 33077,
+  "outputTokens": 6155
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo header",
+   "reason": "One brand mark at the top, short and needed for attribution.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Category tag restates the company's area and tells the reader nothing about the result.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker above the headline adds no finding; the chart title already names the model.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; it is a tagline, not a title.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Wordy subtitle sentence",
+   "reason": "Carries the finding and model, but could be a short line like 'Nemotron 3 Ultra on GDPval'.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Benchmark, metric, and short method context identify what is measured.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "Main visual: labelled bars, one value per bar, axis ticks, and the change annotation.",
+   "ids": [
+    "e6",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Color legend",
+   "reason": "One legend explaining the three bar colors; needed to read the chart.",
+   "ids": [
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "+11.4 points stat card",
+   "reason": "Restates the 35.3 to 46.7 difference the bars already show.",
+   "ids": [
+    "e36",
+    "e37",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway sentence",
+   "reason": "Takeaway sentence that restates what the chart already shows.",
+   "ids": [
+    "e38"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand shown again in the footer when the logo already appears at the top.",
+   "ids": [
+    "e41"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Marketing tagline with no bearing on the chart's result.",
+   "ids": [
+    "e42"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.3,
+   "orange": 8.2,
+   "red": 39.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22.4
+  },
+  "clutterShare": 43.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 84,
+  "textElements": 29
+ }
+}

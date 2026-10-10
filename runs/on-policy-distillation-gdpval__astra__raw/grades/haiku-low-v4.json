@@ -1,0 +1,164 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:12.340Z",
+ "main_idea": "On-policy distillation gives GDPval net win-loss margins of about +21% in two model families",
+ "ideas": [
+  "On-policy distillation improves GDPval net win-loss margin",
+  "Nemotron-3-Nano reaches +20.9% margin over base",
+  "Qwen3.5-9B reaches +21.4% margin over base",
+  "Learning from the student's own attempts",
+  "Training data excludes public GDPval examples"
+ ],
+ "clutter_score": 5,
+ "summary": "The two large margin stats are a clear main visual, but the slogan headline, eyebrow, subtitle, and method pipeline are extras that should go.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 12.9,
+  "usd": 0.00488051,
+  "tokens": 36128,
+  "outputTokens": 2312
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo header",
+   "reason": "One brand mark, kept as the single logo",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category eyebrow tag",
+   "reason": "Category tag above the content; tells the reader nothing new",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; replace with a finding title or remove",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Subtitle restating what the stat cards already show",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Net margin stat panels",
+   "reason": "Main visual: two model margins with their metric and labels",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Method section heading",
+   "reason": "Method heading and tag explain the pipeline rather than the result",
+   "ids": [
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline diagram",
+   "reason": "Second visual explaining the method, beside the results stats",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Training data caveat",
+   "reason": "Two-line caveat about data split; not needed to read the result",
+   "ids": [
+    "e32"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer source line",
+   "reason": "Quiet footnote naming the benchmark and contact link",
+   "ids": [
+    "e33",
+    "e34",
+    "e35"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 40.1,
+   "orange": 0,
+   "red": 59.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.5
+  },
+  "clutterShare": 59.9,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 104,
+  "textElements": 25
+ }
+}

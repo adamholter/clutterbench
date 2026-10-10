@@ -1,0 +1,241 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:31.817Z",
+ "main_idea": "On-policy distillation improved GDPval performance across two model families.",
+ "ideas": [
+  "Nemotron gained a +20.9% net win-loss margin.",
+  "Qwen gained a +21.4% net win-loss margin and 7.9 rubric points.",
+  "On-policy distillation trains on the student's own generations."
+ ],
+ "clutter_score": 8,
+ "summary": "The two result cards make the point, while repeated summaries, branding, and a separate process diagram compete for attention.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "brand header",
+   "reason": "Logo and research tag add no evidence for the performance claim.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "eyebrow",
+   "reason": "Section label repeats the topic without adding data.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "headline",
+   "reason": "The long headline could state the cross-family result more compactly.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "repetition",
+   "name": "subtitle",
+   "reason": "Restates the headline and training context.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron result",
+   "reason": "Shows the main margin and paired comparison outcomes.",
+   "ids": [
+    "e7",
+    "e9",
+    "e13",
+    "e15",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Nemotron detail",
+   "reason": "Model roles and a repeated margin description are not needed to read the result.",
+   "ids": [
+    "e11",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen result",
+   "reason": "Shows the second family's margin, rubric gain, and win-rate change.",
+   "ids": [
+    "e8",
+    "e10",
+    "e14",
+    "e16",
+    "e19",
+    "e25",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Qwen model detail",
+   "reason": "Full teacher and student names are excessive for the central comparison.",
+   "ids": [
+    "e12"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "repeated descriptor",
+   "reason": "Repeats the same margin description shown on the Nemotron card.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "rubric caption",
+   "reason": "Explains the nearby +7.9 value at unnecessary length.",
+   "ids": [
+    "e21"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "distilled label",
+   "reason": "The 57.3% value already identifies the distilled model.",
+   "ids": [
+    "e38"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Nemotron footer",
+   "reason": "Repeats win rate and rubric gain alongside the main result.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "transfer footer",
+   "reason": "Restates the cross-family result and recipe in a sentence.",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "distillation diagram",
+   "reason": "Adds a separate explanation of the training mechanism beyond the results claim.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer branding",
+   "reason": "Brand, source label, and marker do not help interpret the results.",
+   "ids": [
+    "e66",
+    "e67",
+    "e68",
+    "e69"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 44,
+   "orange": 9.6,
+   "red": 46.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.2
+  },
+  "clutterShare": 51.2,
+  "ideaCount": 3,
+  "redByType": {
+   "unneeded": 7,
+   "repetition": 4,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

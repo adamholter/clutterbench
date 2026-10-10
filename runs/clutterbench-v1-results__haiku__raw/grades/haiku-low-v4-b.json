@@ -1,0 +1,127 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:46.513Z",
+ "main_idea": "Simple prompt instructions cut each model's clutter to near zero versus raw prompts",
+ "ideas": [
+  "Simple prompts cut clutter to 0–6%",
+  "Raw prompts leave 29–61% clutter",
+  "Lower clutter is better per model",
+  "Clutter is measured as share of drawn area"
+ ],
+ "clutter_score": 1,
+ "summary": "Nearly clean: the dot chart carries the finding, and only the headline and metric paragraph are wordier than they should be. Nothing is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10,
+  "usd": 0.00201794,
+  "tokens": 25664,
+  "outputTokens": 1667
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Dot chart and labels",
+   "reason": "The chart marks, values, row labels, legend and axis that show the finding.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "One brand mark, small and at the top.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline sentence",
+   "reason": "Ten-word full sentence; could shorten to about seven words, such as '29–61% raw, 0–6% with simple prompts'.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Metric description",
+   "reason": "Two-line paragraph; the metric is needed, but it should be shortened to one line.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer evaluation details",
+   "reason": "Quiet footnote defining the score and giving the sample sizes.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 34.8,
+   "orange": 65.2,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 18.7
+  },
+  "clutterShare": 32.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 86,
+  "textElements": 28
+ }
+}

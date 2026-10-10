@@ -1,0 +1,77 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:23.489Z",
+ "main_idea": "Training lifts Qwen3.8-27B's DeepSWE pass rate from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO raises Qwen3.8-27B DeepSWE pass@1",
+  "Base versus after-GRPO pass rate comparison"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one bar chart with a clear title, metric, labelled bars and a logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.2,
+  "usd": 0.00296721,
+  "tokens": 23519,
+  "outputTokens": 819
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "The bars, their value labels and category labels carry the single finding.",
+   "ids": [
+    "e4",
+    "e6",
+    "e3",
+    "e5",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Short title names the model and benchmark; subtitle names the metric and setting.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "One brand mark, as the owner's calibration allows.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.9
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 6
+ }
+}

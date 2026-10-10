@@ -1,0 +1,156 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:19.967Z",
+ "main_idea": "PivotRL raised Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "PivotRL improved task success from 11.3% to 17.5%.",
+  "The method used 50 solved trajectories and profiled 193 pivot states."
+ ],
+ "clutter_score": 7,
+ "summary": "Branding, slogan text, a repeated explanation, decorative annotations, and secondary sample-count cards compete with the result chart.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "brand header",
+   "reason": "Logo and organizational descriptor do not help read the result.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "topic kicker",
+   "reason": "The model and benchmark are already named in the chart headline.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "two-line headline",
+   "reason": "A broad two-line slogan is longer than a concise result-focused title.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "decorative motif",
+   "reason": "Faint abstract bars add no information.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "result subtitle",
+   "reason": "It restates the improvement and adds method details already summarized elsewhere.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "pass rate chart",
+   "reason": "Bars, category labels, values, and scale show the central before-and-after result.",
+   "ids": [
+    "e8",
+    "e11",
+    "e16",
+    "e10",
+    "e12",
+    "e15",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "chart section label",
+   "reason": "The axis and percentages already establish what the chart measures.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "success annotation",
+   "reason": "Side arrow and vertical label duplicate the chart's measure.",
+   "ids": [
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "method metrics cards",
+   "reason": "Sample counts add a secondary methodology point beside the main result.",
+   "ids": [
+    "e23",
+    "e25",
+    "e28",
+    "e24",
+    "e26",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "closing tagline",
+   "reason": "Promotional takeaway and attribution do not clarify the chart.",
+   "ids": [
+    "e27",
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 68.2,
+   "orange": 9.2,
+   "red": 22.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 42.5
+  },
+  "clutterShare": 27.3,
+  "ideaCount": 2,
+  "redByType": {
+   "unneeded": 6,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

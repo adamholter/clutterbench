@@ -1,0 +1,210 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:15:54.206Z",
+ "main_idea": "BAR spans 5,161 legal cases across 28 practice areas.",
+ "ideas": [
+  "BAR is a benchmark built around real legal work",
+  "The benchmark has 5,161 legal cases",
+  "The benchmark covers 28 practice areas"
+ ],
+ "clutter_score": 3,
+ "summary": "Mostly clean, with a generic slogan headline, a chart frame, and a tagline to remove; the grid's cells and colours are unexplained, and the AI-agent subject is never named.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "meaning of grid cells",
+   "why": "Reader cannot tell what each cell or the grey/green split represents."
+  },
+  {
+   "mid": "m1",
+   "what": "subject of benchmark",
+   "why": "Reader is not told the benchmark tests AI agents on legal work."
+  },
+  {
+   "mid": "m2",
+   "what": "compared conditions",
+   "why": "Green versus grey marks have no legend or label saying what they distinguish."
+  }
+ ],
+ "completeness_score": 4,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Brand mark; the one logo on the graphic.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name tag",
+   "reason": "Short, names the benchmark, said once.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Generic slogan that does not state a finding; the stats carry the point.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card border",
+   "reason": "Frame drawn around the chart; decorative.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Grid chart marks",
+   "reason": "The chart itself; keep as is.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65",
+    "e66",
+    "e67",
+    "e68",
+    "e69",
+    "e70",
+    "e71",
+    "e72",
+    "e73",
+    "e74",
+    "e75",
+    "e76",
+    "e77",
+    "e78",
+    "e79"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Case count value",
+   "reason": "Key value and its unit, read as one stat.",
+   "ids": [
+    "e80",
+    "e82"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Practice area value",
+   "reason": "Second value and its unit; gives the scope.",
+   "ids": [
+    "e81",
+    "e83"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline",
+   "reason": "Subtitle that restates the headline's idea; adds nothing.",
+   "ids": [
+    "e84"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 59.6,
+   "orange": 0,
+   "red": 40.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.1
+  },
+  "clutterShare": 40.4,
+  "ideaCount": 3,
+  "missingCount": 3,
+  "redByType": {
+   "unneeded": 3
+  },
+  "coverage": 100,
+  "words": 24,
+  "textElements": 7
+ }
+}

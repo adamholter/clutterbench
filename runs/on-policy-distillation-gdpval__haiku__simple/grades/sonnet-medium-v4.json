@@ -1,0 +1,80 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:32.096Z",
+ "main_idea": "Distilled model beats base model on GDPval: 123 wins, 20 ties, 77 losses.",
+ "ideas": [
+  "Distilled model wins more GDPval task pairs than it loses"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete; the headline is slightly long but states the finding, and the segmented bar carries the point.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo is in the screenshot but not in the element list"
+ ],
+ "cost": {
+  "seconds": 5.6,
+  "usd": 0.0280999,
+  "tokens": 31335,
+  "outputTokens": 434
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bar",
+   "reason": "Proportional segments with counts and labels show the result directly.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the finding, metric, and benchmark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Background",
+   "reason": "Plain canvas background.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

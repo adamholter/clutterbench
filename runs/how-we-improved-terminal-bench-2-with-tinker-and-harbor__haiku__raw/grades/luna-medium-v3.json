@@ -1,0 +1,166 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:49.462Z",
+ "main_idea": "SFT and RLVR raise gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "The pipeline improves pass rate more than fivefold.",
+  "SFT provides the largest gain.",
+  "RLVR adds 3.5 percentage points."
+ ],
+ "clutter_score": 4,
+ "summary": "The long subtitle and two method cards add detail around a clear, complete pass-rate chart.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 11.9,
+  "usd": null,
+  "tokens": 11720,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "A single visible brand mark provides useful attribution.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header navigation",
+   "reason": "Blog and Research navigation does not help explain the chart.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "The kicker adds a category the headline and chart do not need.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "A concise headline names the result and benchmark.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle details",
+   "reason": "Useful model, method, and evaluation details take too much space.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate chart",
+   "reason": "The bars, values, labels, and metric show the result clearly.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "SFT method card",
+   "reason": "The method matters, but this card can be reduced to a footnote.",
+   "ids": [
+    "e24",
+    "e26",
+    "e28",
+    "e30",
+    "e32",
+    "e34",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "RLVR method card",
+   "reason": "The method matters, but this card can be reduced to a footnote.",
+   "ids": [
+    "e25",
+    "e27",
+    "e29",
+    "e31",
+    "e33",
+    "e35",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer details",
+   "reason": "Quiet evaluation details and contact information provide useful context.",
+   "ids": [
+    "e38",
+    "e39",
+    "e40"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 67.2,
+   "orange": 30.8,
+   "red": 2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 17.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

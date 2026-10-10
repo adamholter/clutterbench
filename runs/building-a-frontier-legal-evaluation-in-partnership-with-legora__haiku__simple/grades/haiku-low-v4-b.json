@@ -1,0 +1,62 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:44.039Z",
+ "main_idea": "Harness changes informed by BAR raised output quality 5% in one month.",
+ "ideas": [
+  "Harness changes informed by BAR raised output quality",
+  "The gain is 5% in one month"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a large +5% stat with a short caption and one logo. BAR is never expanded, which is a minor gap for readers new to the benchmark.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 6.1,
+  "usd": 0.00283388,
+  "tokens": 22748,
+  "outputTokens": 684
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "One brand mark, small and quiet, identifies the source.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline stat with caption",
+   "reason": "The +5% figure and its short caption state the finding and its metric.",
+   "ids": [
+    "e1",
+    "e2"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 2
+ }
+}

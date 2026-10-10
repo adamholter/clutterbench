@@ -1,0 +1,206 @@
+{
+ "grader": "luna-high-v3",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:31.547Z",
+ "main_idea": "On-policy distillation improves GDPval performance across two model families.",
+ "ideas": [
+  "Distillation improves professional-work results for Nemotron and Qwen.",
+  "Students learn from their own generations using teacher feedback."
+ ],
+ "clutter_score": 5,
+ "summary": "The long subtitle, full process panel, and repeated takeaway and branding add clutter; the graphic is otherwise complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "The white logo icon has very low contrast against the light background."
+ ],
+ "cost": {
+  "seconds": 25.8,
+  "usd": null,
+  "tokens": 15084,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The wordmark identifies the source; the logo is visible, though its icon is faint.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research labels",
+   "reason": "The category tags add little; the headline and results identify the topic.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "A concise headline states the cross-family finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Useful method and timing details could be shortened into a quiet note.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron results",
+   "reason": "The margin, paired outcomes, and rubric gain support the main finding.",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen results",
+   "reason": "Margin, rubric gain, and win rate show the result transfers to Qwen.",
+   "ids": [
+    "e8",
+    "e10",
+    "e12",
+    "e14",
+    "e16",
+    "e18",
+    "e19",
+    "e21",
+    "e25",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Transfer takeaway",
+   "reason": "It repeats the cross-family result and same-recipe context already shown above.",
+   "ids": [
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Distillation process",
+   "reason": "The method matters, but the large step-by-step panel could be reduced to a short note.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated branding",
+   "reason": "The footer repeats AfterQuery branding already present in the header.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation note",
+   "reason": "This compact footer identifies GDPval as the official evaluation set.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 62.3,
+   "orange": 31.4,
+   "red": 6.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 22.1,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

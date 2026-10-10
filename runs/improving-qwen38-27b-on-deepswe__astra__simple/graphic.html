@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Qwen3.8-27B-Medium on DeepSWE</title>
+<style>
+@font-face{font-family:Diatype;src:url('./assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2') format('woff2');font-weight:400}
+@font-face{font-family:Plantijn;src:url('./assets/MartinaPlantijn_Regular-s.p.09bvmw9c6lxyi.woff2') format('woff2');font-weight:400}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f8f8f3;color:#000}
+main{position:relative;width:1200px;height:1200px;padding:56px 64px}
+header{display:flex;align-items:center;justify-content:space-between;gap:24px}
+h1{font:400 35px/1.15 Plantijn,Georgia,serif;letter-spacing:-.6px;margin:0}
+.logo{display:block;width:151px;height:26px;background:#000;mask:url('./assets/afterquery-logo.svg') left center/contain no-repeat;-webkit-mask:url('./assets/afterquery-logo.svg') left center/contain no-repeat}
+svg{position:absolute;left:64px;top:132px;width:1072px;height:1004px;overflow:visible;font-family:Diatype,Arial,sans-serif}
+</style>
+</head>
+<body><main>
+<header><h1>Qwen3.8-27B-Medium on DeepSWE</h1><img src="./assets/afterquery-logo.svg" alt="AfterQuery" width="151" height="26"></header>
+<svg viewBox="0 0 1072 1004" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">DeepSWE pass@1, averaged over three attempts</title>
+<desc id="chart-desc">The base model scores 27.8 percent. After GRPO it scores 39.1 percent. Both bars share a zero baseline.</desc>
+<text x="0" y="38" font-size="23" fill="#66665f">Pass@1 (avg 3)</text>
+<rect x="108" y="362" width="338" height="556" fill="#af9888"/>
+<rect x="626" y="136" width="338" height="782" fill="#026340"/>
+<text x="277" y="334" text-anchor="middle" font-size="52" fill="#000">27.8%</text>
+<text x="795" y="108" text-anchor="middle" font-size="52" fill="#026340">39.1%</text>
+<path d="M0 918H1072" fill="none" stroke="#000" stroke-opacity=".3" stroke-width="1"/>
+<text x="277" y="969" text-anchor="middle" font-size="29">Base</text>
+<text x="795" y="969" text-anchor="middle" font-size="29">After GRPO</text>
+</svg>
+</main></body>
+</html>

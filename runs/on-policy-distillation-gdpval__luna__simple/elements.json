@@ -1,0 +1,207 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 17,
+  "textElements": 9,
+  "words": 19,
+  "fontSizes": 5,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "h1",
+   "x": 78,
+   "y": 71,
+   "w": 349,
+   "h": 134,
+   "text": "A clear net win on GDPval",
+   "fontSize": 58,
+   "color": "rgb(12, 12, 12)"
+  },
+  {
+   "id": "e1",
+   "kind": "image",
+   "tag": "img",
+   "x": 980,
+   "y": 74,
+   "w": 142,
+   "h": 24,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "div",
+   "x": 78,
+   "y": 218,
+   "w": 343,
+   "h": 28,
+   "text": "Distilled Qwen3.5-9B · 220 task pairs",
+   "fontSize": 21,
+   "color": "rgb(100, 100, 94)"
+  },
+  {
+   "id": "e3",
+   "kind": "box",
+   "tag": "div",
+   "x": 78,
+   "y": 330,
+   "w": 584,
+   "h": 414,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e4",
+   "kind": "box",
+   "tag": "div",
+   "x": 662,
+   "y": 330,
+   "w": 95,
+   "h": 414,
+   "color": "rgb(209, 181, 106)"
+  },
+  {
+   "id": "e5",
+   "kind": "box",
+   "tag": "div",
+   "x": 757,
+   "y": 330,
+   "w": 365,
+   "h": 414,
+   "color": "rgb(232, 231, 223)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "span",
+   "x": 306,
+   "y": 480,
+   "w": 127,
+   "h": 113,
+   "text": "123",
+   "fontSize": 90,
+   "color": "rgb(255, 255, 255)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "span",
+   "x": 896,
+   "y": 480,
+   "w": 87,
+   "h": 113,
+   "text": "77",
+   "fontSize": 90,
+   "color": "rgb(34, 34, 34)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "span",
+   "x": 679,
+   "y": 503,
+   "w": 61,
+   "h": 68,
+   "text": "20",
+   "fontSize": 54,
+   "color": "rgb(21, 21, 16)"
+  },
+  {
+   "id": "e9",
+   "kind": "text",
+   "tag": "b",
+   "x": 105,
+   "y": 769,
+   "w": 48,
+   "h": 26,
+   "text": "Wins",
+   "fontSize": 21,
+   "color": "rgb(50, 51, 46)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "b",
+   "x": 703,
+   "y": 769,
+   "w": 39,
+   "h": 26,
+   "text": "Ties",
+   "fontSize": 21,
+   "color": "rgb(50, 51, 46)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "b",
+   "x": 1056,
+   "y": 769,
+   "w": 66,
+   "h": 26,
+   "text": "Losses",
+   "fontSize": 21,
+   "color": "rgb(50, 51, 46)"
+  },
+  {
+   "id": "e12",
+   "kind": "shape",
+   "tag": "span",
+   "x": 78,
+   "y": 775,
+   "w": 14,
+   "h": 14,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e13",
+   "kind": "shape",
+   "tag": "span",
+   "x": 676,
+   "y": 775,
+   "w": 14,
+   "h": 14,
+   "color": "rgb(209, 181, 106)"
+  },
+  {
+   "id": "e14",
+   "kind": "shape",
+   "tag": "span",
+   "x": 1029,
+   "y": 775,
+   "w": 14,
+   "h": 14,
+   "color": "rgb(232, 231, 223)"
+  },
+  {
+   "id": "e15",
+   "kind": "text",
+   "tag": "div",
+   "x": 1020,
+   "y": 1106,
+   "w": 103,
+   "h": 20,
+   "text": "afterquery.com",
+   "fontSize": 15,
+   "color": "rgb(119, 118, 111)"
+  },
+  {
+   "id": "e16",
+   "kind": "image",
+   "tag": "img",
+   "x": 78,
+   "y": 1108,
+   "w": 142,
+   "h": 24,
+   "text": ""
+  }
+ ]
+}

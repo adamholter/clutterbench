@@ -1,0 +1,98 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:03:19.745Z",
+ "main_idea": "Training lifts gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "AfterQuery training raises Terminal-Bench 2.0 pass rate",
+  "Base model passes 3.1% of tasks",
+  "Trained model passes 17.0%, over 5x the base"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple labelled two-bar chart that names the benchmark, metric, and both results.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Visible logo mark at top-left has no element entry in the list",
+  "Visible baseline axis line under the bars has no element entry in the list"
+ ],
+ "cost": {
+  "seconds": 12.3,
+  "usd": 0.00245747,
+  "tokens": 29869,
+  "outputTokens": 2332
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Plain dark background; not clutter, no content.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short context naming the benchmark and metric.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Comparison bars",
+   "reason": "The chart marks showing base versus trained result.",
+   "ids": [
+    "e3",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, the key numbers.",
+   "ids": [
+    "e2",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Names what each bar stands for.",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

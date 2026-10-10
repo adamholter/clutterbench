@@ -1,0 +1,160 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:15:28.644Z",
+ "main_idea": "On-policy distillation improves GDPval performance across Nemotron and Qwen students.",
+ "ideas": [
+  "Nemotron gains +20.9% net win-loss margin and 5.1 rubric points.",
+  "Qwen reproduces the gain with +21.4% margin and 7.9 rubric points.",
+  "Nemotron wins 123 of 220 task comparisons."
+ ],
+ "clutter_score": 5,
+ "summary": "The long headline, explanatory subtitle, and footnotes compete with two sets of model metrics and a separate task-comparison chart; the graphic is complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the publisher.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "The category tag adds no context needed to read the results.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "It takes two lines and describes the method rather than the measured finding.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "It restates the method and evaluation context beneath the headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Result row frames",
+   "reason": "These frames add visual structure without conveying data.",
+   "ids": [
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron results",
+   "reason": "Model, teacher, training steps, margin, and rubric gain identify the first result.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen results",
+   "reason": "The second model family and its metrics support the cross-family finding.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Task comparison chart",
+   "reason": "The title, win rate, and win-tie-loss bar show Nemotron's paired results.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Statistical footnotes",
+   "reason": "Significance and training-split details are caveats beyond the main claim.",
+   "ids": [
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom rule",
+   "reason": "The decorative rule carries no information.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 44.8,
+   "orange": 34.9,
+   "red": 20.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 37.8,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

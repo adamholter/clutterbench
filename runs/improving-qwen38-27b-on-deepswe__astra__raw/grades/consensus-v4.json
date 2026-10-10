@@ -1,0 +1,160 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.926Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 2,
+  "tiebreak": true,
+  "scores": [
+   5,
+   4,
+   4
+  ]
+ },
+ "main_idea": "GRPO training on 500 tasks lifted Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raises DeepSWE pass@1 by 11.3 points",
+  "Training used 500 tasks, 422 repos, 15 updates",
+  "AfterQuery tasks come from real enterprise codebases"
+ ],
+ "summary": "A clear main bar chart is cluttered by a slogan headline, an eyebrow tag, a stats row and a footer tagline, and nothing important is missing.",
+ "clutter_score": 4,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, keep.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "Category tag above the headline tells the reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Large slogan, not a finding. The chart shows the result.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark subtitle",
+   "reason": "Short context naming the model and benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE bar chart",
+   "reason": "Main visual: labelled bars with values, benchmark and metric.",
+   "ids": [
+    "e4",
+    "e6",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Delta annotation",
+   "reason": "Small annotation marking the change between the two bars.",
+   "ids": [
+    "e5",
+    "e7",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training stats row",
+   "reason": "Dataset and training counts serve a second point unrelated to reading the bars.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote with evaluation details.",
+   "ids": [
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer tagline and URL",
+   "reason": "Second brand mention with tagline, since the logo is already at top.",
+   "ids": [
+    "e28",
+    "e29",
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.5,
+   "orange": 0,
+   "red": 47.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 32.3
+  },
+  "clutterShare": 47.5,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 9,
+   "repetition": 3
+  },
+  "coverage": 100,
+  "words": 59,
+  "textElements": 22
+ }
+}

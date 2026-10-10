@@ -1,0 +1,53 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 3,
+  "textElements": 2,
+  "words": 12,
+  "fontSizes": 2,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 72,
+   "y": 72,
+   "w": 180,
+   "h": 30,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "p",
+   "x": 97,
+   "y": 143,
+   "w": 1005,
+   "h": 873,
+   "text": "+5%",
+   "fontSize": 560,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "p",
+   "x": 222,
+   "y": 891,
+   "w": 755,
+   "h": 89,
+   "text": "Output quality in one month from harness changes informed by BAR",
+   "fontSize": 34,
+   "color": "rgb(57, 57, 57)"
+  }
+ ]
+}

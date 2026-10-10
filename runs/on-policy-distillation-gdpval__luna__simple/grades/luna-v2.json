@@ -1,0 +1,118 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:48.185Z",
+ "main_idea": "Distilled Qwen3.5-9B wins more GDPval task pairs than it loses.",
+ "ideas": [
+  "Distilled Qwen3.5-9B wins more GDPval task pairs than it loses."
+ ],
+ "clutter_score": 2,
+ "summary": "The repeated footer branding and headline add clutter, while the graphic omits the base-model comparison and net margin.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison conditions",
+   "why": "Does not say the counts compare distilled Qwen3.5-9B against its base model."
+  },
+  {
+   "mid": "m1",
+   "what": "net win-loss margin",
+   "why": "The graphic shows counts but omits the post's +21.4% net margin finding."
+  }
+ ],
+ "completeness_score": 7,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding headline",
+   "reason": "The two-line headline spells out the result the chart already shows.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "A single brand mark belongs on the graphic.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and scope",
+   "reason": "Names the model and says the comparison covers 220 task pairs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Pair comparison chart",
+   "reason": "The segments, counts, and legend show wins, ties, and losses across the task pairs.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "Second logo",
+   "reason": "Repeats the AfterQuery logo already shown at the top.",
+   "ids": [
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Website footer",
+   "reason": "The website footer adds no information needed to read the result.",
+   "ids": [
+    "e15"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 60.2,
+   "orange": 35.5,
+   "red": 4.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 22.1,
+  "ideaCount": 1,
+  "missingCount": 2,
+  "redByType": {
+   "repetition": 1,
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

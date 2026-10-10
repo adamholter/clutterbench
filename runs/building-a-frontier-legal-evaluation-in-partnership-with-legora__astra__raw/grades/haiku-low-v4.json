@@ -1,0 +1,181 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:42:49.018Z",
+ "main_idea": "Harness changes informed by BAR raised output quality 5% in one month",
+ "ideas": [
+  "Harness changes informed by BAR raised output quality 5%",
+  "BAR is a legal benchmark for agents in Legora's harness",
+  "The benchmark is large: 5,161 cases, 28 areas, 11,075 documents",
+  "Benchmark is built and refined with Legora through a pipeline",
+  "Failure review feeds harness refinement in a loop"
+ ],
+ "clutter_score": 7,
+ "summary": "The +5% result is clear, but the dataset stats row and four-step pipeline cards are extras, plus duplicate brand marks and taglines; it lacks the metric behind the 5% figure.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "metric behind +5%",
+   "why": "Reader cannot tell what 'output quality' is scored on or against."
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 16.4,
+  "usd": 0.00424274,
+  "tokens": 27044,
+  "outputTokens": 3109
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand logo",
+   "reason": "Single brand mark, kept as the publisher's identity.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Title and benchmark subtitle",
+   "reason": "Short topic title and benchmark name identify what is measured.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result callout",
+   "reason": "The main visual: big stat, short finding headline, and measurement note.",
+   "ids": [
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats row",
+   "reason": "Dataset counts serve a second point, not the harness-improvement claim.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Four-step pipeline cards",
+   "reason": "Method cards and loop diagram beside the main result serve a separate process point.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Legora co-brand wordmark",
+   "reason": "Second brand mark competes with the single AfterQuery logo.",
+   "ids": [
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer AfterQuery wordmark",
+   "reason": "Brand shown again after the logo already appears at top.",
+   "ids": [
+    "e45"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Kicker and tagline lines",
+   "reason": "Eyebrow and tagline restate the framing without adding a finding.",
+   "ids": [
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Generic marketing tagline that states no finding.",
+   "ids": [
+    "e44"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 44.6,
+   "orange": 0,
+   "red": 55.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 55.4,
+  "ideaCount": 5,
+  "missingCount": 1,
+  "redByType": {
+   "extra_idea": 2,
+   "repetition": 2,
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 99,
+  "textElements": 30
+ }
+}

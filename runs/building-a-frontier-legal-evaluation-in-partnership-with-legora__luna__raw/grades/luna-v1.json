@@ -1,0 +1,212 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:11.929Z",
+ "main_idea": "BAR-informed harness changes improved legal agents’ output quality by 5%.",
+ "ideas": [
+  "BAR-informed harness changes improved output quality by 5%.",
+  "BAR benchmarks end-to-end legal work across 5,161 cases.",
+  "BAR includes 28 practice areas and 11,075 source documents.",
+  "One expert-validated synthetic case was published."
+ ],
+ "clutter_score": 8,
+ "summary": "Benchmark scale metrics, a process diagram, branding, and explanatory copy crowd out the 5% result.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "brand header",
+   "reason": "Branding and the partner tag do not help convey the measured result.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "eyebrow label",
+   "reason": "This kicker repeats the benchmark context without explaining the result.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "main headline",
+   "reason": "A long question can be shortened to focus on the measured improvement.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "case count panel",
+   "reason": "The case count is a separate scale claim from the 5% quality improvement.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "benchmark subtitle",
+   "reason": "It explains the benchmark rather than supporting the 5% result.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "practice area metric",
+   "reason": "The practice-area count adds a separate benchmark scale claim.",
+   "ids": [
+    "e11",
+    "e14",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "source document metric",
+   "reason": "The document count adds a separate benchmark scale claim.",
+   "ids": [
+    "e12",
+    "e15",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "published case metric",
+   "reason": "The synthetic case publication is a separate announcement.",
+   "ids": [
+    "e13",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "process heading",
+   "reason": "The section heading introduces a process diagram unrelated to the key result.",
+   "ids": [
+    "e19",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "evaluation flow diagram",
+   "reason": "The multi-step process adds detail without helping readers grasp the 5% improvement.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "quality improvement",
+   "reason": "The +5% figure is the graphic’s clearest evidence for its main point.",
+   "ids": [
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "impact caption",
+   "reason": "The heading and sentence restate the 5% result; the production-model note is extra detail.",
+   "ids": [
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer branding",
+   "reason": "The tagline and partner branding do not support the measured result.",
+   "ids": [
+    "e56",
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 13,
+   "orange": 8.5,
+   "red": 78.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 51.1
+  },
+  "clutterShare": 82.9,
+  "ideaCount": 4,
+  "redByType": {
+   "unneeded": 7,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

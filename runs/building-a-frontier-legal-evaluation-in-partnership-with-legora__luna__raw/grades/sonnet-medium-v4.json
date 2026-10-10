@@ -1,0 +1,216 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:09:56.286Z",
+ "main_idea": "BAR is a legal agent benchmark built with Legora; it improved product quality 5%.",
+ "ideas": [
+  "BAR is a frontier legal agent benchmark",
+  "Benchmark scale: cases, areas, documents",
+  "How BAR evaluates agents in three steps",
+  "BAR-informed changes raised output quality 5%"
+ ],
+ "clutter_score": 8,
+ "summary": "The one result (+5% output quality) is buried among stat rows, process cards, taglines and a repeated brand; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 8,
+ "defects": [
+  "Logo image tiny, with duplicate wordmark text beside it"
+ ],
+ "cost": {
+  "seconds": 9.2,
+  "usd": 0.0340545,
+  "tokens": 23912,
+  "outputTokens": 1101
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Top-right tag",
+   "reason": "Category tag adds nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Eyebrow kicker above headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Question headline",
+   "reason": "Huge rhetorical question; a short title naming BAR would do.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle paragraph",
+   "reason": "Explains and restates the benchmark.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "5,161 stat card",
+   "reason": "Dataset size stat, separate from main point.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset count stats row, unrelated to the result.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Process cards",
+   "reason": "Three-step method cards form a second idea.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "+5% banner",
+   "reason": "The key result is buried in a wordy dark banner.",
+   "ids": [
+    "e51",
+    "e54",
+    "e52",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Banner eyebrow",
+   "reason": "Kicker label above the sentence.",
+   "ids": [
+    "e53"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline adds nothing.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand repeated; logo already at top.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 5.6,
+   "orange": 29.2,
+   "red": 65.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 79.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

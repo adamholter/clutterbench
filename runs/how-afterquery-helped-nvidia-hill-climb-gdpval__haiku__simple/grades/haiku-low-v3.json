@@ -1,0 +1,58 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:30.783Z",
+ "main_idea": "Warmup raises Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7",
+  "Warmup is the variable that moves the score"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple two-bar chart with a title, labelled bars and values.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.1,
+  "usd": 0.00275481,
+  "tokens": 26134,
+  "outputTokens": 749
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Chart marks, value labels, bar labels and a title naming the metric and model. All needed.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

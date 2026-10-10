@@ -1,0 +1,121 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 9,
+  "textElements": 6,
+  "words": 15,
+  "fontSizes": 4,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "h1",
+   "x": 64,
+   "y": 64,
+   "w": 479,
+   "h": 65,
+   "text": "Qwen3.8-27B on DeepSWE",
+   "fontSize": 42,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "image",
+   "tag": "img",
+   "x": 972,
+   "y": 69,
+   "w": 164,
+   "h": 28,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "p",
+   "x": 64,
+   "y": 143,
+   "w": 365,
+   "h": 32,
+   "text": "Pass@1 · avg 3 · medium reasoning",
+   "fontSize": 24,
+   "color": "rgb(85, 86, 78)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 790,
+   "y": 233,
+   "w": 100,
+   "h": 53,
+   "text": "39.1%",
+   "fontSize": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 670,
+   "y": 298,
+   "w": 340,
+   "h": 704,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "text",
+   "x": 308,
+   "y": 437,
+   "w": 105,
+   "h": 53,
+   "text": "27.8%",
+   "fontSize": 40,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 190,
+   "y": 502,
+   "w": 340,
+   "h": 500,
+   "color": "rgb(205, 175, 93)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 329,
+   "y": 1030,
+   "w": 61,
+   "h": 37,
+   "text": "Base",
+   "fontSize": 28,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "text",
+   "x": 767,
+   "y": 1030,
+   "w": 145,
+   "h": 37,
+   "text": "After GRPO",
+   "fontSize": 28,
+   "color": "rgb(0, 0, 0)"
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:43.862Z",
+ "main_idea": "Distilled Nemotron student beats its base on 220 GDPval tasks, +20.9% net margin",
+ "ideas": [
+  "On-policy distillation improves professional work performance",
+  "Nemotron student beats base model on GDPval",
+  "Qwen student reproduces the gain in another family",
+  "Win/loss split across 220 tasks is decisive"
+ ],
+ "clutter_score": 5,
+ "summary": "The bar chart is a solid main visual, but the slogan headline, eyebrow, subtitle, stat cards and second model family are clutter; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 16.4,
+  "usd": 0.0049409300000000005,
+  "tokens": 37121,
+  "outputTokens": 3360
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark, identifies the source.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Category tag above the chart; tells the reader nothing new.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Topic slogan that does not state the finding.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explaining method and restating the chart.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "Nemotron stat card",
+   "reason": "Big +20.9% and +5.1 numbers restate the bar chart's win/loss split.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Qwen stat card",
+   "reason": "Second model family is a separate point from the main chart.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and win rate",
+   "reason": "Names the benchmark, subject and win rate for the chart.",
+   "ids": [
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/loss bar chart",
+   "reason": "Main visual with labelled wins, ties and losses.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Quiet footnotes",
+   "reason": "Small evaluation details: sign test and training split.",
+   "ids": [
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative divider",
+   "reason": "Decorative rule with no information.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 21.2,
+   "orange": 0,
+   "red": 78.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 78.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

@@ -1,0 +1,171 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.930Z",
+ "consensus": {
+  "haikuAgreed": true,
+  "elementsChanged": 0,
+  "tiebreak": false,
+  "scores": [
+   6
+  ]
+ },
+ "main_idea": "GRPO training raised DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO lifts DeepSWE pass@1 from 27.8% to 39.1%",
+  "Training data came from real, expert-authored engineering tasks",
+  "Training used eight attempts per task",
+  "Dataset size and repository counts"
+ ],
+ "summary": "The bar chart is clear and complete, but a slogan, subtitle, eyebrow, stats row, two cards and footer clutter it with extra points.",
+ "clutter_score": 6,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet and identifies the source.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Series tag restating context; the reader does not need it.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker line",
+   "reason": "Category tag above the headline; does not state the finding.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Generic slogan that does not state the 27.8% to 39.1% finding.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle restating method",
+   "reason": "Subtitle restates the chart's method and data; the chart already shows it.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate bar chart",
+   "reason": "Main visual: labelled bars, values, axis, metric, change annotation and legend.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset and update counts serve a second point, not reading the chart.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training and data cards",
+   "reason": "Method and data description cards beside the results chart; a second point.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline and descriptor",
+   "reason": "Tagline and descriptor add nothing to the chart's point.",
+   "ids": [
+    "e41",
+    "e42",
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 33.5,
+   "orange": 0,
+   "red": 66.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 66.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 7,
+   "extra_idea": 15
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

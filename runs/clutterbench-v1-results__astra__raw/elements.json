@@ -1,0 +1,419 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 36,
+  "textElements": 20,
+  "words": 42,
+  "fontSizes": 5,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "span",
+   "x": 64,
+   "y": 58,
+   "w": 88,
+   "h": 35,
+   "text": "Clutter",
+   "fontSize": 28,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "div",
+   "x": 152,
+   "y": 58,
+   "w": 77,
+   "h": 35,
+   "text": "Bench",
+   "fontSize": 28,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 64,
+   "y": 143,
+   "w": 537,
+   "h": 149,
+   "text": "Simple instructions reduce clutter.",
+   "fontSize": 64,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "p",
+   "x": 64,
+   "y": 311,
+   "w": 158,
+   "h": 33,
+   "text": "Clutter score:",
+   "fontSize": 26,
+   "color": "rgb(71, 84, 103)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "b",
+   "x": 222,
+   "y": 311,
+   "w": 142,
+   "h": 33,
+   "text": "Raw prompt",
+   "fontSize": 26,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "span",
+   "x": 378,
+   "y": 311,
+   "w": 26,
+   "h": 33,
+   "text": "→",
+   "fontSize": 26,
+   "color": "rgb(71, 84, 103)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "b",
+   "x": 418,
+   "y": 311,
+   "w": 170,
+   "h": 33,
+   "text": "Simple prompt",
+   "fontSize": 26,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e7",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 64,
+   "y": 383,
+   "w": 250,
+   "h": 674,
+   "color": "rgb(245, 247, 250)"
+  },
+  {
+   "id": "e8",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 338,
+   "y": 383,
+   "w": 250,
+   "h": 674,
+   "color": "rgb(245, 247, 250)"
+  },
+  {
+   "id": "e9",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 612,
+   "y": 383,
+   "w": 250,
+   "h": 674,
+   "color": "rgb(245, 247, 250)"
+  },
+  {
+   "id": "e10",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 886,
+   "y": 383,
+   "w": 250,
+   "h": 674,
+   "color": "rgb(245, 247, 250)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "text",
+   "x": 83,
+   "y": 400,
+   "w": 211,
+   "h": 33,
+   "text": "Claude Sonnet 5.5",
+   "fontSize": 26,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e12",
+   "kind": "text",
+   "tag": "text",
+   "x": 365,
+   "y": 400,
+   "w": 196,
+   "h": 33,
+   "text": "Claude Haiku 5.5",
+   "fontSize": 26,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e13",
+   "kind": "text",
+   "tag": "text",
+   "x": 670,
+   "y": 400,
+   "w": 133,
+   "h": 33,
+   "text": "GPT-6.1 Sol",
+   "fontSize": 26,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e14",
+   "kind": "text",
+   "tag": "text",
+   "x": 941,
+   "y": 400,
+   "w": 140,
+   "h": 33,
+   "text": "GPT-6 Luna",
+   "fontSize": 26,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e15",
+   "kind": "text",
+   "tag": "text",
+   "x": 914,
+   "y": 481,
+   "w": 60,
+   "h": 48,
+   "text": "61%",
+   "fontSize": 38,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e16",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 935,
+   "y": 536,
+   "w": 18,
+   "h": 18,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e17",
+   "kind": "shape",
+   "tag": "path",
+   "x": 944,
+   "y": 545,
+   "w": 134,
+   "h": 396,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e18",
+   "kind": "text",
+   "tag": "text",
+   "x": 635,
+   "y": 589,
+   "w": 70,
+   "h": 48,
+   "text": "46%",
+   "fontSize": 38,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e19",
+   "kind": "text",
+   "tag": "text",
+   "x": 361,
+   "y": 618,
+   "w": 69,
+   "h": 48,
+   "text": "42%",
+   "fontSize": 38,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e20",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 661,
+   "y": 644,
+   "w": 18,
+   "h": 18,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e21",
+   "kind": "shape",
+   "tag": "path",
+   "x": 670,
+   "y": 653,
+   "w": 134,
+   "h": 331,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e22",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 387,
+   "y": 673,
+   "w": 18,
+   "h": 18,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e23",
+   "kind": "shape",
+   "tag": "path",
+   "x": 396,
+   "y": 682,
+   "w": 134,
+   "h": 302,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e24",
+   "kind": "text",
+   "tag": "text",
+   "x": 88,
+   "y": 712,
+   "w": 68,
+   "h": 48,
+   "text": "29%",
+   "fontSize": 38,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e25",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 113,
+   "y": 767,
+   "w": 18,
+   "h": 18,
+   "color": "rgb(16, 24, 40)"
+  },
+  {
+   "id": "e26",
+   "kind": "shape",
+   "tag": "path",
+   "x": 122,
+   "y": 776,
+   "w": 134,
+   "h": 209,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e27",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 1067,
+   "y": 930,
+   "w": 22,
+   "h": 22,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e28",
+   "kind": "text",
+   "tag": "text",
+   "x": 1054,
+   "y": 948,
+   "w": 47,
+   "h": 48,
+   "text": "6%",
+   "fontSize": 38,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e29",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 245,
+   "y": 974,
+   "w": 22,
+   "h": 22,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e30",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 519,
+   "y": 974,
+   "w": 22,
+   "h": 22,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e31",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 793,
+   "y": 974,
+   "w": 22,
+   "h": 22,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e32",
+   "kind": "text",
+   "tag": "text",
+   "x": 231,
+   "y": 991,
+   "w": 51,
+   "h": 48,
+   "text": "0%",
+   "fontSize": 38,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e33",
+   "kind": "text",
+   "tag": "text",
+   "x": 505,
+   "y": 991,
+   "w": 51,
+   "h": 48,
+   "text": "0%",
+   "fontSize": 38,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e34",
+   "kind": "text",
+   "tag": "text",
+   "x": 779,
+   "y": 991,
+   "w": 51,
+   "h": 48,
+   "text": "0%",
+   "fontSize": 38,
+   "color": "rgb(25, 113, 194)"
+  },
+  {
+   "id": "e35",
+   "kind": "text",
+   "tag": "p",
+   "x": 64,
+   "y": 1081,
+   "w": 488,
+   "h": 26,
+   "text": "Lower is better. Each score is the mean of 6 graphics.",
+   "fontSize": 21,
+   "color": "rgb(71, 84, 103)"
+  }
+ ]
+}

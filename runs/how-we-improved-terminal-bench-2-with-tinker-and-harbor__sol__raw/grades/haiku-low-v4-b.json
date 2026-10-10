@@ -1,0 +1,173 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:39.229Z",
+ "main_idea": "Training lifts gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Post-training raises Terminal-Bench 2.0 pass rate sharply",
+  "Base model 3.1% vs SFT only 13.5% vs SFT+RLVR 17.0%",
+  "SFT teaches workflow; RLVR builds on it"
+ ],
+ "clutter_score": 3,
+ "summary": "Clean bar chart with clear 3.1%, 13.5%, 17.0% values, cluttered by a slogan, eyebrow tag, method-card band, and repeated URL; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Method card text 'pass' wraps alone to an orphan line"
+ ],
+ "cost": {
+  "seconds": 13.4,
+  "usd": 0.0015185399999999999,
+  "tokens": 31033,
+  "outputTokens": 2465
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, appropriately placed at top.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category eyebrow tag",
+   "reason": "Category tag 'Research / Agent post-training' explains nothing the chart needs.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan 'Better trajectories. More capable terminal agents.' does not state the finding.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and system subtitle",
+   "reason": "Short context naming the model and tools being improved.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Short chart title naming benchmark and metric.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and value labels",
+   "reason": "Main visual: three bars with one value label each, plus gridlines.",
+   "ids": [
+    "e5",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar category labels",
+   "reason": "Short category labels identify each bar.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "SFT and RLVR method cards",
+   "reason": "Method explainer cards serve a second point beyond reading the bar chart.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving benchmark, task count, and averaging method.",
+   "ids": [
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Website URL repeats the brand already shown by the logo.",
+   "ids": [
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 63.6,
+   "orange": 0,
+   "red": 36.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 45.3
+  },
+  "clutterShare": 36.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 90,
+  "textElements": 25
+ }
+}

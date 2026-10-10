@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clutter score by prompt — ClutterBench</title>
+<style>
+@font-face{font-family:Outfit;src:url('assets/outfit.woff2') format('woff2');font-weight:400 700;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#fff;color:#101828;font-family:Outfit,sans-serif}svg{display:block;width:1200px;height:1200px}text{font-family:Outfit,sans-serif;font-variant-numeric:tabular-nums}.model{font-size:28px;font-weight:500}.value{font-size:28px;font-weight:600}.link{stroke:#e4e7ec;stroke-width:12;stroke-linecap:round}
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+<title id="title">Clutter score by prompt</title>
+<desc id="desc">Raw versus simple prompt: Claude Sonnet 5.5, 29% to 0%; Claude Haiku 5.5, 42% to 0%; GPT-6.1 Sol, 46% to 0%; GPT-6 Luna, 61% to 6%.</desc>
+<text x="64" y="79" font-size="36" font-weight="700">Clutter score</text>
+<text x="1136" y="77" text-anchor="end" font-size="24" font-weight="700"><tspan fill="#1971c2">Clutter</tspan><tspan>Bench</tspan></text>
+<circle cx="73" cy="130" r="7" fill="#e03131"/><text x="92" y="137" font-size="22" fill="#475467">Raw prompt</text>
+<circle cx="257" cy="130" r="7" fill="#1971c2"/><text x="276" y="137" font-size="22" fill="#475467">Simple prompt</text>
+<g fill="none" stroke="#f0f2f5" stroke-width="2"><path d="M100 252V1092"/></g>
+<g>
+<text class="model" x="64" y="245">Claude Sonnet 5.5</text>
+<path class="link" d="M100 315H570.66"/>
+<circle cx="570.66" cy="315" r="12" fill="#e03131"/><circle cx="100" cy="315" r="12" fill="#1971c2"/>
+<text class="value" x="570.66" y="366" text-anchor="middle" fill="#e03131">29%</text><text class="value" x="100" y="366" text-anchor="middle" fill="#1971c2">0%</text>
+</g>
+<g>
+<text class="model" x="64" y="475">Claude Haiku 5.5</text>
+<path class="link" d="M100 545H781.64"/>
+<circle cx="781.64" cy="545" r="12" fill="#e03131"/><circle cx="100" cy="545" r="12" fill="#1971c2"/>
+<text class="value" x="781.64" y="596" text-anchor="middle" fill="#e03131">42%</text><text class="value" x="100" y="596" text-anchor="middle" fill="#1971c2">0%</text>
+</g>
+<g>
+<text class="model" x="64" y="705">GPT-6.1 Sol</text>
+<path class="link" d="M100 775H846.56"/>
+<circle cx="846.56" cy="775" r="12" fill="#e03131"/><circle cx="100" cy="775" r="12" fill="#1971c2"/>
+<text class="value" x="846.56" y="826" text-anchor="middle" fill="#e03131">46%</text><text class="value" x="100" y="826" text-anchor="middle" fill="#1971c2">0%</text>
+</g>
+<g>
+<text class="model" x="64" y="935">GPT-6 Luna</text>
+<path class="link" d="M197.38 1005H1090"/>
+<circle cx="1090" cy="1005" r="12" fill="#e03131"/><circle cx="197.38" cy="1005" r="12" fill="#1971c2"/>
+<text class="value" x="1090" y="1056" text-anchor="middle" fill="#e03131">61%</text><text class="value" x="197.38" y="1056" text-anchor="middle" fill="#1971c2">6%</text>
+</g>
+</svg>
+</body>
+</html>

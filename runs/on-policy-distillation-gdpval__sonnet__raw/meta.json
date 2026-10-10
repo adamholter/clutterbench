@@ -1,0 +1,19 @@
+{
+  "id": "on-policy-distillation-gdpval__sonnet__raw",
+  "task": "on-policy-distillation-gdpval",
+  "title": "How we achieved a net win-loss margin of +21.4% on GDPval with on-policy distillation",
+  "model": "sonnet",
+  "modelId": "claude-sonnet-5-5",
+  "effort": "low",
+  "variant": "raw",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 35,
+  "flags": [],
+  "createdAt": "2026-10-10T18:06:43.174Z"
+}

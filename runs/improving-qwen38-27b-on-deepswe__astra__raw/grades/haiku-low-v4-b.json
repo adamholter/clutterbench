@@ -1,0 +1,167 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:45.821Z",
+ "main_idea": "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training lifts DeepSWE pass rate from 27.8% to 39.1%",
+  "Training used 500 real-workflow tasks",
+  "Evaluation setup: mini-swe-agent, medium reasoning, avg 3"
+ ],
+ "clutter_score": 4,
+ "summary": "The bar chart is clear and complete, but a slogan headline, category tag, dataset stats row, and footer tagline and URL are extra clutter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.1,
+  "usd": 0.00145918,
+  "tokens": 26126,
+  "outputTokens": 2444
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, identifies the source.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Section tag above the headline; restates nothing the reader needs.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan-style headline that does not state the numeric finding.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark subtitle",
+   "reason": "Short context naming the model and benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE before-after bars",
+   "reason": "Main visual: labelled bars with values, benchmark and metric named.",
+   "ids": [
+    "e4",
+    "e6",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Change annotation",
+   "reason": "Small annotation marking the change between the two bars.",
+   "ids": [
+    "e5",
+    "e7",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats row",
+   "reason": "Dataset and update counts serve a second point, not reading the bars.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving evaluation details.",
+   "ids": [
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline and rule that do not help read the chart.",
+   "ids": [
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Brand already shown by the logo; URL repeats it.",
+   "ids": [
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.5,
+   "orange": 0,
+   "red": 47.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 32.3
+  },
+  "clutterShare": 47.5,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 59,
+  "textElements": 22
+ }
+}

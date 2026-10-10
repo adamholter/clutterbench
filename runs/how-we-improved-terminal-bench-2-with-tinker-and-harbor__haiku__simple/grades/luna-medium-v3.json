@@ -1,0 +1,120 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:48.827Z",
+ "main_idea": "AfterQuery raises Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "AfterQuery achieves a 17.0% pass rate versus 3.1% for Base."
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10.8,
+  "usd": null,
+  "tokens": 8266,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Dark background",
+   "reason": "Provides a readable background for the chart.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names the benchmark and pass rate being compared.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery value",
+   "reason": "Shows AfterQuery’s pass rate.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery bar",
+   "reason": "Visualizes AfterQuery’s pass rate.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Base value",
+   "reason": "Shows the Base pass rate.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Base bar",
+   "reason": "Visualizes the Base pass rate.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Base label",
+   "reason": "Identifies the first bar’s configuration.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery label",
+   "reason": "Identifies the second bar’s configuration.",
+   "ids": [
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

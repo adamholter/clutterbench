@@ -1,0 +1,176 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:00.102Z",
+ "main_idea": "Distillation plus PivotRL raises Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "PivotRL lifts Qwen3.5-9B pass@5 on τ³-Banking",
+  "Base model 11.3% versus 17.5% after training",
+  "Training recipe uses distillation then PivotRL with 50 teacher tasks",
+  "Evaluated on 97 tasks with five attempts each"
+ ],
+ "clutter_score": 5,
+ "summary": "Clutter is the subtitle, category tags, recipe section with method cards, and a repeated footer brand; the bar chart, title, and footnote are clear, though stage 2 text overlaps.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model identity in chart",
+   "why": "Bars say Base model and After training; the title names the model, so this is minor."
+  }
+ ],
+ "completeness_score": 9,
+ "defects": [
+  "Text e24 overlaps the pivot-count and teacher-trajectory lines, garbling the stage 2 description",
+  "Text e24 renders with a stray missing phrase ('from , with') in its source content"
+ ],
+ "cost": {
+  "seconds": 12.1,
+  "usd": 0.0013695099999999998,
+  "tokens": 26371,
+  "outputTokens": 2256
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, small and clean.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline title",
+   "reason": "Names the subject and benchmark in about seven words.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Main results bar chart",
+   "reason": "Main visual with labelled bars, values, metric and chart title.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving benchmark tasks and averaging details.",
+   "ids": [
+    "e27",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Applied research tag",
+   "reason": "Category tag beside the logo tells the reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category kicker",
+   "reason": "Category tag above the headline; decorative.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph restating method that the chart and recipe already cover.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Recipe section eyebrow",
+   "reason": "Section label for a block that should be removed.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Two-stage method cards",
+   "reason": "Method pipeline cards serve a second point beside the results chart.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand repeat",
+   "reason": "AfterQuery already shown in the logo; second brand mark is redundant.",
+   "ids": [
+    "e29"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 66,
+   "orange": 0,
+   "red": 34,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 34,
+  "ideaCount": 4,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 21
+ }
+}

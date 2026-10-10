@@ -1,0 +1,55 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:38.637Z",
+ "main_idea": "GRPO improves Qwen3.8-27B’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "DeepSWE pass@1 rises after GRPO training."
+ ],
+ "clutter_score": 0,
+ "summary": "Clean chart; it lacks the model name.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "The graphic does not identify Qwen3.8-27B."
+  }
+ ],
+ "completeness_score": 8,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate chart",
+   "reason": "Shows the metric, both values, and the base versus GRPO comparison.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

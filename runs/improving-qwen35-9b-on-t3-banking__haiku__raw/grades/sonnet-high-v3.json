@@ -1,0 +1,179 @@
+{
+ "grader": "sonnet-high-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:06:00.725Z",
+ "main_idea": "Qwen3.5-9B's τ³-Banking pass@5 rose from 11.3% to 17.5% after training.",
+ "ideas": [
+  "Pass@5 improved from 11.3% to 17.5%",
+  "Training pipeline: teacher, hybrid OPD, PivotRL",
+  "Evaluation and PivotRL setup numbers",
+  "No general-benchmark regressions"
+ ],
+ "clutter_score": 6,
+ "summary": "The 11.3% to 17.5% comparison is clear, but the sentence headline, slogan, pipeline cards, stats row and footer branding crowd it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Stats row touches the bottom edge of the stage cards, with no gap.",
+  "Bars have no value labels and no shared axis, so the 11.3% and 17.5% marks are only loosely tied to them."
+ ],
+ "cost": {
+  "seconds": 13.9,
+  "usd": 0.040065800000000006,
+  "tokens": 25369,
+  "outputTokens": 1699
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research date pill",
+   "reason": "A category/date badge that tells the reader nothing needed.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Long sentence headline; could be '17.5% vs 11.3% on τ³-Banking'.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan subtitle",
+   "reason": "A tagline that restates the method without stating a finding.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after comparison",
+   "reason": "Main visual: metric labels, big values and bars.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Wordy checkpoint label",
+   "reason": "Label is wordier than needed, and the model is named twice.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Pipeline stage cards",
+   "reason": "Method cards beside the results; a footnote would do.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stats row",
+   "reason": "Setup and hyperparameter numbers and a second claim; 193 repeats the cards.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer branding",
+   "reason": "Second brand mention plus a tagline; the logo is already present.",
+   "ids": [
+    "e45",
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 27.1,
+   "orange": 49,
+   "red": 23.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 48.4,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

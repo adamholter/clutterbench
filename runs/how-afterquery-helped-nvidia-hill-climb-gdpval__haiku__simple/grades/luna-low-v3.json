@@ -1,0 +1,57 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:27.687Z",
+ "main_idea": "Warmup raises Nemotron 3 Ultra’s GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup improves the GDPval score compared with no warmup."
+ ],
+ "clutter_score": 0,
+ "summary": "clean and complete",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 5.2,
+  "usd": null,
+  "tokens": 9442,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "Title, values, bars, and category labels clearly show the warmup comparison.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

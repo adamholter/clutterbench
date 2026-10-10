@@ -1,0 +1,109 @@
+{
+ "grader": "luna-low-v4",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:00.049Z",
+ "main_idea": "Warmup brings the student close to the expert teacher’s GDPval score.",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7.",
+  "Warmup leaves a 2.8-point gap to the teacher."
+ ],
+ "clutter_score": 1,
+ "summary": "The chart is clean and complete; the full-sentence headline could be shorter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 14.1,
+  "usd": null,
+  "tokens": 7832,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark provides context.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model context",
+   "reason": "Names the model and benchmark context.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding headline",
+   "reason": "States the chart’s finding in a full sentence.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Identifies the plotted metric.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "Bars, values, ticks, and categories make the comparison readable.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

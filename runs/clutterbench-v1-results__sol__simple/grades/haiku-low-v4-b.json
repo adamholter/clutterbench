@@ -1,0 +1,96 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:54.875Z",
+ "main_idea": "Simple prompt drops clutter from 29-61% to 0-6% across all models",
+ "ideas": [
+  "Simple prompt drops clutter scores to near zero",
+  "Raw prompt clutter ranges from 29% to 61%",
+  "Each model's clutter falls from raw to simple prompt"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a single slope chart with a short headline, one logo, and one value label per mark.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.4,
+  "usd": 0.00100293,
+  "tokens": 24895,
+  "outputTokens": 1538
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "One brand mark, small and clear; keep as is",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline finding",
+   "reason": "Short headline stating the finding, about five words",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Slope chart and labels",
+   "reason": "Main visual with column headers, model labels and one value per mark",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34.1
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 30,
+  "textElements": 16
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:29.963Z",
+ "main_idea": "GRPO training raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "DeepSWE pass@1 rises 27.8% to 39.1%",
+  "Trained on 500 tasks, 422 repos, 15 updates",
+  "GRPO training method summary",
+  "Tasks came from enterprise codebases"
+ ],
+ "clutter_score": 7,
+ "summary": "The simple two-bar DeepSWE chart is buried under a slogan headline, eyebrow, subtitle, pill, stats row, two explainer cards and a footer tagline; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 8.9,
+  "usd": 0.0329116,
+  "tokens": 23679,
+  "outputTokens": 995
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet and legible.",
+   "ids": [
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research note tag",
+   "reason": "Category tag in header, tells the reader nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Kicker above the headline.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that doesn't state the finding; the chart carries it.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Subtitle explaining training setup, not needed to read the chart.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Bars, values, axis, metric title and change annotation.",
+   "ids": [
+    "e0",
+    "e9",
+    "e10",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Checkpoint pill",
+   "reason": "Pill restating what the bar labels already show.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training stats row",
+   "reason": "Dataset and training counts unrelated to reading the chart.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Explainer cards",
+   "reason": "Method and data cards beside results, a second idea.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark tagline",
+   "reason": "Second brand mention and tagline; logo already exists.",
+   "ids": [
+    "e41",
+    "e42",
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 31.3,
+   "orange": 0,
+   "red": 68.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 68.7,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

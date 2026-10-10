@@ -1,0 +1,185 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:14.486Z",
+ "main_idea": "Distillation plus 50-task PivotRL lifts Qwen3.5-9B pass@5 from 11.3% to 17.5%.",
+ "ideas": [
+  "Qwen3.5-9B pass@5 rose from 11.3% to 17.5%",
+  "Method: distill a teacher, then pivot RL",
+  "Pipeline stages from teacher to PivotRL",
+  "Dataset sizes and evaluation counts",
+  "No significant change on general benchmarks"
+ ],
+ "clutter_score": 5,
+ "summary": "The bar chart is a clear core, but the pipeline cards, stats row, subtitle, date pill, and footer tagline clutter it, and the headline is too long.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 12.4,
+  "usd": 0.0035537399999999997,
+  "tokens": 27409,
+  "outputTokens": 2431
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, kept as is.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research date pill",
+   "reason": "Category tag and date badge; the reader does not need it.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long headline",
+   "reason": "Eleven-word headline; shorten to something like 'Over 50% uplift on τ³-Banking'.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle takeaway",
+   "reason": "Explains the method in a sentence; the chart and headline already carry the point.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass@5 bar chart",
+   "reason": "Main visual: labelled values, metric and model, and bars.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Wordy after-training label",
+   "reason": "'Qwen3.5-9B, selected checkpoint' is longer than needed; shorten to 'After training'.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline cards",
+   "reason": "Second point about the training method, beside the results chart.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset and benchmark stats row",
+   "reason": "Dataset counts and general-benchmark results serve a separate point from the main chart.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Website footnote",
+   "reason": "Quiet contact line, acceptable as is.",
+   "ids": [
+    "e45"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline and dot",
+   "reason": "Decorative dot and company tagline add nothing to the finding.",
+   "ids": [
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 27.8,
+   "orange": 31.2,
+   "red": 41,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 56.6,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

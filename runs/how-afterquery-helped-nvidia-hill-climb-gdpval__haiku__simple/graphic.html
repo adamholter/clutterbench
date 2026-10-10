@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2") format("woff2"); font-weight: 500; }
+@font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Bold-s.p.2g11yfly1dr71.woff2") format("woff2"); font-weight: 700; }
+html, body { margin: 0; padding: 0; width: 1200px; height: 1200px; overflow: hidden; background: #f8f8f3; }
+body { font-family: "ABC Diatype", Inter, system-ui, sans-serif; color: #000; }
+svg { display: block; }
+</style>
+</head>
+<body>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" font-family="ABC Diatype, Inter, system-ui, sans-serif">
+  <rect width="1200" height="1200" fill="#f8f8f3"/>
+
+  <!-- label -->
+  <text x="90" y="130" font-size="34" font-weight="500" fill="#000">GDPval score, Nemotron 3 Ultra</text>
+
+  <!-- baseline: 50 points = 800px, so 1 point = 16px -->
+  <line x1="90" y1="1040" x2="1110" y2="1040" stroke="#000" stroke-width="2"/>
+
+  <!-- without warmup: 35.3 -->
+  <rect x="250" y="475.2" width="300" height="564.8" fill="#a8a7a1"/>
+  <text x="400" y="440" font-size="88" font-weight="700" text-anchor="middle" fill="#000">35.3</text>
+  <text x="400" y="1110" font-size="34" font-weight="400" text-anchor="middle" fill="#000">No warmup</text>
+
+  <!-- with warmup: 46.7 -->
+  <rect x="650" y="292.8" width="300" height="747.2" fill="#2d4995"/>
+  <text x="800" y="258" font-size="88" font-weight="700" text-anchor="middle" fill="#000">46.7</text>
+  <text x="800" y="1110" font-size="34" font-weight="400" text-anchor="middle" fill="#000">Warmup</text>
+</svg>
+</body>
+</html>

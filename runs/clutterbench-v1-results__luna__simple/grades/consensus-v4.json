@@ -1,0 +1,172 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.884Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 0,
+  "tiebreak": true,
+  "scores": [
+   1,
+   0,
+   1
+  ]
+ },
+ "main_idea": "A simple prompt sharply cuts clutter across all four models compared with a raw prompt.",
+ "ideas": [
+  "Simple prompt reduces clutter score",
+  "Raw prompt clutter varies by model"
+ ],
+ "summary": "Mostly clean, but stray left-axis percent labels add clutter, and the bars are misaligned with model labels, which makes the chart confusing.",
+ "clutter_score": 1,
+ "completeness_score": 7,
+ "missing": [],
+ "defects": [
+  "Left percent labels misaligned with model labels and bars",
+  "Bars overlap and are misaligned with the model rows",
+  "Raw and simple bars not clearly grouped per model",
+  "Models labels sit between gridlines, not beside their bars",
+  "Model name labels sit between rows, not beside their bars",
+  "Bars and value labels are offset from their axis rows",
+  "The 61% bar sits in the row labelled Claude Sonnet 5.5",
+  "Value 46% and 42% bars overlap vertically and crowd together",
+  "Axis shows 0 to 80 numbers next to percent row labels, mixing scales",
+  "Bar-to-model mapping is unreadable, so the chart cannot be trusted",
+  "Model row labels do not line up with their bars; reader cannot tell which bar belongs to which model",
+  "Y-axis percentage ticks (60, 45, 30, 15, 0) do not match the model rows",
+  "Simple-prompt bars start at a different x-origin than raw-prompt bars",
+  "Two raw-prompt bars for one model stack and overlap vertically",
+  "X-axis 0 to 80 scale has no unit label",
+  "Value labels sit beside the wrong rows in places, such as 46% and 42%"
+ ],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench logo",
+   "reason": "Single brand mark, small and quiet.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the finding.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Series labels",
+   "reason": "Identify the two prompt conditions.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Scale ticks needed to read the bars.",
+   "ids": [
+    "e5",
+    "e10",
+    "e19",
+    "e25",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "The main chart marks with one value label each.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e17",
+    "e18",
+    "e20",
+    "e21",
+    "e22",
+    "e24",
+    "e26",
+    "e28",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Model labels",
+   "reason": "Category labels needed to read the bars.",
+   "ids": [
+    "e9",
+    "e16",
+    "e23",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "X-axis ticks",
+   "reason": "Axis ticks for reading values.",
+   "ids": [
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer note",
+   "reason": "Metric and evaluation detail, small and quiet.",
+   "ids": [
+    "e36",
+    "e37",
+    "e38",
+    "e39"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.1
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 51,
+  "textElements": 30
+ }
+}

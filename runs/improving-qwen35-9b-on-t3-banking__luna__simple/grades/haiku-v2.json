@@ -1,0 +1,132 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:17:03.524Z",
+ "main_idea": "Qwen3.5-9B pass@5 rises from 11.3% to 17.5% after training.",
+ "ideas": [
+  "Qwen3.5-9B pass@5 improved after training",
+  "Gain is 6.2 percentage points",
+  "Before versus after comparison"
+ ],
+ "clutter_score": 2,
+ "summary": "Clean and focused, but it omits the benchmark name and what Before and After refer to; the gain callout restates the chart and the card frame adds nothing.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "benchmark name",
+   "why": "Reader cannot tell the scores come from τ³-Banking."
+  },
+  {
+   "mid": "m1",
+   "what": "meaning of Before and After",
+   "why": "No indication of the baseline versus the trained checkpoint."
+  }
+ ],
+ "completeness_score": 4,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Brand mark for a company post; keep.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model name",
+   "reason": "Names the model being measured.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric tag",
+   "reason": "Short label naming the metric.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and gridlines",
+   "reason": "The chart marks themselves.",
+   "ids": [
+    "e4",
+    "e7",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar.",
+   "ids": [
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar category labels",
+   "reason": "Identify what each bar represents.",
+   "ids": [
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Gain callout",
+   "reason": "Restates the bar gap already visible; could be shown on the chart, and is oversized for a restatement.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Card frame",
+   "reason": "Container card with no content of its own; adds nothing for the reader.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74,
+   "orange": 3.4,
+   "red": 22.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 8.6
+  },
+  "clutterShare": 24.3,
+  "ideaCount": 3,
+  "missingCount": 2,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 9,
+  "textElements": 7
+ }
+}

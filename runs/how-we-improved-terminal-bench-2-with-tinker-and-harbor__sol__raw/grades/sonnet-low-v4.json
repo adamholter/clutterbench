@@ -1,0 +1,181 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:12:12.943Z",
+ "main_idea": "Two-stage post-training lifts gpt-oss-20b on Terminal-Bench 2.0 from 3.1% to 17.0%",
+ "ideas": [
+  "Pass rate rises from 3.1% to 17.0%",
+  "SFT delivers most of the gain",
+  "RLVR adds further gain on top of SFT",
+  "Pipeline is SFT then RLVR"
+ ],
+ "clutter_score": 5,
+ "summary": "A clear three-bar chart is cluttered by a slogan headline, a category tag, a method explainer strip and bar sublabels, but it lacks nothing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 11.4,
+  "usd": 0.0689102,
+  "tokens": 28006,
+  "outputTokens": 994
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark in the header.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Eyebrow-style category tag that tells the reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding, and it is oversized.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Subtitle model context",
+   "reason": "Short line naming the model and tools.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart metric label",
+   "reason": "Names the benchmark and metric.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "Main chart marks, value labels and gridlines.",
+   "ids": [
+    "e5",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar category labels",
+   "reason": "Identify what each bar stands for.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Bar sublabels",
+   "reason": "Extra descriptor under each bar label that adds words the chart does not need.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Pipeline explainer strip",
+   "reason": "Method cards explaining SFT and RLVR, repeating the bar labels.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Quiet footnote with evaluation details.",
+   "ids": [
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention when a logo is already present.",
+   "ids": [
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 64.2,
+   "orange": 1.7,
+   "red": 34.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 45.3
+  },
+  "clutterShare": 35,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 90,
+  "textElements": 25
+ }
+}

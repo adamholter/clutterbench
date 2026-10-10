@@ -1,0 +1,104 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:13.355Z",
+ "main_idea": "GRPO on 500 tasks raises Qwen3.8-27B’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO improves DeepSWE pass@1 from 27.8% to 39.1%."
+ ],
+ "clutter_score": 0,
+ "summary": "Clean chart with clear labels and results; the model name is missing.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "The chart does not identify which model’s DeepSWE score is shown."
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 12.8,
+  "usd": null,
+  "tokens": 9020,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand mark",
+   "reason": "The visible logo identifies the source.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Names the benchmark and pass@1 metric.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "Show each bar’s result.",
+   "ids": [
+    "e2",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart marks",
+   "reason": "Bars, axis marks, and dotted connector depict the comparison.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar labels",
+   "reason": "Identify the base and GRPO-trained results; task count is useful context.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 14.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 7
+ }
+}

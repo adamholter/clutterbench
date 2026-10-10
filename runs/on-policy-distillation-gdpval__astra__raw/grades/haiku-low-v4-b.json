@@ -1,0 +1,137 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:50.221Z",
+ "main_idea": "On-policy distillation lifts GDPval net win-loss margin for both Nemotron and Qwen",
+ "ideas": [
+  "On-policy distillation improves GDPval for two model families",
+  "Nemotron margin +20.9% versus base",
+  "Qwen margin +21.4% versus base",
+  "Training used only AfterQuery data, no GDPval eval examples",
+  "Method: student samples, frozen teacher scores tokens"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid main visual of two margin stats, but a slogan headline, subtitle, tag and a method pipeline are extras that should go.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 10.7,
+  "usd": 0.00125652,
+  "tokens": 35652,
+  "outputTokens": 1836
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline margins by model",
+   "reason": "Logo plus the two margin stats, labels and rubric deltas: the main visual",
+   "ids": [
+    "e0",
+    "e1",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Category tag in header restates the section; not needed to read the finding",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; a finding headline would be better",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Restating subtitle",
+   "reason": "Subtitle restates what the big numbers already show",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline diagram",
+   "reason": "Process diagram explaining the method is a second point beside the results",
+   "ids": [
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Footnote and contact line",
+   "reason": "Quiet evaluation details and contact link; harmless context",
+   "ids": [
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 46.3,
+   "orange": 0,
+   "red": 53.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.5
+  },
+  "clutterShare": 53.7,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 104,
+  "textElements": 25
+ }
+}

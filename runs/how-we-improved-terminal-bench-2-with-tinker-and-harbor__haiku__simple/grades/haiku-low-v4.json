@@ -1,0 +1,68 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:02.100Z",
+ "main_idea": "Training lifts gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Base model passes 3.1% of Terminal-Bench 2.0",
+  "AfterQuery-trained model passes 17.0%",
+  "Training gives a large pass-rate gain"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one bar chart with a short title, value labels, and category labels, with nothing extra to remove.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 7.1,
+  "usd": 0.00311123,
+  "tokens": 28334,
+  "outputTokens": 1067
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Bars, value labels, and category labels make the single comparison readable.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric and benchmark title",
+   "reason": "Short chart title names the benchmark and metric being measured.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

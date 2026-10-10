@@ -1,0 +1,107 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:41.092Z",
+ "main_idea": "Distilled Nemotron and Qwen students both reach about +21% net win-loss margin on GDPval",
+ "ideas": [
+  "Distillation lifts GDPval net win-loss margin for two model families",
+  "Nemotron-3-Nano distilled: +20.9% vs. base",
+  "Qwen3.5-9B distilled: +21.4% vs. base"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete, with one simple bar chart; the logo element does not render.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo e1 (971,65) is not visible in the top-right corner of the screenshot"
+ ],
+ "cost": {
+  "seconds": 7.1,
+  "usd": 0.00089866,
+  "tokens": 33578,
+  "outputTokens": 1148
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the metric measured on GDPval",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Subtitle context",
+   "reason": "Short context saying the bars compare distilled against base",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, showing the margin for each model",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "The chart marks showing the two margins",
+   "ids": [
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Model names identifying each bar",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand mark",
+   "reason": "Single brand mark, but not rendered in the screenshot (see defects)",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 44.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 6
+ }
+}

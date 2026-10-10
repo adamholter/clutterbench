@@ -1,0 +1,1 @@
+{"name":"clutterbench-video","private":true,"scripts":{"render":"remotion render src/index.jsx Launch out/clutterbench-launch.mp4","still":"remotion still src/index.jsx Launch"},"dependencies":{"@remotion/cli":"^4.0.534","@remotion/fonts":"^4.0.534","react":"^19.3.0","react-dom":"^19.3.0","remotion":"^4.0.534"}}

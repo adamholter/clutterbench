@@ -1,0 +1,197 @@
+{
+ "grader": "sonnet-medium-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:43.866Z",
+ "main_idea": "Training lifted gpt-oss-20b on Terminal-Bench 2.0 from 3.1% to 17.0%, over 5x.",
+ "ideas": [
+  "Over 5x pass rate gain",
+  "SFT then RLVR progression in bars",
+  "Method details of each stage",
+  "Contact"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid bar chart is weighed down by an eyebrow, a blog tag, a long subtitle, method cards and gain badges; nothing is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Card gap shows a stray light strip between the boxes"
+ ],
+ "cost": {
+  "seconds": 8.7,
+  "usd": 0.0334951,
+  "tokens": 28656,
+  "outputTokens": 995
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog tag",
+   "reason": "Category tag, tells reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Kicker above headline.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the finding and benchmark.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Real facts in a long sentence; repeats bar values.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "States metric and agent.",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Main visual with labels and values.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Row sublabels",
+   "reason": "Extra descriptors beyond the row labels; minor.",
+   "ids": [
+    "e18",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Stage cards",
+   "reason": "Method cards beside results; a footnote would do.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Gain badges",
+   "reason": "Badges restate the gaps the bars already show.",
+   "ids": [
+    "e34",
+    "e35",
+    "e36",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Quiet evaluation details.",
+   "ids": [
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "Small quiet contact line.",
+   "ids": [
+    "e39"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 66.2,
+   "orange": 29.2,
+   "red": 4.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 19.1,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

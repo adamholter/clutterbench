@@ -1,0 +1,200 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.928Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 1,
+  "tiebreak": true,
+  "scores": [
+   8,
+   6,
+   6
+  ]
+ },
+ "main_idea": "GRPO training raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "DeepSWE pass@1 rose from 27.8% to 39.1%",
+  "Training set composition: 500 tasks, 422 repos, 8 attempts",
+  "Training reward rose over 15 updates",
+  "Task type breakdown of training set",
+  "Entropy stayed stable during training"
+ ],
+ "summary": "The 27.8% to 39.1% bar chart is repeated in a big stat and buried among a stats row, two extra charts, an entropy footer and kicker/subtitle text.",
+ "clutter_score": 6,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog kicker tag",
+   "reason": "Category tag in the corner; tells the reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Main before-after result",
+   "reason": "Title, logo, 39.1% stat, labelled bars, +11.3 annotation and footnote form the main visual",
+   "ids": [
+    "e2",
+    "e5",
+    "e6",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Subtitle restates what the chart and title already cover.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Base vs GRPO bars",
+   "reason": "Main comparison bars with labels, values and delta.",
+   "ids": [
+    "e4",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Setup footnote",
+   "reason": "Small, quiet evaluation detail.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset counts serve a different point from the result.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Reward chart",
+   "reason": "Second chart about training diagnostics.",
+   "ids": [
+    "e28",
+    "e33",
+    "e34",
+    "e35",
+    "e39",
+    "e43",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type breakdown",
+   "reason": "A third chart, about dataset composition, unrelated to the main result.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy footer sentence",
+   "reason": "A side diagnostic that is unrelated to the main result.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "A second brand mark when the logo is already shown.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 54.4,
+   "orange": 0,
+   "red": 45.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 45.6,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 31,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

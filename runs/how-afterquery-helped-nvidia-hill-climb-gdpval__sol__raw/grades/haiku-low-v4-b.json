@@ -1,0 +1,174 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:17.248Z",
+ "main_idea": "Warmup lifts GDPval pass rate from 35.3 to 46.7, close to the teacher's 49.5.",
+ "ideas": [
+  "Warmup raises GDPval score close to teacher",
+  "Warmup gain: 35.3 to 46.7",
+  "Ultra trails teacher by 2.8 points",
+  "Pipeline: AfterQuery tasks, SFT warmup, pivot RL"
+ ],
+ "clutter_score": 4,
+ "summary": "A solid main bar chart with a pipeline card block, an explanatory subtitle, an eyebrow tag and a repeated URL that should go; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 11.9,
+  "usd": 0.00131156,
+  "tokens": 29200,
+  "outputTokens": 2080
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the finding, four words.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Chart marks, values, labels, legend, title and the 2.8-point annotation.",
+   "ids": [
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark, kept as the only logo.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Quiet footnote naming the evaluation source and ablation.",
+   "ids": [
+    "e54"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category eyebrow",
+   "reason": "Category tag above the header, restates the topic, not needed.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph restating and explaining what the chart already shows.",
+   "ids": [
+    "e24"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline cards",
+   "reason": "Method steps are a second point beside the results chart.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Brand already shown by the logo; repeated site URL.",
+   "ids": [
+    "e55"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 75.1,
+   "orange": 0,
+   "red": 22.2,
+   "unlabelled": 2.7,
+   "paintedOfCanvas": 34.1
+  },
+  "clutterShare": 22.2,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 98,
+  "words": 92,
+  "textElements": 26
+ }
+}

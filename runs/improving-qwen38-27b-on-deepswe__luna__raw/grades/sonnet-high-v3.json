@@ -1,0 +1,181 @@
+{
+ "grader": "sonnet-high-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:06:18.296Z",
+ "main_idea": "GRPO on 500 tasks lifted Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "DeepSWE pass@1 rose from 27.8% to 39.1%",
+  "Trained on 500 tasks across 422 repositories",
+  "GRPO used eight attempts per task",
+  "Tasks came from enterprise codebases in five languages"
+ ],
+ "clutter_score": 6,
+ "summary": "A clear bar chart is surrounded by a slogan headline, eyebrow and header tags, a redundant pill, a stats row, method cards and a footer tagline; it lacks nothing essential.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 15.6,
+  "usd": 0.0429364,
+  "tokens": 24927,
+  "outputTokens": 1995
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark in the header.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag",
+   "reason": "Category tag that tells the reader nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Eyebrow kicker above the headline.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; it is also the largest text.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Subtitle",
+   "reason": "Short line naming the method and training set.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE bar chart",
+   "reason": "Two bars with values, axis, labels, delta annotation and metric title.",
+   "ids": [
+    "e9",
+    "e10",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Checkpoint pill",
+   "reason": "Repeats the Base model and Step 15 bar labels.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training stats row",
+   "reason": "Dataset and training counts are a side topic from the result.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method cards",
+   "reason": "Method and data sentences in boxes; a footnote would do.",
+   "ids": [
+    "e35",
+    "e37",
+    "e39",
+    "e36",
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand tagline",
+   "reason": "Second brand mention plus a tagline; the logo already exists.",
+   "ids": [
+    "e41",
+    "e42",
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 35.9,
+   "orange": 20,
+   "red": 44.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 54.1,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "repetition": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

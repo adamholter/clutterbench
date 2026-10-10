@@ -1,0 +1,167 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:32.308Z",
+ "main_idea": "Qwen3.5-9B improved from 11.3% to 17.5% pass@5 on τ³-Banking.",
+ "ideas": [
+  "Qwen3.5-9B improved on τ³-Banking.",
+  "Training used teacher distillation and PivotRL.",
+  "The checkpoint showed no significant change on six general benchmarks."
+ ],
+ "clutter_score": 8,
+ "summary": "The method cards, statistics row, subtitle, and footer crowd the pass@5 result, which is clearly labeled and complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The sole brand mark identifies the publisher.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research date badge",
+   "reason": "The date and research tag do not help explain the result.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "It states the finding but runs long and wraps across two lines.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "It describes the method rather than clarifying the measured result.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate comparison",
+   "reason": "The chart names the metric and model, compares conditions, and shows both values.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Method section label",
+   "reason": "This section label does not support the main result.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training method cards",
+   "reason": "The pipeline cards explain a separate method point beside the results chart.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training statistics row",
+   "reason": "These statistics add dataset, training, and general benchmark points.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer items",
+   "reason": "The footer repeats the brand and adds a tagline and decoration.",
+   "ids": [
+    "e45",
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 28.8,
+   "orange": 29.6,
+   "red": 41.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 56.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

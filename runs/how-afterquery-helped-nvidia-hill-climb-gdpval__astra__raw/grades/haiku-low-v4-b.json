@@ -1,0 +1,165 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:33.660Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "AfterQuery warmup lifts GDPval result from 35.3 to 46.7",
+  "Warmup closes most of the gap to the specialized teacher",
+  "Pipeline: trajectories, then SFT warmup, then pivot RL"
+ ],
+ "clutter_score": 4,
+ "summary": "A solid bar chart is buried under a kicker, a restating subtitle, a method pipeline row, and a repeated URL; the chart itself is complete and readable.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.4,
+  "usd": 0.0014479399999999998,
+  "tokens": 29069,
+  "outputTokens": 2361
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval warmup bar chart",
+   "reason": "Main visual: labelled bars, values, benchmark title, unit, and annotation.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short title naming the subject and benchmark.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The one brand mark.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation source footnote",
+   "reason": "Quiet footnote giving the source and evaluation context.",
+   "ids": [
+    "e36"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline; adds no information.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Header category tag; restates the chart's context.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph restates the chart's numbers and finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline row",
+   "reason": "Method explanation beside the results chart serves a second point.",
+   "ids": [
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer website URL",
+   "reason": "Brand shown a second time when the logo is already present.",
+   "ids": [
+    "e37"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 77.5,
+   "orange": 0,
+   "red": 22.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34.3
+  },
+  "clutterShare": 22.5,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 100,
+  "textElements": 28
+ }
+}

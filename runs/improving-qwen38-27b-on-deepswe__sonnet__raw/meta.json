@@ -1,0 +1,19 @@
+{
+  "id": "improving-qwen38-27b-on-deepswe__sonnet__raw",
+  "task": "improving-qwen38-27b-on-deepswe",
+  "title": "Improving Qwen3.8-27B-Medium on DeepSWE with GRPO",
+  "model": "sonnet",
+  "modelId": "claude-sonnet-5-5",
+  "effort": "low",
+  "variant": "raw",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 27,
+  "flags": [],
+  "createdAt": "2026-10-10T18:03:15.299Z"
+}

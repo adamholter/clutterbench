@@ -1,0 +1,79 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:38.996Z",
+ "main_idea": "Trained student wins 123 of 220 GDPval pairs against the base, a +20.9% net margin.",
+ "ideas": [
+  "Distilled model beats base on GDPval by +20.9%",
+  "Win, tie, and loss counts out of 220 task pairs"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete: a single stacked outcome bar under a finding headline, with only a slightly long headline that could be trimmed. The AfterQuery logo is visible in the screenshot but has no element id, so I could not place it in a region.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 9.6,
+  "usd": 0.0038869100000000004,
+  "tokens": 34002,
+  "outputTokens": 1513
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Outcome bar and canvas",
+   "reason": "The main visual: a stacked bar of wins, ties, and losses.",
+   "ids": [
+    "e0",
+    "e2",
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "States the finding and metric; slightly long but not a slogan.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Count and outcome labels",
+   "reason": "One count and one outcome word per bar segment; these also serve as the legend.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

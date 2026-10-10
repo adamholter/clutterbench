@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Building a Frontier Legal Evaluation with Legora</title>
+<style>
+  @font-face {
+    font-family: "ABC Diatype";
+    src: url("assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2") format("woff2");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "ABC Diatype";
+    src: url("assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2") format("woff2");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: "ABC Diatype";
+    src: url("assets/ABCDiatype_Bold-s.p.2g11yfly1dr71.woff2") format("woff2");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Martina Plantijn";
+    src: url("assets/MartinaPlantijn_Regular-s.p.09bvmw9c6lxyi.woff2") format("woff2");
+    font-weight: 400;
+  }
+
+  :root {
+    --bg: #f8f8f3;
+    --ink: #000;
+    --ink-60: rgba(0, 0, 0, 0.6);
+    --ink-10: rgba(0, 0, 0, 0.1);
+    --green: #026340;
+    --gold: #e8a85f;
+    --taupe: #af9888;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    width: 1200px;
+    height: 1200px;
+    overflow: hidden;
+    background: var(--bg);
+  }
+
+  .canvas {
+    position: relative;
+    width: 1200px;
+    height: 1200px;
+    padding: 84px 92px 80px;
+    display: flex;
+    flex-direction: column;
+    color: var(--ink);
+    font-family: "ABC Diatype", "Inter", system-ui, sans-serif;
+    background: var(--bg);
+  }
+
+  /* Hairline frame in the spirit of the site's ring-1 cards */
+  .canvas::before {
+    content: "";
+    position: absolute;
+    inset: 40px;
+    border: 1px solid var(--ink-10);
+    pointer-events: none;
+  }
+
+  header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header img { height: 30px; width: auto; display: block; }
+  .kicker {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--ink-60);
+    letter-spacing: 0.01em;
+  }
+
+  .title {
+    position: relative;
+    margin-top: 56px;
+    font-family: "Martina Plantijn", Georgia, serif;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  .title .accent { color: var(--green); }
+
+  .deck {
+    position: relative;
+    margin-top: 36px;
+    max-width: 880px;
+    font-size: 27px;
+    line-height: 1.4;
+    color: var(--ink-60);
+  }
+  .deck strong { color: var(--ink); font-weight: 500; }
+
+  .stats {
+    position: relative;
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--ink);
+  }
+  .stat {
+    padding: 28px 22px 0 0;
+  }
+  .stat + .stat {
+    padding-left: 26px;
+    border-left: 1px solid var(--ink-10);
+  }
+  .num {
+    font-family: "Martina Plantijn", Georgia, serif;
+    font-size: 78px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    font-variant-numeric: lining-nums;
+  }
+  .num.green { color: var(--green); }
+  .label {
+    margin-top: 14px;
+    font-size: 17px;
+    line-height: 1.35;
+    color: var(--ink-60);
+  }
+
+  .grid-block {
+    position: relative;
+    margin-top: 56px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .grid-caption {
+    font-size: 17px;
+    line-height: 1.45;
+    color: var(--ink-60);
+    max-width: 330px;
+  }
+  .grid-caption strong { color: var(--ink); font-weight: 500; display: block; font-size: 20px; margin-bottom: 6px; }
+
+  footer {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: var(--ink-60);
+  }
+  footer .dot { color: var(--gold); }
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <header>
+    <img src="assets/afterquery-logo.svg" alt="AfterQuery">
+    <div class="kicker">Blog &nbsp;·&nbsp; Case study with Legora</div>
+  </header>
+
+  <h1 class="title">Building a frontier <span class="accent">legal</span> evaluation</h1>
+
+  <p class="deck">
+    AfterQuery and Legora co-designed the <strong>Benchmark for Agentic Reasoning (BAR)</strong>,
+    which tests whether agents can complete end-to-end legal work inside Legora&rsquo;s custom harness.
+  </p>
+
+  <section class="stats">
+    <div class="stat">
+      <div class="num">5,161</div>
+      <div class="label">benchmark cases</div>
+    </div>
+    <div class="stat">
+      <div class="num">28</div>
+      <div class="label">practice areas</div>
+    </div>
+    <div class="stat">
+      <div class="num">11,075</div>
+      <div class="label">source documents</div>
+    </div>
+    <div class="stat">
+      <div class="num green">+5%</div>
+      <div class="label">output quality in one month from BAR-informed harness changes</div>
+    </div>
+  </section>
+
+  <div class="grid-block">
+    <div class="grid-caption">
+      <strong>One cell per practice area</strong>
+      Every case is grounded in realistic matters built alongside participating law firms.
+    </div>
+
+    <!-- 28 practice areas as a 7 x 4 grid of equal tiles -->
+    <svg width="560" height="200" viewBox="0 0 560 200" aria-label="28 practice areas">
+      <g id="cells"></g>
+    </svg>
+  </div>
+
+  <footer>
+    <span>AfterQuery <span class="dot">&#9679;</span> Applied research lab</span>
+    <span>research@afterquery.com</span>
+  </footer>
+
+</div>
+
+<script>
+  // Build the 7 x 4 practice-area grid (28 tiles) as inline SVG
+  (function () {
+    var ns = "http://www.w3.org/2000/svg";
+    var g = document.getElementById("cells");
+    var cols = 7, rows = 4, gap = 14;
+    var w = (560 - gap * (cols - 1)) / cols;
+    var h = (200 - gap * (rows - 1)) / rows;
+    for (var r = 0; r < rows; r++) {
+      for (var c = 0; c < cols; c++) {
+        var rect = document.createElementNS(ns, "rect");
+        rect.setAttribute("x", c * (w + gap));
+        rect.setAttribute("y", r * (h + gap));
+        rect.setAttribute("width", w);
+        rect.setAttribute("height", h);
+        rect.setAttribute("fill", "#026340");
+        g.appendChild(rect);
+      }
+    }
+  })();
+</script>
+</body>
+</html>

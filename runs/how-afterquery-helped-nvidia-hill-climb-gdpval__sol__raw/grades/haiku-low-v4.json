@@ -1,0 +1,174 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:01.783Z",
+ "main_idea": "Warmup lifts Ultra's GDPval score to within 2.8 points of its teacher.",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7",
+  "Ultra gets within 2.8 points of its teacher",
+  "AfterQuery tasks drive the SFT warmup and pivot RL"
+ ],
+ "clutter_score": 4,
+ "summary": "The bar chart is clear and complete, but a subtitle, eyebrow tag, three-step method cards, and a repeated footer URL clutter it.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 15.1,
+  "usd": 0.004521570000000001,
+  "tokens": 30118,
+  "outputTokens": 2998
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Warmup ablation bar chart",
+   "reason": "Main visual with labelled bars, values, metric title, and one teacher-gap callout.",
+   "ids": [
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short headline naming the topic, about seven words or fewer.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark; kept as is.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Small quiet footnote naming the evaluation source and ablation.",
+   "ids": [
+    "e53",
+    "e54"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow category tag",
+   "reason": "Category tag above the chart that restates context the chart already shows.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph restating what the chart already shows; not a finding.",
+   "ids": [
+    "e24"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline cards",
+   "reason": "Method steps beside the results chart serve a second point, not reading the bars.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL repeat",
+   "reason": "Brand already shown by the header logo; second instance of the same brand.",
+   "ids": [
+    "e55"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 77.8,
+   "orange": 0,
+   "red": 22.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34.1
+  },
+  "clutterShare": 22.2,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 92,
+  "textElements": 26
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:48.037Z",
+ "main_idea": "On-policy distillation lifts GDPval net win-loss margin by about 21% on two model families",
+ "ideas": [
+  "On-policy distillation improves GDPval across two model families",
+  "Student learns from its own rollouts scored by teacher",
+  "Net win-loss margin vs base is +20.9% and +21.4%",
+  "Mean rubric score rose 5.1 and 7.9 points"
+ ],
+ "clutter_score": 5,
+ "summary": "The two large net-margin stats are the clear main visual, but the slogan headline, eyebrow, pipeline diagram, secondary rubric row, and repeated URL clutter it; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 15,
+  "usd": 0.00181162,
+  "tokens": 36723,
+  "outputTokens": 2947
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, kept as the single logo.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag 'Research / Professional work' tells the reader nothing needed.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "'Better professional work. Learned from...' is a slogan, not the finding.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding subtitle",
+   "reason": "States the finding correctly but runs long; shorten to a few words.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker line",
+   "reason": "'Same recipe. Different model families.' is a kicker that restates the subtitle.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline diagram",
+   "reason": "Training-loop explainer is a second idea beside the results figures.",
+   "ids": [
+    "e5",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Net margin stat panels",
+   "reason": "The main visual: two model labels, big net margins, and metric name.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Secondary rubric score row",
+   "reason": "Second metric row adds a different number, competing with the main margin.",
+   "ids": [
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote naming GDPval and the no-leakage detail.",
+   "ids": [
+    "e35"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL repeat",
+   "reason": "Website URL repeats the brand already shown in the logo.",
+   "ids": [
+    "e34",
+    "e36"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 24.5,
+   "orange": 6.5,
+   "red": 69,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.3
+  },
+  "clutterShare": 72.3,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 90,
+  "textElements": 25
+ }
+}

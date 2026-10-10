@@ -1,0 +1,565 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 51,
+  "textElements": 18,
+  "words": 77,
+  "fontSizes": 6,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 92,
+   "y": 84,
+   "w": 177,
+   "h": 30,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "div",
+   "x": 871,
+   "y": 88,
+   "w": 237,
+   "h": 22,
+   "text": "Blog · Case study with Legora",
+   "fontSize": 17,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 92,
+   "y": 142,
+   "w": 796,
+   "h": 268,
+   "text": "Building a frontier evaluation",
+   "fontSize": 104,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "span",
+   "x": 92,
+   "y": 248,
+   "w": 204,
+   "h": 162,
+   "text": "legal",
+   "fontSize": 104,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "p",
+   "x": 92,
+   "y": 420,
+   "w": 851,
+   "h": 114,
+   "text": "AfterQuery and Legora co-designed the , which tests whether agents can complete end-to-end legal work inside Legora’s custom harness.",
+   "fontSize": 27,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "strong",
+   "x": 92,
+   "y": 420,
+   "w": 754,
+   "h": 73,
+   "text": "Benchmark for Agentic Reasoning (BAR)",
+   "fontSize": 27,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e6",
+   "kind": "box",
+   "tag": "section",
+   "x": 92,
+   "y": 608,
+   "w": 1016,
+   "h": 190,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e7",
+   "kind": "box",
+   "tag": "div",
+   "x": 346,
+   "y": 609,
+   "w": 254,
+   "h": 189,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e8",
+   "kind": "box",
+   "tag": "div",
+   "x": 600,
+   "y": 609,
+   "w": 254,
+   "h": 189,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e9",
+   "kind": "box",
+   "tag": "div",
+   "x": 854,
+   "y": 609,
+   "w": 254,
+   "h": 189,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "div",
+   "x": 92,
+   "y": 615,
+   "w": 157,
+   "h": 121,
+   "text": "5,161",
+   "fontSize": 78,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "div",
+   "x": 373,
+   "y": 615,
+   "w": 80,
+   "h": 121,
+   "text": "28",
+   "fontSize": 78,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e12",
+   "kind": "text",
+   "tag": "div",
+   "x": 627,
+   "y": 615,
+   "w": 200,
+   "h": 121,
+   "text": "11,075",
+   "fontSize": 78,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e13",
+   "kind": "text",
+   "tag": "div",
+   "x": 881,
+   "y": 615,
+   "w": 142,
+   "h": 121,
+   "text": "+5%",
+   "fontSize": 78,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e14",
+   "kind": "text",
+   "tag": "div",
+   "x": 92,
+   "y": 729,
+   "w": 131,
+   "h": 22,
+   "text": "benchmark cases",
+   "fontSize": 17,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e15",
+   "kind": "text",
+   "tag": "div",
+   "x": 373,
+   "y": 729,
+   "w": 106,
+   "h": 22,
+   "text": "practice areas",
+   "fontSize": 17,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e16",
+   "kind": "text",
+   "tag": "div",
+   "x": 627,
+   "y": 729,
+   "w": 139,
+   "h": 22,
+   "text": "source documents",
+   "fontSize": 17,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e17",
+   "kind": "text",
+   "tag": "div",
+   "x": 881,
+   "y": 729,
+   "w": 205,
+   "h": 68,
+   "text": "output quality in one month from BAR-informed harness changes",
+   "fontSize": 17,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e18",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 548,
+   "y": 853,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e19",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 630,
+   "y": 853,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e20",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 712,
+   "y": 853,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e21",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 794,
+   "y": 853,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e22",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 876,
+   "y": 853,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e23",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 958,
+   "y": 853,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e24",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 1040,
+   "y": 853,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e25",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 548,
+   "y": 907,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e26",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 630,
+   "y": 907,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e27",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 712,
+   "y": 907,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e28",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 794,
+   "y": 907,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e29",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 876,
+   "y": 907,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e30",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 958,
+   "y": 907,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e31",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 1040,
+   "y": 907,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e32",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 548,
+   "y": 960,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e33",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 630,
+   "y": 960,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e34",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 712,
+   "y": 960,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e35",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 794,
+   "y": 960,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e36",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 876,
+   "y": 960,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e37",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 958,
+   "y": 960,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e38",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 1040,
+   "y": 960,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e39",
+   "kind": "text",
+   "tag": "strong",
+   "x": 92,
+   "y": 970,
+   "w": 227,
+   "h": 26,
+   "text": "One cell per practice area",
+   "fontSize": 20,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e40",
+   "kind": "text",
+   "tag": "div",
+   "x": 92,
+   "y": 1005,
+   "w": 314,
+   "h": 47,
+   "text": "Every case is grounded in realistic matters built alongside participating law firms.",
+   "fontSize": 17,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e41",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 548,
+   "y": 1014,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e42",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 630,
+   "y": 1014,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e43",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 712,
+   "y": 1014,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e44",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 794,
+   "y": 1014,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e45",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 876,
+   "y": 1014,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e46",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 958,
+   "y": 1014,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e47",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 1040,
+   "y": 1014,
+   "w": 68,
+   "h": 40,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e48",
+   "kind": "text",
+   "tag": "span",
+   "x": 92,
+   "y": 1093,
+   "w": 243,
+   "h": 21,
+   "text": "AfterQuery Applied research lab",
+   "fontSize": 16,
+   "color": "rgba(0, 0, 0, 0.6)"
+  },
+  {
+   "id": "e49",
+   "kind": "text",
+   "tag": "span",
+   "x": 173,
+   "y": 1093,
+   "w": 13,
+   "h": 21,
+   "text": "●",
+   "fontSize": 16,
+   "color": "rgb(232, 168, 95)"
+  },
+  {
+   "id": "e50",
+   "kind": "text",
+   "tag": "span",
+   "x": 928,
+   "y": 1093,
+   "w": 180,
+   "h": 21,
+   "text": "research@afterquery.com",
+   "fontSize": 16,
+   "color": "rgba(0, 0, 0, 0.6)"
+  }
+ ]
+}

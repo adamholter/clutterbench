@@ -1,0 +1,125 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:03.951Z",
+ "main_idea": "BAR-informed harness changes raised Legora output quality 5% in one month",
+ "ideas": [
+  "BAR-informed harness changes raised output quality 5%",
+  "BAR is a legal benchmark for agentic reasoning",
+  "The benchmark has 5,161 cases"
+ ],
+ "clutter_score": 5,
+ "summary": "The dataset stats row is a second point that should go, and the long title and explanation line should shrink; the +5% finding is clear, and nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 11.8,
+  "usd": 0.00123547,
+  "tokens": 24678,
+  "outputTokens": 2017
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one logo.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "repetition",
+   "name": "Co-brand wordmark",
+   "reason": "Brand is already shown by the logo; this repeats it.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long title",
+   "reason": "Thirteen-word descriptive sentence; shorten to a finding-style title.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats row",
+   "reason": "Dataset counts serve a second point, not the main +5% finding.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline +5% stat",
+   "reason": "The main finding, large and readable as the focal visual.",
+   "ids": [
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Stat explanation line",
+   "reason": "Needed context, but wordy; shorten to the metric and timeframe.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Website footer",
+   "reason": "Quiet contact line, harmless and useful.",
+   "ids": [
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 12.5,
+   "orange": 68.5,
+   "red": 19,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38
+  },
+  "clutterShare": 53.3,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 39,
+  "textElements": 12
+ }
+}

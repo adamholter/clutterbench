@@ -1,0 +1,199 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:53.944Z",
+ "main_idea": "Two-stage post-training raises Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Pass rate rises from 3.1% to 17.0%.",
+  "The pipeline uses SFT followed by reinforcement learning."
+ ],
+ "clutter_score": 5,
+ "summary": "The chart is clear, but redundant result callouts and oversized pipeline cards crowd it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 19.9,
+  "usd": null,
+  "tokens": 11547,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The only brand mark identifies the publisher.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "The eyebrow repeats context already clear from the chart.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Pipeline kicker",
+   "reason": "The kicker adds no necessary information above the headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding headline",
+   "reason": "Shorten the two-sentence headline to a compact finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric",
+   "reason": "Names the model and pass-rate metric.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate chart",
+   "reason": "Shows the benchmark, values, bars, and category labels.",
+   "ids": [
+    "e7",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e15",
+    "e20",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Pass-rate callout",
+   "reason": "The 5.5× card restates the chart's values and comparison.",
+   "ids": [
+    "e8",
+    "e9",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Point gain card",
+   "reason": "The point difference is already evident from the chart.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "RLVR gain card",
+   "reason": "The added gain repeats the final result and clutters the side panel.",
+   "ids": [
+    "e21",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Pipeline steps",
+   "reason": "The method matters, but these cards can be reduced to a short note.",
+   "ids": [
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quietly gives task count and averaging details.",
+   "ids": [
+    "e44",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Repeats the AfterQuery brand already shown in the header.",
+   "ids": [
+    "e45"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 43.1,
+   "orange": 38.7,
+   "red": 18.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30
+  },
+  "clutterShare": 37.5,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 4
+  },
+  "coverage": 100,
+  "words": 105,
+  "textElements": 32
+ }
+}

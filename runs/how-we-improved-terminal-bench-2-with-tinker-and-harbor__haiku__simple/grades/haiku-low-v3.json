@@ -1,0 +1,61 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:43.652Z",
+ "main_idea": "Training lifts gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Trained model passes far more Terminal-Bench 2.0 tasks than base",
+  "AfterQuery pass rate is 17.0% versus base 3.1%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple two-bar chart with a benchmark and metric title, labelled values, and no extras.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo at top-left is visible but has no element entry in the list",
+  "Baseline axis line is visible but not in the element list"
+ ],
+ "cost": {
+  "seconds": 8.5,
+  "usd": 0.0032112699999999996,
+  "tokens": 28730,
+  "outputTokens": 1215
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Bars, value labels, bar names, benchmark and metric title; all short and needed.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "grader": "sonnet-high-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:05:44.683Z",
+ "main_idea": "Training lifted Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Trained model far outperforms base on Terminal-Bench 2.0"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one two-bar chart with a metric title, value labels, category labels and a logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.4,
+  "usd": 0.029944899999999997,
+  "tokens": 26616,
+  "outputTokens": 657
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric title",
+   "reason": "Short label naming the benchmark and metric.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and background",
+   "reason": "Two bars with a baseline show the comparison.",
+   "ids": [
+    "e0",
+    "e3",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar.",
+   "ids": [
+    "e2",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Identify what each bar stands for.",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: 'Outfit'; src: url('assets/fonts/outfit.woff2') format('woff2'); font-weight: 400 700; }
+  html, body { margin: 0; width: 1200px; height: 1200px; overflow: hidden; background: #fff; }
+  body { font-family: 'Outfit', system-ui, sans-serif; color: #101828; -webkit-font-smoothing: antialiased; }
+  svg { display: block; }
+</style>
+</head>
+<body>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" font-family="Outfit, system-ui, sans-serif">
+  <!-- logo -->
+  <text x="140" y="130" font-size="34" font-weight="700" fill="#101828">Clutter<tspan fill="#1971c2">Bench</tspan></text>
+
+  <!-- title and legend -->
+  <text x="140" y="250" font-size="52" font-weight="700" fill="#101828">Clutter share by model</text>
+  <circle cx="152" cy="315" r="12" fill="#fff" stroke="#475467" stroke-width="5"/>
+  <text x="176" y="324" font-size="26" font-weight="500" fill="#475467">Raw prompt</text>
+  <circle cx="362" cy="315" r="12" fill="#1971c2"/>
+  <text x="386" y="324" font-size="26" font-weight="500" fill="#475467">Simple prompt</text>
+
+  <!-- zero line -->
+  <line x1="140" y1="470" x2="140" y2="1060" stroke="#e4e7ec" stroke-width="3"/>
+
+  <!-- connectors -->
+  <g stroke="#d0d5dd" stroke-width="6" stroke-linecap="round">
+    <line x1="140" y1="500" x2="560.5" y2="500"/>
+    <line x1="140" y1="680" x2="749" y2="680"/>
+    <line x1="140" y1="860" x2="807" y2="860"/>
+    <line x1="227" y1="1040" x2="1024.5" y2="1040"/>
+  </g>
+
+  <!-- model names -->
+  <g font-size="34" font-weight="600" fill="#101828">
+    <text x="140" y="440">Claude Sonnet 5.5</text>
+    <text x="140" y="620">Claude Haiku 5.5</text>
+    <text x="140" y="800">GPT-6.1 Sol</text>
+    <text x="140" y="980">GPT-6 Luna</text>
+  </g>
+
+  <!-- raw dots (hollow) -->
+  <g fill="#fff" stroke="#475467" stroke-width="5">
+    <circle cx="560.5" cy="500" r="20"/>
+    <circle cx="749" cy="680" r="20"/>
+    <circle cx="807" cy="860" r="20"/>
+    <circle cx="1024.5" cy="1040" r="20"/>
+  </g>
+
+  <!-- simple dots (filled) -->
+  <g fill="#1971c2">
+    <circle cx="140" cy="500" r="20"/>
+    <circle cx="140" cy="680" r="20"/>
+    <circle cx="140" cy="860" r="20"/>
+    <circle cx="227" cy="1040" r="20"/>
+  </g>
+
+  <!-- raw values -->
+  <g font-size="32" font-weight="600" fill="#475467">
+    <text x="601" y="511">29%</text>
+    <text x="789" y="691">42%</text>
+    <text x="847" y="871">46%</text>
+    <text x="1065" y="1051">61%</text>
+  </g>
+
+  <!-- simple values -->
+  <g font-size="32" font-weight="600" fill="#1971c2" text-anchor="middle">
+    <text x="140" y="562">0%</text>
+    <text x="140" y="742">0%</text>
+    <text x="140" y="922">0%</text>
+    <text x="227" y="1102">6%</text>
+  </g>
+</svg>
+</body>
+</html>

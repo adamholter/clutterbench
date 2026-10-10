@@ -1,0 +1,181 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:48.641Z",
+ "main_idea": "BAR is a real-legal-work benchmark with 5,161 cases across 28 practice areas",
+ "ideas": [
+  "Benchmark built around real legal work",
+  "5,161 legal cases",
+  "28 practice areas",
+  "Benchmark named Agentic Reasoning, from AfterQuery"
+ ],
+ "clutter_score": 2,
+ "summary": "Nearly clean: only the bottom tagline is extra, but the grid's grey and green marks are never explained.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "meaning of grid marks",
+   "why": "Grey tiles and green bars have no legend or label saying what they count"
+  }
+ ],
+ "completeness_score": 7,
+ "defects": [],
+ "cost": {
+  "seconds": 10.7,
+  "usd": 0.0036892800000000005,
+  "tokens": 26370,
+  "outputTokens": 1887
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand and benchmark name",
+   "reason": "One brand mark plus short benchmark name orient the reader",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline finding",
+   "reason": "Short descriptive headline states what the benchmark is",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Case grid visual",
+   "reason": "The main visual; tiles and bars carry the message",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65",
+    "e66",
+    "e67",
+    "e68",
+    "e69",
+    "e70",
+    "e71",
+    "e72",
+    "e73",
+    "e74",
+    "e75",
+    "e76",
+    "e77",
+    "e78",
+    "e79"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline counts",
+   "reason": "Two values with units state the key numbers",
+   "ids": [
+    "e80",
+    "e81",
+    "e82",
+    "e83"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline line",
+   "reason": "Tagline restating the headline; adds no data",
+   "ids": [
+    "e84"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 98.8,
+   "orange": 0,
+   "red": 1.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.1
+  },
+  "clutterShare": 1.2,
+  "ideaCount": 4,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 24,
+  "textElements": 7
+ }
+}

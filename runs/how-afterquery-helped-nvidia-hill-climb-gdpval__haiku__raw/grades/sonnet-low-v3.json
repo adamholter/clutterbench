@@ -1,0 +1,174 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:53.480Z",
+ "main_idea": "AQ-data warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup raises GDPval score",
+  "Warmup nearly closes gap to teacher",
+  "Ultra has ~6x throughput of open models"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid bar chart is cluttered by three stat cards (two repeat the bars, one is an unrelated throughput claim), a blog tag, a footer URL and wordy sublabels.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Stat card text overflows the bottom of the middle and right cards",
+  "Footnote wraps and sits close to the URL"
+ ],
+ "cost": {
+  "seconds": 9.4,
+  "usd": 0.0649865,
+  "tokens": 26155,
+  "outputTokens": 978
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, appropriate.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog tag",
+   "reason": "Category tag that tells the reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the topic, matches the owner's calibration.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "Main chart with title, model, bars, values and category labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e9",
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Bar sublabels",
+   "reason": "Second line under each bar is wordier than needed.",
+   "ids": [
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "+11.4 stat card",
+   "reason": "Restates the difference already shown by the 35.3 and 46.7 bars.",
+   "ids": [
+    "e24",
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "2.8 stat card",
+   "reason": "Restates the gap between the 46.7 and 49.5 bars.",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "6x throughput card",
+   "reason": "Throughput is a second point unrelated to the GDPval chart.",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Quiet footnote giving source and context.",
+   "ids": [
+    "e33"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention when the logo is already shown.",
+   "ids": [
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 80.2,
+   "orange": 1.6,
+   "red": 18.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 19,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

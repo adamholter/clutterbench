@@ -1,0 +1,127 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.877Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 0,
+  "tiebreak": true,
+  "scores": [
+   1,
+   0,
+   1
+  ]
+ },
+ "main_idea": "A simple-instruction prompt cuts clutter score to near zero for every model.",
+ "ideas": [
+  "Simple prompt reduces clutter versus raw prompt",
+  "Models differ in raw clutter score"
+ ],
+ "summary": "Clean and complete; at most the legend line is slightly redundant with the headline.",
+ "clutter_score": 1,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [
+  "0% label for Luna sits close to the baseline",
+  "The 6% label sits tight against the baseline on the GPT-6 Luna column"
+ ],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench logo",
+   "reason": "Single brand mark, small and quiet.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short headline that states the finding.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric legend",
+   "reason": "Names the metric and explains the raw to simple encoding.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Slope chart panels",
+   "reason": "Main visual: model labels, points, lines and values.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Footnote",
+   "reason": "Small quiet note on direction and averaging.",
+   "ids": [
+    "e35"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 56
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 42,
+  "textElements": 20
+ }
+}

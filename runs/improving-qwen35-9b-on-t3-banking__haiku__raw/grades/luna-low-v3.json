@@ -1,0 +1,167 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:48.893Z",
+ "main_idea": "PivotRL training raises Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "Pass@5 improves from 11.3% to 17.5%.",
+  "Training uses teacher distillation and PivotRL.",
+  "193 pivots come from 50 solved teacher tasks.",
+  "Six general benchmarks show no significant change."
+ ],
+ "clutter_score": 5,
+ "summary": "The result is clear, but large method cards, a second statistics row, and repeated footer branding add clutter; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.7,
+  "usd": null,
+  "tokens": 10186,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery branding",
+   "reason": "One visible logo and wordmark identify the source.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research badge",
+   "reason": "The date and research tag are extra category metadata.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Names the model, benchmark, method, and central result.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method subtitle",
+   "reason": "A slogan-like sentence summarizes the method at greater length than needed.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass@5 comparison",
+   "reason": "The paired values and bars show the main result; labels identify metric and model.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method cards",
+   "reason": "Method details matter, but three large cards could be condensed to a footnote.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Supporting statistics",
+   "reason": "Task counts and general benchmark findings form a second point beneath the result.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer branding",
+   "reason": "Repeats the brand and adds a tagline after the logo already identifies it.",
+   "ids": [
+    "e45",
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 58.4,
+   "orange": 22.2,
+   "red": 19.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 30.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

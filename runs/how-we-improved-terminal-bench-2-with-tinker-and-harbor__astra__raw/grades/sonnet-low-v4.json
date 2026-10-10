@@ -1,0 +1,187 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:44:00.214Z",
+ "main_idea": "SFT then RLVR lifts gpt-oss-20b on Terminal-Bench 2.0 from 3.1% to 17.0%",
+ "ideas": [
+  "Pass rate rises from 3.1% to 17.0%",
+  "SFT gives the largest gain",
+  "Two-stage pipeline: SFT then RLVR",
+  "No eval-set tasks used in training"
+ ],
+ "clutter_score": 6,
+ "summary": "A clear bar chart is surrounded by a slogan headline, subtitle, tags, two method cards and footer extras that should go; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 9.9,
+  "usd": 0.069411,
+  "tokens": 28037,
+  "outputTokens": 1049
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark in header.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Eyebrow-style tag that tells the reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Large slogan that does not state the finding; dominates the canvas.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Subtitle restating context; model is named elsewhere.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric",
+   "reason": "Names the benchmark and metric being measured.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Model name tag",
+   "reason": "Model already named in the subtitle; repeated.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Bars, labels, values and axis zero make up the main visual.",
+   "ids": [
+    "e9",
+    "e11",
+    "e14",
+    "e17",
+    "e12",
+    "e15",
+    "e18",
+    "e10",
+    "e13",
+    "e16",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Chart takeaway caption",
+   "reason": "Takeaway sentence; the bars already show the gain, so shorten or fold it in.",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage cards",
+   "reason": "Method pipeline cards beside a results chart serve a second idea.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eval set note",
+   "reason": "Side claim that is not needed to read the chart.",
+   "ids": [
+    "e29"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention; logo already present.",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Quiet footnote with evaluation details.",
+   "ids": [
+    "e31"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 48.9,
+   "orange": 1.6,
+   "red": 49.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.2
+  },
+  "clutterShare": 50.3,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 98,
+  "textElements": 23
+ }
+}

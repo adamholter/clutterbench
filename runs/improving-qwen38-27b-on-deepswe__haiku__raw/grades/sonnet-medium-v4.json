@@ -1,0 +1,207 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:24.984Z",
+ "main_idea": "GRPO training raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "DeepSWE pass@1 rose from 27.8% to 39.1%",
+  "Training set: 500 tasks, 422 repos",
+  "Training reward rose over 15 updates",
+  "Training set composition by task type",
+  "Entropy stayed stable"
+ ],
+ "clutter_score": 8,
+ "summary": "The small DeepSWE bar chart is buried under a giant repeated stat, a stats row, two extra charts, an entropy footer, and eyebrow/subtitle text.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 8.9,
+  "usd": 0.0339003,
+  "tokens": 24182,
+  "outputTokens": 1089
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog eyebrow tag",
+   "reason": "Category tag, tells reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Title headline",
+   "reason": "Long title at 76px; a short finding headline would do.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Explanatory subtitle restating setup details.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "Big 39.1% stat",
+   "reason": "Restates the bar value and delta already shown by bars.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e8",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE bar comparison",
+   "reason": "Main chart with labels and values.",
+   "ids": [
+    "e7",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Setup footnote",
+   "reason": "Small quiet evaluation detail.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Training data counts unrelated to the main result chart.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Reward line chart",
+   "reason": "Second chart on training diagnostics.",
+   "ids": [
+    "e28",
+    "e33",
+    "e34",
+    "e35",
+    "e39",
+    "e43",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type chart",
+   "reason": "Third chart, dataset composition, unrelated to the result.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy footer",
+   "reason": "Training diagnostic sentence, another unrelated point.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention beyond logo.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 9.5,
+   "orange": 28.8,
+   "red": 61.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 76.2,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 2,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

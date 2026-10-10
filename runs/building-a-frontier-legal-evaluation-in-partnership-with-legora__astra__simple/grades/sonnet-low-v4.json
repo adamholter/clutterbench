@@ -1,0 +1,124 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:57.522Z",
+ "main_idea": "BAR-informed harness changes raised output quality 5% on the same production models in one month.",
+ "ideas": [
+  "BAR-informed harness changes improved output quality",
+  "Improvement happened with the same production models",
+  "Gain occurred within one month"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean, simple flow diagram that makes one point; only slightly redundant in its framing, and it lacks nothing essential.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 7.2,
+  "usd": 0.05309849999999999,
+  "tokens": 21659,
+  "outputTokens": 642
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the finding.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "BAR evaluation box",
+   "reason": "Names the benchmark that starts the flow.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Same models frame",
+   "reason": "Short context that the models were unchanged.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Harness changes",
+   "reason": "Names the intervention in the flow.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "One month label",
+   "reason": "Short timeframe annotation on the arrow.",
+   "ids": [
+    "e14"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% output quality",
+   "reason": "The result: the single key value with its metric.",
+   "ids": [
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 65.1
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 17,
+  "textElements": 7
+ }
+}

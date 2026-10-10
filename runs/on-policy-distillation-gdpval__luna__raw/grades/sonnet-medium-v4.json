@@ -1,0 +1,236 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:38.256Z",
+ "main_idea": "On-policy distillation gives about +21% net win-loss margin on GDPval across two model families",
+ "ideas": [
+  "Nemotron gains +20.9% net win-loss margin",
+  "Qwen gains +21.4% net win-loss margin",
+  "Recipe transfers across model families",
+  "Distillation works by learning from own rollouts"
+ ],
+ "clutter_score": 7,
+ "summary": "A sentence headline, subtitle, eyebrow, extra stat rows and a four-step method panel crowd the two result cards, and the logo icon is barely visible.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo icon is nearly invisible, white on light background"
+ ],
+ "cost": {
+  "seconds": 9.5,
+  "usd": 0.0359736,
+  "tokens": 34811,
+  "outputTokens": 1195
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo header",
+   "reason": "Single brand mark with header rule.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag",
+   "reason": "Category tag 'Research · GDPval' tells reader nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Eyebrow kicker above headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Large sentence headline that doesn't state the finding; could be shorter.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Subtitle restates the chart content.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron result card",
+   "reason": "Main result with win/tie/loss bar and labels.",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Nemotron footer stats",
+   "reason": "Win rate and points are secondary; repeat/extra stats in the card.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen result card",
+   "reason": "Second family's headline margin and context.",
+   "ids": [
+    "e8",
+    "e10",
+    "e12",
+    "e14",
+    "e16",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Qwen extra stats",
+   "reason": "Extra score and win-rate metrics, different from the main margin.",
+   "ids": [
+    "e19",
+    "e21",
+    "e25",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Transfer caption",
+   "reason": "Caption restating the transfer claim.",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline panel",
+   "reason": "Four-step method diagram is a second idea beside results.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand tagline",
+   "reason": "Second brand mark and tagline.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Quiet note naming the benchmark.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 31.1,
+   "orange": 20.9,
+   "red": 48.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 58.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 2,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

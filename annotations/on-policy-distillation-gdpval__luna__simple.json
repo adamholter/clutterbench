@@ -1,0 +1,29 @@
+{
+ "labels": {
+  "e0": "blue",
+  "e2": "blue",
+  "e1": "blue",
+  "e3": "blue",
+  "e4": "blue",
+  "e5": "blue",
+  "e6": "blue",
+  "e7": "blue",
+  "e8": "blue",
+  "e9": "blue",
+  "e10": "blue",
+  "e11": "blue",
+  "e12": "blue",
+  "e13": "blue",
+  "e14": "blue",
+  "e16": "red",
+  "e15": "red"
+ },
+ "verdicts": {},
+ "notes": "Don't need to repeat after queries brand, but other than that, great.",
+ "missing": "",
+ "myScore": "1",
+ "reviewed": true,
+ "elements": [],
+ "runId": "on-policy-distillation-gdpval__luna__simple",
+ "updatedAt": "2026-10-10T16:40:56.837Z"
+}

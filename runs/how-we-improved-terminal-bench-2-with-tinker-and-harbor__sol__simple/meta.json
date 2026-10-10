@@ -1,0 +1,19 @@
+{
+  "id": "how-we-improved-terminal-bench-2-with-tinker-and-harbor__sol__simple",
+  "task": "how-we-improved-terminal-bench-2-with-tinker-and-harbor",
+  "title": "How We Improved Terminal-Bench 2.0 Scores by Over 5x Using Tinker and Harbor",
+  "model": "sol",
+  "modelId": "gpt-6.1-sol",
+  "effort": "low",
+  "variant": "simple",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 68,
+  "flags": [],
+  "createdAt": "2026-10-10T18:05:31.156Z"
+}

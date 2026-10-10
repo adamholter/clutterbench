@@ -1,0 +1,361 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 30,
+  "textElements": 21,
+  "words": 77,
+  "fontSizes": 10,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "box",
+   "tag": "header",
+   "x": 72,
+   "y": 60,
+   "w": 1056,
+   "h": 69,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "image",
+   "tag": "img",
+   "x": 72,
+   "y": 60,
+   "w": 190,
+   "h": 34,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "div",
+   "x": 932,
+   "y": 66,
+   "w": 196,
+   "h": 22,
+   "text": "Applied research",
+   "fontSize": 17,
+   "color": "rgb(85, 86, 79)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "div",
+   "x": 72,
+   "y": 174,
+   "w": 326,
+   "h": 23,
+   "text": "Customer service · Tool use",
+   "fontSize": 18,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "h1",
+   "x": 72,
+   "y": 200,
+   "w": 608,
+   "h": 167,
+   "text": "Improving Qwen3.5-9B on τ³-Banking",
+   "fontSize": 63,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "p",
+   "x": 72,
+   "y": 374,
+   "w": 584,
+   "h": 66,
+   "text": "Hybrid distillation, then PivotRL. Teacher solutions for only 50 tasks in the PivotRL stage.",
+   "fontSize": 24,
+   "color": "rgb(98, 99, 92)"
+  },
+  {
+   "id": "e6",
+   "kind": "box",
+   "tag": "section",
+   "x": 72,
+   "y": 484,
+   "w": 1056,
+   "h": 305,
+   "color": "rgb(238, 238, 230)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "span",
+   "x": 107,
+   "y": 515,
+   "w": 247,
+   "h": 28,
+   "text": "τ³-Banking performance",
+   "fontSize": 23,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "span",
+   "x": 900,
+   "y": 517,
+   "w": 193,
+   "h": 23,
+   "text": "pass@5 · higher is better",
+   "fontSize": 18,
+   "color": "rgb(99, 101, 93)"
+  },
+  {
+   "id": "e9",
+   "kind": "text",
+   "tag": "div",
+   "x": 973,
+   "y": 574,
+   "w": 120,
+   "h": 81,
+   "text": "11.3%",
+   "fontSize": 52,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e10",
+   "kind": "shape",
+   "tag": "div",
+   "x": 300,
+   "y": 589,
+   "w": 410,
+   "h": 52,
+   "color": "rgb(175, 152, 136)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "div",
+   "x": 107,
+   "y": 600,
+   "w": 109,
+   "h": 28,
+   "text": "Base model",
+   "fontSize": 21,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e12",
+   "kind": "text",
+   "tag": "div",
+   "x": 974,
+   "y": 668,
+   "w": 119,
+   "h": 81,
+   "text": "17.5%",
+   "fontSize": 52,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e13",
+   "kind": "shape",
+   "tag": "div",
+   "x": 300,
+   "y": 683,
+   "w": 635,
+   "h": 52,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e14",
+   "kind": "text",
+   "tag": "div",
+   "x": 107,
+   "y": 694,
+   "w": 120,
+   "h": 28,
+   "text": "After training",
+   "fontSize": 21,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e15",
+   "kind": "text",
+   "tag": "div",
+   "x": 72,
+   "y": 827,
+   "w": 213,
+   "h": 22,
+   "text": "The training recipe",
+   "fontSize": 17,
+   "color": "rgb(98, 99, 92)"
+  },
+  {
+   "id": "e16",
+   "kind": "box",
+   "tag": "div",
+   "x": 72,
+   "y": 869,
+   "w": 498,
+   "h": 172,
+   "color": "rgba(0, 0, 0, 0.267)"
+  },
+  {
+   "id": "e17",
+   "kind": "box",
+   "tag": "div",
+   "x": 630,
+   "y": 869,
+   "w": 498,
+   "h": 172,
+   "color": "rgba(0, 0, 0, 0.267)"
+  },
+  {
+   "id": "e18",
+   "kind": "text",
+   "tag": "div",
+   "x": 72,
+   "y": 891,
+   "w": 51,
+   "h": 21,
+   "text": "Stage 1",
+   "fontSize": 16,
+   "color": "rgb(98, 99, 92)"
+  },
+  {
+   "id": "e19",
+   "kind": "text",
+   "tag": "div",
+   "x": 630,
+   "y": 891,
+   "w": 54,
+   "h": 21,
+   "text": "Stage 2",
+   "fontSize": 16,
+   "color": "rgb(98, 99, 92)"
+  },
+  {
+   "id": "e20",
+   "kind": "text",
+   "tag": "h2",
+   "x": 72,
+   "y": 923,
+   "w": 176,
+   "h": 52,
+   "text": "Hybrid OPD",
+   "fontSize": 33,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e21",
+   "kind": "text",
+   "tag": "h2",
+   "x": 630,
+   "y": 923,
+   "w": 117,
+   "h": 52,
+   "text": "PivotRL",
+   "fontSize": 33,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e22",
+   "kind": "shape",
+   "tag": "path",
+   "x": 586,
+   "y": 946,
+   "w": 26,
+   "h": 18,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e23",
+   "kind": "text",
+   "tag": "p",
+   "x": 72,
+   "y": 987,
+   "w": 324,
+   "h": 53,
+   "text": "Distill Qwen3.6-27B into the student; shift toward binary-reward RL.",
+   "fontSize": 20,
+   "color": "rgb(76, 78, 70)"
+  },
+  {
+   "id": "e24",
+   "kind": "text",
+   "tag": "p",
+   "x": 630,
+   "y": 987,
+   "w": 343,
+   "h": 53,
+   "text": "from , with functional-equivalence rewards.",
+   "fontSize": 20,
+   "color": "rgb(76, 78, 70)"
+  },
+  {
+   "id": "e25",
+   "kind": "text",
+   "tag": "span",
+   "x": 630,
+   "y": 987,
+   "w": 89,
+   "h": 26,
+   "text": "193 pivots",
+   "fontSize": 20,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e26",
+   "kind": "text",
+   "tag": "span",
+   "x": 769,
+   "y": 987,
+   "w": 199,
+   "h": 26,
+   "text": "50 teacher trajectories",
+   "fontSize": 20,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e27",
+   "kind": "box",
+   "tag": "footer",
+   "x": 72,
+   "y": 1100,
+   "w": 1056,
+   "h": 46,
+   "color": "rgba(0, 0, 0, 0.2)"
+  },
+  {
+   "id": "e28",
+   "kind": "text",
+   "tag": "span",
+   "x": 72,
+   "y": 1124,
+   "w": 319,
+   "h": 22,
+   "text": "Evaluation: 97 tasks · five attempts per task",
+   "fontSize": 17,
+   "color": "rgb(100, 102, 93)"
+  },
+  {
+   "id": "e29",
+   "kind": "text",
+   "tag": "span",
+   "x": 976,
+   "y": 1124,
+   "w": 152,
+   "h": 22,
+   "text": "AfterQuery research",
+   "fontSize": 17,
+   "color": "rgb(100, 102, 93)"
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 17,
+  "textElements": 12,
+  "words": 39,
+  "fontSizes": 6,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 80,
+   "y": 80,
+   "w": 74,
+   "h": 60,
+   "text": ""
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "div",
+   "x": 837,
+   "y": 96,
+   "w": 283,
+   "h": 26,
+   "text": "AfterQuery × Legora",
+   "fontSize": 20,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 80,
+   "y": 208,
+   "w": 821,
+   "h": 393,
+   "text": "Building a frontier legal evaluation: , the Benchmark for Agentic Reasoning",
+   "fontSize": 84,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "i",
+   "x": 485,
+   "y": 295,
+   "w": 169,
+   "h": 131,
+   "text": "BAR",
+   "fontSize": 84,
+   "color": "rgb(232, 168, 95)"
+  },
+  {
+   "id": "e4",
+   "kind": "box",
+   "tag": "div",
+   "x": 80,
+   "y": 620,
+   "w": 1040,
+   "h": 205,
+   "color": "rgb(58, 58, 55)"
+  },
+  {
+   "id": "e5",
+   "kind": "box",
+   "tag": "div",
+   "x": 427,
+   "y": 621,
+   "w": 347,
+   "h": 204,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e6",
+   "kind": "box",
+   "tag": "div",
+   "x": 773,
+   "y": 621,
+   "w": 347,
+   "h": 204,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "div",
+   "x": 80,
+   "y": 657,
+   "w": 173,
+   "h": 131,
+   "text": "5,161",
+   "fontSize": 84,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "div",
+   "x": 464,
+   "y": 657,
+   "w": 88,
+   "h": 131,
+   "text": "28",
+   "fontSize": 84,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e9",
+   "kind": "text",
+   "tag": "div",
+   "x": 810,
+   "y": 657,
+   "w": 220,
+   "h": 131,
+   "text": "11,075",
+   "fontSize": 84,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "div",
+   "x": 80,
+   "y": 798,
+   "w": 57,
+   "h": 27,
+   "text": "cases",
+   "fontSize": 22,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "div",
+   "x": 464,
+   "y": 798,
+   "w": 138,
+   "h": 27,
+   "text": "practice areas",
+   "fontSize": 22,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e12",
+   "kind": "text",
+   "tag": "div",
+   "x": 810,
+   "y": 798,
+   "w": 182,
+   "h": 27,
+   "text": "source documents",
+   "fontSize": 22,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e13",
+   "kind": "box",
+   "tag": "div",
+   "x": 80,
+   "y": 900,
+   "w": 1040,
+   "h": 200,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e14",
+   "kind": "text",
+   "tag": "div",
+   "x": 128,
+   "y": 906,
+   "w": 223,
+   "h": 187,
+   "text": "+5%",
+   "fontSize": 120,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e15",
+   "kind": "text",
+   "tag": "p",
+   "x": 391,
+   "y": 964,
+   "w": 666,
+   "h": 71,
+   "text": "output quality from BAR-informed harness changes in one month, across the same production models",
+   "fontSize": 28,
+   "color": "rgb(12, 12, 12)"
+  },
+  {
+   "id": "e16",
+   "kind": "text",
+   "tag": "div",
+   "x": 80,
+   "y": 1133,
+   "w": 121,
+   "h": 23,
+   "text": "afterquery.com",
+   "fontSize": 18,
+   "color": "rgb(168, 167, 161)"
+  }
+ ]
+}

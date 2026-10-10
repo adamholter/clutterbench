@@ -1,0 +1,113 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:19.946Z",
+ "main_idea": "Distilled Qwen3.5-9B wins more GDPval task comparisons than it loses.",
+ "ideas": [
+  "Qwen3.5-9B wins 123 of 220 GDPval task pairs."
+ ],
+ "clutter_score": 1,
+ "summary": "The chart is clear and complete; the footer repeats the logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.6,
+  "usd": null,
+  "tokens": 11954,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Briefly states the positive GDPval result.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single visible brand mark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Model context",
+   "reason": "Names the model and number of GDPval task pairs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Win loss chart",
+   "reason": "Shows wins, ties, and losses with counts and a matching legend.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Website address",
+   "reason": "Small, quiet contact detail.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer logo",
+   "reason": "Repeats the AfterQuery logo already shown at the top.",
+   "ids": [
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 97.5,
+   "orange": 0,
+   "red": 2.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 2.5,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

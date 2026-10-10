@@ -1,0 +1,133 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:48.093Z",
+ "main_idea": "GRPO training on 500 tasks improved Qwen3.8-27B’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training improves DeepSWE pass@1"
+ ],
+ "clutter_score": 0,
+ "summary": "The chart is uncluttered, but omits the model name.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "The graphic does not identify Qwen3.8-27B."
+  }
+ ],
+ "completeness_score": 8,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Brand mark identifies the publisher.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark metric",
+   "reason": "Names DeepSWE and the pass@1 metric.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Trained score",
+   "reason": "Shows the improved result.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Top axis tick",
+   "reason": "Provides scale context for the bars.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Score bars",
+   "reason": "Compare the base and GRPO scores.",
+   "ids": [
+    "e4",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Gain connector",
+   "reason": "Visually connects the increase between the two results.",
+   "ids": [
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Base score",
+   "reason": "Shows the starting result.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Zero tick",
+   "reason": "Marks the baseline of the scale.",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Condition labels",
+   "reason": "Identify the base and GRPO-trained conditions.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 14.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 7
+ }
+}

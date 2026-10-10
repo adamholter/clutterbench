@@ -1,0 +1,169 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:23.512Z",
+ "main_idea": "On-policy distillation improves GDPval win-loss margin and rubric score for two model families.",
+ "ideas": [
+  "Distillation lifts Nemotron GDPval results",
+  "Result replicates on Qwen3.5-9B",
+  "Nemotron wins 123 of 220 task pairs",
+  "Gain is statistically significant"
+ ],
+ "clutter_score": 4,
+ "summary": "A slogan headline, long subtitle and eyebrow, plus big stat numbers instead of bars, crowd an otherwise complete results graphic.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 8.5,
+  "usd": 0.07897889999999999,
+  "tokens": 33341,
+  "outputTokens": 888
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Category tag with no needed information.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Slogan headline",
+   "reason": "Names the method, not the finding; very large.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Two-sentence subtitle with method and eval facts; could be shortened.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Result stat rows",
+   "reason": "Main results per model with metric labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Teacher/step sublabels",
+   "reason": "Useful teacher details but wordy under each model.",
+   "ids": [
+    "e11",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bar",
+   "reason": "Shows breakdown of task pairs with labels.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Sign test footnote",
+   "reason": "Small quiet evaluation detail.",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training split note",
+   "reason": "Dataset size is a side detail unrelated to reading results.",
+   "ids": [
+    "e31"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom rule",
+   "reason": "Decorative line.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 45.1,
+   "orange": 49.9,
+   "red": 5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 30,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

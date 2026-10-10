@@ -1,0 +1,76 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:15.403Z",
+ "main_idea": "Training lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "Training raises pass@5 on τ³-Banking",
+  "Base 11.3% versus after training 17.5%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one before-and-after bar chart with a short title, labelled values, and a single logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8,
+  "usd": 0.0026850700000000003,
+  "tokens": 24149,
+  "outputTokens": 1090
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Main before-after bars",
+   "reason": "The bars, their value labels, and category labels make the single comparison.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the model, metric, and benchmark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand mark",
+   "reason": "One small logo, visible in the screenshot, with no duplicate branding.",
+   "ids": [
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 27.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

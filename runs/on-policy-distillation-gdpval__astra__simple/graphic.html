@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+<title>On-policy distillation improves GDPval across model families</title>
+<style>
+@font-face{font-family:Diatype;src:url('assets/diatype.woff2') format('woff2');font-weight:400}
+@font-face{font-family:Plantijn;src:url('assets/plantijn.woff2') format('woff2');font-weight:400}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f8f8f3;color:#000}body{font-family:Diatype,sans-serif}main{width:1200px;height:1200px;position:relative}h1{position:absolute;top:55px;left:64px;margin:0;font:40px/1.15 Plantijn,serif;font-weight:400;letter-spacing:-.7px}.logo{position:absolute;right:64px;top:66px;width:155px;height:27px;object-fit:contain}.metric{position:absolute;top:119px;left:64px;margin:0;font-size:23px;color:#545650}svg{position:absolute;left:0;top:185px;width:1200px;height:1015px}text{font-family:Diatype,sans-serif;font-weight:400}.value{font-size:44px;fill:#026340;letter-spacing:-1px}.model{font-size:29px;fill:#000}
+</style>
+</head>
+<body>
+<main>
+<h1>On-policy distillation on GDPval</h1>
+<img class="logo" src="assets/logo.svg" alt="AfterQuery">
+<p class="metric">Net win–loss margin vs. base model</p>
+<svg viewBox="0 0 1200 1015" role="img" aria-label="Net win–loss margin against the base model on GDPval: Nemotron-3-Nano plus 20.9 percent; Qwen3.5-9B plus 21.4 percent.">
+<!-- Both bars use the same zero baseline and a scale of 34 pixels per percentage point. -->
+<line x1="96" y1="855" x2="1104" y2="855" stroke="#a8aca3" stroke-width="1.5"/>
+<rect x="170" y="144.4" width="350" height="710.6" fill="#026340"/>
+<rect x="680" y="127.4" width="350" height="727.6" fill="#026340"/>
+<text class="value" x="345" y="116.4" text-anchor="middle">+20.9%</text>
+<text class="value" x="855" y="99.4" text-anchor="middle">+21.4%</text>
+<text class="model" x="345" y="909" text-anchor="middle">Nemotron-3-Nano</text>
+<text class="model" x="855" y="909" text-anchor="middle">Qwen3.5-9B</text>
+</svg>
+</main>
+</body>
+</html>

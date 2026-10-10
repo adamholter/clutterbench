@@ -1,0 +1,222 @@
+{
+ "grader": "luna-high-v3",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:50.038Z",
+ "main_idea": "BAR-informed harness changes improved output quality by 5% across production models.",
+ "ideas": [
+  "BAR evaluates end-to-end legal work across 5,161 cases.",
+  "Its tasks connect evidence, legal work products, and scoring standards.",
+  "BAR-informed harness changes improved output quality by 5%."
+ ],
+ "clutter_score": 5,
+ "summary": "Secondary benchmark counts, detailed process cards, and repeated branding crowd the graphic; it lacks no essential information.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 26.9,
+  "usd": null,
+  "tokens": 12073,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery mark",
+   "reason": "The wordmark identifies the research team.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Partner label",
+   "reason": "The partnership name could take less space as a logo.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "It repeats the benchmark topic above the headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Legal work headline",
+   "reason": "It gives readers the subject of the graphic.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "BAR case count",
+   "reason": "The benchmark name, scale, and purpose orient readers.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Benchmark statistics",
+   "reason": "These secondary scope counts distract from the product impact.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation section title",
+   "reason": "It introduces the process shown below.",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Evaluation label",
+   "reason": "It repeats the idea already stated in the section title.",
+   "ids": [
+    "e20"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Evaluation process",
+   "reason": "The process matters, but three detailed cards take more room than needed.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Product impact",
+   "reason": "The callout states the measured improvement and its context.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tagline",
+   "reason": "The tagline adds no information about the benchmark or result.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated brand",
+   "reason": "AfterQuery is already identified in the header.",
+   "ids": [
+    "e57"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer dot",
+   "reason": "The decorative dot adds no information.",
+   "ids": [
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.8,
+   "orange": 35,
+   "red": 12.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 29.7,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

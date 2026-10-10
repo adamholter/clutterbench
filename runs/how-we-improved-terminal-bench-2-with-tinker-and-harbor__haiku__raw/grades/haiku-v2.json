@@ -1,0 +1,190 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:33.759Z",
+ "main_idea": "SFT then RLVR lifts gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "SFT plus RLVR lifts gpt-oss-20b pass rate to 17.0%",
+  "Base model passes only 3.1% of Terminal-Bench 2.0 tasks",
+  "SFT alone reaches 13.5%, RLVR adds the rest",
+  "Stage 1 SFT and Stage 2 RLVR are the method",
+  "Pipeline uses Tinker and Harbor",
+  "Trained without training on official eval tasks"
+ ],
+ "clutter_score": 7,
+ "summary": "The chart is clear, but stage cards, a restating subtitle, nav, eyebrow, and footer compete with it, and the headline runs to two lines; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Brand mark, one logo, keep as is.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header nav link",
+   "reason": "Site navigation text says nothing about the finding.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Category kicker above the headline; tells the reader nothing new.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "States the finding but runs two lines; the chart already shows the 5x gain.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle paragraph",
+   "reason": "Sentence restates what the bar chart already shows.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and rule",
+   "reason": "Short metric and agent label for the chart.",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Base model row",
+   "reason": "Row label, bar, value, and model name for the base condition.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "SFT only row",
+   "reason": "Row label, bar, value, and condition descriptor for SFT only.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "SFT plus RLVR row",
+   "reason": "Row label, bar, value, and descriptor for the full pipeline.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage 1 method card",
+   "reason": "Method explanation and callout serve a second idea beside the results chart.",
+   "ids": [
+    "e24",
+    "e26",
+    "e28",
+    "e30",
+    "e32",
+    "e34",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage 2 method card",
+   "reason": "Method explanation and callout serve a second idea beside the results chart.",
+   "ids": [
+    "e25",
+    "e27",
+    "e29",
+    "e31",
+    "e33",
+    "e35",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer",
+   "reason": "Source line, contact email, and footer bar; not needed to read the chart.",
+   "ids": [
+    "e38",
+    "e39",
+    "e40"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 35.1,
+   "orange": 26.7,
+   "red": 38.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 51.5,
+  "ideaCount": 6,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

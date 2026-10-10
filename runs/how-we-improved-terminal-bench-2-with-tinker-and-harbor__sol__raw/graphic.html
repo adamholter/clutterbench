@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>AfterQuery — Terminal-Bench improvement</title><style>
+@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2')}@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2');font-weight:500}@font-face{font-family:Plantijn;src:url('assets/MartinaPlantijn_Regular-s.p.09bvmw9c6lxyi.woff2')}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f8f8f3;color:#000}body{font-family:Diatype,sans-serif}.page{width:1200px;height:1200px;padding:54px 64px}.header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #0003;padding-bottom:27px}.logo{width:184px;height:32px;background:#000;mask:url('assets/afterquery-logo.svg') left center/contain no-repeat}.eyebrow{font-size:17px;letter-spacing:1.7px;text-transform:uppercase;color:#0009}.title{font-family:Plantijn,serif;font-weight:400;font-size:65px;line-height:1.08;letter-spacing:-1.6px;margin:37px 0 18px}.sub{font-size:23px;color:#0009;margin:0}.chart{display:block;width:1072px;height:530px;margin-top:28px}.pipeline{display:grid;grid-template-columns:1fr 55px 1fr;align-items:center;border-top:1px solid #0003;padding-top:27px;margin-top:4px}.stage{display:flex;gap:18px;align-items:flex-start}.tag{font-size:16px;padding:8px 11px;background:#e9e5d8;border-radius:4px;flex:none}.tag.green{background:#026340;color:#f8f8f3}.stage h2{font-size:23px;font-weight:500;margin:0 0 8px}.stage p{font-size:19px;line-height:1.4;margin:0;color:#0009;max-width:360px}.arrow{font-size:30px;color:#0007}.footer{border-top:1px solid #0003;display:flex;justify-content:space-between;margin-top:34px;padding-top:18px;font-size:16px;color:#0009}.footer p{margin:0;line-height:1.4}.note{max-width:650px}
+</style></head><body><main class="page"><header class="header"><img src="assets/afterquery-logo.svg" width="184" height="32" alt="AfterQuery"><div class="eyebrow">Research / Agent post-training</div></header>
+<h1 class="title">Better trajectories.<br>More capable terminal agents.</h1><p class="sub">Improving gpt-oss-20b with Tinker and Harbor</p>
+<svg class="chart" viewBox="0 0 1072 530" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal-Bench 2.0 pass rate: base 3.1%, SFT only 13.5%, SFT plus RLVR 17.0%.">
+<text x="0" y="28" fill="#0009" font-family="Diatype" font-size="18">Terminal-Bench 2.0 · Pass rate</text>
+<g stroke="#000" stroke-opacity=".08"><path d="M0 120H1072 M0 230H1072 M0 340H1072"/></g>
+<rect x="65" y="381.8" width="230" height="68.2" fill="#af9888"/>
+<rect x="421" y="153" width="230" height="297" fill="#cdaf5d"/>
+<rect x="777" y="76" width="230" height="374" fill="#026340"/>
+<g font-family="Diatype" font-size="51" font-weight="500"><text x="65" y="363">3.1<tspan font-size="31">%</tspan></text><text x="421" y="133">13.5<tspan font-size="31">%</tspan></text><text x="777" y="57" fill="#026340">17.0<tspan font-size="31">%</tspan></text></g>
+<path d="M0 450H1072" stroke="#000" stroke-opacity=".35"/>
+<g font-family="Diatype" font-size="23"><text x="65" y="487">Base model</text><text x="421" y="487">SFT only</text><text x="777" y="487">SFT + RLVR</text></g>
+<g font-family="Diatype" font-size="17" fill="#0008"><text x="65" y="515">Before post-training</text><text x="421" y="515">Expert gold trajectories</text><text x="777" y="515">Per-test rewards</text></g>
+</svg>
+<section class="pipeline"><div class="stage"><span class="tag">SFT</span><div><h2>Teach the workflow</h2><p>Explore → plan → edit → test → debug → pass</p></div></div><div class="arrow">→</div><div class="stage"><span class="tag green">RLVR</span><div><h2>Build on that capability</h2><p>Learn from winning and losing attempts on harder tasks.</p></div></div></section>
+<footer class="footer"><p class="note">No overlap with the official evaluation tasks.<br>Terminus 2 · Pass@1 averaged over 5 runs · 89 tasks</p><p>afterquery.com</p></footer>
+</main></body></html>

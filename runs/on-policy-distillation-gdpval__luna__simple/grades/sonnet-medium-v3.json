@@ -1,0 +1,123 @@
+{
+ "grader": "sonnet-medium-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:02:11.581Z",
+ "main_idea": "Distilled model wins 123 of 220 GDPval task pairs against base model",
+ "ideas": [
+  "Distilled model beats base on GDPval pairwise comparisons"
+ ],
+ "clutter_score": 2,
+ "summary": "Nearly clean; a duplicate footer logo and URL are extra, and the chart does not say what the distilled model was compared against.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 6.6,
+  "usd": 0.0299698,
+  "tokens": 31995,
+  "outputTokens": 617
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the finding, though somewhat slogan-like.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and sample subtitle",
+   "reason": "Short context: model and number of task pairs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bar",
+   "reason": "Main chart marks with one value label each.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Legend",
+   "reason": "Single legend identifying the segments.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Top logo",
+   "reason": "One brand mark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer logo",
+   "reason": "Brand shown a second time.",
+   "ids": [
+    "e16"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer URL",
+   "reason": "Website tagline-like footer adds nothing to the chart.",
+   "ids": [
+    "e15"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 95.7,
+   "orange": 0,
+   "red": 4.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 4.3,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1,
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

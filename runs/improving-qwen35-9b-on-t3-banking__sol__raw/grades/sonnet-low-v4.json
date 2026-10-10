@@ -1,0 +1,157 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:12:11.420Z",
+ "main_idea": "Qwen3.5-9B improved from 11.3% to 17.5% pass@5 on τ³-Banking after training.",
+ "ideas": [
+  "Pass@5 rose from 11.3% to 17.5%",
+  "Training used hybrid OPD then PivotRL",
+  "Only 50 teacher tasks were needed"
+ ],
+ "clutter_score": 5,
+ "summary": "A clear bar chart is cluttered by an eyebrow, a tag, a subtitle, a recipe card block and a repeated footer brand; nothing is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 7.6,
+  "usd": 0.058274000000000006,
+  "tokens": 23404,
+  "outputTokens": 845
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo header",
+   "reason": "Single brand mark; the header container takes the same label.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Applied research tag",
+   "reason": "Category tag that tells the reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Eyebrow line above the headline.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the model and benchmark.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Subtitle restating the method that the recipe cards also cover.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Results bar chart",
+   "reason": "Main visual with labels, metric, and values.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training recipe cards",
+   "reason": "Method pipeline cards serve a second point beside the results chart.",
+   "ids": [
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving evaluation details.",
+   "ids": [
+    "e27",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand",
+   "reason": "The brand is already shown in the top logo.",
+   "ids": [
+    "e29"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 66,
+   "orange": 0,
+   "red": 34,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 34,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 21
+ }
+}

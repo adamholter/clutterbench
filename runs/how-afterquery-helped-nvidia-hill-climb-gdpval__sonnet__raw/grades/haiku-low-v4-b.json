@@ -1,0 +1,145 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:25.840Z",
+ "main_idea": "Warmup lifts GDPval from 35.3 to 46.7, close to the teacher",
+ "ideas": [
+  "Warmup lifts GDPval score from 35.3 to 46.7",
+  "Warmup gets Ultra close to the GDPval teacher",
+  "Warmup also helps BrowseComp and HLE"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid GDPval bar chart is crowded by a kicker, a restating subtitle, and two extra benchmark blocks that should be removed; the headline is slightly long, and nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 12.2,
+  "usd": 0.0023707199999999998,
+  "tokens": 28751,
+  "outputTokens": 2329
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval comparison bars",
+   "reason": "Main visual: GDPval bars with row labels and value labels",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Quiet footnote naming the evaluation source",
+   "ids": [
+    "e35"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand mark",
+   "reason": "One brand mark: logo with wordmark",
+   "ids": [
+    "e34",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "States the finding but is a nine-word sentence; shorten to about seven words",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Eyebrow line above the headline adds nothing the reader needs",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway subtitle",
+   "reason": "Sentence restates the chart's 2.8-point gap the bars already show",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "BrowseComp and HLE blocks",
+   "reason": "Other benchmarks serve a second point unrelated to the GDPval main visual",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 21.8,
+   "orange": 35.3,
+   "red": 42.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 32.3
+  },
+  "clutterShare": 60.6,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 58,
+  "textElements": 24
+ }
+}

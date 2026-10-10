@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:D;font-weight:400;src:url(assets/ABCDiatype_Regular.woff2)}
+@font-face{font-family:D;font-weight:500;src:url(assets/ABCDiatype_Medium.woff2)}
+@font-face{font-family:D;font-weight:700;src:url(assets/ABCDiatype_Bold.woff2)}
+@font-face{font-family:M;src:url(assets/MartinaPlantijn_Regular.woff2)}
+*{margin:0;box-sizing:border-box}
+body{width:1200px;height:1200px;background:#0c0c0c;color:#f6f5ee;font-family:D,sans-serif;position:relative;overflow:hidden;padding:80px}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:22px;color:#a8a7a1}
+.top img{height:48px}
+h1{font-family:M,serif;font-weight:400;font-size:76px;line-height:1.05;margin-top:70px;letter-spacing:-1px}
+h1 i{color:#d1b56a}
+.sub{font-size:24px;color:#a8a7a1;margin-top:22px}
+svg{position:absolute;left:0;top:480px}
+.stats{position:absolute;left:80px;right:80px;bottom:80px;display:flex;border-top:1px solid #333;padding-top:28px}
+.stats div{flex:1}.stats b{font-family:M;font-weight:400;font-size:54px;display:block}
+.stats span{font-size:19px;color:#a8a7a1}
+</style></head><body>
+<div class="top"><img src="assets/mark.svg"><span>Research · Oct 8, 2026</span></div>
+<h1>Improving Qwen3.8-27B on DeepSWE with <i>GRPO</i></h1>
+<div class="sub">DeepSWE pass@1 (avg 3), mini-swe-agent at medium reasoning</div>
+<svg width="1200" height="400" viewBox="0 0 1200 400">
+<g font-family="D" >
+<rect x="80" y="40" width="440" height="280" rx="4" fill="#2a2a28"/>
+<rect x="680" y="0" width="440" height="320" rx="4" fill="#d1b56a"/>
+<text x="300" y="200" font-size="92" font-family="M" fill="#f6f5ee" text-anchor="middle">27.8%</text>
+<text x="900" y="200" font-size="92" font-family="M" fill="#0c0c0c" text-anchor="middle">39.1%</text>
+<text x="680" y="365" font-size="22" fill="#a8a7a1">After GRPO (step 15)</text>
+<text x="80" y="365" font-size="22" fill="#a8a7a1">Qwen3.8-27B base</text>
+<text x="600" y="190" font-size="40" fill="#d1b56a" text-anchor="middle" font-weight="700">→</text>
+<text x="600" y="240" font-size="26" fill="#d1b56a" text-anchor="middle" font-weight="700">+11.3</text>
+</g></svg>
+<div class="stats"><div><b>500</b><span>training tasks</span></div><div><b>422</b><span>repositories</span></div><div><b>8</b><span>attempts per task</span></div><div><b>0.570→0.856</b><span>mean reward, 15 updates</span></div></div>
+</body></html>

@@ -1,0 +1,153 @@
+{
+ "grader": "luna-low-v4",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:07:58.967Z",
+ "main_idea": "AfterQuery warmup raised Nemotron 3 Ultra’s GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "AfterQuery warmup raised GDPval from 35.3 to 46.7.",
+  "Warmup left the model 2.8 points behind the teacher.",
+  "Comparable open models have about 6× lower throughput."
+ ],
+ "clutter_score": 5,
+ "summary": "The chart is clear, but two cards repeat its results and a throughput card adds a separate claim.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 17.4,
+  "usd": null,
+  "tokens": 8358,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the source.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Section tag",
+   "reason": "The blog and case study label adds no information about the result.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "It names the finding and its subject.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval chart",
+   "reason": "The chart title, values, stage labels, and context explain the main result.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "Warmup stat card",
+   "reason": "It repeats the 35.3-to-46.7 increase already shown in the chart.",
+   "ids": [
+    "e24",
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Teacher gap card",
+   "reason": "It repeats the 2.8-point gap shown by the chart values.",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Throughput card",
+   "reason": "It introduces a separate throughput claim unrelated to the GDPval score chart.",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footer",
+   "reason": "The source is useful context; the site address is a quiet contact line.",
+   "ids": [
+    "e33",
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 82.2,
+   "orange": 0,
+   "red": 17.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 17.8,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:10.403Z",
+ "main_idea": "GRPO training improved Qwen3.8-27B’s DeepSWE pass rate from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO improved DeepSWE pass@1 by 11.3 points.",
+  "Training used 500 tasks from 422 repositories.",
+  "Training used eight attempts per task across 15 updates.",
+  "Tasks came from private codebases and covered five languages."
+ ],
+ "clutter_score": 5,
+ "summary": "The chart is clear, but the stats row, explanatory cards, header details, and footer branding add secondary information.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10.5,
+  "usd": null,
+  "tokens": 10116,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The header wordmark and icon identify the brand.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "The header tag adds no context needed to read the result.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Model kicker",
+   "reason": "The kicker repeats category and model details that are not needed to understand the chart.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline subtitle",
+   "reason": "The headline is a full sentence; a short finding-focused title would be clearer.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Training subtitle",
+   "reason": "It adds useful method and dataset context in a long subtitle.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE chart",
+   "reason": "The benchmark, metric, values, axes, and model labels make the improvement clear.",
+   "ids": [
+    "e9",
+    "e10",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Checkpoint badge",
+   "reason": "The pill repeats the base-to-step-15 comparison already shown by the bar labels.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training stats",
+   "reason": "Task, repository, and update counts add secondary training details beneath the main result.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Training method card",
+   "reason": "The attempt and GRPO details matter, but the boxed explanation could be a short footnote.",
+   "ids": [
+    "e35",
+    "e37",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Data source card",
+   "reason": "The codebase and language details are useful context, but take too much space in a card.",
+   "ids": [
+    "e36",
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer branding",
+   "reason": "The footer repeats the AfterQuery branding already present in the header.",
+   "ids": [
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "The tagline does not help readers interpret the chart.",
+   "ids": [
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 30.8,
+   "orange": 46.2,
+   "red": 22.5,
+   "unlabelled": 0.5,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 45.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 98,
+  "words": 106,
+  "textElements": 27
+ }
+}

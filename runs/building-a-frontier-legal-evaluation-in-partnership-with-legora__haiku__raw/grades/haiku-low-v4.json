@@ -1,0 +1,179 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:07:50.431Z",
+ "main_idea": "BAR-informed harness changes lifted Legora's output quality by 5% in one month",
+ "ideas": [
+  "Legal evaluation BAR built with Legora",
+  "BAR-informed harness changes raised output quality 5%",
+  "BAR covers 5,161 cases across 28 practice areas",
+  "Every practice area has a cell in the grid"
+ ],
+ "clutter_score": 6,
+ "summary": "The graphic is clean in its headline and +5% stat but cluttered by a dataset-size stat row, a decorative practice-area grid, a long subtitle, a category tag and a repeated footer wordmark; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 16.9,
+  "usd": 0.00386235,
+  "tokens": 27154,
+  "outputTokens": 3282
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, as the logo.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the subject, about five words.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% output quality stat",
+   "reason": "The main finding, with a short metric label.",
+   "ids": [
+    "e9",
+    "e13",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "Quiet contact line, allowed as blue.",
+   "ids": [
+    "e50"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Explanatory subtitle",
+   "reason": "Names the benchmark, but as a long two-line paragraph; shorten to the name.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Eyebrow-style category tag above the page; tells the reader nothing new.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats",
+   "reason": "Case, practice-area and document counts serve a second point, not the 5% finding.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Practice-area grid",
+   "reason": "Decorative 28-cell grid and its caption serve a separate point about coverage.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand already shown by the header logo.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 47.3,
+   "orange": 17.8,
+   "red": 35,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 43.9,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

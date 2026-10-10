@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+<title>AfterQuery — Qwen3.5-9B result</title>
+<style>
+@font-face{font-family:Diatype;src:url('./assets/diatype-regular.woff2')}@font-face{font-family:Diatype;src:url('./assets/diatype-medium.woff2');font-weight:600}@font-face{font-family:Martina;src:url('./assets/martina-regular.woff2')}
+*{box-sizing:border-box}html,body{width:1200px;height:1200px;margin:0;overflow:hidden}body{background:#f7f7f5;color:#1d1d1b;font-family:Diatype,Arial,sans-serif}.frame{width:1200px;height:1200px;padding:54px 64px 58px;display:flex;flex-direction:column}.brand{display:flex;align-items:center;height:36px}.brand img{width:152px;height:auto}.chart{flex:1;position:relative;margin-top:35px;border-top:1px solid rgba(29,29,27,.16);display:flex;flex-direction:column}.heading{padding-top:34px;display:flex;justify-content:space-between;align-items:baseline}.heading h1{font-family:Martina,Georgia,serif;font-size:42px;font-weight:400;letter-spacing:-1.4px;margin:0}.metric{font-size:15px;color:#62625d}.plot{position:relative;flex:1;margin:44px 20px 5px 20px;border-bottom:1px solid #c9c9c4;display:flex;align-items:flex-end;justify-content:center;gap:126px;padding-bottom:0}.grid{position:absolute;left:0;right:0;height:1px;background:#deded9}.grid.g1{bottom:25%}.grid.g2{bottom:50%}.grid.g3{bottom:75%}.barwrap{height:100%;width:260px;display:flex;align-items:flex-end;position:relative;z-index:1}.bar{width:100%;border-radius:4px 4px 0 0;position:relative}.bar.base{height:45.2%;background:#c8c8c2}.bar.new{height:70%;background:#242422}.value{position:absolute;top:-57px;left:0;right:0;text-align:center;font-family:Martina,Georgia,serif;font-size:54px;letter-spacing:-1.4px;line-height:1}.xlabel{position:absolute;bottom:-43px;left:0;right:0;text-align:center;color:#555650;font-size:17px}.delta{position:absolute;z-index:2;left:50%;transform:translateX(-50%);top:19%;display:flex;align-items:center;gap:14px;color:#555650;font-size:17px;white-space:nowrap}.delta:before,.delta:after{content:"";height:1px;width:45px;background:#a8a8a1}.footer{height:18px;display:flex;align-items:center;justify-content:flex-end;color:#777770;font-size:13px}
+</style>
+</head>
+<body>
+<main class="frame">
+<header class="brand"><img src="./assets/afterquery-logo.svg" alt="AfterQuery"></header>
+<section class="chart" aria-label="Pass at five improved from 11.3 percent to 17.5 percent">
+<div class="heading"><h1>Qwen3.5-9B</h1><span class="metric">pass@5</span></div>
+<div class="plot">
+<div class="grid g1"></div><div class="grid g2"></div><div class="grid g3"></div>
+<div class="delta">+6.2 percentage points</div>
+<div class="barwrap"><div class="bar base"><span class="value">11.3%</span></div><span class="xlabel">Before</span></div>
+<div class="barwrap"><div class="bar new"><span class="value">17.5%</span></div><span class="xlabel">After</span></div>
+</div>
+</section>
+<footer class="footer"></footer>
+</main>
+</body>
+</html>

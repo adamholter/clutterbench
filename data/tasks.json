@@ -1,0 +1,53 @@
+[
+  {
+    "id": "clutterbench-v1-results",
+    "title": "ClutterBench: which models clutter their graphics?",
+    "url": null,
+    "words": 716,
+    "publisher": "ClutterBench",
+    "site": "clutterbench.adamholter.chatgpt.site",
+    "postRule": "This post is not published yet. The ClutterBench site already shows a leaderboard and other charts: do not copy or adapt them, or any other existing graphic, chart or social card about these results. Use the site only as a style reference."
+  },
+  {
+    "id": "improving-qwen38-27b-on-deepswe",
+    "title": "Improving Qwen3.8-27B-Medium on DeepSWE with GRPO",
+    "url": "https://www.afterquery.com/blog/improving-qwen38-27b-on-deepswe",
+    "words": 450,
+    "strippedFigures": 29
+  },
+  {
+    "id": "improving-qwen35-9b-on-t3-banking",
+    "title": "Improving Qwen3.5-9B on τ³-Banking using PivotRL and fewer than 250 tasks",
+    "url": "https://www.afterquery.com/blog/improving-qwen35-9b-on-t3-banking",
+    "words": 538,
+    "strippedFigures": 29
+  },
+  {
+    "id": "how-we-improved-terminal-bench-2-with-tinker-and-harbor",
+    "title": "How We Improved Terminal-Bench 2.0 Scores by Over 5x Using Tinker and Harbor",
+    "url": "https://www.afterquery.com/blog/how-we-improved-terminal-bench-2-with-tinker-and-harbor",
+    "words": 1372,
+    "strippedFigures": 27
+  },
+  {
+    "id": "how-afterquery-helped-nvidia-hill-climb-gdpval",
+    "title": "How AfterQuery Helped NVIDIA Hill-Climb GDPval",
+    "url": "https://www.afterquery.com/blog/how-afterquery-helped-nvidia-hill-climb-gdpval",
+    "words": 929,
+    "strippedFigures": 18
+  },
+  {
+    "id": "on-policy-distillation-gdpval",
+    "title": "How we achieved a net win-loss margin of +21.4% on GDPval with on-policy distillation",
+    "url": "https://www.afterquery.com/blog/on-policy-distillation-gdpval",
+    "words": 2060,
+    "strippedFigures": 53
+  },
+  {
+    "id": "building-a-frontier-legal-evaluation-in-partnership-with-legora",
+    "title": "Building a Frontier Legal Evaluation in Partnership with Legora",
+    "url": "https://www.afterquery.com/blog/building-a-frontier-legal-evaluation-in-partnership-with-legora",
+    "words": 442,
+    "strippedFigures": 18
+  }
+]

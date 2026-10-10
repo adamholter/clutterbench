@@ -1,0 +1,161 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:22.937Z",
+ "main_idea": "PivotRL raised Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "Pass@5 rose from 11.3% to 17.5%",
+  "Only 50 teacher trajectories were needed",
+  "193 pivot states were profiled",
+  "Smaller model performs better at work"
+ ],
+ "clutter_score": 6,
+ "summary": "A clear two-bar chart is surrounded by a slogan headline, subtitle, eyebrow, decoration, stat cards and tagline footer that should go.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Decorative grey bars bleed off the right edge",
+  "Large empty space at bottom of canvas"
+ ],
+ "cost": {
+  "seconds": 8.4,
+  "usd": 0.0318493,
+  "tokens": 23373,
+  "outputTokens": 890
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Category tag with no information.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark",
+   "reason": "Short context naming model and benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explaining method; chart shows the result.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative shapes and arrow",
+   "reason": "Decorative bars and arrow with redundant 'Task success' label.",
+   "ids": [
+    "e6",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Main visual with labels, values, axis and metric.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stat cards",
+   "reason": "Dataset counts serve a secondary point beside the result.",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline footer",
+   "reason": "Slogan and repeated brand name add nothing.",
+   "ids": [
+    "e27",
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 27.9,
+   "orange": 0,
+   "red": 72.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 72.1,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "AQ Sans"; src: url(assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2) format("woff2"); font-weight: 400; }
+  @font-face { font-family: "AQ Sans"; src: url(assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2) format("woff2"); font-weight: 500; }
+  @font-face { font-family: "AQ Serif"; src: url(assets/MartinaPlantijn_Regular-s.p.09bvmw9c6lxyi.woff2) format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; width: 1200px; height: 1200px; overflow: hidden; background: #0c0c0c; }
+  svg { display: block; }
+</style>
+</head>
+<body>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" fill="#0c0c0c"/>
+
+  <image href="assets/logo.svg" x="80" y="80" width="59" height="48"/>
+  <text x="80" y="170" font-family="AQ Sans, Arial, sans-serif" font-size="26" font-weight="500" fill="#a8a7a1">Terminal-Bench 2.0 pass rate</text>
+
+  <!-- Bars: same scale, 0-17% spans 700px -->
+  <rect x="220" y="892" width="300" height="128" fill="#4a4944"/>
+  <rect x="680" y="320" width="300" height="700" fill="#e8a85f"/>
+
+  <line x1="160" y1="1020" x2="1040" y2="1020" stroke="#e8e8e3" stroke-opacity="0.25" stroke-width="2"/>
+
+  <text x="370" y="830" text-anchor="middle" font-family="AQ Serif, Georgia, serif" font-size="96" fill="#a8a7a1">3.1%</text>
+  <text x="830" y="260" text-anchor="middle" font-family="AQ Serif, Georgia, serif" font-size="96" fill="#e8e8e3">17.0%</text>
+
+  <text x="370" y="1085" text-anchor="middle" font-family="AQ Sans, Arial, sans-serif" font-size="30" fill="#a8a7a1">Base</text>
+  <text x="830" y="1085" text-anchor="middle" font-family="AQ Sans, Arial, sans-serif" font-size="30" fill="#e8e8e3">AfterQuery</text>
+</svg>
+</body>
+</html>

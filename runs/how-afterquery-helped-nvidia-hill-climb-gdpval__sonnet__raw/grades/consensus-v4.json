@@ -1,0 +1,162 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.900Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 19,
+  "tiebreak": true,
+  "scores": [
+   5,
+   3,
+   5
+  ]
+ },
+ "main_idea": "Light SFT warmup on AfterQuery data lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup lifts GDPval 35.3 to 46.7",
+  "Warmup nearly closes gap to teacher",
+  "BrowseComp shows the same pattern",
+  "HLE barely moves with warmup"
+ ],
+ "summary": "Two extra benchmark groups, an eyebrow and a restating subtitle clutter the GDPval point, and the headline is oversized; later bar groups lack row labels.",
+ "clutter_score": 5,
+ "completeness_score": 8,
+ "missing": [],
+ "defects": [
+  "BrowseComp and HLE bars lack row labels, unlike the GDPval group",
+  "BrowseComp and HLE bars have no row labels, unlike the GDPval group",
+  "Logo renders correctly at bottom right"
+ ],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Eyebrow line above the headline; adds nothing the reader needs.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline sentence",
+   "reason": "Finding is clear but is a huge full sentence; could be shorter.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "repetition",
+   "name": "Subtitle",
+   "reason": "Restates the gap the GDPval bars already show.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bars",
+   "reason": "Main chart with labeled bars and values.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "BrowseComp bars",
+   "reason": "Second benchmark serves a different point from the GDPval headline.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "HLE bars",
+   "reason": "Third benchmark group is unrelated to the GDPval headline.",
+   "ids": [
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e34",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Small quiet source line.",
+   "ids": [
+    "e35"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 21.8,
+   "orange": 35.3,
+   "red": 42.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 32.3
+  },
+  "clutterShare": 60.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 1,
+   "extra_idea": 18
+  },
+  "coverage": 100,
+  "words": 58,
+  "textElements": 24
+ }
+}

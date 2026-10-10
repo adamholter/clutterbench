@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Qwen3.5-9B pass@5 on τ³-Banking</title>
+<style>
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Bold-s.p.2g11yfly1dr71.woff2") format("woff2"); font-weight: 700; }
+
+  html, body { margin: 0; padding: 0; width: 1200px; height: 1200px; overflow: hidden; }
+  body { background: #f8f8f3; color: #000; font-family: "ABC Diatype", Inter, system-ui, sans-serif; }
+  .canvas { position: relative; width: 1200px; height: 1200px; }
+  .title { position: absolute; left: 80px; top: 72px; font-size: 26px; font-weight: 500; letter-spacing: 0.01em; color: #393939; }
+  .logo { position: absolute; left: 80px; bottom: 64px; height: 36px; }
+  svg.chart { position: absolute; left: 0; top: 0; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="title">Qwen3.5-9B · pass@5 on τ³-Banking</div>
+
+  <svg class="chart" width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+    <!-- baseline -->
+    <line x1="80" y1="1040" x2="1120" y2="1040" stroke="#000" stroke-opacity="0.2" stroke-width="2"/>
+
+    <!-- scale: 40px per point; 11.3% -> 452px, 17.5% -> 700px -->
+    <rect x="260" y="588" width="280" height="452" fill="#a8a7a1"/>
+    <rect x="660" y="340" width="280" height="700" fill="#026340"/>
+
+    <!-- values -->
+    <text x="400" y="552" text-anchor="middle" font-family="ABC Diatype, sans-serif" font-size="88" font-weight="700" fill="#000">11.3%</text>
+    <text x="800" y="304" text-anchor="middle" font-family="ABC Diatype, sans-serif" font-size="88" font-weight="700" fill="#026340">17.5%</text>
+
+    <!-- category labels -->
+    <text x="400" y="1096" text-anchor="middle" font-family="ABC Diatype, sans-serif" font-size="30" font-weight="500" fill="#393939">Base</text>
+    <text x="800" y="1096" text-anchor="middle" font-family="ABC Diatype, sans-serif" font-size="30" font-weight="500" fill="#393939">After training</text>
+  </svg>
+
+  <img class="logo" src="assets/logo.svg" alt="AfterQuery" style="filter: invert(1) brightness(0);">
+</div>
+</body>
+</html>

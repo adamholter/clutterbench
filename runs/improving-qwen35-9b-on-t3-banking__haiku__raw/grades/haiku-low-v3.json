@@ -1,0 +1,186 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:59.285Z",
+ "main_idea": "PivotRL lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "Qwen3.5-9B pass@5 rises from 11.3% to 17.5%",
+  "Training used fewer than 250 tasks via PivotRL",
+  "Distillation and PivotRL pipeline produced the gain",
+  "General benchmarks were not significantly changed"
+ ],
+ "clutter_score": 5,
+ "summary": "A clear before/after bar chart is buried under a long headline, a method pipeline, a dataset stats row, and several decorative or tagline extras; the chart names the benchmark, metric, and values, so nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo and wordmark render correctly; no overlap or clipping seen"
+ ],
+ "cost": {
+  "seconds": 14.2,
+  "usd": 0.00380528,
+  "tokens": 28108,
+  "outputTokens": 2882
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo lockup",
+   "reason": "One brand mark, kept as the single logo.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Results bar chart",
+   "reason": "Main visual with metric, values, labels, and bars.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long headline",
+   "reason": "Full-sentence headline; shorten to a finding like 'Over 1.5x on τ³-Banking'.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research date pill",
+   "reason": "Badge and category tag add nothing the reader needs.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway subtitle",
+   "reason": "Takeaway sentence restates the method rather than the result.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method pipeline cards",
+   "reason": "Method matters to the result; fold into a footnote or bar labels.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset sizes and general-benchmark count serve a second point, not the chart.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "Quiet URL giving the reader a contact point.",
+   "ids": [
+    "e45"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative dot",
+   "reason": "Decorative separator with no information.",
+   "ids": [
+    "e46"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Company tagline does not help read the chart.",
+   "ids": [
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 29.5,
+   "orange": 47.3,
+   "red": 23.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 46.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:22.079Z",
+ "main_idea": "On-policy distillation lifts GDPval win-loss margin across two model families",
+ "ideas": [
+  "On-policy distillation improves GDPval net win-loss margin",
+  "Nemotron student reaches +20.9% net margin",
+  "Qwen student reaches +21.4% net margin",
+  "Mean rubric points also rise",
+  "Nemotron wins 123, ties 20, loses 77",
+  "Gain is statistically significant"
+ ],
+ "clutter_score": 3,
+ "summary": "A clear two-row stat visual with a win-loss bar; clutter is the slogan headline, eyebrow, empty divider, and wordy subtitles and teacher details, and nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 16.5,
+  "usd": 0.00494527,
+  "tokens": 37334,
+  "outputTokens": 3311
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, kept as the single logo",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research GDPval eyebrow",
+   "reason": "Category tag above the headline, tells the reader nothing new",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Topic title, not a finding; the stats carry the claim",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Real method and eval facts, but a long two-line sentence",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron result row",
+   "reason": "Model name, headline margin, and rubric gain with labels",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Nemotron teacher detail",
+   "reason": "Teacher and step details; long for a row subtitle, shrink or footnote",
+   "ids": [
+    "e11"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen result row",
+   "reason": "Model name, headline margin, and rubric gain with labels",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Qwen teacher detail",
+   "reason": "Teacher and recipe detail; shorten or move to a footnote",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-loss chart title",
+   "reason": "Names the comparison, benchmark, and win rate for the bar",
+   "ids": [
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar",
+   "reason": "Main visual splitting the 220 tasks into wins, ties, losses",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Sign test footnote",
+   "reason": "Quiet evaluation detail supporting the significance claim",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Training split footer",
+   "reason": "Useful dataset fact, but could be folded into the subtitle or footnote",
+   "ids": [
+    "e31"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom divider rule",
+   "reason": "Empty decorative rule with no content",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 45.1,
+   "orange": 16.4,
+   "red": 38.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 46.8,
+  "ideaCount": 6,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

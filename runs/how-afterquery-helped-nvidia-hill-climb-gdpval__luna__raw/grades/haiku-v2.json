@@ -1,0 +1,243 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:22.144Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra on GDPval nearly to the teacher.",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7",
+  "Warmup lands close to the specialized teacher at 49.5",
+  "Warmup gains 11.4 points over no warmup"
+ ],
+ "clutter_score": 6,
+ "summary": "Clutter is the slogan headline, subtitle, eyebrow, card frame, takeaway sentence, and footer repeats around a clean chart; the graphic shows benchmark, model, conditions, and values, so nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, appropriate for a company post.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and unit",
+   "reason": "Names the benchmark, metric, and warmup ablation context.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and connector",
+   "reason": "The chart marks carrying the finding, including the gain arrow.",
+   "ids": [
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e19",
+    "e20",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, giving the exact scores.",
+   "ids": [
+    "e10",
+    "e11",
+    "e18",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Scale ticks needed to read the bar heights.",
+   "ids": [
+    "e12",
+    "e17",
+    "e22",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Names each bar's condition along the axis.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Legend",
+   "reason": "One legend explaining the three bar colours.",
+   "ids": [
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Big gain stat",
+   "reason": "Useful takeaway, but the large number restates the visible bar difference.",
+   "ids": [
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag and rule",
+   "reason": "Category tag and header rule add nothing to the chart's point.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline; the chart already names the model.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle sentence",
+   "reason": "Sentence restating what the chart shows.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card border",
+   "reason": "Card frame drawn around the chart.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Stat panel frame",
+   "reason": "Decorative container around the stat row.",
+   "ids": [
+    "e36"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Gain label",
+   "reason": "Label for the stat that adds no new information.",
+   "ids": [
+    "e37"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway sentence",
+   "reason": "Takeaway sentence restating the chart's gap.",
+   "ids": [
+    "e38"
+   ]
+  },
+  {
+   "rid": "r16",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand already shown in the top-left logo.",
+   "ids": [
+    "e41"
+   ]
+  },
+  {
+   "rid": "r17",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline unrelated to the finding.",
+   "ids": [
+    "e42"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 39.3,
+   "orange": 2,
+   "red": 58.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22.4
+  },
+  "clutterShare": 59.7,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 9,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 84,
+  "textElements": 29
+ }
+}

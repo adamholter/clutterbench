@@ -1,0 +1,87 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:46.077Z",
+ "main_idea": "Distillation lifts both Nemotron-3-Nano and Qwen3.5-9B by roughly 21% net win-loss on GDPval",
+ "ideas": [
+  "On-policy distillation improves GDPval net win-loss margin",
+  "Nemotron-3-Nano gains +20.9% over base",
+  "Qwen3.5-9B gains +21.4% over base"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple two-bar chart with a clear title, metric, labels, and one logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 5.9,
+  "usd": 0.00075288,
+  "tokens": 33308,
+  "outputTokens": 856
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Short title and subtitle name the benchmark, method, and metric",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and unobtrusive",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and value labels",
+   "reason": "The main visual: two bars, each with one value label",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Name the two models being compared under each bar",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.3
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 14,
+  "textElements": 6
+ }
+}

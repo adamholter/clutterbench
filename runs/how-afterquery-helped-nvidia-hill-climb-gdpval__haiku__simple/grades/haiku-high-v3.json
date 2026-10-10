@@ -1,0 +1,94 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:02:39.290Z",
+ "main_idea": "Warmup raises Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "Warmup raises Nemotron 3 Ultra's GDPval score",
+  "Warmup scores 46.7 versus 35.3 without warmup"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple two-bar chart with a short title, value labels, and category labels, with nothing to remove and no defects visible.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.9,
+  "usd": 0.00201711,
+  "tokens": 26903,
+  "outputTokens": 1495
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Score bars",
+   "reason": "The chart marks showing the before and after comparison",
+   "ids": [
+    "e3",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, which the reader needs to read the chart",
+   "ids": [
+    "e2",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Name each bar: no warmup and warmup",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the metric and model being measured",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Plain background shape that carries no content and nothing to remove",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

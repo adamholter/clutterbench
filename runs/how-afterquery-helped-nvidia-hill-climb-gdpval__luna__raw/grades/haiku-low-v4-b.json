@@ -1,0 +1,178 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:19.331Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7, near the teacher's 49.5.",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7",
+  "Warmed-up student nearly matches the specialized teacher",
+  "AfterQuery warmup improves Nemotron 3 Ultra on GDPval"
+ ],
+ "clutter_score": 5,
+ "summary": "The bar chart is clear and complete, but the eyebrow, slogan headline, subtitle, stat card, takeaway and footer are extra clutter that restates the chart.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 16,
+  "usd": 0.0044357400000000005,
+  "tokens": 29594,
+  "outputTokens": 2920
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, identifies the source.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Category tag above the chart adds nothing the reader needs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline is decorative context.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Restating subtitle",
+   "reason": "Subtitle restates what the chart already shows.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval score bar chart",
+   "reason": "Main visual with title, unit, axis, labels, legend and change marker.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Warmup gain stat card",
+   "reason": "+11.4 restates the 35.3 to 46.7 gap the bars already show.",
+   "ids": [
+    "e36",
+    "e37",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway sentence",
+   "reason": "Sentence explains the chart and restates the teacher comparison.",
+   "ids": [
+    "e38"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand already shown by the header logo.",
+   "ids": [
+    "e41"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline is marketing copy, not chart information.",
+   "ids": [
+    "e42"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.3,
+   "orange": 0,
+   "red": 47.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22.4
+  },
+  "clutterShare": 47.7,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 6,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 84,
+  "textElements": 29
+ }
+}

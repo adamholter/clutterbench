@@ -1,0 +1,205 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:28.814Z",
+ "main_idea": "BAR-informed harness changes improved legal agent output quality by 5%.",
+ "ideas": [
+  "BAR-informed harness changes improved output quality by 5%.",
+  "BAR evaluates end-to-end legal work.",
+  "BAR covers 5,161 cases, 28 practice areas, and 11,075 documents.",
+  "One expert-validated synthetic case was published."
+ ],
+ "clutter_score": 6,
+ "summary": "The detailed evaluation cards, supporting statistics, and repeated branding compete with the central 5% impact finding.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.9,
+  "usd": null,
+  "tokens": 10149,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "A single visible brand mark.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Extra branding",
+   "reason": "Partner wordmark, tagline, and repeated footer brand add no needed context.",
+   "ids": [
+    "e3",
+    "e56",
+    "e57",
+    "e58"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "Repeats the benchmark name already given in the headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "A concise title that identifies the legal evaluation.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "BAR case count",
+   "reason": "Names the benchmark and gives its case count and unit.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Benchmark subtitle",
+   "reason": "Useful context, but the sentence can be shortened.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Benchmark statistics",
+   "reason": "Dataset breadth and publication count are separate from the product impact claim.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Process section title",
+   "reason": "Introduces a secondary process explanation rather than the main finding.",
+   "ids": [
+    "e19",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Evaluation steps",
+   "reason": "The process is useful context, but the three explanatory cards take substantial space.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Impact result",
+   "reason": "The 5% result and production model context make the key outcome clear.",
+   "ids": [
+    "e51",
+    "e52",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Impact restatement",
+   "reason": "Repeats the product impact already expressed by the +5% result.",
+   "ids": [
+    "e53",
+    "e54"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 35.7,
+   "orange": 43.1,
+   "red": 21.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 42.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:18.108Z",
+ "main_idea": "OPD plus PivotRL lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "Pass@5 rises from 11.3% to 17.5%",
+  "Training method drives the gain on τ³-Banking"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple two-bar chart with a benchmark-and-metric title, labelled values, and one logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 7,
+  "usd": 0.0031107,
+  "tokens": 24059,
+  "outputTokens": 1038
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Bars, value labels, and category labels show the before and after results",
+   "ids": [
+    "e3",
+    "e5",
+    "e2",
+    "e4",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric title",
+   "reason": "Short title names the benchmark and metric being measured",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark, small and unobtrusive",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 31.8
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 9,
+  "textElements": 5
+ }
+}

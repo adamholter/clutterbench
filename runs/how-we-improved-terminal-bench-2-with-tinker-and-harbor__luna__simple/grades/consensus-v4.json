@@ -1,0 +1,106 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.909Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 1,
+  "tiebreak": true,
+  "scores": [
+   1,
+   2,
+   1
+  ]
+ },
+ "main_idea": "Training lifted Terminal-Bench 2.0 pass rate more than 5x, from 3.1% to 17.0%.",
+ "ideas": [
+  "Trained model beats base model on Terminal-Bench 2.0",
+  "Pass rate rose more than 5x"
+ ],
+ "summary": "Clean and complete; only the full-sentence headline could be shorter.",
+ "clutter_score": 1,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [
+  "Logo element e1 is not visible; the space left of 'AfterQuery' is blank",
+  "Logo rendered in near-background color, so the brand mark is effectively absent",
+  "Logo image e1 is not visible; only faint blank space appears left of wordmark"
+ ],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark in header; the logo is faint but the wordmark is visible.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark tag",
+   "reason": "Short tag naming the benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence headline; could be '5× on Terminal-Bench 2.0'.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Two bars with value labels and category labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Footnote",
+   "reason": "Quiet footnote giving the model and metric.",
+   "ids": [
+    "e12",
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 75.7,
+   "orange": 24.3,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 12.2,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

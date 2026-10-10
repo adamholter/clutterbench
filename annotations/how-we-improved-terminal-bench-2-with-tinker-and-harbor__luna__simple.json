@@ -1,0 +1,26 @@
+{
+ "labels": {
+  "e4": "orange",
+  "e0": "blue",
+  "e1": "blue",
+  "e2": "blue",
+  "e3": "blue",
+  "e5": "blue",
+  "e6": "blue",
+  "e7": "blue",
+  "e8": "blue",
+  "e9": "blue",
+  "e10": "blue",
+  "e11": "blue",
+  "e12": "blue",
+  "e13": "blue"
+ },
+ "verdicts": {},
+ "notes": "The AfterQuery logo is using the wrong icon: it used the light one when it should have used the dark for this light background. \n\nAlso, the text could have said something more concise, like \"5x uplift on TerminalBench 2.0,\" which would have also allowed you to remove the \"terminal bench\" label in the top right. \n\nSo, there's a little bit of room for improvement, but not much.",
+ "missing": "",
+ "myScore": "1",
+ "reviewed": true,
+ "elements": [],
+ "runId": "how-we-improved-terminal-bench-2-with-tinker-and-harbor__luna__simple",
+ "updatedAt": "2026-10-10T16:13:54.217Z"
+}

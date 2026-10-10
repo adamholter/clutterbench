@@ -1,0 +1,105 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:03:40.394Z",
+ "main_idea": "Training lifts gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Training raised pass rate on Terminal-Bench 2.0",
+  "Pass rate rose from 3.1% to 17.0%",
+  "Trained model is over 5x the base"
+ ],
+ "clutter_score": 1,
+ "summary": "Nearly clean: the full-sentence headline restates the bars and should be shortened, plus one decorative footer rule; nothing essential is missing, though the logo image does not render.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo image e1 is not visible; only the AfterQuery wordmark renders at top left"
+ ],
+ "cost": {
+  "seconds": 22.5,
+  "usd": 0.0031524200000000004,
+  "tokens": 31518,
+  "outputTokens": 3717
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand and benchmark header",
+   "reason": "One brand mark plus a short benchmark name identifying what is measured.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "Useful finding, but a full sentence restating the bars; could be shortened to about seven words.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Main visual: two labelled bars with one value label each and category labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer divider rule",
+   "reason": "Decorative rule with no information; the footnote does not need it.",
+   "ids": [
+    "e12"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric footnote",
+   "reason": "Quiet footnote naming the model and metric, which the reader needs.",
+   "ids": [
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 62.3,
+   "orange": 24.3,
+   "red": 13.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 25.6,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

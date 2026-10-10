@@ -1,0 +1,69 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:25.230Z",
+ "main_idea": "Distilled model beats base model on GDPval: 123 wins vs 77 losses, +20.9% net margin.",
+ "ideas": [
+  "Distilled model wins more GDPval task pairs than it loses"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one proportional win/tie/loss chart with a clear headline, and nothing to remove.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.1,
+  "usd": 0.0714157,
+  "tokens": 31548,
+  "outputTokens": 399
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title stating the metric, comparison and benchmark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bar",
+   "reason": "Proportional bar segments with count and category labels; the logo (not in the element list) is also visible and stays blue.",
+   "ids": [
+    "e0",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

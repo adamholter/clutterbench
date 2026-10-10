@@ -1,0 +1,65 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:06.443Z",
+ "main_idea": "Training improves Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "AfterQuery training raises Terminal-Bench 2.0 pass rate from 3.1% to 17.0%."
+ ],
+ "clutter_score": 0,
+ "summary": "clean",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "chart background",
+   "reason": "It provides the canvas for the two-bar comparison.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "chart title",
+   "reason": "Names the metric being compared.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "pass rate comparison",
+   "reason": "The bars, values, and category labels show the improvement from base to AfterQuery.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:21.350Z",
+ "main_idea": "Raw prompts produce far more clutter than simple prompts, for every model",
+ "ideas": [
+  "Raw prompts yield 29-61% clutter across models",
+  "Simple prompts drop clutter to 0-6%",
+  "Clutter share varies by model"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a single dumbbell chart with a short title, legend, and one logo, with nothing to remove.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 10.4,
+  "usd": 0.00347147,
+  "tokens": 25037,
+  "outputTokens": 1688
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "Single brand mark identifying the benchmark; keep.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the metric and what is compared.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Prompt legend",
+   "reason": "One legend distinguishing raw and simple prompt marks.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Dumbbell chart and labels",
+   "reason": "Main visual: model names, one value per mark, and the paired dots.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.3
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 28,
+  "textElements": 17
+ }
+}

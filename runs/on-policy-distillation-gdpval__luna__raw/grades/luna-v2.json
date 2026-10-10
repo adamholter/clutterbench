@@ -1,0 +1,226 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:55.742Z",
+ "main_idea": "On-policy distillation improves GDPval performance across Nemotron and Qwen models.",
+ "ideas": [
+  "Nemotron gains +20.9% net win-loss margin after distillation.",
+  "Qwen gains +21.4% net win-loss margin with the same recipe.",
+  "On-policy distillation trains students on their own outputs."
+ ],
+ "clutter_score": 7,
+ "summary": "The graphic repeats result summaries and adds a separate process diagram, while clearly identifying the benchmark, models, comparisons, and values.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the research group.",
+   "ids": [
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header divider",
+   "reason": "Decorative framing does not explain the result.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "The generic category tag adds no needed context.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "The kicker repeats the topic without stating the finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "States the finding but spans two lines.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Restates the result already shown in the comparison cards.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Card borders",
+   "reason": "Frames around the result cards add visual clutter.",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron results",
+   "reason": "Shows model context, margin, and paired-comparison outcomes.",
+   "ids": [
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen results",
+   "reason": "Shows model context, margin, rubric gain, and win rate.",
+   "ids": [
+    "e10",
+    "e12",
+    "e14",
+    "e16",
+    "e18",
+    "e19",
+    "e21",
+    "e25",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Nemotron summary",
+   "reason": "Repeats the win rate and rubric gain already summarized above.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Transfer caption",
+   "reason": "The recipe caption explains context rather than the measured result.",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Distillation process",
+   "reason": "The pipeline explains a method, creating a second point beside results.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer details",
+   "reason": "Tagline and source footer add no information needed to read the results.",
+   "ids": [
+    "e66",
+    "e67",
+    "e68",
+    "e69"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 24.7,
+   "orange": 20.9,
+   "red": 54.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 65,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 7,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

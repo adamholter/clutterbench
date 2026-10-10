@@ -1,0 +1,88 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:41.190Z",
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training raises DeepSWE pass rate",
+  "Base model scores 27.8% on DeepSWE",
+  "Trained model scores 39.1% on DeepSWE",
+  "Metric is pass@1 averaged over 3 runs"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple before/after bar chart with benchmark, metric, values, and logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.1,
+  "usd": 0.00165004,
+  "tokens": 23660,
+  "outputTokens": 966
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming model and benchmark; identifies what is measured.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark, the only logo on the graphic.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Short unit context stating pass@1 averaged over 3 runs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bars",
+   "reason": "Main visual: two labelled bars with value labels and category labels.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.4
+  },
+  "clutterShare": 0,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 11,
+  "textElements": 6
+ }
+}

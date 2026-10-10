@@ -1,0 +1,178 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:50.192Z",
+ "main_idea": "Pivot RL on 50 teacher tasks lifts Qwen3.5-9B pass@5 from 11.3% to 17.5%.",
+ "ideas": [
+  "Pivot RL on 50 teacher tasks lifts pass@5",
+  "Qwen3.5-9B pass@5 rises from 11.3% to 17.5%",
+  "Distillation then PivotRL is the training pipeline",
+  "Only 50 teacher tasks were needed",
+  "General benchmarks showed no significant change"
+ ],
+ "clutter_score": 7,
+ "summary": "Clutter from the method pipeline, the stats row, and the footer, plus a subtitle, pill, and frame; the headline could be shorter. The graphic names the benchmark, model, metric, conditions, and values, so nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand logo",
+   "reason": "Single brand mark, appropriate for a company post.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Baseline vs after bars",
+   "reason": "Chart marks, metric, conditions, model names, and values.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "Runs to two lines; the chart already shows the gain, so it could be shorter.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research date pill",
+   "reason": "Badge pill with category and date tells the reader nothing needed.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle sentence",
+   "reason": "Slogan-like sentence explaining the method; not needed to read the chart.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card frame",
+   "reason": "Border drawn around the main chart card.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "How it was done heading",
+   "reason": "Section label for the method cards, which are themselves removed.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline cards",
+   "reason": "Training-pipeline explanation serves a second point beside the results chart.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stats row",
+   "reason": "Evaluation counts and general-benchmark result serve a different idea than the pass@5 gain.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer line",
+   "reason": "URL, dot, and tagline footer adds no information about the result.",
+   "ids": [
+    "e45",
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 25.8,
+   "orange": 29.6,
+   "red": 44.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 59.4,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

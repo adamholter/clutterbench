@@ -1,0 +1,182 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:17.514Z",
+ "main_idea": "Two-stage post-training raises GPT-OSS-20B’s Terminal-Bench pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "The trained model scores 17.0% versus 3.1% for the base model.",
+  "The pipeline has SFT followed by reinforcement learning.",
+  "RL adds 3.5 points after SFT."
+ ],
+ "clutter_score": 8,
+ "summary": "The chart’s result is surrounded by repeated performance callouts, a second pipeline diagram, and branding and footer details.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "brand header",
+   "reason": "Logo and research tag identify the publisher and series, not the result.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "eyebrow",
+   "reason": "The headline and chart already establish the subject.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "headline",
+   "reason": "Two long promotional lines; a short results title would suffice.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "repetition",
+   "name": "model subtitle",
+   "reason": "Repeats the model and benchmark context already supplied by the chart.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "pass-rate chart",
+   "reason": "The bars and labels show the central comparison clearly.",
+   "ids": [
+    "e7",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e15",
+    "e20",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "pass-rate callout",
+   "reason": "The 5.5× claim restates the chart comparison and adds explanatory copy.",
+   "ids": [
+    "e8",
+    "e9",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "point-gain callout",
+   "reason": "The point difference is derivable from the chart values and repeats the result.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "RL gain card",
+   "reason": "Adds a separate claim about RL’s contribution beyond the main comparison.",
+   "ids": [
+    "e21",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "pipeline section label",
+   "reason": "Section framing is unnecessary to read the main chart.",
+   "ids": [
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "pipeline diagram",
+   "reason": "Introduces the training stages as a second point and repeats the final score.",
+   "ids": [
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer",
+   "reason": "Publisher credit and evaluation details are ancillary to the chart’s message.",
+   "ids": [
+    "e44",
+    "e45",
+    "e46"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 43.5,
+   "orange": 13.7,
+   "red": 42.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 56.8
+  },
+  "clutterShare": 49.7,
+  "ideaCount": 3,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 3,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 105,
+  "textElements": 32
+ }
+}

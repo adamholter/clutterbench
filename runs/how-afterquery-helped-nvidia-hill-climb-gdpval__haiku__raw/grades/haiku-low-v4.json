@@ -1,0 +1,167 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:07:54.983Z",
+ "main_idea": "Training warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7",
+  "Warmup narrows the gap to the teacher",
+  "AfterQuery warmup helped NVIDIA's GDPval training",
+  "Ultra runs about 6x faster than comparable open models"
+ ],
+ "clutter_score": 4,
+ "summary": "A clear bar chart is buried under three stat cards, a throughput claim and repeated brand and tag elements; the chart already states the benchmark, metric and values, so nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "'on GDPval' and 'horizon agentic tasks' text overflows bottom edge of stat cards",
+  "The 49.5 label sits on top of the teacher bar's dashed outline",
+  "Logo is present and visible"
+ ],
+ "cost": {
+  "seconds": 13.7,
+  "usd": 0.00370881,
+  "tokens": 28911,
+  "outputTokens": 2426
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, kept as the sole logo",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline naming the finding",
+   "reason": "Short title naming the benchmark and what was done",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "Main visual with labelled bars, values, chart title and source",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation source footnote",
+   "reason": "Quiet footnote naming the source of the figures",
+   "ids": [
+    "e33"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog case-study tag",
+   "reason": "Category tag above the page, tells the reader nothing new",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated website wordmark",
+   "reason": "Brand already shown by the logo at top",
+   "ids": [
+    "e34"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "+11.4 stat card",
+   "reason": "Restates the 35.3 to 46.7 difference the bars already show",
+   "ids": [
+    "e24",
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "2.8 gap stat card",
+   "reason": "Restates the gap between warmup and the 49.5 teacher bar",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Throughput stat card",
+   "reason": "Throughput claim is a second point, unrelated to the GDPval chart",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 81.8,
+   "orange": 0,
+   "red": 18.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 18.2,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

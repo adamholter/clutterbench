@@ -1,0 +1,187 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:48.637Z",
+ "main_idea": "AfterQuery and Legora built BAR, a large legal agent benchmark that improved Legora's product.",
+ "ideas": [
+  "BAR is a co-built legal agent benchmark",
+  "BAR is large: cases, practice areas, documents",
+  "BAR-informed harness changes improved output quality 5%",
+  "One cell per practice area"
+ ],
+ "clutter_score": 5,
+ "summary": "A stats row is a decent core, but the decorative grid, caption, tag and footer brand add clutter, and the subtitle is wordy.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 10.7,
+  "usd": 0.0592718,
+  "tokens": 23506,
+  "outputTokens": 942
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog tag",
+   "reason": "Category tag, tells the reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the topic.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle sentence",
+   "reason": "Full-sentence explanation of BAR; could be shortened.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark size stats",
+   "reason": "Concise numbers describing the benchmark's scale.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result",
+   "reason": "The key outcome, concise and labelled.",
+   "ids": [
+    "e13",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Practice area grid",
+   "reason": "Decorative grid repeating the 28 practice areas figure.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Grounding caption",
+   "reason": "Generic sentence not needed to read the graphic.",
+   "ids": [
+    "e40"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mention plus tagline.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "Small quiet contact line.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 61.2,
+   "orange": 17.8,
+   "red": 21,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 29.9,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

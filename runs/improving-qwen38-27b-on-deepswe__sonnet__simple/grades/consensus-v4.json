@@ -1,0 +1,93 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.935Z",
+ "consensus": {
+  "haikuAgreed": true,
+  "elementsChanged": 0,
+  "tiebreak": false,
+  "scores": [
+   0
+  ]
+ },
+ "main_idea": "Post-training with GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO lifts Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%"
+ ],
+ "summary": "Clean and complete: a simple two-bar chart with a benchmark title, labelled values, and one logo.",
+ "clutter_score": 0,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names the benchmark, metric and model in a short title",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark, visible and unobtrusive",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, as needed to read the chart",
+   "ids": [
+    "e2",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "Chart marks showing the base and post-GRPO values",
+   "ids": [
+    "e3",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Name each bar: Base and After GRPO",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 40.1
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

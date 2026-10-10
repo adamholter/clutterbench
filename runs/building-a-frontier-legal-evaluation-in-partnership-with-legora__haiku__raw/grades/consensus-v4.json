@@ -1,0 +1,190 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.860Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 10,
+  "tiebreak": true,
+  "scores": [
+   6,
+   6,
+   5
+  ]
+ },
+ "main_idea": "AfterQuery and Legora built BAR, a large legal agent benchmark that improved Legora's product.",
+ "ideas": [
+  "Co-built legal benchmark BAR",
+  "BAR is large in scale",
+  "BAR-informed changes lifted quality 5%",
+  "28 practice areas shown as cells"
+ ],
+ "summary": "The graphic is a text-heavy stat poster with no clear main visual. The intro paragraph, the +5% stat, the decorative cell grid and the footer brand add clutter. It lacks nothing essential.",
+ "clutter_score": 6,
+ "completeness_score": 9,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog tag",
+   "reason": "Category tag adds nothing.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the subject, about five words.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Explanatory subtitle",
+   "reason": "Names the benchmark, but as a long two-line paragraph; shorten to the name.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Scale stats",
+   "reason": "Dataset size numbers give context on the benchmark.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% output quality stat",
+   "reason": "The main finding, with a short metric label.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "+5% stat",
+   "reason": "Second claim about product improvement, unrelated to the benchmark scale.",
+   "ids": [
+    "e17"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Practice area grid",
+   "reason": "Decorative grid and caption repeat the 28 practice areas stat.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand",
+   "reason": "Second brand mention and tagline.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "Quiet contact line.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 58.5,
+   "orange": 17.8,
+   "red": 23.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 32.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "extra_idea": 1,
+   "repetition": 32
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

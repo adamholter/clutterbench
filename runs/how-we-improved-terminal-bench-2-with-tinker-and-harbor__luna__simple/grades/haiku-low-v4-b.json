@@ -1,0 +1,94 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:35.712Z",
+ "main_idea": "Training lifts AfterQuery's terminal task pass rate over 5x",
+ "ideas": [
+  "Trained model passes far more terminal tasks than base",
+  "Improvement is over 5x on Terminal-Bench 2.0",
+  "Base model 3.1% versus trained 17.0%"
+ ],
+ "clutter_score": 1,
+ "summary": "Nearly clean: the headline is a wordy full sentence that could shorten to a short finding, and the logo does not render; the chart, benchmark, metric and footnote are complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo image e1 is not visible; only faint blank space appears left of wordmark"
+ ],
+ "cost": {
+  "seconds": 10.2,
+  "usd": 0.00392181,
+  "tokens": 29242,
+  "outputTokens": 1712
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand and benchmark header",
+   "reason": "Single brand wordmark and short benchmark name; identifies source and measure",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "Finding is right but could shorten to '5x uplift on Terminal-Bench 2.0'",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Main visual: labelled bars, value labels, and category labels",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footer naming model and metric; evaluation detail",
+   "ids": [
+    "e12",
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 75.7,
+   "orange": 24.3,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 12.2,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

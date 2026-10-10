@@ -1,0 +1,77 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.922Z",
+ "consensus": {
+  "haikuAgreed": true,
+  "elementsChanged": 0,
+  "tiebreak": false,
+  "scores": [
+   0
+  ]
+ },
+ "main_idea": "Trained Qwen3.5-9B beats the base model on τ³-Banking pass@5",
+ "ideas": [
+  "Trained model beats base on τ³-Banking pass@5",
+  "Base scores 11.3%, trained model 17.5%"
+ ],
+ "summary": "Clean and complete: a simple two-bar chart with model, benchmark, metric, values and one logo.",
+ "clutter_score": 0,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Model, benchmark and metric",
+   "reason": "Short title and metric name say what is measured.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, not repeated elsewhere.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Bars, value labels and category labels make the comparison readable.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 31.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 11,
+  "textElements": 6
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:22.036Z",
+ "main_idea": "AfterQuery warmup lifts MOPD distillation score close to the teacher.",
+ "ideas": [
+  "AfterQuery warmup raises GDPval score",
+  "Warmed student nears the teacher model",
+  "Distillation without warmup scores lower"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a single bar chart with a metric title, labelled bars, values and one logo, with nothing to remove.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 6.3,
+  "usd": 0.00068216,
+  "tokens": 26236,
+  "outputTokens": 856
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the metric and stage; identifies what is measured.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Bars, value labels and category labels form the main visual; all needed.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet and appropriate.",
+   "ids": [
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 42
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 16,
+  "textElements": 9
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:40.261Z",
+ "main_idea": "PivotRL with 50 teacher trajectories lifts Qwen3.5-9B from 11.3% to 17.5%.",
+ "ideas": [
+  "PivotRL lifts Qwen3.5-9B pass@5 from 11.3% to 17.5%",
+  "Only 50 solved teacher trajectories are needed",
+  "Fewer examples yield more capable agents"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid before/after bar chart is buried under a slogan headline, a long subtitle, dataset stat cards, a takeaway line, a decorative pattern and repeated branding; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Decorative bar pattern at top right runs past the frame and is clipped at the canvas edge",
+  "Decorative shape overlaps the top-right area near the divider line"
+ ],
+ "cost": {
+  "seconds": 22.4,
+  "usd": 0.0036142900000000005,
+  "tokens": 29022,
+  "outputTokens": 4721
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo and wordmark",
+   "reason": "One brand mark, logo plus wordmark, kept as the single brand instance.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark tag",
+   "reason": "Names the model and benchmark, which tells the reader what is measured.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Applied research category tag",
+   "reason": "Category tag that says nothing about the finding.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; the chart carries the claim.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle sentence",
+   "reason": "Carries real facts (method, 50 trajectories) but is a long sentence; shorten or footnote.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative bar pattern",
+   "reason": "Decorative shape with no information, and it runs off the canvas edge.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Before and after bar chart",
+   "reason": "Main visual with labelled bars, values, axis ticks, metric and trend annotation.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset count stat cards",
+   "reason": "Dataset-size stats serve a second point, not reading the bar chart.",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway tagline",
+   "reason": "Takeaway sentence that restates the conclusion without adding information.",
+   "ids": [
+    "e27"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand repeat",
+   "reason": "Brand already shown in the logo at top; second instance adds nothing.",
+   "ids": [
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 28.9,
+   "orange": 17.6,
+   "red": 53.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 62.3,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

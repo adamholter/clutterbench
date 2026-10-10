@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terminal-Bench 2.0 training results</title>
+<style>
+@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Regular.woff2')} 
+@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Medium.woff2');font-weight:500}
+@font-face{font-family:Plantijn;src:url('assets/MartinaPlantijn_Regular.woff2')}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f8f8f3;color:#000}
+svg{display:block;width:1200px;height:1200px;font-family:Diatype,Arial,sans-serif}
+.title{font-family:Plantijn,Georgia,serif;font-size:40px}.value{font-size:40px;font-weight:500;font-variant-numeric:tabular-nums}.label{font-size:28px}.small{font-size:23px;fill:#66665e}
+.logo{position:absolute;left:958px;top:68px;width:170px;height:30px;object-fit:contain}
+</style>
+</head>
+<body>
+<img class="logo" src="assets/afterquery-logo.svg" alt="AfterQuery">
+<svg viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+<title id="title">gpt-oss-20b on Terminal-Bench 2.0</title>
+<desc id="desc">Pass rate rises from 3.1 percent for the base model to 13.5 percent after supervised fine-tuning and 17.0 percent after supervised fine-tuning and reinforcement learning with verifiable rewards.</desc>
+<text x="72" y="102" class="title">gpt-oss-20b · Terminal-Bench 2.0</text>
+<text x="72" y="171" class="small">Pass rate</text>
+<path d="M72 1040H1128" stroke="#c9c9bf" stroke-width="1.5"/>
+<rect x="112" y="903.6" width="248" height="136.4" fill="#af9888"/>
+<rect x="476" y="446" width="248" height="594" fill="#cdaf5d"/>
+<rect x="840" y="292" width="248" height="748" fill="#026340"/>
+<text x="236" y="878" text-anchor="middle" class="value">3.1%</text>
+<text x="600" y="420" text-anchor="middle" class="value">13.5%</text>
+<text x="964" y="266" text-anchor="middle" class="value">17.0%</text>
+<text x="236" y="1096" text-anchor="middle" class="label">Base</text>
+<text x="600" y="1096" text-anchor="middle" class="label">SFT</text>
+<text x="964" y="1096" text-anchor="middle" class="label">SFT + RLVR</text>
+</svg>
+</body>
+</html>

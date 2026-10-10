@@ -1,0 +1,101 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:05.166Z",
+ "main_idea": "Training lifted gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%, over 5x.",
+ "ideas": [
+  "Training raises pass rate over 5x"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and complete; only the headline is a full sentence that could be shorter, and the logo icon is invisible.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo image at left of AfterQuery wordmark is not visible"
+ ],
+ "cost": {
+  "seconds": 6.3,
+  "usd": 0.06322069999999999,
+  "tokens": 26809,
+  "outputTokens": 587
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand header",
+   "reason": "Single logo and wordmark in the header, kept as is.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark tag",
+   "reason": "Short tag naming the benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence headline; could be shortened to '5x on Terminal-Bench 2.0'.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Two bars with value labels and category labels make the point.",
+   "ids": [
+    "e5",
+    "e8",
+    "e6",
+    "e7",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Footnote",
+   "reason": "Quiet footnote giving model and metric.",
+   "ids": [
+    "e12",
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 75.7,
+   "orange": 24.3,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 12.2,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

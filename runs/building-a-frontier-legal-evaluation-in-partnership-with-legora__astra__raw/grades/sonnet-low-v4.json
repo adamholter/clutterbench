@@ -1,0 +1,171 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:58.992Z",
+ "main_idea": "BAR, built with Legora, is a legal benchmark whose use improved output quality 5%.",
+ "ideas": [
+  "BAR is a legal agent benchmark",
+  "Benchmark scale: cases, areas, documents",
+  "Process from legal work to harness changes",
+  "Harness changes gave +5% quality",
+  "Partnership between AfterQuery and Legora"
+ ],
+ "clutter_score": 7,
+ "summary": "The +5% result is buried under a stats row, a four-step process diagram and a footer tagline; the only gap is a bare +5% with no comparison.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "baseline for +5%",
+   "why": "No before/after comparison, so the +5% is only a bare stat."
+  }
+ ],
+ "completeness_score": 7,
+ "defects": [],
+ "cost": {
+  "seconds": 8.7,
+  "usd": 0.0586806,
+  "tokens": 23300,
+  "outputTokens": 921
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Partner logos",
+   "reason": "Brand marks identifying the partnership; short and quiet.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Large sentence headline; could be shorter and smaller, naming the finding.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark subtitle",
+   "reason": "Names the benchmark and what it tests, briefly.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset size stats unrelated to the +5% result.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Process flow cards",
+   "reason": "Pipeline cards are a second idea beside the result.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result",
+   "reason": "Main result stat with its metric label.",
+   "ids": [
+    "e39",
+    "e40",
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtext",
+   "reason": "Explains the stat; mostly restates the headline and subtitle.",
+   "ids": [
+    "e43"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline and repeated brand wordmark add nothing.",
+   "ids": [
+    "e44",
+    "e45"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 23.6,
+   "orange": 17.5,
+   "red": 59,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 67.8,
+  "ideaCount": 5,
+  "missingCount": 1,
+  "redByType": {
+   "extra_idea": 2,
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 99,
+  "textElements": 30
+ }
+}

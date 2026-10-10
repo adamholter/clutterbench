@@ -1,0 +1,84 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:15:25.880Z",
+ "main_idea": "BAR-informed harness changes increased Legora’s output quality by 5% in one month.",
+ "ideas": [
+  "Harness changes informed by BAR increased output quality by 5%."
+ ],
+ "clutter_score": 2,
+ "summary": "The oversized statistic and explanatory caption compete for attention, while the measured system, quality metric, comparison baseline, and actual values are missing.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model or system",
+   "why": "The graphic does not identify which production models or product the output quality measures."
+  },
+  {
+   "mid": "m1",
+   "what": "quality metric",
+   "why": "It gives no definition or unit for output quality."
+  },
+  {
+   "mid": "m2",
+   "what": "comparison conditions",
+   "why": "It does not say what baseline the 5% increase is compared with."
+  },
+  {
+   "mid": "m3",
+   "what": "measured values",
+   "why": "Only the increase is shown; baseline and resulting quality values are absent."
+  }
+ ],
+ "completeness_score": 3,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the company behind the graphic.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Quality increase",
+   "reason": "The large +5% states the finding, but its comparison conditions and measured subject are unclear.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding caption",
+   "reason": "It explains the stat in a long two-line sentence.",
+   "ids": [
+    "e2"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 0.6,
+   "orange": 99.4,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.7
+  },
+  "clutterShare": 49.7,
+  "ideaCount": 1,
+  "missingCount": 4,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 2
+ }
+}

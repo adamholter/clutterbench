@@ -1,0 +1,124 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:42:50.030Z",
+ "main_idea": "Warmup raises Nemotron 3 Ultra's GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "AfterQuery warmup lifts Nemotron 3 Ultra's GDPval score",
+  "Warmup improves GDPval score from 35.3 to 46.7"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple bar chart with title, metric, values, category labels and one logo, with nothing to remove.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.7,
+  "usd": 0.00361495,
+  "tokens": 27243,
+  "outputTokens": 1467
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the model and benchmark; identifies what is measured.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark, shown once in the header.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Short unit and metric context: GDPval score, MOPD.",
+   "ids": [
+    "e22"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "The chart marks comparing the two conditions.",
+   "ids": [
+    "e24",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, giving the exact scores.",
+   "ids": [
+    "e23",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Name each bar: no warmup versus AfterQuery warmup.",
+   "ids": [
+    "e27",
+    "e28"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.4
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 6
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:59.041Z",
+ "main_idea": "Hybrid OPD + PivotRL lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "Qwen3.5-9B pass@5 on τ³-Banking improved after training",
+  "Base 11.3% versus Hybrid OPD + PivotRL 17.5%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple before-after bar chart with a short title, metric, labelled values and one logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.5,
+  "usd": 0.00069107,
+  "tokens": 23991,
+  "outputTokens": 920
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Bars, value labels and category labels form the main visual the reader needs",
+   "ids": [
+    "e4",
+    "e6",
+    "e3",
+    "e5",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Short title names the model, benchmark and pass@5 metric",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet and appropriate",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 31.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 11,
+  "textElements": 6
+ }
+}

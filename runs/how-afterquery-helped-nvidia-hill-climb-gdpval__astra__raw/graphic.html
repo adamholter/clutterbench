@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AfterQuery × NVIDIA — GDPval</title>
+<style>
+@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2')}@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2');font-weight:500}@font-face{font-family:Plantijn;src:url('assets/MartinaPlantijn_Regular-s.p.09bvmw9c6lxyi.woff2')}@font-face{font-family:Fragment;src:url('assets/a9a434ecf764164f-s.p.09kihw1cxxru6.woff2')}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden}body{background:#f8f8f3;color:#000;font-family:Diatype,sans-serif}main{width:1200px;height:1200px;padding:55px 64px 38px}header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #c9cac2;padding-bottom:28px}.logo{width:205px;height:35px;object-fit:contain}.mono{font-family:Fragment,monospace;font-size:14px;letter-spacing:1px;text-transform:uppercase}.kicker{margin-top:34px;color:#026340}h1{font-family:Plantijn,Georgia,serif;font-size:65px;line-height:1.055;letter-spacing:-1.8px;font-weight:400;margin:20px 0 20px}.dek{font-size:23px;line-height:1.4;color:#52554e;margin:0;max-width:940px}.chart-head{display:flex;justify-content:space-between;align-items:center;margin-top:35px;padding-top:22px;border-top:1px solid #c9cac2}.chart-head strong{font-size:21px;font-weight:500}.chart-head span{color:#60655d;font-size:16px}.chart{display:block;width:1072px;height:454px}.recipe{display:grid;grid-template-columns:1.15fr 32px 1fr 32px 1fr;align-items:center;border-top:1px solid #c9cac2;border-bottom:1px solid #c9cac2;padding:24px 0;gap:18px}.recipe .label{font-size:22px;line-height:1.25}.recipe .sub{font-size:16px;line-height:1.45;color:#62665e;margin-top:7px}.arrow{font-size:28px;color:#026340}.foot{display:flex;justify-content:space-between;align-items:flex-end;margin-top:23px;font-size:14px;line-height:1.45;color:#62665e}.foot .source{max-width:750px}
+</style></head>
+<body><main>
+<header><img class="logo" src="assets/afterquery-logo.svg" alt="AfterQuery"><div class="mono">Research / NVIDIA Nemotron 3 Ultra</div></header>
+<div class="mono kicker">Office agent data → model performance</div>
+<h1>Helping NVIDIA<br>hill-climb GDPval.</h1>
+<p class="dek">AfterQuery’s Office Agent trajectories power a warmup that lifts<br>Nemotron 3 Ultra’s GDPval result from 35.3 to 46.7.</p>
+<div class="chart-head"><strong>GDPval · NVIDIA’s warmup ablation</strong><span>Higher is better</span></div>
+<svg class="chart" viewBox="0 0 1072 454" role="img" aria-label="GDPval scores: starting student 28.9, MOPD without warmup 35.3, MOPD with warmup 46.7, specialized teacher 49.5. Bars share a zero baseline.">
+<defs><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M-2 2L2-2M0 8L8 0M6 10L10 6" stroke="#af9888" stroke-width="1"/></pattern></defs>
+<!-- Linear bar heights: score multiplied by 5.6, all from a common baseline. -->
+<rect x="563" y="18" width="232" height="425" fill="#026340" opacity=".055"/>
+<line x1="32" y1="350" x2="1040" y2="350" stroke="#898c82"/>
+<line x1="32" y1="72.8" x2="1040" y2="72.8" stroke="#a9ad9f" stroke-dasharray="3 6"/>
+<rect x="80" y="188.16" width="152" height="161.84" fill="#af9888"/>
+<rect x="340" y="152.32" width="152" height="197.68" fill="#9da997"/>
+<rect x="603" y="88.48" width="152" height="261.52" fill="#026340"/>
+<rect x="864" y="72.8" width="152" height="277.2" fill="url(#hatch)" stroke="#af9888"/>
+<g font-family="Diatype" font-size="43" text-anchor="middle">
+<text x="156" y="170">28.9</text><text x="416" y="134">35.3</text><text x="679" y="69" fill="#026340">46.7</text><text x="940" y="54">49.5</text>
+</g>
+<g font-family="Diatype" font-size="21" text-anchor="middle">
+<text x="156" y="385">Student</text><text x="416" y="385">No warmup</text><text x="679" y="385" fill="#026340" font-weight="500">With warmup</text><text x="940" y="385">Teacher</text>
+</g>
+<g font-family="Diatype" font-size="16" fill="#62665e" text-anchor="middle"><text x="156" y="414">Starting checkpoint</text><text x="416" y="414">MOPD</text><text x="679" y="414">MOPD</text><text x="940" y="414">Specialized model</text></g>
+<path d="M769 90h39V74h-9" fill="none" stroke="#026340" stroke-width="1.5"/>
+</svg>
+<div class="recipe">
+<div><div class="label">AfterQuery trajectories</div><div class="sub">File-grounded professional tasks</div></div><div class="arrow">→</div>
+<div><div class="label">Light SFT warmup</div><div class="sub">Transfer expert workflow priors</div></div><div class="arrow">→</div>
+<div><div class="label">Pivot RL in MOPD</div><div class="sub">Distill at key decision points</div></div>
+</div>
+<div class="foot"><div class="source">Source: NVIDIA Nemotron 3 Ultra technical report, warmup ablation.<br>AfterQuery Office Agent tasks used for the office/workplace teacher.</div><div>afterquery.com</div></div>
+</main></body></html>

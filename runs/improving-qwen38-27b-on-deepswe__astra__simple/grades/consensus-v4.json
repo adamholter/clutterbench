@@ -1,0 +1,87 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.927Z",
+ "consensus": {
+  "haikuAgreed": true,
+  "elementsChanged": 0,
+  "tiebreak": false,
+  "scores": [
+   0
+  ]
+ },
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raises Qwen3.8-27B DeepSWE pass rate",
+  "Base model scores 27.8% pass@1",
+  "Post-GRPO model scores 39.1% pass@1"
+ ],
+ "summary": "Clean and complete: a simple two-bar chart with a benchmark title, metric label, logo, and one value per bar.",
+ "clutter_score": 0,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the model and benchmark being measured.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and unobtrusive.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "States the metric and averaging, which the reader needs to read the values.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars, values, categories",
+   "reason": "The main visual: two labelled bars with one value each.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.4
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 11,
+  "textElements": 6
+ }
+}

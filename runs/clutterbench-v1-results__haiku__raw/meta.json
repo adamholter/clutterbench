@@ -1,0 +1,19 @@
+{
+  "id": "clutterbench-v1-results__haiku__raw",
+  "task": "clutterbench-v1-results",
+  "title": "ClutterBench: which models clutter their graphics?",
+  "model": "haiku",
+  "modelId": "claude-haiku-5-5",
+  "effort": "low",
+  "variant": "raw",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 43,
+  "flags": [],
+  "createdAt": "2026-10-10T20:14:51.729Z"
+}

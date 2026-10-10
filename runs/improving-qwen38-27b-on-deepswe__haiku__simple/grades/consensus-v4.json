@@ -1,0 +1,68 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.929Z",
+ "consensus": {
+  "haikuAgreed": true,
+  "elementsChanged": 0,
+  "tiebreak": false,
+  "scores": [
+   0
+  ]
+ },
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%",
+  "Before-and-after bars show the gain on DeepSWE"
+ ],
+ "summary": "Clean and complete: a single before-and-after bar chart with the benchmark, metric, labels and values, with nothing to remove.",
+ "clutter_score": 0,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [
+  "Top-right logo mark is visible but has no element entry, so it was not graded"
+ ],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric label",
+   "reason": "Short label naming the benchmark and metric, as required context.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-and-after bar chart",
+   "reason": "Main visual: two labelled bars with values, the core point.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "improving-qwen38-27b-on-deepswe__astra__simple",
+  "task": "improving-qwen38-27b-on-deepswe",
+  "title": "Improving Qwen3.8-27B-Medium on DeepSWE with GRPO",
+  "model": "astra",
+  "modelId": "gpt-6-astra",
+  "effort": "low",
+  "variant": "simple",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 68,
+  "flags": [],
+  "createdAt": "2026-10-10T20:39:20.839Z"
+}

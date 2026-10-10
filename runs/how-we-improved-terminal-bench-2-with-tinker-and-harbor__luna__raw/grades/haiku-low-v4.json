@@ -1,0 +1,204 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:18.130Z",
+ "main_idea": "Training lifts the base model's Terminal-Bench 2.0 pass rate about 5x, from 3.1% to 17.0%",
+ "ideas": [
+  "Training lifts terminal agent pass rate about 5x",
+  "Base model 3.1% versus trained model 17.0%",
+  "Two-stage pipeline: SFT then RLVR",
+  "RLVR adds 3.5 points after SFT"
+ ],
+ "clutter_score": 6,
+ "summary": "The 3.1% to 17.0% bar chart is clear, but the stat cards, two-stage card row, slogan headline, kicker, and duplicate footer wordmark clutter it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Header logo (e1) is near-invisible: pale mark on light background"
+ ],
+ "cost": {
+  "seconds": 19.5,
+  "usd": 0.00474647,
+  "tokens": 33065,
+  "outputTokens": 3949
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one logo",
+   "ids": [
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag and header rule repeat the topic, adding nothing",
+   "ids": [
+    "e0",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker line",
+   "reason": "Kicker above the headline restates the subject",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line slogan headline",
+   "reason": "Slogan opener; shorten to a finding like '5x pass rate on Terminal-Bench 2.0'",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric subtitle",
+   "reason": "Names the model, benchmark and metric being measured",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate bar chart",
+   "reason": "Main visual: labelled bars, values, chart title and axis labels",
+   "ids": [
+    "e7",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e15",
+    "e20",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "5.5x stat card",
+   "reason": "Boxed 5.5x callout restates the ratio the bars already show",
+   "ids": [
+    "e8",
+    "e9",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "+10.4 points stat card",
+   "reason": "Boxed difference restates the gap the bars already show",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "+3.5 points stat card",
+   "reason": "Callout repeats the RLVR gain, a second point outside the main visual",
+   "ids": [
+    "e21",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Two-stage pipeline cards",
+   "reason": "Method cards are a second idea beside the results chart",
+   "ids": [
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer AfterQuery wordmark",
+   "reason": "Brand already shown by the header logo",
+   "ids": [
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving benchmark, task count and averaging",
+   "ids": [
+    "e46"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 36.5,
+   "orange": 25.9,
+   "red": 37.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30
+  },
+  "clutterShare": 50.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 4,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 105,
+  "textElements": 32
+ }
+}

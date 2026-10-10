@@ -1,0 +1,109 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 8,
+  "textElements": 5,
+  "words": 11,
+  "fontSizes": 3,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "h1",
+   "x": 64,
+   "y": 50,
+   "w": 451,
+   "h": 59,
+   "text": "Nemotron 3 Ultra on GDPval",
+   "fontSize": 38,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "image",
+   "tag": "img",
+   "x": 979,
+   "y": 66,
+   "w": 157,
+   "h": 27,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "text",
+   "x": 807,
+   "y": 195,
+   "w": 106,
+   "h": 59,
+   "text": "46.7",
+   "fontSize": 44,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e3",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 684,
+   "y": 262,
+   "w": 352,
+   "h": 747,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "text",
+   "x": 287,
+   "y": 377,
+   "w": 106,
+   "h": 59,
+   "text": "35.3",
+   "fontSize": 44,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 164,
+   "y": 444,
+   "w": 352,
+   "h": 565,
+   "color": "rgb(175, 152, 136)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "text",
+   "x": 268,
+   "y": 1038,
+   "w": 144,
+   "h": 37,
+   "text": "No warmup",
+   "fontSize": 28,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 739,
+   "y": 1038,
+   "w": 243,
+   "h": 37,
+   "text": "AfterQuery warmup",
+   "fontSize": 28,
+   "color": "rgb(0, 0, 0)"
+  }
+ ]
+}

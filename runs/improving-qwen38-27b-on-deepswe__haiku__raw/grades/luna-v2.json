@@ -1,0 +1,207 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:40.647Z",
+ "main_idea": "GRPO improved Qwen3.8-27B’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO improved DeepSWE pass@1 by 11.3 points.",
+  "Training reward rose over 15 updates.",
+  "Training tasks span multiple types and repositories.",
+  "Entropy showed no sustained decline."
+ ],
+ "clutter_score": 8,
+ "summary": "Several secondary training diagnostics, dataset statistics, and repeated gain text clutter the graphic; the main comparison is complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the publisher.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category",
+   "reason": "The category tag adds no information needed to read the result.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "It runs to two lines and spells out the improvement shown below.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "It restates context and evaluation details beneath the headline.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate comparison",
+   "reason": "The metric, conditions, bars, and values show the main result.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Gain callout",
+   "reason": "The large gain restates the difference already visible in the bars.",
+   "ids": [
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation setup",
+   "reason": "Brief context clarifies that both scores use the same setup.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset statistics",
+   "reason": "Task and repository counts form a separate training data point.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Reward trend",
+   "reason": "Training reward is a second charted result beyond the pass rate.",
+   "ids": [
+    "e28",
+    "e33",
+    "e34",
+    "e35",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type breakdown",
+   "reason": "The training set composition is a separate point from the benchmark result.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Reward caveat",
+   "reason": "This sentence explains a secondary diagnostic chart.",
+   "ids": [
+    "e47"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy note",
+   "reason": "Entropy behavior is another training diagnostic, separate from the main result.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer wordmark",
+   "reason": "The logo already identifies AfterQuery.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 23.7,
+   "orange": 30.7,
+   "red": 45.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 61,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

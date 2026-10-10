@@ -1,0 +1,179 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:42:59.259Z",
+ "main_idea": "Training lifts gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Training lifts gpt-oss-20b pass rate on Terminal-Bench 2.0",
+  "SFT gives most of the gain",
+  "RL on top of SFT adds more",
+  "Two stages: teach workflow, then learn from tests",
+  "No training on the official eval tasks"
+ ],
+ "clutter_score": 5,
+ "summary": "The slogan headline, category tag, stage method cards and takeaway sentences clutter a clear pass-rate bar chart; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.9,
+  "usd": 0.00446628,
+  "tokens": 31132,
+  "outputTokens": 2588
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The one brand mark, kept as is",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Category tag above the chart, tells the reader nothing new",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; the chart carries the point",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and system subtitle",
+   "reason": "Short context naming the model and tools",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Names the benchmark, metric and model in one short line",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Main visual: labelled bars with one value each, plus axis zero",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway sentence on chart",
+   "reason": "Takeaway sentence restating which stage matters most",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage 1 and 2 method cards",
+   "reason": "Method explanation beside the results chart serves a second point",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eval-set caveat line",
+   "reason": "Caveat sentence not needed to read the chart",
+   "ids": [
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated website URL",
+   "reason": "Brand already shown by the logo; URL is a second mark",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving benchmark, task count and averaging",
+   "ids": [
+    "e31"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 52.6,
+   "orange": 0,
+   "red": 47.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.2
+  },
+  "clutterShare": 47.4,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 98,
+  "textElements": 23
+ }
+}

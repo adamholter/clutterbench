@@ -1,0 +1,19 @@
+{
+  "id": "how-afterquery-helped-nvidia-hill-climb-gdpval__sol__simple",
+  "task": "how-afterquery-helped-nvidia-hill-climb-gdpval",
+  "title": "How AfterQuery Helped NVIDIA Hill-Climb GDPval",
+  "model": "sol",
+  "modelId": "gpt-6.1-sol",
+  "effort": "low",
+  "variant": "simple",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 66,
+  "flags": [],
+  "createdAt": "2026-10-10T18:06:03.524Z"
+}

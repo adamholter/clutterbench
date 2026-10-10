@@ -1,0 +1,204 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:18:12.615Z",
+ "main_idea": "Simple prompts cut clutter from 29-61% to near 0% across all models.",
+ "ideas": [
+  "Simple prompt cuts clutter to near zero",
+  "Raw prompts produce varying clutter by model",
+  "Luna still has some clutter"
+ ],
+ "clutter_score": 4,
+ "summary": "A solid bar chart is cluttered by an eyebrow, a color legend, a sentence headline, two takeaway cards and a duplicate wordmark; nothing important is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Large empty gap between cards and footer"
+ ],
+ "cost": {
+  "seconds": 13.3,
+  "usd": 0.0613456,
+  "tokens": 24336,
+  "outputTokens": 993
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench logo",
+   "reason": "Single brand mark, short and quiet.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Keep/Shrink/Remove legend",
+   "reason": "Legend of grader colors; chart bars don't use it, irrelevant to reader.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Eyebrow line above headline.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence headline at large size; could be shorter.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric subtitle",
+   "reason": "States the metric and direction, short.",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Clutter bar chart",
+   "reason": "Main chart with labels, values, and column headers.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Clean is possible card",
+   "reason": "Restates the 0% bars and the headline.",
+   "ids": [
+    "e53",
+    "e55",
+    "e57",
+    "e59",
+    "e60"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "One exception card",
+   "reason": "Restates the 6% bar; adds a second finding.",
+   "ids": [
+    "e54",
+    "e56",
+    "e58",
+    "e61",
+    "e62",
+    "e63"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Footnote",
+   "reason": "Quiet evaluation details.",
+   "ids": [
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark.",
+   "ids": [
+    "e66"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 59.6,
+   "orange": 20.8,
+   "red": 19.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 26.4
+  },
+  "clutterShare": 30,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 3
+  },
+  "coverage": 100,
+  "words": 114,
+  "textElements": 33
+ }
+}

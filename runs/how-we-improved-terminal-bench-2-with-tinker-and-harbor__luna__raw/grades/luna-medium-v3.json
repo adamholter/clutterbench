@@ -1,0 +1,192 @@
+{
+ "grader": "luna-medium-v3",
+ "model": "gpt-6-luna",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:52.171Z",
+ "main_idea": "Two-stage post-training raised GPT-OSS-20B’s Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Post-training raised pass rate from 3.1% to 17.0%.",
+  "RLVR added 3.5 percentage points after SFT."
+ ],
+ "clutter_score": 6,
+ "summary": "The chart clearly shows the pass-rate gain, but repeated stat callouts and oversized pipeline cards add clutter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "The white logo mark is barely visible against the light background."
+ ],
+ "cost": {
+  "seconds": 10.8,
+  "usd": null,
+  "tokens": 11610,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the source.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research labels",
+   "reason": "The category tag and kicker add no needed context.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "A short headline states the main finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Model metric",
+   "reason": "Names the model and benchmark metric being compared.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate chart",
+   "reason": "The bars, values, and labels show the base-to-trained result.",
+   "ids": [
+    "e7",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e15",
+    "e20",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Pass rate callout",
+   "reason": "The 5.5× stat repeats the comparison already shown by the bars.",
+   "ids": [
+    "e8",
+    "e9",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Point gain callout",
+   "reason": "The point gain is calculable from the chart values.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "RLVR gain note",
+   "reason": "The stage contribution is useful context, but can be a short chart note.",
+   "ids": [
+    "e21",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Training steps",
+   "reason": "The pipeline cards explain method in more space than this result needs.",
+   "ids": [
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Evaluation footer",
+   "reason": "The benchmark is already identified; the footer repeats context and occupies a row.",
+   "ids": [
+    "e44",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "The second brand reference and tagline add no information.",
+   "ids": [
+    "e45"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 64.5,
+   "orange": 15.7,
+   "red": 19.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30
+  },
+  "clutterShare": 27.8,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 3
+  },
+  "coverage": 100,
+  "words": 105,
+  "textElements": 32
+ }
+}

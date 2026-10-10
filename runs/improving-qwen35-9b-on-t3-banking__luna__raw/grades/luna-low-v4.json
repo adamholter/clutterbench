@@ -1,0 +1,166 @@
+{
+ "grader": "luna-low-v4",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:17.529Z",
+ "main_idea": "PivotRL raised Qwen3.5-9B’s τ³-Banking pass@5 from 11.3% to 17.5%.",
+ "ideas": [
+  "PivotRL improves task success on τ³-Banking.",
+  "The method used 50 solved teacher trajectories and profiled 193 pivot states.",
+  "Fewer examples can produce more capable agents."
+ ],
+ "clutter_score": 5,
+ "summary": "The chart is clear, but the vague headline, long subtitle, decorative branding, and method-count footer add clutter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 11.4,
+  "usd": null,
+  "tokens": 7618,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark identifies the research group.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "The category tag adds no information needed to read the result.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Model benchmark",
+   "reason": "Names the model and benchmark being evaluated.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "The headline is vague and does not state the measured finding.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative motif",
+   "reason": "Faint abstract bars are decorative and do not explain the chart.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Explanatory subtitle",
+   "reason": "A long sentence restates the chart and adds method details.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate chart",
+   "reason": "The bars, labels, values, and ticks clearly show the before and after pass@5 results.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Success decoration",
+   "reason": "The arrow and vertical label repeat the chart’s task-success framing.",
+   "ids": [
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method counts",
+   "reason": "The example and pivot counts add a secondary method detail below the result chart.",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "The tagline and attribution are secondary brand messaging.",
+   "ids": [
+    "e27",
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 27.9,
+   "orange": 17.6,
+   "red": 54.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 63.3,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

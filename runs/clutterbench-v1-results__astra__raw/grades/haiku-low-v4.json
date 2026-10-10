@@ -1,0 +1,123 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:42:41.313Z",
+ "main_idea": "Simple prompts cut graphic clutter from raw-prompt levels to near zero across models",
+ "ideas": [
+  "Simple instructions reduce clutter",
+  "Raw prompt scores drop to 0% under simple prompt",
+  "Claude models clutter less than GPT models raw"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a single dumbbell chart with a short headline, legend, wordmark and footnote, all of it needed to read the result.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.7,
+  "usd": 0.0033931100000000004,
+  "tokens": 25146,
+  "outputTokens": 1458
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "One brand mark, small and useful for identifying the benchmark",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline stating the finding, about five words",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric and prompt legend",
+   "reason": "Names the metric and the two prompt conditions compared",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Dumbbell chart by model",
+   "reason": "Main visual: model names, one value per end, and the change marks",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Scale and averaging footnote",
+   "reason": "Quiet footnote saying lower is better and how scores were averaged",
+   "ids": [
+    "e35"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 56
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 42,
+  "textElements": 20
+ }
+}

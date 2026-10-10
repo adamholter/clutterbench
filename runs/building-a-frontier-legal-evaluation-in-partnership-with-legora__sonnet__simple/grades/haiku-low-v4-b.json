@@ -1,0 +1,98 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:03.325Z",
+ "main_idea": "BAR spans 5,161 cases, 11,075 source documents, and 28 practice areas.",
+ "ideas": [
+  "BAR is large: 5,161 cases",
+  "11,075 source documents",
+  "28 practice areas"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: three large stat rows, a short benchmark label, and one logo, with nothing extra to remove.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 9.5,
+  "usd": 0.00099507,
+  "tokens": 23864,
+  "outputTokens": 1543
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Cases stat row",
+   "reason": "Main figure with its unit label, inside its divider row.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Source documents stat row",
+   "reason": "Main figure with its unit label, inside its divider row.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Practice areas stat row",
+   "reason": "Main figure with its unit label, inside its divider row.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name label",
+   "reason": "Short context naming the benchmark being described.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Legora logo",
+   "reason": "The single brand mark, visible in the top right.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 7
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:35.113Z",
+ "main_idea": "BAR-informed harness changes raised legal agent output quality 5%.",
+ "ideas": [
+  "BAR is a realistic legal benchmark for agents",
+  "Benchmark is built with Legora on end-to-end legal work",
+  "Evaluation runs in three steps: evidence, execution, scoring",
+  "BAR-informed harness changes improved output quality 5%"
+ ],
+ "clutter_score": 6,
+ "summary": "Clutter comes from the dataset stats row and card, the slogan headline, and the wordy three-card method block that compete with the single 5% result; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 22.2,
+  "usd": 0.00450346,
+  "tokens": 29023,
+  "outputTokens": 4408
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark at the top, kept as is.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name",
+   "reason": "Short context naming the benchmark.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Pipeline section title",
+   "reason": "Short heading for the evaluation pipeline visual.",
+   "ids": [
+    "e19",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Product impact finding",
+   "reason": "States the 5% result, its finding sentence, and the models it covers.",
+   "ids": [
+    "e51",
+    "e52",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Real facts, but a long sentence; shorten to a few words.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Three-step method cards",
+   "reason": "Method matters, but three full cards take far more room than a footnote or bar labels need.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Question headline",
+   "reason": "Slogan-style question that does not state the finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research x Legora tag",
+   "reason": "Category tag repeating partner names already in the logo area.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stat card",
+   "reason": "Dataset count serves a second point, not the 5% claim.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset counts row",
+   "reason": "Stats row about dataset sizes is a separate point from the main result.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative connector",
+   "reason": "Dashed connector and dot are decoration only.",
+   "ids": [
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Measured impact kicker",
+   "reason": "Small eyebrow label above the finding adds nothing.",
+   "ids": [
+    "e53"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline footer",
+   "reason": "Slogan tagline with no information about the result.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Partner wordmark repeats the brand already shown at top.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 23.2,
+   "orange": 36.1,
+   "red": 40.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 58.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

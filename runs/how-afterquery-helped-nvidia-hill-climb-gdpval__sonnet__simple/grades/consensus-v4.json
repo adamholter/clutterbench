@@ -1,0 +1,93 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.901Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 0,
+  "tiebreak": true,
+  "scores": [
+   0,
+   1,
+   0
+  ]
+ },
+ "main_idea": "AfterQuery warmup lifts Nemotron's GDPval score close to the teacher's score.",
+ "ideas": [
+  "Warmup raises GDPval score after distillation",
+  "Warmed-up student nearly matches teacher"
+ ],
+ "summary": "Clean and complete: one bar chart with a short title, labelled bars, values and a single logo.",
+ "clutter_score": 0,
+ "completeness_score": 9,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the benchmark and metric.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "Four bars with one value label each.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar labels",
+   "reason": "Concise category labels that identify each bar.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible and small.",
+   "ids": [
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 42
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 16,
+  "textElements": 9
+ }
+}

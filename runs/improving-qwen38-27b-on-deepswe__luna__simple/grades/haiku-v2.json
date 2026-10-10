@@ -1,0 +1,121 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:17:16.741Z",
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training raised DeepSWE pass@1 from 27.8% to 39.1%",
+  "Base model compared against GRPO-trained model on DeepSWE"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and focused, with the bars, values, and labels all doing work; it lacks the model name and its logo is effectively invisible.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "Reader cannot tell which model was measured; Qwen3.8-27B appears nowhere in the graphic."
+  },
+  {
+   "mid": "m1",
+   "what": "readable logo",
+   "why": "The top-left logo is near-white on cream and effectively invisible."
+  }
+ ],
+ "completeness_score": 6,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Top-left brand mark; nearly invisible but belongs on a company post.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric tag",
+   "reason": "Names the benchmark and metric (DeepSWE, pass@1).",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, showing the actual numbers.",
+   "ids": [
+    "e2",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Y-axis ticks that scale the bars.",
+   "ids": [
+    "e3",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Base and GRPO bars",
+   "reason": "The chart marks carrying the comparison.",
+   "ids": [
+    "e4",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Change connector",
+   "reason": "Dotted line showing the gain between the two bars; a chart mark.",
+   "ids": [
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Name each bar's condition: Base and GRPO with 500 tasks.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 14.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 2,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 7
+ }
+}

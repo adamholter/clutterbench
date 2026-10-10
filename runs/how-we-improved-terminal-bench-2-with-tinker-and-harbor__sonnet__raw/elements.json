@@ -1,0 +1,225 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 18,
+  "textElements": 13,
+  "words": 37,
+  "fontSizes": 5,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 1064,
+   "y": 70,
+   "w": 56,
+   "h": 46,
+   "text": ""
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "div",
+   "x": 80,
+   "y": 80,
+   "w": 488,
+   "h": 29,
+   "text": "Terminal-Bench 2.0 · gpt-oss-20b",
+   "fontSize": 22,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 80,
+   "y": 115,
+   "w": 744,
+   "h": 219,
+   "text": "Pass rate, 5x higher with SFT, then RLVR",
+   "fontSize": 84,
+   "color": "rgb(232, 232, 227)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 484,
+   "y": 443,
+   "w": 115,
+   "h": 94,
+   "text": "3.1%",
+   "fontSize": 60,
+   "color": "rgb(232, 232, 227)"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 330,
+   "y": 460,
+   "w": 134,
+   "h": 70,
+   "color": "rgb(85, 85, 85)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "text",
+   "x": 80,
+   "y": 467,
+   "w": 124,
+   "h": 32,
+   "text": "Base model",
+   "fontSize": 24,
+   "color": "rgb(232, 232, 227)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "text",
+   "x": 80,
+   "y": 503,
+   "w": 97,
+   "h": 26,
+   "text": "Terminus 2",
+   "fontSize": 20,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 933,
+   "y": 623,
+   "w": 146,
+   "h": 94,
+   "text": "13.5%",
+   "fontSize": 60,
+   "color": "rgb(232, 232, 227)"
+  },
+  {
+   "id": "e8",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 330,
+   "y": 640,
+   "w": 583,
+   "h": 70,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e9",
+   "kind": "text",
+   "tag": "text",
+   "x": 80,
+   "y": 647,
+   "w": 92,
+   "h": 32,
+   "text": "SFT only",
+   "fontSize": 24,
+   "color": "rgb(232, 232, 227)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "text",
+   "x": 80,
+   "y": 683,
+   "w": 64,
+   "h": 26,
+   "text": "Stage 1",
+   "fontSize": 20,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "text",
+   "x": 950,
+   "y": 803,
+   "w": 146,
+   "h": 94,
+   "text": "17.0%",
+   "fontSize": 60,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e12",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 330,
+   "y": 820,
+   "w": 790,
+   "h": 70,
+   "color": "rgb(206, 175, 92)"
+  },
+  {
+   "id": "e13",
+   "kind": "text",
+   "tag": "text",
+   "x": 80,
+   "y": 827,
+   "w": 126,
+   "h": 32,
+   "text": "SFT + RLVR",
+   "fontSize": 24,
+   "color": "rgb(232, 232, 227)"
+  },
+  {
+   "id": "e14",
+   "kind": "text",
+   "tag": "text",
+   "x": 80,
+   "y": 863,
+   "w": 68,
+   "h": 26,
+   "text": "Stage 2",
+   "fontSize": 20,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e15",
+   "kind": "box",
+   "tag": "div",
+   "x": 80,
+   "y": 1087,
+   "w": 1040,
+   "h": 49,
+   "color": "rgb(51, 51, 51)"
+  },
+  {
+   "id": "e16",
+   "kind": "text",
+   "tag": "span",
+   "x": 80,
+   "y": 1110,
+   "w": 374,
+   "h": 26,
+   "text": "Zero training tasks from the official eval set",
+   "fontSize": 20,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e17",
+   "kind": "text",
+   "tag": "span",
+   "x": 987,
+   "y": 1110,
+   "w": 133,
+   "h": 26,
+   "text": "afterquery.com",
+   "fontSize": 20,
+   "color": "rgb(168, 167, 161)"
+  }
+ ]
+}

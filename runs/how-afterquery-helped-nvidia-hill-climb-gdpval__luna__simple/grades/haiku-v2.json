@@ -1,0 +1,146 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:13.258Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score most of the way to the teacher.",
+ "ideas": [
+  "Warmup closes most of the gap to the teacher",
+  "Warmup raises GDPval score over no warmup",
+  "Student and teacher bound the comparison"
+ ],
+ "clutter_score": 2,
+ "summary": "Clean chart with a clear finding; the two-line headline could be shortened, and the graphic lacks units and a definition of what Student, Teacher, and Warmup mean.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "score unit",
+   "why": "Axis says GDPVAL SCORE but not whether it is a percent or Elo-type value."
+  },
+  {
+   "mid": "m1",
+   "what": "bar meaning",
+   "why": "Student and teacher are not defined; reader cannot tell what the starting and reference models are."
+  },
+  {
+   "mid": "m2",
+   "what": "warmup definition",
+   "why": "Warmup vs no warmup is not explained, so the compared condition is unclear to a non-reader."
+  }
+ ],
+ "completeness_score": 6,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand header",
+   "reason": "Logo and header rule identify the publisher; one brand mark.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and model tag",
+   "reason": "Short tag names the benchmark and model.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Two-line headline spells out the gap the bars already show; shorten or cut.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Names the measured metric for the chart.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "The chart marks carrying the comparison.",
+   "ids": [
+    "e8",
+    "e9",
+    "e12",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar gives the numbers.",
+   "ids": [
+    "e5",
+    "e7",
+    "e11",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Scale ticks needed to read bar heights.",
+   "ids": [
+    "e6",
+    "e10",
+    "e14",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Names each bar's condition, needed to read the chart.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 3,
+  "missingCount": 3,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

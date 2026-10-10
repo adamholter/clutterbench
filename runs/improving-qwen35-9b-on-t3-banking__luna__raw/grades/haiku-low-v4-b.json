@@ -1,0 +1,161 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:55.493Z",
+ "main_idea": "PivotRL lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "PivotRL raises pass@5 on τ³-Banking from 11.3% to 17.5%",
+  "Only 50 solved teacher trajectories were needed",
+  "A smaller model is now better at the work",
+  "Fewer examples produce more capable agents"
+ ],
+ "clutter_score": 6,
+ "summary": "The bar chart is clear and labelled, but a slogan headline, subtitle, dataset stat cards, tagline and a decorative pattern clutter it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Decorative pattern at top right runs off the canvas edge",
+  "Decorative pattern is faint and reads as a rendering artifact"
+ ],
+ "cost": {
+  "seconds": 12.5,
+  "usd": 0.0037839,
+  "tokens": 26210,
+  "outputTokens": 2171
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, kept as the single logo.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark tag",
+   "reason": "Short context naming the model and benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bar chart",
+   "reason": "Main visual with labels, values, axis, metric, and unit.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Category tag above the header restates nothing the reader needs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan, not a finding; the chart title should state the result.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explains the method and restates the chart.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset count stat cards",
+   "reason": "Dataset sizes are a second point unrelated to reading the bars.",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline and sign-off",
+   "reason": "Slogan tagline and source line add no chart information.",
+   "ids": [
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative pattern",
+   "reason": "Decorative shape with no informational role.",
+   "ids": [
+    "e6"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 28.9,
+   "orange": 0,
+   "red": 71.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 71.1,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

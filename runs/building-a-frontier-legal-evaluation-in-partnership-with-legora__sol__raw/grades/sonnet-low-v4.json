@@ -1,0 +1,196 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:59.498Z",
+ "main_idea": "BAR, a legal benchmark built with Legora, helped raise product output quality 5% in a month.",
+ "ideas": [
+  "BAR is a large realistic legal benchmark",
+  "Benchmark scale: cases, practice areas, documents",
+  "Process from defining work to improving harness",
+  "Harness changes raised output quality 5%"
+ ],
+ "clutter_score": 7,
+ "summary": "The +5% result is buried under a slogan headline, stats row, process steps and footer extras; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 8.3,
+  "usd": 0.0593401,
+  "tokens": 23358,
+  "outputTokens": 989
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, appropriate.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Partnership tag",
+   "reason": "Short context naming the partner.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Kicker above headline adds nothing.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan, doesn't state the finding; very large.",
+   "ids": [
+    "e24"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Benchmark subtitle",
+   "reason": "Names BAR usefully but wordy two-line explanation.",
+   "ids": [
+    "e25"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset size stats serve a separate point from the result.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Process steps",
+   "reason": "Pipeline cards unrelated to reading the main result.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result",
+   "reason": "The key finding and its metric.",
+   "ids": [
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Result explanation",
+   "reason": "Sentence explaining the stat; could be shortened.",
+   "ids": [
+    "e47"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline, no information.",
+   "ids": [
+    "e48"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention duplicating the logo.",
+   "ids": [
+    "e49"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 18.6,
+   "orange": 16.4,
+   "red": 65,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34.8
+  },
+  "clutterShare": 73.2,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 98,
+  "textElements": 22
+ }
+}

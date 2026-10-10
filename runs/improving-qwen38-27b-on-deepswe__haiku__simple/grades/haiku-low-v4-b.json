@@ -1,0 +1,67 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:06.329Z",
+ "main_idea": "GRPO lifted DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one bar chart with a metric label, values and category labels, with nothing to remove.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo at top right is visible but has no element entry, so it cannot be checked against the list"
+ ],
+ "cost": {
+  "seconds": 6.2,
+  "usd": 0.00294318,
+  "tokens": 23372,
+  "outputTokens": 797
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bars",
+   "reason": "Bars with value labels and category labels show the result directly.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e1",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Short label naming the benchmark and metric.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

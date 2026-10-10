@@ -1,0 +1,121 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 9,
+  "textElements": 6,
+  "words": 14,
+  "fontSizes": 4,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "h1",
+   "x": 64,
+   "y": 46,
+   "w": 536,
+   "h": 63,
+   "text": "On-policy distillation on GDPval",
+   "fontSize": 40,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "image",
+   "tag": "img",
+   "x": 981,
+   "y": 66,
+   "w": 155,
+   "h": 27,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "p",
+   "x": 64,
+   "y": 119,
+   "w": 363,
+   "h": 30,
+   "text": "Net win–loss margin vs. base model",
+   "fontSize": 23,
+   "color": "rgb(84, 86, 80)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 791,
+   "y": 241,
+   "w": 128,
+   "h": 59,
+   "text": "+21.4%",
+   "fontSize": 44,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "text",
+   "x": 276,
+   "y": 258,
+   "w": 139,
+   "h": 59,
+   "text": "+20.9%",
+   "fontSize": 44,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 680,
+   "y": 312,
+   "w": 350,
+   "h": 728,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 170,
+   "y": 329,
+   "w": 350,
+   "h": 711,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 226,
+   "y": 1066,
+   "w": 238,
+   "h": 38,
+   "text": "Nemotron-3-Nano",
+   "fontSize": 29,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "text",
+   "x": 773,
+   "y": 1066,
+   "w": 164,
+   "h": 38,
+   "text": "Qwen3.5-9B",
+   "fontSize": 29,
+   "color": "rgb(0, 0, 0)"
+  }
+ ]
+}

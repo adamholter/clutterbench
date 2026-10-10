@@ -1,0 +1,114 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:04.373Z",
+ "main_idea": "AfterQuery warmup raises Nemotron 3 Ultra’s GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup improves GDPval performance toward the specialized teacher.",
+  "Warmup gain is 11.4 points.",
+  "The result is 2.8 points below the teacher."
+ ],
+ "clutter_score": 6,
+ "summary": "Branding, explanatory framing, and a separate gain callout compete with the GDPval chart.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "The chart, scores, categories, and legend show warmup progress toward the teacher.",
+   "ids": [
+    "e6",
+    "e7",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "The two-line headline can be shortened to a brief claim.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Branding and framing",
+   "reason": "Branding, labels, and subtitle repeat context or explain the chart.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e5",
+    "e8",
+    "e9",
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "repetition",
+   "name": "Gain callout",
+   "reason": "The +11.4 gain and teacher gap restate comparisons already visible in the chart.",
+   "ids": [
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 67.2,
+   "orange": 8.7,
+   "red": 24.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 56.9
+  },
+  "clutterShare": 28.5,
+  "ideaCount": 3,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 84,
+  "textElements": 29
+ }
+}

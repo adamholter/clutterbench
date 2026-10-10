@@ -1,0 +1,116 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:48.026Z",
+ "main_idea": "Adding RLVR after SFT lifts gpt-oss-20b Terminal-Bench 2.0 pass rate to 17%",
+ "ideas": [
+  "Pass rate rises at each training stage",
+  "SFT then RLVR gives 5x over base model",
+  "Base model 3.1% versus trained 17.0%"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and complete; only the footer afterquery.com repeats the logo, so it could be dropped.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.3,
+  "usd": 0.0022788,
+  "tokens": 29888,
+  "outputTokens": 2112
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and model tag",
+   "reason": "Short kicker naming the benchmark and model being measured",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline stating the 5x finding, about seven words",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "The single brand mark, visible and appropriately small",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Main visual: labelled bars, one value per bar, stage and model labels",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Quiet footnote",
+   "reason": "Small, quiet footnote giving evaluation context in a subdued line",
+   "ids": [
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL wordmark",
+   "reason": "Second brand mark repeats the logo already shown at top",
+   "ids": [
+    "e17"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 99,
+   "orange": 0,
+   "red": 1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 25.8
+  },
+  "clutterShare": 1,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 37,
+  "textElements": 13
+ }
+}

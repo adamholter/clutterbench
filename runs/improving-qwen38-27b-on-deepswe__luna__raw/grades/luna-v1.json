@@ -1,0 +1,251 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:42.000Z",
+ "main_idea": "GRPO training raised Qwen3.8-27B’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training improved DeepSWE pass@1 by 11.3 points.",
+  "Training used 500 tasks from 422 repositories.",
+  "Tasks came from private codebases and covered five languages.",
+  "GRPO used eight attempts per task over 15 updates."
+ ],
+ "clutter_score": 7,
+ "summary": "The chart communicates the gain clearly, but the branding, long headline, supporting metrics, methodology cards, and footer compete for attention.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "brand header",
+   "reason": "Logo and research-note label are branding, not needed to read the result.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "topic kicker",
+   "reason": "The subject is clear from the chart and result.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "long headline",
+   "reason": "The two-line headline is broad and wordy; a short result title would suffice.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "repetition",
+   "name": "repeated subtitle",
+   "reason": "It repeats the training context already stated in the chart and metrics.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "chart card",
+   "reason": "Frames the main comparison and its essential chart content.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "chart measure",
+   "reason": "Identifies the benchmark metric and averaging method.",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "checkpoint badge",
+   "reason": "The bar labels already identify the base model and step 15.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "result value",
+   "reason": "Shows the step-15 score.",
+   "ids": [
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "upper axis tick",
+   "reason": "Provides scale for comparing the bars.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "step 15 bar",
+   "reason": "Main chart mark for the trained model.",
+   "ids": [
+    "e16"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "base value",
+   "reason": "Shows the starting score.",
+   "ids": [
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "change annotation",
+   "reason": "Highlights the score increase between the two bars.",
+   "ids": [
+    "e19",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "blue",
+   "type": "core",
+   "name": "base model bar",
+   "reason": "Main chart mark for the original model.",
+   "ids": [
+    "e20"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "blue",
+   "type": "core",
+   "name": "axis ticks",
+   "reason": "Provide the remaining scale labels.",
+   "ids": [
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "blue",
+   "type": "core",
+   "name": "bar categories",
+   "reason": "Name the two models being compared.",
+   "ids": [
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "unneeded",
+   "name": "training metrics",
+   "reason": "Task, repository, and update counts add supporting context beyond the main result.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r16",
+   "label": "red",
+   "type": "unneeded",
+   "name": "training note",
+   "reason": "Explains methodology that is not needed to read the score comparison.",
+   "ids": [
+    "e35",
+    "e37",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r17",
+   "label": "red",
+   "type": "unneeded",
+   "name": "data note",
+   "reason": "Adds provenance and language details beyond the main result.",
+   "ids": [
+    "e36",
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r18",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer branding",
+   "reason": "Footer copy and slogan do not support reading the chart.",
+   "ids": [
+    "e41",
+    "e42",
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 50.1,
+   "orange": 8.5,
+   "red": 41.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 59.3
+  },
+  "clutterShare": 45.6,
+  "ideaCount": 4,
+  "redByType": {
+   "unneeded": 7,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

@@ -1,0 +1,184 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:42:53.079Z",
+ "main_idea": "AfterQuery warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "Warmup lifts Nemotron 3 Ultra GDPval from 35.3 to 46.7",
+  "Warmup closes most of the gap to the teacher",
+  "AfterQuery trajectories drive the warmup pipeline",
+  "AfterQuery is the data source"
+ ],
+ "clutter_score": 4,
+ "summary": "A solid results chart is cluttered by a training-method pipeline row, a kicker and a restating subtitle, plus a repeated URL; it names the benchmark, metric and bars fully.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.3,
+  "usd": 0.00415731,
+  "tokens": 29064,
+  "outputTokens": 2356
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one logo.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short title naming what the graphic is about.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Names the benchmark, the ablation and the direction of the metric.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars, values and annotation",
+   "reason": "The main visual with one value per bar and the change marker.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar category labels",
+   "reason": "Needed to read what each bar stands for.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Small quiet footnote giving evaluation source.",
+   "ids": [
+    "e36"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag repeating the model name; tells the reader nothing new.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline; decorative and not needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle restating chart",
+   "reason": "Sentence restates the 35.3 to 46.7 change the bars already show.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline row",
+   "reason": "Training-method flow is a second idea beside the results chart.",
+   "ids": [
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Brand already shown in the logo; URL is a repeat of brand presence.",
+   "ids": [
+    "e37"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 77.5,
+   "orange": 0,
+   "red": 22.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34.3
+  },
+  "clutterShare": 22.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 100,
+  "textElements": 28
+ }
+}

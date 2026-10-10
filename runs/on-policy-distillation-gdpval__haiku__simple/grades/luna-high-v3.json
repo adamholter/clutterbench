@@ -1,0 +1,69 @@
+{
+ "grader": "luna-high-v3",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:23.559Z",
+ "main_idea": "The distilled model achieves a +20.9% net win–loss margin on GDPval.",
+ "ideas": [
+  "The model wins 123 task pairs, ties 20, and loses 77."
+ ],
+ "clutter_score": 0,
+ "summary": "clean and complete",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 19.8,
+  "usd": null,
+  "tokens": 10345,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Result headline",
+   "reason": "Names the finding, comparison, and benchmark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Win loss chart",
+   "reason": "Shows the counts of wins, ties, and losses.",
+   "ids": [
+    "e0",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

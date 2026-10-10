@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+<title>GDPval task outcomes</title>
+<style>
+@font-face{font-family:Diatype;src:url('./assets/diatype-regular.woff2')}@font-face{font-family:Diatype;src:url('./assets/diatype-medium.woff2');font-weight:500}@font-face{font-family:Diatype;src:url('./assets/diatype-bold.woff2');font-weight:700}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f6f5ee;color:#0c0c0c;font-family:Diatype,Arial,sans-serif}.canvas{width:1200px;height:1200px;position:relative;padding:78px 78px 68px;background:#f6f5ee}.brand{position:absolute;right:78px;top:74px;width:142px;height:auto}.title{font-size:58px;line-height:1.05;letter-spacing:-2px;font-weight:500;margin:0;max-width:750px}.context{font-size:21px;line-height:1.35;color:#64645e;margin-top:18px}.chart{position:absolute;left:78px;right:78px;top:330px}.bar{display:flex;width:100%;height:414px;overflow:hidden;border-radius:3px}.win{width:55.909%;background:#026340;display:flex;align-items:center;justify-content:center;color:white}.tie{width:9.091%;background:#d1b56a;display:flex;align-items:center;justify-content:center;color:#151510}.loss{width:35%;background:#e8e7df;display:flex;align-items:center;justify-content:center;color:#222}.num{font-size:90px;line-height:1;font-weight:500;letter-spacing:-4px}.below{display:grid;grid-template-columns:55.909% 9.091% 35%;margin-top:25px}.item{display:flex;align-items:center;gap:13px;font-size:21px;color:#32332e}.swatch{width:14px;height:14px;border-radius:2px;flex:none}.item b{font-weight:500}.item:nth-child(2){justify-content:center}.item:nth-child(3){justify-content:flex-end}.logo{width:142px;position:absolute;bottom:68px;left:78px}.foot{position:absolute;bottom:74px;right:78px;color:#77766f;font-size:15px;letter-spacing:.2px}
+</style>
+</head>
+<body>
+<main class="canvas">
+<img class="brand" src="./assets/afterquery-logo.svg" alt="AfterQuery">
+<h1 class="title">A clear net win<br>on GDPval</h1>
+<div class="context">Distilled Qwen3.5-9B · 220 task pairs</div>
+<section class="chart" aria-label="Task outcomes: 123 wins, 20 ties, 77 losses">
+<div class="bar">
+<div class="win"><span class="num">123</span></div>
+<div class="tie"><span class="num" style="font-size:54px;letter-spacing:-2px">20</span></div>
+<div class="loss"><span class="num">77</span></div>
+</div>
+<div class="below">
+<div class="item"><span class="swatch" style="background:#026340"></span><b>Wins</b></div>
+<div class="item"><span class="swatch" style="background:#d1b56a"></span><b>Ties</b></div>
+<div class="item"><span class="swatch" style="background:#e8e7df;border:1px solid #cfcec5"></span><b>Losses</b></div>
+</div>
+</section>
+<img class="logo" src="./assets/afterquery-logo.svg" alt="">
+<div class="foot">afterquery.com</div>
+</main>
+</body>
+</html>

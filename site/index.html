@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClutterBench: how much of the graphic is clutter?</title>
+<meta name="description" content="ClutterBench measures how much clutter AI models put into a graphic.">
+<meta property="og:title" content="ClutterBench">
+<meta property="og:description" content="How much of the graphic is clutter? A benchmark of the clutter AI models put into graphics.">
+<meta property="og:image" content="https://clutterbench.adamholter.chatgpt.site/og.png">
+<meta property="og:url" content="https://clutterbench.adamholter.chatgpt.site/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://clutterbench.adamholter.chatgpt.site/og.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/outfit.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="mark" href="#top"><span>Clutter</span>Bench</a>
+  <a class="repo" id="repo" href="https://github.com/adamholter/clutterbench">GitHub</a>
+  <ul class="legend" aria-label="Label colours">
+    <li><i class="blue"></i>Keep</li>
+    <li><i class="orange"></i>Shrink</li>
+    <li><i class="red"></i>Remove</li>
+  </ul>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="intro">
+      <h1>How much of the graphic is clutter?</h1>
+      <div class="tabs" id="models" role="tablist" aria-label="Model"></div>
+      <select id="task" class="pick" aria-label="Blog post"></select>
+    </div>
+
+    <div class="compare">
+      <div class="frame" id="frame">
+        <div class="pane" id="right"></div>
+        <div class="pane left" id="left"></div>
+        <div class="tip" id="tip" role="status" hidden></div>
+        <button class="handle" id="handle" role="slider" aria-label="Compare raw and simple prompt" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <div class="captions">
+        <div id="capL"></div>
+        <label class="check"><input type="checkbox" id="marks" checked> Marks</label>
+        <div id="capR"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="board" id="leaderboard">
+    <div class="boardhead">
+      <h2>Leaderboard</h2>
+      <p>How much of each model's graphics the grader would cut. Lower is better.</p>
+    </div>
+    <div class="rows" id="board"></div>
+    <div class="pop" id="pop" hidden></div>
+  </section>
+
+  <section class="wall">
+    <div class="wallhead">
+      <h2>Every graphic</h2>
+      <div class="seg" id="variant" role="tablist" aria-label="Prompt">
+        <button data-v="raw" class="on">Raw prompt</button>
+        <button data-v="simple">Simple prompt</button>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="method">
+    <h2>How it works</h2>
+    <div class="cols">
+      <div>
+        <h3>The task</h3>
+        <p>Each model, running as an agent, reads a blog post and builds one 1200 by 1200 graphic in HTML. It browses the publisher's site for fonts, colours and logo, and may not look at the post's own figures.</p>
+      </div>
+      <div>
+        <h3>Two prompts</h3>
+        <p><b>Raw</b> says only "make a tasteful graphic to go with the post". <b>Simple</b> adds plain instructions to show one idea, once, with nothing extra. The gap between them is how much a model needs to be told.</p>
+      </div>
+      <div>
+        <h3>The grader</h3>
+        <p id="graderNote">Claude Haiku 5.5 labels every element twice. Where the two passes differ, Claude Sonnet 5.5 breaks the tie. The rules were written from one person's hand labels on 24 graphics.</p>
+      </div>
+    </div>
+    <p class="fine" id="fine"></p>
+  </section>
+</main>
+<dialog class="modal" id="modal" aria-labelledby="modalTitle">
+  <div class="mhead"><h2 id="modalTitle"></h2><button id="modalClose" aria-label="Close">×</button></div>
+  <pre id="modalMain"></pre>
+  <h3>The rest of the prompt, the same for both</h3>
+  <pre id="modalShared" class="shared"></pre>
+</dialog>
+<script src="app.js"></script>
+</body>
+</html>

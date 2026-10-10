@@ -1,0 +1,235 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:07:54.862Z",
+ "main_idea": "BAR scores agents across three steps of end-to-end legal work",
+ "ideas": [
+  "Agents are tested on end-to-end legal work",
+  "BAR scores work in three steps: read, deliver, score",
+  "BAR-informed harness changes raised output quality 5%",
+  "BAR is large: 5,161 cases, 28 practice areas",
+  "Expert-validated synthetic case published"
+ ],
+ "clutter_score": 7,
+ "summary": "The three-step flow is the right main visual, but stat cards, a dataset row, an impact panel, numbering, decorative bars and footer repeats crowd it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Header logo mark (32px) is very small and barely legible"
+ ],
+ "cost": {
+  "seconds": 21.4,
+  "usd": 0.00440992,
+  "tokens": 28640,
+  "outputTokens": 4273
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Header brand mark",
+   "reason": "One brand mark, small and clear.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation flow",
+   "reason": "Main visual: three-step flow with short headline and step titles.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e34",
+    "e35",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Step descriptions",
+   "reason": "Useful, but sentences could be cut to a few words each.",
+   "ids": [
+    "e37",
+    "e38",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research x Legora tag",
+   "reason": "Category tag that tells the reader nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker above the headline; the benchmark is named elsewhere.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Question headline",
+   "reason": "Slogan-style question, not a stated finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explaining the graphic, restating the title.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Headline stat card",
+   "reason": "Dataset-size stat beside the main flow, serves a second point.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset counts are a separate point from the flow.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Step numbers and tags",
+   "reason": "Section numbers and category tags repeat the step order.",
+   "ids": [
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative bars and connector",
+   "reason": "Decorative progress bars and dot connector carry no information.",
+   "ids": [
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Product impact panel",
+   "reason": "Product result is a second point beside the evaluation flow.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline with no information for the reader.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand already shown in the header.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 26.3,
+   "orange": 7.9,
+   "red": 65.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 69.9,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 7,
+   "extra_idea": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

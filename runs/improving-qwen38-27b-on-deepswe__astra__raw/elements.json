@@ -1,0 +1,373 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 31,
+  "textElements": 22,
+  "words": 59,
+  "fontSizes": 11,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 68,
+   "y": 60,
+   "w": 190,
+   "h": 33,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "div",
+   "x": 914,
+   "y": 67,
+   "w": 218,
+   "h": 18,
+   "text": "Research / SWE agents",
+   "fontSize": 15,
+   "color": "rgb(88, 90, 83)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 68,
+   "y": 141,
+   "w": 751,
+   "h": 189,
+   "text": "Better SWE performance. 500 tasks. GRPO.",
+   "fontSize": 72,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "p",
+   "x": 68,
+   "y": 336,
+   "w": 526,
+   "h": 33,
+   "text": "Improving Qwen3.8-27B-Medium on DeepSWE",
+   "fontSize": 25,
+   "color": "rgb(102, 103, 95)"
+  },
+  {
+   "id": "e4",
+   "kind": "box",
+   "tag": "section",
+   "x": 68,
+   "y": 417,
+   "w": 1064,
+   "h": 409,
+   "color": "rgb(201, 204, 194)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "strong",
+   "x": 1001,
+   "y": 445,
+   "w": 64,
+   "h": 37,
+   "text": "+11.3",
+   "fontSize": 30,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "div",
+   "x": 68,
+   "y": 446,
+   "w": 130,
+   "h": 36,
+   "text": "DeepSWE",
+   "fontSize": 27,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "div",
+   "x": 1074,
+   "y": 450,
+   "w": 58,
+   "h": 28,
+   "text": "points",
+   "fontSize": 21,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "span",
+   "x": 210,
+   "y": 455,
+   "w": 115,
+   "h": 23,
+   "text": "pass@1 (avg 3)",
+   "fontSize": 18,
+   "color": "rgb(101, 104, 95)"
+  },
+  {
+   "id": "e9",
+   "kind": "shape",
+   "tag": "path",
+   "x": 971,
+   "y": 456,
+   "w": 16,
+   "h": 16,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "text",
+   "x": 68,
+   "y": 515,
+   "w": 104,
+   "h": 26,
+   "text": "Base model",
+   "fontSize": 20,
+   "color": "rgb(96, 101, 90)"
+  },
+  {
+   "id": "e11",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 68,
+   "y": 553,
+   "w": 612,
+   "h": 89,
+   "color": "rgb(175, 152, 136)"
+  },
+  {
+   "id": "e12",
+   "kind": "text",
+   "tag": "text",
+   "x": 704,
+   "y": 567,
+   "w": 91,
+   "h": 65,
+   "text": "27.8",
+   "fontSize": 49,
+   "color": "rgb(92, 80, 72)"
+  },
+  {
+   "id": "e13",
+   "kind": "text",
+   "tag": "tspan",
+   "x": 795,
+   "y": 584,
+   "w": 24,
+   "h": 41,
+   "text": "%",
+   "fontSize": 31,
+   "color": "rgb(92, 80, 72)"
+  },
+  {
+   "id": "e14",
+   "kind": "text",
+   "tag": "text",
+   "x": 68,
+   "y": 678,
+   "w": 104,
+   "h": 26,
+   "text": "After GRPO",
+   "fontSize": 20,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e15",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 68,
+   "y": 716,
+   "w": 860,
+   "h": 89,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e16",
+   "kind": "text",
+   "tag": "text",
+   "x": 953,
+   "y": 730,
+   "w": 84,
+   "h": 65,
+   "text": "39.1",
+   "fontSize": 49,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e17",
+   "kind": "text",
+   "tag": "tspan",
+   "x": 1037,
+   "y": 747,
+   "w": 24,
+   "h": 41,
+   "text": "%",
+   "fontSize": 31,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e18",
+   "kind": "box",
+   "tag": "section",
+   "x": 68,
+   "y": 850,
+   "w": 1064,
+   "h": 113,
+   "color": "rgb(201, 204, 194)"
+  },
+  {
+   "id": "e19",
+   "kind": "text",
+   "tag": "div",
+   "x": 68,
+   "y": 865,
+   "w": 83,
+   "h": 76,
+   "text": "500",
+   "fontSize": 49,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e20",
+   "kind": "text",
+   "tag": "div",
+   "x": 453,
+   "y": 865,
+   "w": 79,
+   "h": 76,
+   "text": "422",
+   "fontSize": 49,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e21",
+   "kind": "text",
+   "tag": "div",
+   "x": 807,
+   "y": 865,
+   "w": 43,
+   "h": 76,
+   "text": "15",
+   "fontSize": 49,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e22",
+   "kind": "box",
+   "tag": "div",
+   "x": 423,
+   "y": 879,
+   "w": 355,
+   "h": 84,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e23",
+   "kind": "box",
+   "tag": "div",
+   "x": 777,
+   "y": 879,
+   "w": 355,
+   "h": 84,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e24",
+   "kind": "text",
+   "tag": "div",
+   "x": 68,
+   "y": 937,
+   "w": 117,
+   "h": 26,
+   "text": "training tasks",
+   "fontSize": 20,
+   "color": "rgb(87, 91, 82)"
+  },
+  {
+   "id": "e25",
+   "kind": "text",
+   "tag": "div",
+   "x": 453,
+   "y": 937,
+   "w": 104,
+   "h": 26,
+   "text": "repositories",
+   "fontSize": 20,
+   "color": "rgb(87, 91, 82)"
+  },
+  {
+   "id": "e26",
+   "kind": "text",
+   "tag": "div",
+   "x": 807,
+   "y": 937,
+   "w": 132,
+   "h": 26,
+   "text": "GRPO updates",
+   "fontSize": 20,
+   "color": "rgb(87, 91, 82)"
+  },
+  {
+   "id": "e27",
+   "kind": "text",
+   "tag": "p",
+   "x": 68,
+   "y": 993,
+   "w": 523,
+   "h": 50,
+   "text": "Tasks from real workflows in private, enterprise-grade codebases. Both models evaluated with mini-swe-agent at medium reasoning.",
+   "fontSize": 18,
+   "color": "rgb(101, 104, 95)"
+  },
+  {
+   "id": "e28",
+   "kind": "box",
+   "tag": "footer",
+   "x": 68,
+   "y": 1108,
+   "w": 1064,
+   "h": 44,
+   "color": "rgb(201, 204, 194)"
+  },
+  {
+   "id": "e29",
+   "kind": "text",
+   "tag": "span",
+   "x": 68,
+   "y": 1130,
+   "w": 348,
+   "h": 22,
+   "text": "Expert data for foundation model development",
+   "fontSize": 17,
+   "color": "rgb(98, 102, 91)"
+  },
+  {
+   "id": "e30",
+   "kind": "text",
+   "tag": "span",
+   "x": 1019,
+   "y": 1130,
+   "w": 113,
+   "h": 22,
+   "text": "afterquery.com",
+   "fontSize": 17,
+   "color": "rgb(98, 102, 91)"
+  }
+ ]
+}

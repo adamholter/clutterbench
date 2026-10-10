@@ -1,0 +1,102 @@
+{
+ "grader": "sonnet-high-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:05:54.199Z",
+ "main_idea": "Training raised gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%, over 5x.",
+ "ideas": [
+  "Training lifts pass rate more than 5x",
+  "Base model 3.1% versus trained model 17.0%"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and complete apart from a sentence-style headline that could be shorter, and the logo icon does not render.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "AfterQuery logo icon (e1) is not visible beside the wordmark"
+ ],
+ "cost": {
+  "seconds": 9.5,
+  "usd": 0.032193400000000004,
+  "tokens": 27102,
+  "outputTokens": 880
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand header",
+   "reason": "Single AfterQuery brand mark; the logo icon is not visible in the render.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark tag",
+   "reason": "Short, quiet label naming the benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence headline; could be '5x on Terminal-Bench 2.0'.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Two bars with value labels and category labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer note",
+   "reason": "Quiet footnote giving the model and metric.",
+   "ids": [
+    "e12",
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 75.7,
+   "orange": 24.3,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 12.2,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:42.953Z",
+ "main_idea": "Two-stage training lifts gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Training raises Terminal-Bench 2.0 pass rate substantially",
+  "Base 3.1% rises to SFT 13.5%",
+  "SFT plus RLVR reaches 17.0%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple bar chart with a clear title, labelled bars and values; only defect is the near-invisible logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo e1 is white on the cream background and is nearly invisible in the screenshot"
+ ],
+ "cost": {
+  "seconds": 6.5,
+  "usd": 0.0007034599999999999,
+  "tokens": 28268,
+  "outputTokens": 858
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart with title and labels",
+   "reason": "Title names metric, benchmark and model; bars, values and category labels are all needed.",
+   "ids": [
+    "e0",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark is allowed; it is not visible in the render, see defects.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 13,
+  "textElements": 7
+ }
+}

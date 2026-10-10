@@ -1,0 +1,198 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:14.772Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7, near the teacher.",
+ "ideas": [
+  "Warmup raises Nemotron 3 Ultra's GDPval score",
+  "Warmup closes most of the gap to the teacher",
+  "Ultra throughput is about 6x comparable open models",
+  "AfterQuery data was named in NVIDIA's technical report"
+ ],
+ "clutter_score": 6,
+ "summary": "Clutter comes from the two extra stat cards, the gain caption, the footer, the category tag and the card border around a clean bar chart, while the chart does not say what the GDPval score's unit or scale is.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "score unit or metric definition",
+   "why": "'Score' is unitless, so the reader cannot tell whether it is a percent, Elo, or other scale."
+  }
+ ],
+ "completeness_score": 7,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark at the top, as the post requires.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Category tag names the post type and adds nothing to the finding.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line title",
+   "reason": "Title runs to two lines and names the study rather than stating the finding.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card border",
+   "reason": "Frame drawn around the chart card.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and model",
+   "reason": "Short chart title plus model and source context.",
+   "ids": [
+    "e6",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and value labels",
+   "reason": "Chart marks with one value label per bar.",
+   "ids": [
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar category labels",
+   "reason": "Category and condition labels say what each bar is.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Warmup gain stat",
+   "reason": "Large +11.4 restates the 35.3 to 46.7 difference already visible in the chart.",
+   "ids": [
+    "e24",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Warmup gain caption",
+   "reason": "Caption restates values already shown on the chart.",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Teacher gap stat card",
+   "reason": "Separate callout with a different statistic beside the results chart.",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Throughput stat card",
+   "reason": "Throughput claim serves a second point, not the warmup result.",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer source line",
+   "reason": "Footer sentence and source line that restate the post.",
+   "ids": [
+    "e33"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Brand shown a second time after the logo at top.",
+   "ids": [
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 27.9,
+   "orange": 24.1,
+   "red": 48,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 60.1,
+  "ideaCount": 4,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

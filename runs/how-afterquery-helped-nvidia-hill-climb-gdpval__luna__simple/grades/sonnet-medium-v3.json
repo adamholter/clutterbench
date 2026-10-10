@@ -1,0 +1,103 @@
+{
+ "grader": "sonnet-medium-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:40.573Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score close to the expert teacher's.",
+ "ideas": [
+  "Warmup raises GDPval score",
+  "Warmed-up model nearly matches teacher"
+ ],
+ "clutter_score": 2,
+ "summary": "Mostly clean single chart; the headline is a wordy sentence, and the bar heights are inconsistent with the axis and values.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Bar heights do not match values; the axis is misleading, e.g. 46.7 bar sits near 56",
+  "Y-axis starts at 10 and ticks don't match bar values"
+ ],
+ "cost": {
+  "seconds": 6.5,
+  "usd": 0.0291592,
+  "tokens": 25032,
+  "outputTokens": 596
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet and useful.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Context tag",
+   "reason": "Short tag naming benchmark and model.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence headline; could be shortened to a title-like finding.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Bars, values, axis, and category labels are all needed.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:15.120Z",
+ "main_idea": "GRPO training lifted DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 by 11.3 points",
+  "Base model scored 27.8%, step 15 scored 39.1%",
+  "Training used 500 expert-authored software tasks",
+  "Training was run on real engineering work",
+  "Stats about dataset size and training updates"
+ ],
+ "clutter_score": 6,
+ "summary": "The bar chart is clear and complete, but the slogan, kicker, subtitle, stat row, method cards, and footer are clutter that dilutes the one result.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 13.5,
+  "usd": 0.00403741,
+  "tokens": 26876,
+  "outputTokens": 2636
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand mark",
+   "reason": "One brand mark, short and useful for attribution.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research note tag",
+   "reason": "Category tag in the header tells the reader nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker line",
+   "reason": "Category kicker above the headline; not a finding.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; the chart carries the point.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Subtitle restates the chart's training setup in words.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate bar chart",
+   "reason": "Main visual with metric, labelled bars, values, change annotation, and one legend.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset and update counts serve a second point, not the chart.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method and data cards",
+   "reason": "Training method and data description cards are a separate point beside the chart.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer wordmark and tagline",
+   "reason": "Repeats the brand already shown in the header, plus a tagline.",
+   "ids": [
+    "e41",
+    "e42",
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 33.5,
+   "orange": 0,
+   "red": 66.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 66.5,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 106,
+  "textElements": 27
+ }
+}

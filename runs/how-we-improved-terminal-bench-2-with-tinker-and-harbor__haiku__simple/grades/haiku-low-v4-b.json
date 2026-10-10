@@ -1,0 +1,61 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:25.506Z",
+ "main_idea": "Training lifted gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Trained model passes far more Terminal-Bench 2.0 tasks than base",
+  "Base model pass rate is 3.1%",
+  "AfterQuery model pass rate is 17.0%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple before/after bar chart with the benchmark, metric, values, and labels all present.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Top-left logo mark is visible but has no element in the list"
+ ],
+ "cost": {
+  "seconds": 6.2,
+  "usd": 0.00348579,
+  "tokens": 28162,
+  "outputTokens": 895
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after pass rate chart",
+   "reason": "Bars, values, labels, and benchmark title all needed to read the comparison.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

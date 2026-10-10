@@ -1,0 +1,80 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:18.564Z",
+ "main_idea": "The distilled model wins more GDPval task pairs than it loses, a +20.9% net margin.",
+ "ideas": [
+  "Net win-loss margin is +20.9% against base model",
+  "Distilled model wins 123 tasks, loses 77",
+  "Twenty tasks tie"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete; only the headline is wordy, and it could be trimmed to about six words.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10.8,
+  "usd": 0.0040304500000000005,
+  "tokens": 34485,
+  "outputTokens": 1748
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Plain background shape that holds the layout; not a visible element to remove.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar chart",
+   "reason": "Proportional bars with one count and one category label each; this is the main visual.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline margin statement",
+   "reason": "Names the finding and metric, but at ten words it is wordier than needed; shorten to about six.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 97.3,
+   "orange": 2.7,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 1.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

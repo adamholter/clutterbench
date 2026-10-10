@@ -1,0 +1,208 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:04:22.266Z",
+ "main_idea": "GRPO lifted Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%",
+  "Training used 500 real software engineering tasks",
+  "Mean training reward rose across 15 updates",
+  "Entropy showed no sustained decline",
+  "Training tasks skew toward feature requests",
+  "Dataset spans 10,000+ tasks and 422 repositories"
+ ],
+ "clutter_score": 7,
+ "summary": "The before/after bars make the point clearly, but the big duplicate stat, dataset stats row, two extra charts, and entropy line bury it; the subtitle is also too long, and nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 30.3,
+  "usd": 0.00446359,
+  "tokens": 31310,
+  "outputTokens": 6413
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Post title",
+   "reason": "Short title naming model, benchmark, and method.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Base vs GRPO bars",
+   "reason": "Main visual: labelled bars with values, plus the DeepSWE pass@1 metric label.",
+   "ids": [
+    "e4",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation setup footnote",
+   "reason": "Quiet footnote giving the evaluation setup for both bars.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Carries real facts (500 tasks, pass@1, three attempts) in a long sentence; shorten or footnote.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Section tag",
+   "reason": "Category tag above the headline adds nothing the reader needs.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Big 39.1% stat card",
+   "reason": "Restates the 27.8% and 39.1% values already shown by the bars.",
+   "ids": [
+    "e5",
+    "e6",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset size and repository counts serve a second point, not the main bar comparison.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training reward line chart",
+   "reason": "Training diagnostic is a second chart, unrelated to reading the before/after bars.",
+   "ids": [
+    "e28",
+    "e33",
+    "e34",
+    "e35",
+    "e39",
+    "e43",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type breakdown chart",
+   "reason": "Training-set composition is a second chart serving a separate point.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy takeaway",
+   "reason": "Entropy diagnostic sentence serves a second point about training stability.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Brand already shown by the logo at the top of the graphic.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 41.1,
+   "orange": 9.1,
+   "red": 49.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 54.4,
+  "ideaCount": 6,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

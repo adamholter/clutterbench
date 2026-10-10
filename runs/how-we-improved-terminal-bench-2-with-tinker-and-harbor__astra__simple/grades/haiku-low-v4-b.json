@@ -1,0 +1,99 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:33.735Z",
+ "main_idea": "Two-stage training raised gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Training lifts gpt-oss-20b pass rate on Terminal-Bench 2.0",
+  "Each stage adds pass rate: base, SFT, then SFT+RLVR",
+  "Final model reaches 17.0% pass rate"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple bar chart with benchmark, metric, labelled bars, values and one logo; no footnote, but the reader can tell what was measured.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 6.3,
+  "usd": 0.00077634,
+  "tokens": 28451,
+  "outputTokens": 1003
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar marks",
+   "reason": "The three bars are the main visual and must stay.",
+   "ids": [
+    "e4",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, short and necessary to read the chart.",
+   "ids": [
+    "e3",
+    "e5",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Name each bar's training stage; required to read the chart.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric title",
+   "reason": "Names the benchmark, model, and metric in short, quiet context.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and unobtrusive.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.4
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 14,
+  "textElements": 8
+ }
+}

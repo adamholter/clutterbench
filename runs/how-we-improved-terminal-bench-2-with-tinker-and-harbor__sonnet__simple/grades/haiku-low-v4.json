@@ -1,0 +1,81 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:08.619Z",
+ "main_idea": "Training lifts gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Pass rate rises at each training stage",
+  "Base 3.1%, SFT 13.5%, SFT plus RLVR 17.0%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple labelled bar chart with a clear title; only the near-invisible white logo is a defect.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "AfterQuery logo is white on cream background, effectively invisible"
+ ],
+ "cost": {
+  "seconds": 6.8,
+  "usd": 0.0035589000000000003,
+  "tokens": 28421,
+  "outputTokens": 1011
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Bars, value labels and stage labels form the main visual, all needed.",
+   "ids": [
+    "e3",
+    "e5",
+    "e7",
+    "e2",
+    "e4",
+    "e6",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title names the benchmark, model and metric.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, appropriate, though nearly invisible in render.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 13,
+  "textElements": 7
+ }
+}

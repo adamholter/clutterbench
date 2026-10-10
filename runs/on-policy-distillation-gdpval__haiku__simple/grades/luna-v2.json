@@ -1,0 +1,87 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:15:35.256Z",
+ "main_idea": "The Nemotron model wins more GDPval task comparisons after distillation.",
+ "ideas": [
+  "Nemotron has a positive net win-loss margin against its base model."
+ ],
+ "clutter_score": 1,
+ "summary": "The headline repeats the chart’s result, while the graphic omits the model identity and which model condition was distilled.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "The headline says base model but does not identify the model family."
+  },
+  {
+   "mid": "m1",
+   "what": "distilled model condition",
+   "why": "The chart does not identify which condition produced the wins."
+  },
+  {
+   "mid": "m2",
+   "what": "comparison metric definition",
+   "why": "Net win-loss margin is named but its calculation is not explained."
+  }
+ ],
+ "completeness_score": 6,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Background",
+   "reason": "Neutral page background supports the chart.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding headline",
+   "reason": "It states the win-loss result the counts already show.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Win loss chart",
+   "reason": "Proportional bars and labeled counts show wins, ties, and losses.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 97.3,
+   "orange": 2.7,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 1.4,
+  "ideaCount": 1,
+  "missingCount": 3,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

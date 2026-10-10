@@ -1,0 +1,883 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 85,
+  "textElements": 7,
+  "words": 24,
+  "fontSizes": 5,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 76,
+   "y": 68,
+   "w": 125,
+   "h": 21,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "span",
+   "x": 864,
+   "y": 68,
+   "w": 260,
+   "h": 21,
+   "text": "Benchmark for Agentic Reasoning",
+   "fontSize": 16,
+   "color": "rgb(89, 89, 80)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 76,
+   "y": 216,
+   "w": 733,
+   "h": 67,
+   "text": "A benchmark built around real legal work.",
+   "fontSize": 43,
+   "color": "rgb(23, 23, 20)"
+  },
+  {
+   "id": "e3",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 85,
+   "y": 345,
+   "w": 1030,
+   "h": 488,
+   "color": "url(\"#grid\")"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 158,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 218,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e7",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 278,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e8",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 338,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e9",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 398,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e10",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 458,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e11",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 518,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e12",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 578,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e13",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 638,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e14",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 698,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e15",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 758,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e16",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 818,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e17",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 878,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e18",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 938,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e19",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 998,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e20",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 1058,
+   "y": 359,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e21",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e22",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 158,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e23",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 218,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e24",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 278,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e25",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 338,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e26",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 398,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e27",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 458,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e28",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 518,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e29",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 578,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e30",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 638,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e31",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 698,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e32",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 758,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e33",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 818,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e34",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 878,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e35",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 938,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e36",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 998,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e37",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 1058,
+   "y": 397,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(222, 222, 213)"
+  },
+  {
+   "id": "e38",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e39",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 158,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e40",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 218,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e41",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 278,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e42",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 338,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e43",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 398,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e44",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 458,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e45",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 518,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e46",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 578,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e47",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 638,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e48",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 698,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e49",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 758,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e50",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 818,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e51",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 878,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e52",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 938,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e53",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 998,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e54",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 1058,
+   "y": 435,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e55",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e56",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 158,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e57",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 218,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e58",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 278,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e59",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 338,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e60",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 398,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e61",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 458,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e62",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 518,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e63",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 578,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e64",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 638,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e65",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 698,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e66",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 758,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e67",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 818,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e68",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 878,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e69",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 938,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e70",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 998,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e71",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 1058,
+   "y": 473,
+   "w": 48,
+   "h": 24,
+   "color": "rgb(213, 213, 202)"
+  },
+  {
+   "id": "e72",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 511,
+   "w": 1008,
+   "h": 24,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e73",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 549,
+   "w": 1008,
+   "h": 24,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e74",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 587,
+   "w": 1008,
+   "h": 24,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e75",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 625,
+   "w": 1008,
+   "h": 24,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e76",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 663,
+   "w": 1008,
+   "h": 24,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e77",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 701,
+   "w": 1008,
+   "h": 24,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e78",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 739,
+   "w": 1008,
+   "h": 24,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e79",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 98,
+   "y": 777,
+   "w": 1008,
+   "h": 24,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e80",
+   "kind": "text",
+   "tag": "text",
+   "x": 100,
+   "y": 838,
+   "w": 105,
+   "h": 68,
+   "text": "5,161",
+   "fontSize": 54,
+   "color": "rgb(23, 23, 20)"
+  },
+  {
+   "id": "e81",
+   "kind": "text",
+   "tag": "text",
+   "x": 472,
+   "y": 838,
+   "w": 60,
+   "h": 68,
+   "text": "28",
+   "fontSize": 54,
+   "color": "rgb(23, 23, 20)"
+  },
+  {
+   "id": "e82",
+   "kind": "text",
+   "tag": "text",
+   "x": 279,
+   "y": 873,
+   "w": 93,
+   "h": 25,
+   "text": "legal cases",
+   "fontSize": 19,
+   "color": "rgb(102, 102, 93)"
+  },
+  {
+   "id": "e83",
+   "kind": "text",
+   "tag": "text",
+   "x": 558,
+   "y": 873,
+   "w": 118,
+   "h": 25,
+   "text": "practice areas",
+   "fontSize": 19,
+   "color": "rgb(102, 102, 93)"
+  },
+  {
+   "id": "e84",
+   "kind": "text",
+   "tag": "div",
+   "x": 76,
+   "y": 954,
+   "w": 301,
+   "h": 20,
+   "text": "A shared evaluation of end-to-end legal work",
+   "fontSize": 15,
+   "color": "rgb(93, 93, 85)"
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:40.188Z",
+ "main_idea": "Training lifts Qwen3.5-9B from 11.3% to 17.5% pass@5 on τ³-Banking.",
+ "ideas": [
+  "Training lifts banking agent pass rate",
+  "Base model 11.3% versus 17.5% after training",
+  "Method: hybrid distillation plus PivotRL",
+  "Fewer than 250 training tasks suffice"
+ ],
+ "clutter_score": 5,
+ "summary": "A clear before-after chart is buried under a method card block, a subtitle, a header tag and a footer repeating the brand; headline should be shortened.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 11.9,
+  "usd": 0.00140531,
+  "tokens": 27256,
+  "outputTokens": 2311
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after pass@5 chart",
+   "reason": "Main visual: bars, values, labels, benchmark, metric, and evaluation footnote.",
+   "ids": [
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one brand element.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Two-line claim is long; shorten to a finding naming the 5x-style result.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag above the content; tells reader nothing needed.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Restates the model, benchmark and method already shown in the chart.",
+   "ids": [
+    "e24"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method stage cards",
+   "reason": "Pipeline cards are a second point about method, beside the results chart.",
+   "ids": [
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline and wordmark",
+   "reason": "Repeats the logo brand and a tagline about the training data.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 42.2,
+   "orange": 24.2,
+   "red": 33.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.1
+  },
+  "clutterShare": 45.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 99,
+  "textElements": 25
+ }
+}

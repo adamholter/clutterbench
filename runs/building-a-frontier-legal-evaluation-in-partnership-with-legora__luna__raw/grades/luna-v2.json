@@ -1,0 +1,206 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:24.111Z",
+ "main_idea": "BAR-informed harness changes improved output quality by 5% across the same production models.",
+ "ideas": [
+  "BAR benchmarks end-to-end legal work across 5,161 cases.",
+  "BAR-informed harness changes improved output quality by 5%."
+ ],
+ "clutter_score": 8,
+ "summary": "The benchmark statistics and workflow cards compete with the 5% result, whose comparison values and quality metric are missing.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "5% comparison baseline",
+   "why": "The graphic says quality improved, but does not show the before and after values."
+  },
+  {
+   "mid": "m1",
+   "what": "Output quality metric",
+   "why": "It gives no metric definition or unit for the reported 5% improvement."
+  }
+ ],
+ "completeness_score": 5,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The wordmark identifies the publisher.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Partner tag",
+   "reason": "The top tag is a category label; Legora appears elsewhere.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "This kicker repeats the benchmark context without stating a finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "The question is a slogan, not the graphic’s finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Case count",
+   "reason": "Benchmark name, case total, and unit orient the reader to BAR’s scale.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "This sentence explains the benchmark instead of showing the main result.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Benchmark statistics",
+   "reason": "Practice areas, documents, and published case are a separate scale and release point.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Process heading",
+   "reason": "This introduces a legal-workflow explanation, separate from the 5% result.",
+   "ids": [
+    "e19",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Evaluation workflow",
+   "reason": "The three-stage pipeline explains how BAR works, a second idea beside the product result.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Impact callout",
+   "reason": "The 5% result is central, but its oversized number and explanatory text can be shorter.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer branding",
+   "reason": "The footer slogan adds no result; the second brand mark repeats the logo.",
+   "ids": [
+    "e56",
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 10.2,
+   "orange": 12.3,
+   "red": 77.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 83.7,
+  "ideaCount": 2,
+  "missingCount": 2,
+  "redByType": {
+   "unneeded": 6,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

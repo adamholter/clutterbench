@@ -1,0 +1,189 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:02:30.351Z",
+ "main_idea": "BAR spans 5,161 legal cases across 28 practice areas.",
+ "ideas": [
+  "BAR includes 5,161 legal cases",
+  "Spread across 28 practice areas",
+  "Benchmark built around real legal work"
+ ],
+ "clutter_score": 3,
+ "summary": "Clean chart and stats row; the slogan headline and tagline are unneeded, and the grey-versus-green grid encoding is never explained.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "meaning of grid cells",
+   "why": "Grey and green cells are unexplained; a reader cannot tell what the marks encode."
+  }
+ ],
+ "completeness_score": 7,
+ "defects": [],
+ "cost": {
+  "seconds": 13.6,
+  "usd": 0.00258897,
+  "tokens": 27392,
+  "outputTokens": 2661
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Case grid chart",
+   "reason": "The main visual; its marks carry the case-count point.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65",
+    "e66",
+    "e67",
+    "e68",
+    "e69",
+    "e70",
+    "e71",
+    "e72",
+    "e73",
+    "e74",
+    "e75",
+    "e76",
+    "e77",
+    "e78",
+    "e79"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline stats row",
+   "reason": "States the finding: 5,161 legal cases, 28 practice areas.",
+   "ids": [
+    "e80",
+    "e81",
+    "e82",
+    "e83"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name",
+   "reason": "Short context naming what is measured.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Generic slogan; does not state the finding or numbers.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline",
+   "reason": "Takeaway-style tagline restating the benchmark's purpose.",
+   "ids": [
+    "e84"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 90.3,
+   "orange": 0,
+   "red": 9.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.1
+  },
+  "clutterShare": 9.7,
+  "ideaCount": 3,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 24,
+  "textElements": 7
+ }
+}

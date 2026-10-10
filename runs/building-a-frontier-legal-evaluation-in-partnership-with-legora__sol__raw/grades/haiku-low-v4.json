@@ -1,0 +1,197 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:08:53.016Z",
+ "main_idea": "A benchmark built with Legora raised production output quality 5% in one month.",
+ "ideas": [
+  "AfterQuery and Legora built BAR, a legal agent benchmark",
+  "BAR tests end-to-end legal work inside Legora's harness",
+  "Benchmark-informed harness changes raised output quality 5%",
+  "BAR scale: 5,161 cases, 28 practice areas",
+  "Three-step process: define, validate, improve"
+ ],
+ "clutter_score": 7,
+ "summary": "The +5% result is the main visual but is buried among a dataset stats row, a three-step process row, a slogan headline, a kicker and a footer tagline; the graphic lacks nothing needed to read the claim.",
+ "missing": [],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 14.4,
+  "usd": 0.00410059,
+  "tokens": 26771,
+  "outputTokens": 2814
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, kept as the header identity.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Partnership credit line",
+   "reason": "Short context naming the partner; quiet and useful.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Category tag above the headline; does not state a finding.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; the +5% is the finding.",
+   "ids": [
+    "e24"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name and description",
+   "reason": "Names the benchmark and what it measures.",
+   "ids": [
+    "e25"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats row",
+   "reason": "Dataset counts serve a second point, not the +5% result.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Three-step process row",
+   "reason": "Method cards beside the result; a second idea about how the benchmark was built.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result callout",
+   "reason": "The main claim as one big figure with its label and unit.",
+   "ids": [
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Callout explanation",
+   "reason": "Useful, but a long sentence; shorten to a few words.",
+   "ids": [
+    "e47"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline with no information the reader needs.",
+   "ids": [
+    "e48"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Brand already shown in the header logo; redundant.",
+   "ids": [
+    "e49"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 28.4,
+   "orange": 6.6,
+   "red": 65,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34.8
+  },
+  "clutterShare": 68.3,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 98,
+  "textElements": 22
+ }
+}

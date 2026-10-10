@@ -1,0 +1,94 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:18.354Z",
+ "main_idea": "Training raised the base model's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Training lifts terminal task pass rate more than 5x",
+  "Base model 3.1% versus trained model 17.0%",
+  "Results are on Terminal-Bench 2.0"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and complete: one clear bar chart, with only the full-sentence headline worth shortening and a logo that fails to render.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo element e1 is not visible; the left of the header shows blank space"
+ ],
+ "cost": {
+  "seconds": 11.6,
+  "usd": 0.00224632,
+  "tokens": 29692,
+  "outputTokens": 1914
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "The main visual with its value labels and category labels; all needed to read it.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand and benchmark header",
+   "reason": "One wordmark brand mark plus short benchmark context; small and orienting.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "Real finding, but a full sentence; shorten to something like 'Over 5x on Terminal-Bench 2.0'.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footer rule and model plus Pass@1 evaluation detail; useful context.",
+   "ids": [
+    "e12",
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 75.7,
+   "orange": 24.3,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22
+  },
+  "clutterShare": 12.2,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 21,
+  "textElements": 8
+ }
+}

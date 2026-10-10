@@ -1,0 +1,109 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 8,
+  "textElements": 5,
+  "words": 8,
+  "fontSizes": 3,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 0,
+   "y": 0,
+   "w": 1200,
+   "h": 1200,
+   "color": "rgb(12, 12, 12)"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "text",
+   "x": 80,
+   "y": 145,
+   "w": 336,
+   "h": 32,
+   "text": "Terminal-Bench 2.0 pass rate",
+   "fontSize": 26,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "text",
+   "x": 713,
+   "y": 150,
+   "w": 234,
+   "h": 150,
+   "text": "17.0%",
+   "fontSize": 96,
+   "color": "rgb(232, 232, 227)"
+  },
+  {
+   "id": "e3",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 680,
+   "y": 320,
+   "w": 300,
+   "h": 700,
+   "color": "rgb(232, 168, 95)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "text",
+   "x": 278,
+   "y": 720,
+   "w": 183,
+   "h": 150,
+   "text": "3.1%",
+   "fontSize": 96,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 220,
+   "y": 892,
+   "w": 300,
+   "h": 128,
+   "color": "rgb(74, 73, 68)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "text",
+   "x": 337,
+   "y": 1056,
+   "w": 66,
+   "h": 40,
+   "text": "Base",
+   "fontSize": 30,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 757,
+   "y": 1056,
+   "w": 146,
+   "h": 40,
+   "text": "AfterQuery",
+   "fontSize": 30,
+   "color": "rgb(232, 232, 227)"
+  }
+ ]
+}

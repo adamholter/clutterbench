@@ -1,0 +1,321 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 29,
+  "textElements": 6,
+  "words": 15,
+  "fontSizes": 4,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "h1",
+   "x": 64,
+   "y": 50,
+   "w": 442,
+   "h": 56,
+   "text": "Nemotron 3 Ultra on GDPval",
+   "fontSize": 36,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "shape",
+   "tag": "path",
+   "x": 995,
+   "y": 65,
+   "w": 5,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e2",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1035,
+   "y": 67,
+   "w": 8,
+   "h": 18,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e3",
+   "kind": "shape",
+   "tag": "path",
+   "x": 993,
+   "y": 68,
+   "w": 5,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1017,
+   "y": 69,
+   "w": 17,
+   "h": 17,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1073,
+   "y": 69,
+   "w": 16,
+   "h": 22,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1043,
+   "y": 71,
+   "w": 8,
+   "h": 15,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e7",
+   "kind": "shape",
+   "tag": "path",
+   "x": 991,
+   "y": 72,
+   "w": 7,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e8",
+   "kind": "shape",
+   "tag": "path",
+   "x": 990,
+   "y": 74,
+   "w": 4,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e9",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1052,
+   "y": 74,
+   "w": 10,
+   "h": 12,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e10",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1063,
+   "y": 74,
+   "w": 9,
+   "h": 12,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e11",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1090,
+   "y": 74,
+   "w": 13,
+   "h": 12,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e12",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1103,
+   "y": 74,
+   "w": 10,
+   "h": 12,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e13",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1114,
+   "y": 74,
+   "w": 9,
+   "h": 12,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e14",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1124,
+   "y": 74,
+   "w": 12,
+   "h": 17,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e15",
+   "kind": "shape",
+   "tag": "path",
+   "x": 988,
+   "y": 78,
+   "w": 14,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e16",
+   "kind": "shape",
+   "tag": "path",
+   "x": 987,
+   "y": 81,
+   "w": 5,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e17",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1002,
+   "y": 81,
+   "w": 4,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e18",
+   "kind": "shape",
+   "tag": "path",
+   "x": 986,
+   "y": 84,
+   "w": 5,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e19",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1003,
+   "y": 84,
+   "w": 5,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e20",
+   "kind": "shape",
+   "tag": "path",
+   "x": 982,
+   "y": 87,
+   "w": 10,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e21",
+   "kind": "shape",
+   "tag": "path",
+   "x": 1001,
+   "y": 87,
+   "w": 9,
+   "h": 2,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e22",
+   "kind": "text",
+   "tag": "text",
+   "x": 64,
+   "y": 155,
+   "w": 215,
+   "h": 29,
+   "text": "GDPval score · MOPD",
+   "fontSize": 22,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e23",
+   "kind": "text",
+   "tag": "text",
+   "x": 812,
+   "y": 192,
+   "w": 80,
+   "h": 56,
+   "text": "46.7",
+   "fontSize": 42,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e24",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 674,
+   "y": 259,
+   "w": 356,
+   "h": 794,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e25",
+   "kind": "text",
+   "tag": "text",
+   "x": 306,
+   "y": 386,
+   "w": 83,
+   "h": 56,
+   "text": "35.3",
+   "fontSize": 42,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e26",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 170,
+   "y": 453,
+   "w": 356,
+   "h": 600,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e27",
+   "kind": "text",
+   "tag": "text",
+   "x": 279,
+   "y": 1075,
+   "w": 139,
+   "h": 36,
+   "text": "No warmup",
+   "fontSize": 27,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e28",
+   "kind": "text",
+   "tag": "text",
+   "x": 735,
+   "y": 1075,
+   "w": 234,
+   "h": 36,
+   "text": "AfterQuery warmup",
+   "fontSize": 27,
+   "color": "rgb(0, 0, 0)"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:00.214Z",
+ "main_idea": "The student beat the base model on GDPval: 123 wins, 77 losses, 20 ties.",
+ "ideas": [
+  "Net win-loss margin of +20.9% versus base model",
+  "Split of 123 wins, 20 ties, 77 losses",
+  "Benchmark is GDPval"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete: one proportional win-tie-loss bar chart under a clear headline naming GDPval and the +20.9% margin, with only the total task count (220) left unstated.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "AfterQuery logo is visible top-left but absent from the element list"
+ ],
+ "cost": {
+  "seconds": 14.9,
+  "usd": 0.00267175,
+  "tokens": 35401,
+  "outputTokens": 2663
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Names the metric, margin, and benchmark; slightly over seven words but clear",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar chart",
+   "reason": "Main visual: proportional bars with one count and one label per segment",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Page background",
+   "reason": "Plain canvas behind the chart; harmless and not a separate visual",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

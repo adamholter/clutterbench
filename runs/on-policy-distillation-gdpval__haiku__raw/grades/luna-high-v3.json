@@ -1,0 +1,140 @@
+{
+ "grader": "luna-high-v3",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:18.909Z",
+ "main_idea": "On-policy distillation improves GDPval performance across two model families.",
+ "ideas": [
+  "Nemotron gains 20.9% net win-loss margin and 5.1 rubric points.",
+  "Qwen gains 21.4% net win-loss margin and 7.9 rubric points.",
+  "Nemotron wins 123 of 220 task comparisons."
+ ],
+ "clutter_score": 2,
+ "summary": "The graphic is complete; the long subtitle and research kicker add the main clutter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 21.1,
+  "usd": null,
+  "tokens": 11892,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "A single brand mark helps identify the source.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research kicker",
+   "reason": "The category tag adds little beyond the headline and benchmark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "A short title names the topic and professional-work context.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Explanatory subtitle",
+   "reason": "Useful method and evaluation details could fit in a shorter subtitle or footnote.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model results",
+   "reason": "Both model families' GDPval gains directly support the main point.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron task results",
+   "reason": "The comparison bar and brief evaluation details explain Nemotron's result.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom divider",
+   "reason": "The decorative rule adds no information.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 85.8,
+   "orange": 10.5,
+   "red": 3.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 9,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

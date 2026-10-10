@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clutter drops with a simpler prompt</title>
+<style>
+@font-face{font-family:Outfit;src:url('assets/outfit.woff2') format('woff2');font-weight:400 700;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#fff;color:#101828;font-family:Outfit,sans-serif;-webkit-font-smoothing:antialiased}
+main{width:1200px;height:1200px;padding:60px 64px}.mark{font-size:28px;font-weight:700}.mark span{color:#1971c2}h1{font-size:62px;line-height:1.06;letter-spacing:-1px;font-weight:700;margin:54px 0 20px;max-width:960px}p{font-size:25px;color:#475467;margin:0}svg{display:block;width:1072px;height:740px;margin-top:25px;overflow:visible}text{font-family:Outfit,sans-serif}.value{font-size:36px;font-weight:600}.model{font-size:24px;font-weight:600}.prompt{font-size:19px;fill:#475467}.note{font-size:18px;color:#475467;border-top:1px solid #e4e7ec;padding-top:22px;margin-top:2px}
+</style></head><body><main>
+<div class="mark"><span>Clutter</span>Bench</div>
+<h1>Clutter drops with<br>a simpler prompt.</h1>
+<p>Clutter score · lower is better</p>
+<svg viewBox="0 0 1072 740" role="img" aria-label="Clutter scores with raw and simple prompts. Claude Sonnet 5.5: 29% to 0%. Claude Haiku 5.5: 42% to 0%. GPT-6.1 Sol: 46% to 0%. GPT-6 Luna: 61% to 6%.">
+<g stroke="#e4e7ec" stroke-width="1"><path d="M268 38V705M536 38V705M804 38V705"/></g>
+<g class="prompt" text-anchor="middle"><text x="63" y="32">Raw</text><text x="201" y="32">Simple</text><text x="331" y="32">Raw</text><text x="469" y="32">Simple</text><text x="599" y="32">Raw</text><text x="737" y="32">Simple</text><text x="867" y="32">Raw</text><text x="1005" y="32">Simple</text></g>
+<g stroke="#f0f2f5" stroke-width="2"><path d="M63 68V595M201 68V595M331 68V595M469 68V595M599 68V595M737 68V595M867 68V595M1005 68V595"/></g>
+<g fill="none" stroke="#1971c2" stroke-width="4" stroke-linecap="round"><path d="M63 348.5L201 595"/><path d="M331 238L469 595"/><path d="M599 204L737 595"/><path d="M867 76.5L1005 544"/></g>
+<g fill="white" stroke="#1971c2" stroke-width="4"><circle cx="63" cy="348.5" r="9"/><circle cx="331" cy="238" r="9"/><circle cx="599" cy="204" r="9"/><circle cx="867" cy="76.5" r="9"/></g>
+<g fill="#1971c2"><circle cx="201" cy="595" r="10"/><circle cx="469" cy="595" r="10"/><circle cx="737" cy="595" r="10"/><circle cx="1005" cy="544" r="10"/></g>
+<g class="value" text-anchor="middle" fill="#101828"><text x="63" y="322">29%</text><text x="331" y="211">42%</text><text x="599" y="177">46%</text><text x="926" y="89">61%</text></g>
+<g class="value" text-anchor="middle" fill="#1971c2"><text x="201" y="636">0%</text><text x="469" y="636">0%</text><text x="737" y="636">0%</text><text x="1005" y="585">6%</text></g>
+<g class="model" text-anchor="middle" fill="#101828"><text x="134" y="684">Claude Sonnet 5.5</text><text x="402" y="684">Claude Haiku 5.5</text><text x="670" y="684">GPT-6.1 Sol</text><text x="938" y="684">GPT-6 Luna</text></g>
+</svg>
+<div class="note">Mean of 6 graphics per model and prompt.</div>
+</main></body></html>

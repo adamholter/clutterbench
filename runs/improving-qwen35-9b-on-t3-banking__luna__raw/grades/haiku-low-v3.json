@@ -1,0 +1,180 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:02.662Z",
+ "main_idea": "PivotRL lifts Qwen3.5-9B task success on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "PivotRL raises τ³-Banking task success",
+  "Before 11.3% versus after 17.5%",
+  "Only 50 teacher trajectories needed",
+  "Smaller model performs better at agent work"
+ ],
+ "clutter_score": 6,
+ "summary": "The before/after bar chart is clear, but a slogan headline, long subtitle, stat cards, takeaway, and repeated brand line clutter it; bar lengths also misstate the axis values.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Bars do not match axis: 11.3% bar ends at about 10%, 17.5% bar ends near 15.5%",
+  "Decorative shapes at top right are cut off by the canvas edge"
+ ],
+ "cost": {
+  "seconds": 14.4,
+  "usd": 0.0036664799999999997,
+  "tokens": 27110,
+  "outputTokens": 2787
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bar chart",
+   "reason": "Bars, values, axis ticks, and the task-success axis label carry the main result.",
+   "ids": [
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Names the Pass@5 metric the chart measures.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark tag",
+   "reason": "Short context naming the model and benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Real facts (50 trajectories, verifier) but a long sentence; shorten or footnote.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "'A smaller model. Better at the work.' is a slogan, not a finding.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Eyebrow-style category line adds nothing for the reader.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative shapes",
+   "reason": "Faint decorative blocks with no information value.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset count stat cards",
+   "reason": "Stats about 50 trajectories and 193 pivots serve a second point beside the chart.",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway sentence",
+   "reason": "Restates the chart's message as a tagline.",
+   "ids": [
+    "e27"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated brand attribution",
+   "reason": "AfterQuery is already shown in the logo.",
+   "ids": [
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 28.9,
+   "orange": 17.6,
+   "red": 53.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 62.3,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

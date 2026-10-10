@@ -1,0 +1,70 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:09:00.766Z",
+ "main_idea": "BAR-informed harness changes raised Legora's output quality by 5% in one month.",
+ "ideas": [
+  "+5% output quality from BAR-informed harness changes"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one big +5% stat, a short caption naming the metric, and one logo.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 6.7,
+  "usd": 0.043139300000000005,
+  "tokens": 20899,
+  "outputTokens": 391
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible and legible.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% stat",
+   "reason": "The single key number, the main visual.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric caption",
+   "reason": "Short caption saying what the +5% measures and over what period.",
+   "ids": [
+    "e2"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 2
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:11.064Z",
+ "main_idea": "GRPO lifted Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raises DeepSWE pass@1 from 27.8% to 39.1%",
+  "Training used 500 real software engineering tasks",
+  "Reward rose during training",
+  "Entropy stayed stable",
+  "Training set breakdown by task type"
+ ],
+ "clutter_score": 6,
+ "summary": "The bar chart carries the point, but two extra charts, a stats row, a repeated 39.1% stat card, a category tag and an entropy footer add clutter; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 16.2,
+  "usd": 0.0039653299999999995,
+  "tokens": 28168,
+  "outputTokens": 3271
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one logo.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline title",
+   "reason": "Seven-word title naming the work; a real headline.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Base vs GRPO bar chart",
+   "reason": "Main visual with metric name, bar labels, values and eval setup footnote.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle with method facts",
+   "reason": "Real facts (task count, pass@1, attempts) in a long sentence; shorten.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Category tag above the headline; tells the reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Big 39.1% stat card",
+   "reason": "Restates the 27.8% to 39.1% gap the bars already show.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset counts serve a second point, not the main bar result.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training reward line chart",
+   "reason": "Second chart on training dynamics, unrelated to the main before/after visual.",
+   "ids": [
+    "e28",
+    "e33",
+    "e34",
+    "e35",
+    "e39",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type breakdown chart",
+   "reason": "Third chart on dataset composition; serves a different point.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy footer note",
+   "reason": "Entropy finding is a second point about training stability.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer website URL",
+   "reason": "Brand already shown by the logo at top.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 38.9,
+   "orange": 9.1,
+   "red": 52,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 56.6,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

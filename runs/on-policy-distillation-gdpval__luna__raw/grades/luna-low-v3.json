@@ -1,0 +1,204 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:15.955Z",
+ "main_idea": "On-policy distillation improves GDPval results across two model families.",
+ "ideas": [
+  "Nemotron gains a +20.9% net win-loss margin.",
+  "Qwen gains a +21.4% net win-loss margin.",
+  "Student generations provide the distillation training signal."
+ ],
+ "clutter_score": 5,
+ "summary": "The results are clear, but the long subtitle and large process diagram compete with the main finding.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10.7,
+  "usd": null,
+  "tokens": 11487,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The wordmark identifies the source.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tags",
+   "reason": "These labels add little beyond the headline and benchmark context.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "A concise headline states the cross-family result.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Training subtitle",
+   "reason": "Useful method and timing context could be stated more briefly.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron results",
+   "reason": "The card gives the margin, paired outcomes, win rate, and rubric change.",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen results",
+   "reason": "The card shows the transferred result and supporting metrics.",
+   "ids": [
+    "e8",
+    "e10",
+    "e12",
+    "e14",
+    "e16",
+    "e18",
+    "e19",
+    "e21",
+    "e25",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Transfer takeaway",
+   "reason": "The recipe context is useful but could fit in a short footnote.",
+   "ids": [
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Distillation process",
+   "reason": "The process explanation matters, but the four large cards take focus from results.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer branding",
+   "reason": "The footer tagline repeats the brand already shown in the logo.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval source",
+   "reason": "This quietly identifies the evaluation set.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 62.3,
+   "orange": 33.7,
+   "red": 4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 20.9,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

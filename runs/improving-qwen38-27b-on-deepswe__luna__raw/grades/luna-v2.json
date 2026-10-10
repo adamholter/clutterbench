@@ -1,0 +1,180 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:49.558Z",
+ "main_idea": "GRPO training raised Qwen3.8-27B-Medium’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO improved Qwen3.8-27B-Medium’s DeepSWE pass@1",
+  "Training used 500 tasks across 422 repositories",
+  "Training used eight attempts per task",
+  "Tasks came from private enterprise codebases"
+ ],
+ "clutter_score": 7,
+ "summary": "The headline, gain callout, training stats, method and data cards, and footer compete with the bar chart, while the measured benchmark, model, conditions, and values are clear.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark identifies the research organization.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "DeepSWE bar chart",
+   "reason": "Shows benchmark, pass@1 values, compared checkpoints, and percentage scale.",
+   "ids": [
+    "e10",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Gain annotation",
+   "reason": "The +11.3 point takeaway repeats the difference visible in the bars.",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research labels",
+   "reason": "The tag and eyebrow add category context without helping read the result.",
+   "ids": [
+    "e3",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Finding headline",
+   "reason": "The two-line headline states the result broadly instead of using the chart’s precise finding.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "It restates training context already summarized by the chart and supporting details.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart frame",
+   "reason": "The large border and card frame add visual weight without conveying data.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training stats",
+   "reason": "Task count, repository count, and update count add a separate training scale point.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training method card",
+   "reason": "Attempt and reward details describe methodology rather than the main evaluation result.",
+   "ids": [
+    "e35",
+    "e37",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Data context card",
+   "reason": "Codebase and language details add a separate description of the training data.",
+   "ids": [
+    "e36",
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer and tagline",
+   "reason": "The footer repeats branding and adds an unrelated slogan.",
+   "ids": [
+    "e41",
+    "e42",
+    "e43"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 23.5,
+   "orange": 22.1,
+   "red": 52.2,
+   "unlabelled": 2.2,
+   "paintedOfCanvas": 23.4
+  },
+  "clutterShare": 63.3,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 3
+  },
+  "coverage": 95,
+  "words": 106,
+  "textElements": 27
+ }
+}

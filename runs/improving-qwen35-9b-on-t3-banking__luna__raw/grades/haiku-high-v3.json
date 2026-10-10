@@ -1,0 +1,181 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:04:02.164Z",
+ "main_idea": "PivotRL lifts Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "PivotRL lifts task success on τ³-Banking",
+  "Only 50 teacher trajectories were needed",
+  "Fewer examples yield more capable agents",
+  "Before vs after pass@5 comparison",
+  "193 pivot states were profiled"
+ ],
+ "clutter_score": 5,
+ "summary": "A clear before/after bar chart is buried under a slogan headline, a long subtitle, dataset stat cards, a takeaway tagline, a decorative image and a duplicate brand footer; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Decorative staircase image runs past the right frame edge and is clipped",
+  "Decorative shapes cross the divider rule at the right edge"
+ ],
+ "cost": {
+  "seconds": 30.8,
+  "usd": 0.0045703900000000006,
+  "tokens": 30945,
+  "outputTokens": 6626
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand lockup",
+   "reason": "One brand mark, logo with wordmark, in the header.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Category tag restates nothing the chart needs; it is a section-style label.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark tag",
+   "reason": "Only place the model and benchmark are named; short and needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "'A smaller model. Better at the work.' is a slogan, not the finding.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Carries real facts (50 trajectories, verifier) but runs too long; shorten.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative staircase image",
+   "reason": "Faint decorative graphic with no data; adds nothing to the result.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bar chart",
+   "reason": "Main visual: labelled bars, values, axis ticks, metric and row labels.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Trend arrow icon",
+   "reason": "Decorative trend icon; the bars and labels already carry the change.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset-count stat cards",
+   "reason": "Dataset counts are a second point beside the main before/after chart.",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway tagline",
+   "reason": "Takeaway sentence that only restates the headline and chart.",
+   "ids": [
+    "e27"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer attribution",
+   "reason": "AfterQuery brand is already shown in the header lockup.",
+   "ids": [
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 28.6,
+   "orange": 17.6,
+   "red": 53.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 62.6,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

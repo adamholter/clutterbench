@@ -1,0 +1,85 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:01.621Z",
+ "main_idea": "PivotRL and distillation lift Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%",
+ "ideas": [
+  "Training raises Qwen3.5-9B pass@5 on τ³-Banking",
+  "Baseline 11.3% versus trained model 17.5%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a two-bar chart with a benchmark title, labelled values, and a logo, with nothing to remove.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.1,
+  "usd": 0.00069107,
+  "tokens": 23942,
+  "outputTokens": 921
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title names the benchmark and metric",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "The single brand mark, visible in the screenshot",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "The chart marks with one value label per bar",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar labels",
+   "reason": "Category labels that say what each bar stands for",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 31.8
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 9,
+  "textElements": 5
+ }
+}

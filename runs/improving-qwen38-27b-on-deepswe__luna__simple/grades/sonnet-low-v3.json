@@ -1,0 +1,100 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:20.045Z",
+ "main_idea": "GRPO on 500 tasks raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training lifts DeepSWE pass@1 from 27.8% to 39.1%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete; the only issue is the logo, which is nearly invisible.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo at top left is nearly invisible against the background."
+ ],
+ "cost": {
+  "seconds": 6.5,
+  "usd": 0.053145,
+  "tokens": 22016,
+  "outputTokens": 558
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark tag",
+   "reason": "Names the benchmark and metric, short and said once.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and labels",
+   "reason": "Two bars with value labels and category labels make the comparison.",
+   "ids": [
+    "e2",
+    "e7",
+    "e4",
+    "e9",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Small, quiet axis ticks that orient the reader.",
+   "ids": [
+    "e3",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Change arrow",
+   "reason": "Dotted connector marks the improvement between the bars.",
+   "ids": [
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo",
+   "reason": "The single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 14.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 7
+ }
+}

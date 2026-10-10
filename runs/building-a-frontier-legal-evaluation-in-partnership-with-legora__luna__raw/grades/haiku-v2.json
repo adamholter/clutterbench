@@ -1,0 +1,291 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:02.240Z",
+ "main_idea": "BAR tests whether agents can complete end-to-end legal work, scored against standards.",
+ "ideas": [
+  "Legal benchmark tests agents on end-to-end legal work",
+  "Tasks are scored against expert-shaped standards",
+  "BAR-informed harness changes raised output quality 5%",
+  "BAR has 5,161 cases across 28 practice areas"
+ ],
+ "clutter_score": 7,
+ "summary": "Clutter from a slogan headline, a subtitle, decorative progress bars, footers, and a separate +5% product-impact callout and stats row; it lacks the model name, scores, and baseline for the 5% gain.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "Reader cannot tell which model or agent was evaluated or improved."
+  },
+  {
+   "mid": "m1",
+   "what": "benchmark scores",
+   "why": "No performance values per model are shown, so the scoring result is absent."
+  },
+  {
+   "mid": "m2",
+   "what": "comparison baseline",
+   "why": "The +5% lacks a before/after or baseline condition to compare against."
+  },
+  {
+   "mid": "m3",
+   "what": "output quality metric",
+   "why": "The unit and measure behind the 5% gain are not defined."
+  }
+ ],
+ "completeness_score": 4,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand mark",
+   "reason": "Single brand mark identifies the company; keep.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header co-brand tag",
+   "reason": "Small tag repeating the partnership; says nothing the reader needs.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name tag",
+   "reason": "Names the benchmark being measured; short and useful context.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Question headline",
+   "reason": "Slogan-style question, not a stated finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle paragraph",
+   "reason": "Paragraph restates what the graphic shows; reader does not need it.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Hero case-count stat card",
+   "reason": "Scale stat with a box frame; serves the size point, not the main idea.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stats row",
+   "reason": "Second row of counts; serves scale, not the scoring idea.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Process section heading",
+   "reason": "Short heading naming the process the graphic shows.",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Heading kicker",
+   "reason": "Uppercase kicker restating the section heading.",
+   "ids": [
+    "e20"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card frame",
+   "reason": "Border drawn around the pipeline; decorative framing.",
+   "ids": [
+    "e21"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Three pipeline steps",
+   "reason": "Step cards and titles carry the main process visual.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e34",
+    "e35",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Flow connector",
+   "reason": "Dashed flow line linking the three steps.",
+   "ids": [
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Step number badges",
+   "reason": "Section numbers; the step order is already clear.",
+   "ids": [
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Step category tags",
+   "reason": "Category tags add a label the reader does not need.",
+   "ids": [
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Step description paragraphs",
+   "reason": "Explanatory sentences restate what the step titles already say.",
+   "ids": [
+    "e37",
+    "e38",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative progress bars",
+   "reason": "Decorative bars with no data behind them.",
+   "ids": [
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48"
+   ]
+  },
+  {
+   "rid": "r16",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Product impact callout",
+   "reason": "Separate statistic about product gains; serves a second point.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r17",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline carries no information about the benchmark.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r18",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Co-brand shown again in footer; the logo already appears at top.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 27.8,
+   "orange": 0,
+   "red": 72.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 72.2,
+  "ideaCount": 4,
+  "missingCount": 4,
+  "redByType": {
+   "unneeded": 10,
+   "extra_idea": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

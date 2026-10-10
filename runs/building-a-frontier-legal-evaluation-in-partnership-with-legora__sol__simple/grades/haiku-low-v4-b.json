@@ -1,0 +1,92 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:56.801Z",
+ "main_idea": "Harness changes on BAR raised legal agent output quality 5% in one month",
+ "ideas": [
+  "BAR is a legal agent evaluation",
+  "Harness changes drive the quality gain",
+  "Output quality rose 5% on production models"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean three-step flow that states the finding clearly; only an invisible top shape (e0) should be removed, and nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "e0 shape at top (64,46) is not visible in the screenshot"
+ ],
+ "cost": {
+  "seconds": 8.2,
+  "usd": 0.0009177699999999999,
+  "tokens": 23680,
+  "outputTokens": 1389
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "BAR evaluation step",
+   "reason": "Names the benchmark and its type; first step of the flow",
+   "ids": [
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Harness changes step",
+   "reason": "Names the intervention that produced the gain",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% output quality result",
+   "reason": "The main finding, with metric, scope and time frame",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Top badge (not rendered)",
+   "reason": "Would be a decorative pill or eyebrow; adds nothing and is invisible",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 99.5,
+   "orange": 0,
+   "red": 0.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 62
+  },
+  "clutterShare": 0.5,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 14,
+  "textElements": 6
+ }
+}

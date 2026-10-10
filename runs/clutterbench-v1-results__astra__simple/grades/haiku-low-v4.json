@@ -1,0 +1,97 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:42:40.760Z",
+ "main_idea": "Simple prompts cut clutter to near zero for every model; raw prompts leave much more.",
+ "ideas": [
+  "Raw prompts produce far more clutter than simple prompts",
+  "Claude Sonnet 5.5 is least cluttered on raw prompts",
+  "GPT-6 Luna is most cluttered on raw prompts",
+  "Simple prompt drops all models to 0-6%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a single dumbbell chart with a short title, one legend, and one logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.2,
+  "usd": 0.0033025100000000007,
+  "tokens": 24701,
+  "outputTokens": 1345
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Title and brand mark",
+   "reason": "Short chart title names the metric; one brand mark.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Prompt legend",
+   "reason": "One legend identifying the two prompt conditions.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Dumbbell chart rows",
+   "reason": "Main visual: model names, marks, and one value label per mark.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 5
+  },
+  "clutterShare": 0,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 26,
+  "textElements": 17
+ }
+}

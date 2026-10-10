@@ -1,0 +1,81 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:06.906Z",
+ "main_idea": "Training lifts gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "Pipeline stages raise Terminal-Bench 2.0 pass rate",
+  "Base 3.1% rises to SFT 13.5%",
+  "SFT plus RLVR reaches 17.0%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one bar chart with a short title, metric, logo and labelled values; nothing to remove or add.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 7.9,
+  "usd": 0.0035032000000000006,
+  "tokens": 28340,
+  "outputTokens": 892
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Main visual: bars, value labels and stage labels, all needed to read it.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model, benchmark and metric",
+   "reason": "Short title names model, benchmark and the pass-rate metric.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, rendered and visible.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 14,
+  "textElements": 8
+ }
+}

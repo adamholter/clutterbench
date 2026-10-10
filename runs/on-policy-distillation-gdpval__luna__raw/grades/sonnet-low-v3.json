@@ -1,0 +1,254 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:31.215Z",
+ "main_idea": "On-policy distillation lifts GDPval net win-loss margin about 21% for both Nemotron and Qwen.",
+ "ideas": [
+  "Nemotron gains +20.9% net win-loss margin",
+  "Qwen gains +21.4% net win-loss margin",
+  "Same recipe transfers across model families",
+  "Student learns from its own generations"
+ ],
+ "clutter_score": 7,
+ "summary": "A slogan headline, eyebrow, secondary stats, win-rate chips and a four-step method panel crowd out the two net-margin results; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo mark is very faint, nearly invisible against the background"
+ ],
+ "cost": {
+  "seconds": 11.2,
+  "usd": 0.0857795,
+  "tokens": 35143,
+  "outputTokens": 1279
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet header.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "Category tag adds nothing.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Kicker above headline, unneeded.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan, doesn't state the finding or numbers.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Sentence carrying method and benchmark facts; could be short tag.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron headline stat",
+   "reason": "Main result with model and metric context.",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bar",
+   "reason": "The one real chart, labeled.",
+   "ids": [
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Nemotron footer stats",
+   "reason": "Win rate and points are secondary and repeat the result.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen headline stat",
+   "reason": "Second family result with context.",
+   "ids": [
+    "e8",
+    "e10",
+    "e12",
+    "e14",
+    "e16",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Qwen rubric stat",
+   "reason": "Extra metric competing with the main margin.",
+   "ids": [
+    "e19",
+    "e21",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Win rate chips",
+   "reason": "Another secondary metric, not comparable to the other card.",
+   "ids": [
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Transfer caption",
+   "reason": "Sentence restating what the two cards show.",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method pipeline cards",
+   "reason": "Four-step method boxes; a footnote would do.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand",
+   "reason": "Brand repeated; logo already in header.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Small benchmark note.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 31.1,
+   "orange": 31.4,
+   "red": 37.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 53.3,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 2,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

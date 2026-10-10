@@ -1,0 +1,184 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:27.413Z",
+ "main_idea": "BAR-informed harness changes raised output quality 5% in one month",
+ "ideas": [
+  "BAR-informed harness changes raised output quality 5%",
+  "BAR is a benchmark for end-to-end legal agent work",
+  "Benchmark built with Legora and AfterQuery",
+  "Benchmark scale: cases, practice areas, documents",
+  "Process from legal work to product improvement"
+ ],
+ "clutter_score": 7,
+ "summary": "The +5% result block is the real message, but the dataset stats row, process pipeline cards, eyebrows, and footer tagline and brand bury it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 15,
+  "usd": 0.0016487099999999998,
+  "tokens": 26753,
+  "outputTokens": 2818
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand lockup",
+   "reason": "Partner logos in header; one brand lockup, short and quiet.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Title headline",
+   "reason": "Short title naming the piece, about five words.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Benchmark subtitle",
+   "reason": "Names the benchmark but the second clause restates the method; shorten to the name.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats row",
+   "reason": "Dataset counts are a second point, unrelated to the +5% result.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Validated-together tag",
+   "reason": "Side note restating partnership; tells the reader nothing needed.",
+   "ids": [
+    "e14"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Process eyebrow",
+   "reason": "Eyebrow kicker above the process diagram; not needed to read the result.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Process pipeline cards",
+   "reason": "Method cards and loop diagram serve a second point beside the main result.",
+   "ids": [
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result block",
+   "reason": "Main visual: large +5%, short finding headline, and measurement note.",
+   "ids": [
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline slogan that does not state the finding.",
+   "ids": [
+    "e44"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand label",
+   "reason": "Repeats the AfterQuery brand already shown in the header lockup.",
+   "ids": [
+    "e45"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 37.6,
+   "orange": 7.6,
+   "red": 54.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 58.6,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "extra_idea": 2,
+   "unneeded": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 99,
+  "textElements": 30
+ }
+}

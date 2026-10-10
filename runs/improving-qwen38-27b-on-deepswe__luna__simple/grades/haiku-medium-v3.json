@@ -1,0 +1,121 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:45.352Z",
+ "main_idea": "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training lifts DeepSWE pass@1",
+  "Base model scored 27.8%",
+  "Trained model scored 39.1%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and nearly complete: a simple two-bar chart with a benchmark tag, values and labels; the logo is effectively invisible and the change connector is unlabelled.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo e0 is nearly invisible: pale mark on light background",
+  "Change connector has no label stating the size of the gain"
+ ],
+ "cost": {
+  "seconds": 10.5,
+  "usd": 0.0021288799999999997,
+  "tokens": 24796,
+  "outputTokens": 1782
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar marks",
+   "reason": "The two bars are the main visual the reader needs.",
+   "ids": [
+    "e4",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, giving the exact results.",
+   "ids": [
+    "e2",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Short labels saying which bar is base and which is trained.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Change connector",
+   "reason": "Dotted connector marks the change between the two bars.",
+   "ids": [
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Scale ticks at 0 and 40% help read the bar heights.",
+   "ids": [
+    "e3",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric tag",
+   "reason": "Short tag naming the benchmark and metric, which the reader needs.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark, though it is rendered invisible.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 14.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 7
+ }
+}

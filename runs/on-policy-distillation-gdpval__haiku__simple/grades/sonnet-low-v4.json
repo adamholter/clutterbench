@@ -1,0 +1,72 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:09:41.471Z",
+ "main_idea": "Distilled model beats base model on GDPval: 123 wins, 20 ties, 77 losses.",
+ "ideas": [
+  "Distilled model wins more GDPval task pairs than it loses"
+ ],
+ "clutter_score": 1,
+ "summary": "Nearly clean: one segmented bar with labels; the headline could be shorter, and nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo shown in screenshot but not in element list; no visible problem",
+  "Ties label and value sit tight against segment edge"
+ ],
+ "cost": {
+  "seconds": 7.4,
+  "usd": 0.06500030000000001,
+  "tokens": 31345,
+  "outputTokens": 444
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bar",
+   "reason": "Proportional segments with count and category labels form the main visual.",
+   "ids": [
+    "e0",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Slightly wordy sentence-like headline; could be shortened, e.g. '+20.9% net win-loss on GDPval'.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 97.3,
+   "orange": 2.7,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 1.4,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

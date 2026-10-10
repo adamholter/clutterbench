@@ -1,0 +1,191 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.868Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 1,
+  "tiebreak": true,
+  "scores": [
+   2,
+   2,
+   2
+  ]
+ },
+ "main_idea": "BAR is a large legal benchmark: 5,161 cases across 28 practice areas.",
+ "ideas": [
+  "BAR is built around real legal work",
+  "Benchmark has 5,161 cases",
+  "Benchmark spans 28 practice areas"
+ ],
+ "summary": "Mostly clean; headline is a wordy sentence and the bottom subtitle is redundant, while the grid is somewhat ambiguous but labelled.",
+ "clutter_score": 2,
+ "completeness_score": 7,
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "meaning of grid marks",
+   "why": "Grey and green blocks have no legend, so the reader cannot tell what each mark stands for."
+  }
+ ],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet and useful.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name",
+   "reason": "Short context naming the benchmark being shown.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence slogan-like headline; could be shorter, e.g. 'BAR: legal agent benchmark'.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Block grid visual",
+   "reason": "Main visual: grid of cases and practice-area bars.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65",
+    "e66",
+    "e67",
+    "e68",
+    "e69",
+    "e70",
+    "e71",
+    "e72",
+    "e73",
+    "e74",
+    "e75",
+    "e76",
+    "e77",
+    "e78",
+    "e79"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Key stats",
+   "reason": "Labelled values that explain what the marks represent.",
+   "ids": [
+    "e80",
+    "e81",
+    "e82",
+    "e83"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle line",
+   "reason": "Restates headline and benchmark; explains nothing new.",
+   "ids": [
+    "e84"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 90.3,
+   "orange": 8.4,
+   "red": 1.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.1
+  },
+  "clutterShare": 5.4,
+  "ideaCount": 3,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 24,
+  "textElements": 7
+ }
+}

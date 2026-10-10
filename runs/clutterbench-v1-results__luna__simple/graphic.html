@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+<title>ClutterBench — Prompt simple, get less clutter</title>
+<style>
+@font-face{font-family:Outfit;src:url('assets/fonts/outfit.woff2') format('woff2');font-weight:100 900;font-display:swap}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#fff;color:#101828;font-family:Outfit,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{position:relative;width:1200px;height:1200px;padding:76px 82px;background:#fff}
+header{position:absolute;left:82px;top:52px;font-weight:700;font-size:23px;letter-spacing:-.5px;color:#101828}header span{color:#1971c2}
+h1{position:absolute;left:82px;top:135px;margin:0;font-size:39px;letter-spacing:-1.2px;line-height:1.12;font-weight:650}
+svg{position:absolute;left:78px;top:225px;width:1044px;height:820px;overflow:visible}
+.bottom{position:absolute;bottom:72px;left:82px;right:82px;border-top:1px solid #e4e7ec;padding-top:22px;display:flex;justify-content:space-between;color:#475467;font-size:16px}
+.bottom b{color:#101828;font-weight:600}
+</style>
+</head>
+<body><main>
+<header><span>Clutter</span>Bench</header>
+<h1>A simple prompt cuts clutter</h1>
+<svg viewBox="0 0 1044 820" role="img" aria-label="Clutter scores by model for raw and simple prompts">
+<defs><style>.lbl{font:600 20px Outfit, sans-serif;fill:#101828}.small{font:500 16px Outfit, sans-serif;fill:#475467}.pct{font:600 17px Outfit, sans-serif;fill:#101828}.axis{stroke:#e4e7ec;stroke-width:1}.bar{fill:#1971c2}.bar2{fill:#1971c2}</style></defs>
+<!-- scale grid -->
+<g class="axis"><path d="M310 153H980M310 273H980M310 393H980M310 513H980M310 633H980"/></g>
+<g class="small" text-anchor="end"><text x="290" y="159">60%</text><text x="290" y="279">45%</text><text x="290" y="399">30%</text><text x="290" y="519">15%</text><text x="290" y="639">0%</text></g>
+<text x="313" y="92" class="small">Raw prompt</text><text x="656" y="92" class="small">Simple prompt</text>
+<!-- models -->
+<g class="lbl"><text x="0" y="232">Claude Sonnet 5.5</text><text x="0" y="352">Claude Haiku 5.5</text><text x="0" y="472">GPT-6.1 Sol</text><text x="0" y="592">GPT-6 Luna</text></g>
+<!-- raw: scale 8 px per point from 0 baseline -->
+<g>
+<rect class="bar" x="310" y="401" width="218" height="32" rx="5"/><text class="pct" x="540" y="424">29%</text>
+<rect class="bar" x="310" y="297" width="315" height="32" rx="5"/><text class="pct" x="637" y="320">42%</text>
+<rect class="bar" x="310" y="265" width="345" height="32" rx="5"/><text class="pct" x="667" y="288">46%</text>
+<rect class="bar" x="310" y="145" width="458" height="32" rx="5"/><text class="pct" x="780" y="168">61%</text>
+</g>
+<!-- simple: max 6%; subtle, same series color -->
+<g>
+<rect class="bar2" x="656" y="618" width="8" height="32" rx="4"/><text class="pct" x="674" y="641">0%</text>
+<rect class="bar2" x="656" y="498" width="8" height="32" rx="4"/><text class="pct" x="674" y="521">0%</text>
+<rect class="bar2" x="656" y="378" width="8" height="32" rx="4"/><text class="pct" x="674" y="401">0%</text>
+<rect class="bar2" x="656" y="330" width="45" height="32" rx="5"/><text class="pct" x="713" y="353">6%</text>
+</g>
+<!-- axis labels -->
+<g class="small" text-anchor="middle"><text x="310" y="683">0</text><text x="477" y="683">20</text><text x="645" y="683">40</text><text x="812" y="683">60</text><text x="980" y="683">80</text></g>
+</svg>
+<div class="bottom"><span><b>Clutter score</b> · lower is better</span><span>Mean of 6 graphics per model</span></div>
+</main></body></html>

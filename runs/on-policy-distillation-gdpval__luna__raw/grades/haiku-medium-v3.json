@@ -1,0 +1,275 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:20.045Z",
+ "main_idea": "On-policy distillation gives a net GDPval win-loss margin over the base model in two model families",
+ "ideas": [
+  "On-policy distillation improves professional-work performance on GDPval",
+  "Nemotron student gains +20.9% net win-loss margin",
+  "Qwen student gains +21.4% net win-loss margin",
+  "Same recipe transfers across model families",
+  "Student learns from its own tokens, scored by teacher",
+  "Distilled model wins more paired comparisons than it loses"
+ ],
+ "clutter_score": 6,
+ "summary": "The two margin cards and bar are a clear core, but a four-step pipeline, a second rubric metric, a win-rate arrow block, and several taglines and kickers clutter it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "AfterQuery logo mark is faint and low contrast on the cream background",
+  "Subtitle wraps leaving a one-word orphan line ('GDPval.')"
+ ],
+ "cost": {
+  "seconds": 32.6,
+  "usd": 0.00482272,
+  "tokens": 42353,
+  "outputTokens": 6919
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand mark",
+   "reason": "One brand mark, kept as the identifying logo",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline finding",
+   "reason": "Short headline stating the cross-family finding",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron margin card and bar",
+   "reason": "Main visual: margin, labelled paired-comparison bar, benchmark context",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen margin card",
+   "reason": "Second family's headline margin with its label and unit",
+   "ids": [
+    "e8",
+    "e10",
+    "e14",
+    "e16",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval evaluation footnote",
+   "reason": "Quiet footer naming the benchmark and eval set",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line subtitle",
+   "reason": "Real facts in a long sentence; shorten to a few words",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Qwen model-name label",
+   "reason": "Wordy model names; shorten or footnote them",
+   "ids": [
+    "e12"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Nemotron win rate and rubric footer",
+   "reason": "Useful facts, but a footnote would carry them",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Four-step method pipeline",
+   "reason": "Method matters, but four full cards take a whole band; fold into footnote",
+   "ids": [
+    "e46",
+    "e47",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag restating the topic",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline adds nothing",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Rubric score improvement stat",
+   "reason": "Second metric competes with the main net margin",
+   "ids": [
+    "e19",
+    "e21",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "repetition",
+   "name": "Qwen win-rate arrow block",
+   "reason": "Restates the win rate already implied by the margin",
+   "ids": [
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Transfer takeaway footer",
+   "reason": "Takeaway sentence that restates the headline",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Pipeline category tag",
+   "reason": "Category tag above the pipeline, adds nothing",
+   "ids": [
+    "e48"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Pipeline takeaway sentence",
+   "reason": "Takeaway sentence restating the pipeline",
+   "ids": [
+    "e65"
+   ]
+  },
+  {
+   "rid": "r16",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline and dot; company descriptor not needed",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 50.6,
+   "orange": 33.2,
+   "red": 16.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 32.8,
+  "ideaCount": 6,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 6,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

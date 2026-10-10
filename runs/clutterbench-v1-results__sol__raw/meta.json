@@ -1,0 +1,19 @@
+{
+  "id": "clutterbench-v1-results__sol__raw",
+  "task": "clutterbench-v1-results",
+  "title": "ClutterBench: which models clutter their graphics?",
+  "model": "sol",
+  "modelId": "gpt-6.1-sol",
+  "effort": "low",
+  "variant": "raw",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 57,
+  "flags": [],
+  "createdAt": "2026-10-10T20:15:05.869Z"
+}

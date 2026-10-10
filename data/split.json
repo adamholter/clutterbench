@@ -1,0 +1,13 @@
+{
+  "note": "Split by article so no article appears on both sides. dev = used to write grader prompts; test = held out, only scored.",
+  "dev": ["how-afterquery-helped-nvidia-hill-climb-gdpval", "how-we-improved-terminal-bench-2-with-tinker-and-harbor", "improving-qwen35-9b-on-t3-banking"],
+  "test": ["improving-qwen38-27b-on-deepswe", "on-policy-distillation-gdpval", "building-a-frontier-legal-evaluation-in-partnership-with-legora"],
+  "humanProblems": {
+    "note": "Runs where Adam's notes say key information is missing or the visual cannot be understood (not logo-variant bugs). Everything else: nothing missing.",
+    "runs": [
+      "improving-qwen35-9b-on-t3-banking__luna__simple",
+      "building-a-frontier-legal-evaluation-in-partnership-with-legora__luna__simple",
+      "building-a-frontier-legal-evaluation-in-partnership-with-legora__luna__raw"
+    ]
+  }
+}

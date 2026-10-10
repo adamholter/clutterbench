@@ -1,0 +1,102 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:09:11.457Z",
+ "main_idea": "Warmup lifts Nemotron's GDPval score close to the expert teacher's score.",
+ "ideas": [
+  "Warmup nearly closes gap to teacher on GDPval"
+ ],
+ "clutter_score": 1,
+ "summary": "Nearly clean single chart; only the sentence-style headline is wordy, and bar heights are inconsistent with their values and axis.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Bar heights don't match values; axis starts at 10, not zero",
+  "Bar tops misalign with value labels versus axis ticks"
+ ],
+ "cost": {
+  "seconds": 6.1,
+  "usd": 0.0524572,
+  "tokens": 24756,
+  "outputTokens": 568
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet header.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Context tag",
+   "reason": "Short tag naming benchmark and model.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence headline at 56px; could be much shorter.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Bars, values, axis, and category labels needed to read the chart.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

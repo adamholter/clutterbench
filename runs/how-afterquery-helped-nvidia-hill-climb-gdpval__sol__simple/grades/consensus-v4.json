@@ -1,0 +1,86 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.899Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 0,
+  "tiebreak": true,
+  "scores": [
+   0,
+   0,
+   0
+  ]
+ },
+ "main_idea": "AfterQuery warmup raises Nemotron 3 Ultra's GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup improves Nemotron 3 Ultra on GDPval"
+ ],
+ "summary": "Clean and complete: one two-bar chart with title, labels, values and a single logo. The metric (score) is not named, which is minor.",
+ "clutter_score": 0,
+ "completeness_score": 9,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title names the model and benchmark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "Two bars, one value label each.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar labels",
+   "reason": "Short category labels say what each bar is.",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 11,
+  "textElements": 5
+ }
+}

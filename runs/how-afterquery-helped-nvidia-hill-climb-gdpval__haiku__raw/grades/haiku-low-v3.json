@@ -1,0 +1,167 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:33.590Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "Warmup raises Nemotron 3 Ultra's GDPval score",
+  "Warmup bar nears the teacher's 49.5",
+  "Nemotron 3 Ultra runs about 6x faster than open models",
+  "AfterQuery data helped NVIDIA's Nemotron training"
+ ],
+ "clutter_score": 4,
+ "summary": "The GDPval bar chart is clear, but three stat cards restate or stray from it, a tag and a URL repeat branding, and the footer is wordy; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Stat card captions 2.8 and ~6x overflow below their card borders",
+  "Teacher value label 49.5 touches the dashed bar outline",
+  "Footer text wraps awkwardly, leaving 'technical report.' alone"
+ ],
+ "cost": {
+  "seconds": 14.1,
+  "usd": 0.0038743500000000004,
+  "tokens": 29438,
+  "outputTokens": 2705
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval training-stage bar chart",
+   "reason": "The main visual with its title, value labels, axis labels and source line",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline naming the finding",
+   "reason": "Short title naming AfterQuery's GDPval hill-climb",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand mark",
+   "reason": "One brand mark, logo plus wordmark",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Category tag restating that this is a blog case study",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "+11.4 stat card",
+   "reason": "Restates the 35.3 to 46.7 gain the bars already show",
+   "ids": [
+    "e24",
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "2.8 stat card",
+   "reason": "Restates the 46.7 versus 49.5 gap the bars already show",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "6x throughput stat card",
+   "reason": "Throughput claim serves a second point unrelated to the GDPval chart",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long footer sentence",
+   "reason": "Source line is useful but the dataset sentence is too long; shorten to a footnote",
+   "ids": [
+    "e33"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer website URL",
+   "reason": "Second brand mark after the logo and wordmark",
+   "ids": [
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 76.6,
+   "orange": 5.2,
+   "red": 18.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 20.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

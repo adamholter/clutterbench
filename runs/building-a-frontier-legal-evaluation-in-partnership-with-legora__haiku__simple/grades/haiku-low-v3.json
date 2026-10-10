@@ -1,0 +1,68 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:19.442Z",
+ "main_idea": "Harness changes informed by BAR raised output quality 5% in one month",
+ "ideas": [
+  "Harness changes informed by BAR raised output quality 5%",
+  "BAR helps Legora's harness improvements"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and nearly complete: one big stat, a short caption, and a logo; only the acronym BAR goes unexplained.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "benchmark expansion",
+   "why": "BAR appears only as an acronym; a reader who has not read the post cannot tell what it is."
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 6.5,
+  "usd": 0.00246935,
+  "tokens": 23144,
+  "outputTokens": 818
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline stat with caption",
+   "reason": "The big +5% figure and its short caption state the finding and metric.",
+   "ids": [
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and unobtrusive.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 2
+ }
+}

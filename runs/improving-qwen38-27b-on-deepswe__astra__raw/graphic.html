@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200, initial-scale=1">
+<title>Improving Qwen3.8-27B on DeepSWE — AfterQuery</title>
+<style>
+@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2')} 
+@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2');font-weight:500}
+@font-face{font-family:Plantijn;src:url('assets/MartinaPlantijn_Regular-s.p.09bvmw9c6lxyi.woff2')}
+@font-face{font-family:Fragment;src:url('assets/a9a434ecf764164f-s.p.09kihw1cxxru6.woff2')}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f8f8f3;color:#000}body{font-family:Diatype,Arial,sans-serif}main{width:1200px;height:1200px;padding:58px 68px;position:relative}header{display:flex;justify-content:space-between;align-items:center;height:36px}.logo{width:190px;height:33px;background:#000;mask:url('assets/afterquery-logo.svg') left center/contain no-repeat}.eyebrow{font-family:Fragment,monospace;font-size:15px;letter-spacing:1.1px;text-transform:uppercase;color:#585a53}h1{font-family:Plantijn,Georgia,serif;font-size:72px;line-height:1.07;font-weight:400;letter-spacing:-1.6px;margin:65px 0 23px}.subtitle{font-size:25px;color:#66675f;margin:0}.chart{margin-top:48px;border-top:1px solid #c9ccc2;padding-top:27px}.chart-head{display:flex;align-items:center;justify-content:space-between}.chart-name{font-size:27px}.metric{font-size:18px;color:#65685f;margin-left:12px}.gain{display:flex;align-items:center;gap:10px;color:#026340;font-size:21px}.gain strong{font-size:30px;font-weight:500}.chart svg{display:block;overflow:visible;margin-top:24px}.facts{display:grid;grid-template-columns:1fr 1fr 1fr;border-top:1px solid #c9ccc2;margin-top:24px;padding-top:28px}.fact{padding-left:29px;border-left:1px solid #d7d9d1}.fact:first-child{border:0;padding:0}.num{font-family:Plantijn,Georgia,serif;font-size:49px;line-height:1}.desc{font-size:20px;margin-top:9px;color:#575b52}.note{font-size:18px;color:#65685f;line-height:1.5;margin-top:28px}footer{position:absolute;left:68px;right:68px;bottom:48px;border-top:1px solid #c9ccc2;padding-top:21px;display:flex;justify-content:space-between;font-size:17px;color:#62665b}
+</style>
+</head>
+<body><main>
+<header><img src="assets/afterquery-logo.svg" width="190" height="33" alt="AfterQuery"><div class="eyebrow">Research / SWE agents</div></header>
+<h1>Better SWE performance.<br>500 tasks. GRPO.</h1>
+<p class="subtitle">Improving Qwen3.8-27B-Medium on DeepSWE</p>
+<section class="chart" aria-label="DeepSWE pass at one improved from 27.8 percent to 39.1 percent">
+<div class="chart-head"><div class="chart-name">DeepSWE <span class="metric">pass@1 (avg 3)</span></div><div class="gain"><svg width="24" height="24" viewBox="0 0 24 24" style="margin:0" aria-hidden="true"><path d="M4 20 20 4M4 4h16v16" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><strong>+11.3</strong> points</div></div>
+<svg width="1064" height="320" viewBox="0 0 1064 320" role="img" aria-label="Base model 27.8 percent. After GRPO 39.1 percent. Bars share a zero baseline.">
+<text x="0" y="28" font-family="Diatype" font-size="20" fill="#60655a">Base model</text>
+<rect x="0" y="47" width="611.6" height="89" fill="#af9888" rx="2"/>
+<text x="636" y="108" font-family="Diatype" font-size="49" fill="#5c5048">27.8<tspan font-size="31">%</tspan></text>
+<text x="0" y="191" font-family="Diatype" font-size="20" fill="#026340">After GRPO</text>
+<rect x="0" y="210" width="860.2" height="89" fill="#026340" rx="2"/>
+<text x="885" y="271" font-family="Diatype" font-size="49" fill="#026340">39.1<tspan font-size="31">%</tspan></text>
+</svg>
+</section>
+<section class="facts" aria-label="Training details"><div class="fact"><div class="num">500</div><div class="desc">training tasks</div></div><div class="fact"><div class="num">422</div><div class="desc">repositories</div></div><div class="fact"><div class="num">15</div><div class="desc">GRPO updates</div></div></section>
+<p class="note">Tasks from real workflows in private, enterprise-grade codebases.<br>Both models evaluated with mini-swe-agent at medium reasoning.</p>
+<footer><span>Expert data for foundation model development</span><span>afterquery.com</span></footer>
+</main></body>
+</html>

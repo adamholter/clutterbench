@@ -1,0 +1,83 @@
+{
+ "grader": "sonnet-medium-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:59.476Z",
+ "main_idea": "GRPO training raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO improves DeepSWE pass@1 over base model"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one two-bar chart with a metric label, values and category labels.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 5.7,
+  "usd": 0.0278477,
+  "tokens": 21769,
+  "outputTokens": 502
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark metric label",
+   "reason": "Short label naming the benchmark and metric.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "After GRPO bar",
+   "reason": "Result bar with its single value label.",
+   "ids": [
+    "e2",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Base bar",
+   "reason": "Baseline bar with its single value label.",
+   "ids": [
+    "e4",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Short labels identifying what each bar stands for.",
+   "ids": [
+    "e5",
+    "e6"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

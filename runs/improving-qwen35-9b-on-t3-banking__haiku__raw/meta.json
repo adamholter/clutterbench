@@ -1,0 +1,19 @@
+{
+  "id": "improving-qwen35-9b-on-t3-banking__haiku__raw",
+  "task": "improving-qwen35-9b-on-t3-banking",
+  "title": "Improving Qwen3.5-9B on τ³-Banking using PivotRL and fewer than 250 tasks",
+  "model": "haiku",
+  "modelId": "claude-haiku-5-5",
+  "effort": "low",
+  "variant": "raw",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 44,
+  "flags": [],
+  "createdAt": "2026-10-10T14:58:41.424Z"
+}

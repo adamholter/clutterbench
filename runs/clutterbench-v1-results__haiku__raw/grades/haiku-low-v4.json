@@ -1,0 +1,126 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:22.369Z",
+ "main_idea": "Five plain instructions cut clutter from 29-61% to 0-6%",
+ "ideas": [
+  "Simple prompts nearly eliminate graphic clutter",
+  "Raw prompts leave 29-61% of graphic area cluttered",
+  "Claude, GPT models compared by prompt type"
+ ],
+ "clutter_score": 1,
+ "summary": "Nearly clean: only the headline runs long at about ten words, and the graphic names its metric and benchmark counts without anything missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 11.4,
+  "usd": 0.00338198,
+  "tokens": 25373,
+  "outputTokens": 1369
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand wordmark",
+   "reason": "One brand mark, small and clear.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Finding is clear but runs about ten words; could shorten to seven.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric description",
+   "reason": "Short context stating what is measured and that lower is better.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Dumbbell chart and legend",
+   "reason": "Main visual with legend, model labels, value labels and axis ticks.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footer",
+   "reason": "Quiet footnote giving the metric definition and evaluation counts.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 53.4,
+   "orange": 46.6,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 18.7
+  },
+  "clutterShare": 23.3,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 86,
+  "textElements": 28
+ }
+}

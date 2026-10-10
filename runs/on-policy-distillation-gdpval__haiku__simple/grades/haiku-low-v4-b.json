@@ -1,0 +1,80 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:36.606Z",
+ "main_idea": "Wins outnumber losses 123 to 77, a +20.9% net margin over the base model on GDPval",
+ "ideas": [
+  "Distilled model beats base model on GDPval pairs",
+  "Net win-loss margin is +20.9%",
+  "Wins, ties and losses split of 220 task pairs"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and nearly complete: a simple win-tie-loss bar chart with a finding headline naming GDPval; the only gap is the total of 220 task pairs, which a reader can infer.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 18.8,
+  "usd": 0.004190910000000001,
+  "tokens": 33675,
+  "outputTokens": 1218
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar chart",
+   "reason": "Main visual: proportional bars with one count and one label each",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Under about seven words of finding plus benchmark, names the metric and benchmark",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Plain background shape, harmless and needed for the layout",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

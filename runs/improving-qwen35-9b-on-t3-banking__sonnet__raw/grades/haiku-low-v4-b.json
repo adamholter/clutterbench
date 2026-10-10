@@ -1,0 +1,105 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:01.827Z",
+ "main_idea": "PivotRL on 50 tasks lifts Qwen3.5-9B pass@5 from 11.3% to 17.5% on τ³-Banking",
+ "ideas": [
+  "PivotRL lifts Qwen3.5-9B on τ³-Banking",
+  "Only 50 teacher tasks needed",
+  "Pass@5 rises from 11.3% to 17.5%"
+ ],
+ "clutter_score": 3,
+ "summary": "The bar chart is clear and complete; the bottom dataset-count row is extra, and the headline could be shorter.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.5,
+  "usd": 0.0008836499999999999,
+  "tokens": 24727,
+  "outputTokens": 1298
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one logo.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric tag",
+   "reason": "Short tag naming the benchmark and metric.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "States the finding but runs long at 68px; shorten to a title like '11.3% to 17.5% on τ³-Banking'.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Main visual: labelled bars with values showing the uplift.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset counts stats row",
+   "reason": "Dataset sizes serve a second point, not reading the before-after chart.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 58.7,
+   "orange": 31.8,
+   "red": 9.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 27.2
+  },
+  "clutterShare": 25.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 29,
+  "textElements": 12
+ }
+}

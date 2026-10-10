@@ -1,0 +1,190 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:16.152Z",
+ "main_idea": "GRPO lifts Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO raises DeepSWE pass@1 from 27.8% to 39.1%",
+  "Training used 500 real software engineering tasks",
+  "Same setup for both models, so the comparison is fair",
+  "Training reward rose during GRPO",
+  "Task-type mix of the training set",
+  "Entropy stayed stable"
+ ],
+ "clutter_score": 6,
+ "summary": "A clear before/after result is buried under a dataset stats row, training reward and task-type charts, an entropy note, a category tag and a repeated URL; the subtitle is wordy, and nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 17.1,
+  "usd": 0.00438195,
+  "tokens": 27888,
+  "outputTokens": 3239
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, allowed.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Category tag above the chart, tells the reader nothing new.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Six-word title naming the model, benchmark and method.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle sentence",
+   "reason": "Useful metric definition, but long; shorten to a few words.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Main result chart",
+   "reason": "Big 39.1% stat, base vs. GRPO bars with values, metric label, +11.3 annotation and setup footnote.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset counts serve a second point, not the main result.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training reward chart",
+   "reason": "Training diagnostics are a second point; the main visual is the eval result.",
+   "ids": [
+    "e28",
+    "e33",
+    "e34",
+    "e35",
+    "e39",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type breakdown",
+   "reason": "Training-set composition is unrelated to reading the main result.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy note",
+   "reason": "Entropy takeaway is a separate diagnostic point.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mark, already shown by the logo.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 54.4,
+   "orange": 9.1,
+   "red": 36.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 41.2,
+  "ideaCount": 6,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "extra_idea": 4,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

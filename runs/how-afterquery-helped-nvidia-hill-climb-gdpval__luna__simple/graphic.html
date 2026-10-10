@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1200, initial-scale=1" />
+<title>GDPval warmup</title>
+<style>
+@font-face{font-family:Di;src:url('./assets/diatype-regular.woff2')}@font-face{font-family:Di;src:url('./assets/diatype-medium.woff2');font-weight:600}@font-face{font-family:Martina;src:url('./assets/martina-regular.woff2')}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f6f5ee;color:#111}
+main{width:1200px;height:1200px;padding:70px 78px 64px;display:flex;flex-direction:column}
+header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #d9d7cf;padding-bottom:28px}
+header img{width:176px;height:auto;display:block}.tag{font:16px Di,sans-serif;color:#68675f}
+h1{font:56px/1.05 Martina,Georgia,serif;font-weight:400;letter-spacing:-1.2px;margin:48px 0 0;max-width:840px}
+.chart{margin-top:50px;flex:1;min-height:0}
+svg{width:100%;height:100%;display:block;overflow:visible}
+.axis{stroke:#d1cfc6;stroke-width:1}.grid{stroke:#e3e1d8;stroke-width:1}.tick{font:17px Di,sans-serif;fill:#77766e}.barlabel{font:19px Di,sans-serif;fill:#181816}.score{font:18px Di,sans-serif;fill:#5f5e57}.bar{rx:5}.axis-title{font:16px Di,sans-serif;fill:#77766e;letter-spacing:.04em}
+</style>
+</head>
+<body><main>
+<header><img src="./assets/afterquery-logo.svg" alt="AfterQuery"><div class="tag">GDPval · Nemotron 3 Ultra</div></header>
+<h1>Warmup closes most of the gap<br>to the expert teacher.</h1>
+<div class="chart">
+<svg viewBox="0 0 1044 770" role="img" aria-label="GDPval score comparison: student 28.9, no warmup 35.3, warmup 46.7, teacher 49.5">
+<text x="4" y="26" class="axis-title">GDPVAL SCORE</text>
+<!-- grid: scale 0–60 -->
+<line x1="86" y1="80" x2="1018" y2="80" class="grid"/><line x1="86" y1="188" x2="1018" y2="188" class="grid"/><line x1="86" y1="296" x2="1018" y2="296" class="grid"/><line x1="86" y1="404" x2="1018" y2="404" class="grid"/><line x1="86" y1="512" x2="1018" y2="512" class="grid"/><line x1="86" y1="620" x2="1018" y2="620" class="axis"/>
+<text x="54" y="86" class="tick">60</text><text x="54" y="194" class="tick">50</text><text x="54" y="302" class="tick">40</text><text x="54" y="410" class="tick">30</text><text x="54" y="518" class="tick">20</text><text x="54" y="626" class="tick">10</text>
+<!-- values on common 0 baseline: 10.8 px per point -->
+<rect class="bar" x="148" y="307.9" width="150" height="312.1" fill="#d8d6cc"/><rect class="bar" x="370" y="238.8" width="150" height="381.2" fill="#aaa89e"/><rect class="bar" x="592" y="115.6" width="150" height="504.4" fill="#026340"/><rect class="bar" x="814" y="85.4" width="150" height="534.6" fill="#242421"/>
+<text class="score" text-anchor="middle" x="223" y="290">28.9</text><text class="score" text-anchor="middle" x="445" y="221">35.3</text><text class="score" text-anchor="middle" x="667" y="98">46.7</text><text class="score" text-anchor="middle" x="889" y="68">49.5</text>
+<text class="barlabel" text-anchor="middle" x="223" y="661">Student</text><text class="barlabel" text-anchor="middle" x="445" y="661">No warmup</text><text class="barlabel" text-anchor="middle" x="667" y="661" font-weight="600">Warmup</text><text class="barlabel" text-anchor="middle" x="889" y="661">Teacher</text>
+</svg>
+</div>
+</main></body></html>

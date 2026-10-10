@@ -1,0 +1,193 @@
+{
+ "grader": "luna-high-v3",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:57.785Z",
+ "main_idea": "PivotRL lifts Qwen3.5-9B τ³-Banking pass@5 from 11.3% to 17.5%.",
+ "ideas": [
+  "Qwen3.5-9B improves on τ³-Banking.",
+  "Distillation and PivotRL use fewer than 250 tasks.",
+  "The selected checkpoint shows no significant general benchmark change."
+ ],
+ "clutter_score": 6,
+ "summary": "The long headline, method cards, and additional statistics crowd a clear result chart; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 42.7,
+  "usd": null,
+  "tokens": 11517,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery branding",
+   "reason": "The logo and wordmark identify the publisher.",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research badge",
+   "reason": "The date badge is an unnecessary category tag.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long headline",
+   "reason": "It states the finding but uses a long sentence.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method subtitle",
+   "reason": "Useful method context could fit in a shorter footnote.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate comparison",
+   "reason": "The labels, values, and bars clearly show the benchmark result.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated model labels",
+   "reason": "The headline already names the model; baseline and training labels identify the bars.",
+   "ids": [
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Method section label",
+   "reason": "The cards already make clear that this is the method.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Method pipeline cards",
+   "reason": "The method matters, but these details take more space than a footnote needs.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Additional statistics",
+   "reason": "This row adds evaluation and general benchmark claims beyond the main result.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "A quiet website address is useful context.",
+   "ids": [
+    "e45"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer decoration",
+   "reason": "The dot and tagline add no information needed to read the result.",
+   "ids": [
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 27.2,
+   "orange": 50.9,
+   "red": 22,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.7
+  },
+  "clutterShare": 47.5,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

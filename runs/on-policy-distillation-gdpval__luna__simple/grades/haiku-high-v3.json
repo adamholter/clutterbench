@@ -1,0 +1,133 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:04:47.583Z",
+ "main_idea": "Distilled Qwen3.5-9B wins most of 220 GDPval task pairs against the base.",
+ "ideas": [
+  "Distilled Qwen3.5-9B beats the base model on GDPval",
+  "123 wins, 20 ties, 77 losses out of 220 pairs",
+  "Wins clearly outnumber losses"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete: the footer wordmark repeats the top logo, and the chart never says the wins are against the base model.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline",
+   "why": "Wins, ties and losses are never said to be against the base model."
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [
+  "Losses legend swatch is nearly invisible against the cream background.",
+  "The '20' tie label is smaller and cramped in its narrow segment."
+ ],
+ "cost": {
+  "seconds": 23.4,
+  "usd": 0.00375546,
+  "tokens": 37796,
+  "outputTokens": 4825
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "win/tie/loss bar",
+   "reason": "The main chart mark and its value labels; keep as is.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "chart legend",
+   "reason": "One legend needed to decode the bar colours.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "finding headline",
+   "reason": "Six-word headline that names the GDPval net win.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "model and pair count",
+   "reason": "Short context: model name and number of task pairs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "top brand logo",
+   "reason": "The single brand mark kept on the graphic.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "website contact line",
+   "reason": "Small, quiet contact line.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "footer wordmark",
+   "reason": "Second brand mark; the top-right logo already shows the brand.",
+   "ids": [
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 97.5,
+   "orange": 0,
+   "red": 2.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 2.5,
+  "ideaCount": 3,
+  "missingCount": 1,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

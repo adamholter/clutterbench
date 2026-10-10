@@ -1,0 +1,132 @@
+{
+ "grader": "sonnet-high-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:06:28.257Z",
+ "main_idea": "Distilled Qwen3.5-9B beats its base model on more GDPval tasks than it loses.",
+ "ideas": [
+  "Distilled model wins 123, ties 20, loses 77 of 220 tasks"
+ ],
+ "clutter_score": 2,
+ "summary": "A clean single-bar chart, but it has a duplicate logo and a URL footer and a vague slogan headline. It never says the wins and losses are against the base model.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline (vs base model)",
+   "why": "Wins, ties and losses are never said to be against the base model."
+  }
+ ],
+ "completeness_score": 7,
+ "defects": [
+  "Losses legend swatch is nearly invisible against the background",
+  "Large empty band below the legend; layout bottom-heavy and unbalanced"
+ ],
+ "cost": {
+  "seconds": 10,
+  "usd": 0.0315598,
+  "tokens": 32154,
+  "outputTokens": 776
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Slogan-like headline",
+   "reason": "Vague qualitative headline; could state the finding, e.g. '+21.4% net win margin on GDPval'.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and count subtitle",
+   "reason": "Short context naming the model and the 220 task pairs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bar",
+   "reason": "The main stacked bar with one value label per segment.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Legend",
+   "reason": "Single legend identifying the three segments.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Top brand logo",
+   "reason": "One brand mark; keep the best single instance.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer logo",
+   "reason": "Second AfterQuery logo duplicates the one at top right.",
+   "ids": [
+    "e16"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer URL",
+   "reason": "Website URL adds nothing to reading the chart.",
+   "ids": [
+    "e15"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 60.2,
+   "orange": 35.5,
+   "red": 4.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 22.1,
+  "ideaCount": 1,
+  "missingCount": 1,
+  "redByType": {
+   "repetition": 1,
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

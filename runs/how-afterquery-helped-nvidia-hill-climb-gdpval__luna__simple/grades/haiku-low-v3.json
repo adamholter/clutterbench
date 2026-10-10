@@ -1,0 +1,130 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:42.592Z",
+ "main_idea": "Warmup lifts the GDPval score most of the way to the expert teacher.",
+ "ideas": [
+  "Warmup lifts GDPval score well above no-warmup",
+  "Warmup closes most of the gap to teacher",
+  "Student starts lowest, teacher highest"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete: one simple bar chart with a benchmark tag; only the headline is wordier than needed, and the truncated axis is worth noting.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Y-axis starts at 10, not zero, which exaggerates differences between bars"
+ ],
+ "cost": {
+  "seconds": 11.8,
+  "usd": 0.0035096399999999996,
+  "tokens": 28123,
+  "outputTokens": 2131
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Header with logo and tag",
+   "reason": "Brand mark plus short tag naming the benchmark and model.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "States the finding, but at nine words it could be shortened to about seven.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Names the measured metric, GDPval score.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "The chart marks carrying the main point.",
+   "ids": [
+    "e8",
+    "e9",
+    "e12",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, as needed to read the chart.",
+   "ids": [
+    "e5",
+    "e7",
+    "e11",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Scale ticks needed to read bar heights.",
+   "ids": [
+    "e6",
+    "e10",
+    "e14",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Identify each bar's model state.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

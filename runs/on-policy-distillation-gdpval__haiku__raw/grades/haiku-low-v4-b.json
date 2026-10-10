@@ -1,0 +1,188 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:32.997Z",
+ "main_idea": "Distilled Nemotron-Nano beats its base by +20.9% net win-loss on GDPval",
+ "ideas": [
+  "On-policy distillation improves GDPval performance",
+  "Nemotron student beats base: +20.9% net win-loss margin",
+  "Gain repeats in a second model family, Qwen3.5-9B",
+  "Wins, ties and losses split across 220 tasks"
+ ],
+ "clutter_score": 4,
+ "summary": "A clear Nemotron result with bar chart, but a Qwen results row, subtitle, tag, and a redundant win-rate callout clutter it; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 16.4,
+  "usd": 0.00532683,
+  "tokens": 36977,
+  "outputTokens": 3216
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one logo.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Eyebrow-style category tag above the headline; tells the reader nothing new.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline title",
+   "reason": "Short title naming the topic, about five words.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explaining the method and restating the eval; the chart shows it.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron headline stats",
+   "reason": "Main claim: +20.9% margin and +5.1 rubric points, with model name and metric labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e9",
+    "e10",
+    "e12",
+    "e8",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Nemotron row subtitle",
+   "reason": "Long teacher and step detail; shorten to model role or fold into footnote.",
+   "ids": [
+    "e11"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Qwen results row",
+   "reason": "Second model family is a separate point, competing with the main Nemotron result.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short chart title saying what is measured and against what.",
+   "ids": [
+    "e22"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar",
+   "reason": "Main visual with one value label per segment.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Win rate callout",
+   "reason": "Win rate restates the margin already shown by the bar and stats.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving the test and training split.",
+   "ids": [
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom divider",
+   "reason": "Decorative rule with no content.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 68.8,
+   "orange": 2.4,
+   "red": 28.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 30,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

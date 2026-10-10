@@ -1,0 +1,105 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:17.313Z",
+ "main_idea": "PivotRL on 50 teacher tasks lifts Qwen3.5-9B from 11.3% to 17.5% pass@5",
+ "ideas": [
+  "Qwen3.5-9B improves from 11.3% to 17.5% pass@5",
+  "Only 50 teacher tasks were needed for the gain",
+  "Benchmark is tau-3 Banking, pass@5"
+ ],
+ "clutter_score": 3,
+ "summary": "The main bar chart is clear and complete, but the bottom row of dataset counts is an extra idea that should go, and the headline is slightly long.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 7.4,
+  "usd": 0.0032330400000000004,
+  "tokens": 24626,
+  "outputTokens": 1197
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-and-after bar chart",
+   "reason": "The main visual with bar labels, values and series names.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, kept as the single logo.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric tag",
+   "reason": "Short context naming the benchmark and the pass@5 metric.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "States the finding but runs nine words, over the seven-word target.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset-size stats row",
+   "reason": "Dataset and pipeline counts are a second point, not the bar comparison.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 58.7,
+   "orange": 31.8,
+   "red": 9.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 27.2
+  },
+  "clutterShare": 25.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 29,
+  "textElements": 12
+ }
+}

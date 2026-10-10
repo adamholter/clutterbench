@@ -1,0 +1,86 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:24.031Z",
+ "main_idea": "Training lifts Qwen3.5-9B pass@5 from 11.3% to 17.5%",
+ "ideas": [
+  "Qwen3.5-9B pass@5 rises after training",
+  "Gain is 6.2 percentage points"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete: one bar chart with a logo and short model and metric labels; it never names the benchmark (τ³-Banking).",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "benchmark name",
+   "why": "Metric is named, but the chart never says τ³-Banking, so the task is unidentified."
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 9.5,
+  "usd": 0.00293653,
+  "tokens": 24720,
+  "outputTokens": 1583
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, identifies the source.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric label",
+   "reason": "Short context naming the model and the pass@5 metric.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bar chart",
+   "reason": "Main visual with value labels, bar labels, and the short change annotation.",
+   "ids": [
+    "e1",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 8.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 9,
+  "textElements": 7
+ }
+}

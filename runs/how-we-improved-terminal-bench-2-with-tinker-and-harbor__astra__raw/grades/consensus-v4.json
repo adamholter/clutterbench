@@ -1,0 +1,189 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.902Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 2,
+  "tiebreak": true,
+  "scores": [
+   6,
+   5,
+   5
+  ]
+ },
+ "main_idea": "SFT then RLVR lifts gpt-oss-20b on Terminal-Bench 2.0 from 3.1% to 17.0%",
+ "ideas": [
+  "Pass rate rises from 3.1% to 17.0%",
+  "SFT gives the largest gain",
+  "Two-stage pipeline: SFT then RLVR",
+  "No eval-set tasks used in training"
+ ],
+ "summary": "A clear bar chart is surrounded by a slogan headline, subtitle, tags, two method cards and footer extras that should go; nothing essential is missing.",
+ "clutter_score": 5,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark in header.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Eyebrow-style tag that tells the reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Large slogan that does not state the finding; dominates the canvas.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Subtitle restating context; model is named elsewhere.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric",
+   "reason": "Names the benchmark and metric being measured.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Names the benchmark, metric and model in one short line",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Bars, labels, values and axis zero make up the main visual.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway sentence on chart",
+   "reason": "Takeaway sentence restating which stage matters most",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage cards",
+   "reason": "Method pipeline cards beside a results chart serve a second idea.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eval set note",
+   "reason": "Side claim that is not needed to read the chart.",
+   "ids": [
+    "e29"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention; logo already present.",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Quiet footnote with evaluation details.",
+   "ids": [
+    "e31"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 49.5,
+   "orange": 0,
+   "red": 50.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.2
+  },
+  "clutterShare": 50.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 8,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 98,
+  "textElements": 23
+ }
+}

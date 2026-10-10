@@ -1,0 +1,188 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:34.560Z",
+ "main_idea": "On-policy distillation improves GDPval win-loss margin by about 21% on both Nemotron and Qwen.",
+ "ideas": [
+  "Distillation lifts GDPval net win-loss margin",
+  "Result replicates on Qwen",
+  "Nemotron wins 123 of 220 tasks",
+  "Method explained: student learns from teacher",
+  "Result is statistically significant"
+ ],
+ "clutter_score": 5,
+ "summary": "A slogan headline, subtitle, tag and a second win/tie/loss bar with footnotes crowd the two-row stat comparison, though it is complete.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 9.6,
+  "usd": 0.0340103,
+  "tokens": 33217,
+  "outputTokens": 1012
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "Category tag adds nothing to the finding.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Slogan headline",
+   "reason": "Huge, names topic not finding; shrink or state the result.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explaining method restates context.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron result row",
+   "reason": "Main stats with model name and metric labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Nemotron teacher details",
+   "reason": "Wordy sub-label; could be shortened.",
+   "ids": [
+    "e11"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen result row",
+   "reason": "Replication stats with model name and metric labels.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Qwen teacher details",
+   "reason": "Wordy sub-label; could be shortened.",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Win/tie/loss bar",
+   "reason": "Second visual; win-loss margin already shown in stats.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Sign test note",
+   "reason": "Statistical detail serving a secondary point.",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training split note",
+   "reason": "Dataset size is unrelated to reading the main stats.",
+   "ids": [
+    "e31"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom rule",
+   "reason": "Decorative line.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 26.2,
+   "orange": 39.4,
+   "red": 34.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 54,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 3
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

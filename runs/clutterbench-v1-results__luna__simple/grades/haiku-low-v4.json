@@ -1,0 +1,161 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:27.009Z",
+ "main_idea": "A simple prompt cuts clutter from up to 61% to near 0%",
+ "ideas": [
+  "Simple prompt cuts clutter",
+  "Raw prompt scores range widely by model",
+  "Simple prompt scores near zero for all models"
+ ],
+ "clutter_score": 0,
+ "summary": "Clutter-free, but the bars, values and model labels are misaligned, so a reader cannot match each bar to its model.",
+ "missing": [],
+ "completeness_score": 7,
+ "defects": [
+  "Model name labels sit between rows, not beside their bars",
+  "Bars and value labels are offset from their axis rows",
+  "The 61% bar sits in the row labelled Claude Sonnet 5.5",
+  "Value 46% and 42% bars overlap vertically and crowd together",
+  "Axis shows 0 to 80 numbers next to percent row labels, mixing scales",
+  "Bar-to-model mapping is unreadable, so the chart cannot be trusted"
+ ],
+ "cost": {
+  "seconds": 16,
+  "usd": 0.00426349,
+  "tokens": 27058,
+  "outputTokens": 3153
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench logo",
+   "reason": "One brand mark, short and clearly a logo.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline naming the finding, five words.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Prompt column labels",
+   "reason": "Short labels identifying the two bar series.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and plot area",
+   "reason": "The chart marks themselves; the main visual.",
+   "ids": [
+    "e6",
+    "e8",
+    "e11",
+    "e13",
+    "e15",
+    "e18",
+    "e21",
+    "e24",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model name labels",
+   "reason": "Short row labels naming the models being measured.",
+   "ids": [
+    "e9",
+    "e16",
+    "e23",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, needed to read the chart.",
+   "ids": [
+    "e7",
+    "e12",
+    "e14",
+    "e17",
+    "e20",
+    "e22",
+    "e26",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Scale ticks needed to read the bars.",
+   "ids": [
+    "e5",
+    "e10",
+    "e19",
+    "e25",
+    "e29",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer metric note",
+   "reason": "Quiet footnote defining the metric and averaging.",
+   "ids": [
+    "e36",
+    "e37",
+    "e38",
+    "e39"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.1
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 51,
+  "textElements": 30
+ }
+}

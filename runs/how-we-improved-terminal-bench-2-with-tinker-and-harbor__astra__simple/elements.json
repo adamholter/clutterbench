@@ -1,0 +1,155 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 12,
+  "textElements": 8,
+  "words": 14,
+  "fontSizes": 4,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "h1",
+   "x": 56,
+   "y": 46,
+   "w": 335,
+   "h": 63,
+   "text": "Terminal-Bench 2.0",
+   "fontSize": 40,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "image",
+   "tag": "img",
+   "x": 989,
+   "y": 63,
+   "w": 155,
+   "h": 27,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "p",
+   "x": 56,
+   "y": 115,
+   "w": 226,
+   "h": 29,
+   "text": "gpt-oss-20b · Pass rate",
+   "fontSize": 22,
+   "color": "rgb(100, 102, 94)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 914,
+   "y": 203,
+   "w": 92,
+   "h": 51,
+   "text": "17.0%",
+   "fontSize": 38,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 825,
+   "y": 262,
+   "w": 270,
+   "h": 782,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "text",
+   "x": 552,
+   "y": 364,
+   "w": 97,
+   "h": 51,
+   "text": "13.5%",
+   "fontSize": 38,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 465,
+   "y": 423,
+   "w": 270,
+   "h": 621,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 204,
+   "y": 842,
+   "w": 73,
+   "h": 51,
+   "text": "3.1%",
+   "fontSize": 38,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e8",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 105,
+   "y": 901,
+   "w": 270,
+   "h": 143,
+   "color": "rgb(175, 152, 136)"
+  },
+  {
+   "id": "e9",
+   "kind": "text",
+   "tag": "text",
+   "x": 213,
+   "y": 1069,
+   "w": 55,
+   "h": 33,
+   "text": "Base",
+   "fontSize": 25,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "text",
+   "x": 577,
+   "y": 1069,
+   "w": 45,
+   "h": 33,
+   "text": "SFT",
+   "fontSize": 25,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "text",
+   "x": 894,
+   "y": 1069,
+   "w": 131,
+   "h": 33,
+   "text": "SFT + RLVR",
+   "fontSize": 25,
+   "color": "rgb(0, 0, 0)"
+  }
+ ]
+}

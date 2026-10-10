@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1200, initial-scale=1"><title>AfterQuery — Better data. More capable terminal agents.</title>
+<style>
+@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2')}@font-face{font-family:Diatype;src:url('assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2');font-weight:500}@font-face{font-family:Plantijn;src:url('assets/MartinaPlantijn_Regular-s.p.09bvmw9c6lxyi.woff2')}@font-face{font-family:Fragment;src:url('assets/a9a434ecf764164f-s.p.09kihw1cxxru6.woff2')}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f8f8f3;color:#000}body{font-family:Diatype,sans-serif}.page{width:1200px;height:1200px;padding:54px 64px}header{display:flex;align-items:center;justify-content:space-between;padding-bottom:29px;border-bottom:1px solid #0003}.logo{width:211px;height:auto}.eyebrow{font-size:15px;letter-spacing:1.7px;text-transform:uppercase}.intro{margin-top:42px}h1{font-family:Plantijn,serif;font-size:65px;font-weight:400;line-height:1.05;letter-spacing:-1.5px;margin:0} .sub{font-size:23px;color:#585951;margin-top:21px}.chart-head{display:flex;justify-content:space-between;align-items:center;margin-top:42px;padding-bottom:19px;border-bottom:1px solid #0003;font-size:18px}.mono{font-family:Fragment,monospace;font-size:14px;color:#606159}.chart{width:1072px;height:402px;display:block}.stages{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #0003;border-bottom:1px solid #0003;padding:25px 0 27px;gap:36px}.stage+.stage{border-left:1px solid #0003;padding-left:36px}.stage-label{font-size:14px;letter-spacing:1.4px;color:#026340;margin-bottom:13px}.stage h2{font-family:Plantijn,serif;font-size:30px;font-weight:400;margin:0 0 9px}.stage p{font-size:18px;color:#5e6059;line-height:1.4;margin:0;max-width:440px}.foot{display:flex;justify-content:space-between;align-items:center;margin-top:25px}.note{font-size:17px;color:#026340}.source{margin-top:19px;color:#70716a;font-size:14px;line-height:1.5}
+</style></head><body><main class="page">
+<header><img class="logo" src="assets/afterquery-logo.svg" alt="AfterQuery"><span class="eyebrow">Research / Agent post-training</span></header>
+<section class="intro"><h1>Better data.<br>More capable terminal agents.</h1><div class="sub">Improving gpt-oss-20b with Tinker and Harbor</div></section>
+<div class="chart-head"><span>Terminal-Bench 2.0 <span style="color:#73746c">/ Pass rate</span></span><span class="mono">openai/gpt-oss-20b</span></div>
+<svg class="chart" viewBox="0 0 1072 402" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal-Bench 2.0 pass rate: base model 3.1 percent, SFT only 13.5 percent, SFT plus RLVR 17.0 percent. Bars start at zero.">
+<g stroke="#000" stroke-opacity=".09"><path d="M300 30V344M500 30V344M700 30V344M900 30V344"/></g>
+<g font-family="Diatype" font-size="23" fill="#000"><text x="0" y="86">Base model</text><text x="0" y="192">SFT only</text><text x="0" y="298">SFT + RLVR</text></g>
+<g><rect x="300" y="48" width="114.882" height="58" fill="#af9888"/><rect x="300" y="154" width="500.294" height="58" fill="#cdaf5d"/><rect x="300" y="260" width="630" height="58" fill="#026340"/></g>
+<g font-family="Plantijn" font-size="43" fill="#000"><text x="433" y="91">3.1%</text><text x="819" y="197">13.5%</text><text x="949" y="303" fill="#026340">17.0%</text></g>
+<path d="M300 344H1072" stroke="#000" stroke-opacity=".25"/>
+<text x="300" y="375" font-family="Fragment" font-size="13" fill="#767770">0</text>
+<text x="1072" y="375" text-anchor="end" font-family="Diatype" font-size="17" fill="#606159">Largest gain comes from expert-curated SFT data</text>
+</svg>
+<section class="stages"><div class="stage"><div class="stage-label">STAGE 1 / SFT</div><h2>Teach the workflow.</h2><p>Learn from successful trajectories in real terminal environments.</p></div><div class="stage"><div class="stage-label">STAGE 2 / RLVR</div><h2>Learn from the tests.</h2><p>Use per-test rewards to improve on tasks the model can partially solve.</p></div></section>
+<div class="foot"><span class="note">No training tasks from the official evaluation set.</span><span class="mono">afterquery.com</span></div>
+<div class="source">Terminal-Bench 2.0 · 89 tasks · terminus-2 agent · Pass@1 averaged over 5 runs.</div>
+</main></body></html>

@@ -1,0 +1,166 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:13.526Z",
+ "main_idea": "PivotRL training with 50 teacher tasks raises Qwen3.5-9B pass@5 from 11.3% to 17.5%.",
+ "ideas": [
+  "Qwen3.5-9B pass@5 improves from 11.3% to 17.5%.",
+  "Training uses teacher distillation, hybrid OPD, and PivotRL.",
+  "The run profiles 193 pivots from 50 teacher tasks.",
+  "General benchmark scores show no significant changes."
+ ],
+ "clutter_score": 8,
+ "summary": "The main pass@5 comparison is crowded by branding, a long headline, method details, repeated counts, and secondary benchmark results.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "brand and badge",
+   "reason": "Logo and research date do not help communicate the performance gain.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "headline",
+   "reason": "The long headline repeats the method and task-count details; a short result title suffices.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "subtitle",
+   "reason": "Restates the training method in explanatory prose.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "pass rate comparison",
+   "reason": "The paired values and bars directly show the central improvement.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "method flow",
+   "reason": "Detailed process cards add explanation beyond the performance comparison.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "PivotRL detail",
+   "reason": "The 50-task and 193-pivot details add useful context but are secondary and wordy.",
+   "ids": [
+    "e27",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "task count repeats",
+   "reason": "Repeats the 50-task and 193-pivot counts already stated in the method card.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e37",
+    "e38",
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "secondary checks",
+   "reason": "Continuation settings and unchanged general benchmarks introduce separate methodological and capability claims.",
+   "ids": [
+    "e36",
+    "e39",
+    "e43",
+    "e40",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer",
+   "reason": "Site address, decorative dot, and lab tagline do not support the result.",
+   "ids": [
+    "e45",
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 33.2,
+   "orange": 21.2,
+   "red": 45.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 56.5
+  },
+  "clutterShare": 56.2,
+  "ideaCount": 4,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

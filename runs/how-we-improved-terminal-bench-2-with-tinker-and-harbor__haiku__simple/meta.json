@@ -1,0 +1,19 @@
+{
+  "id": "how-we-improved-terminal-bench-2-with-tinker-and-harbor__haiku__simple",
+  "task": "how-we-improved-terminal-bench-2-with-tinker-and-harbor",
+  "title": "How We Improved Terminal-Bench 2.0 Scores by Over 5x Using Tinker and Harbor",
+  "model": "haiku",
+  "modelId": "claude-haiku-5-5",
+  "effort": "low",
+  "variant": "simple",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 36,
+  "flags": [],
+  "createdAt": "2026-10-10T15:00:28.950Z"
+}

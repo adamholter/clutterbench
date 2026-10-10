@@ -1,0 +1,170 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:04:49.653Z",
+ "main_idea": "On-policy distillation lifts GDPval net win-loss margin about 21% across two model families.",
+ "ideas": [
+  "On-policy distillation improves Nemotron student's GDPval margin",
+  "Same recipe gives Qwen3.5-9B a comparable margin",
+  "Mean rubric points rise 5.1 and 7.9",
+  "Nemotron wins 123 of 220 task pairs",
+  "Gain is statistically significant (p ≈ 0.001)"
+ ],
+ "clutter_score": 5,
+ "summary": "A clear two-row stat block is cluttered by a slogan headline, eyebrow tag, long subtitle, a second win-tie-loss chart, a dataset-size note, and an empty bottom rule; the base-model comparator is missing.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline",
+   "why": "Net win-loss margin is never stated as measured against the base model once the chart is cut."
+  }
+ ],
+ "completeness_score": 9,
+ "defects": [
+  "Empty rule at bottom edge with nothing beneath it",
+  "Bottom margin far tighter than top margin"
+ ],
+ "cost": {
+  "seconds": 46.4,
+  "usd": 0.006332989999999999,
+  "tokens": 43990,
+  "outputTokens": 9967
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Two-model result stat rows",
+   "reason": "Main visual: each model's margin and rubric gain, with names and metric labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark, shown once at top-left.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Sign-test evaluation footnote",
+   "reason": "Small quiet footnote giving the statistical test behind the margin.",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line method subtitle",
+   "reason": "Real facts (220 tasks, no eval leakage) but too long; shorten to one line.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research GDPval eyebrow tag",
+   "reason": "Category tag; the benchmark is already named in the subtitle and stat rows.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Topic slogan headline",
+   "reason": "Names the method and domain as a slogan, not the result. Replace with the finding.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Win-tie-loss bar chart",
+   "reason": "Second Nemotron-only chart; restates the margin and serves a different point.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training split size",
+   "reason": "Dataset-size stat serving a separate point from the main GDPval result.",
+   "ids": [
+    "e31"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Empty bottom rule",
+   "reason": "Decorative rule with no content beneath it, sitting at the canvas edge.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 32.4,
+   "orange": 10.5,
+   "red": 57.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 62.4,
+  "ideaCount": 5,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

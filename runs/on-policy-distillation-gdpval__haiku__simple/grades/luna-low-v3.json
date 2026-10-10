@@ -1,0 +1,80 @@
+{
+ "grader": "luna-low-v3",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:14.817Z",
+ "main_idea": "On GDPval, the distilled model has a +20.9% net win–loss margin over its base model.",
+ "ideas": [
+  "The distilled model wins more GDPval task comparisons than it loses."
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete; the chart and headline clearly convey the GDPval result.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "AfterQuery logo is absent from the screenshot."
+ ],
+ "cost": {
+  "seconds": 10.5,
+  "usd": null,
+  "tokens": 7757,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Neutral background supports the chart.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "States the result, comparison, and GDPval benchmark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Win loss chart",
+   "reason": "Shows the 123 wins, 20 ties, and 77 losses behind the margin.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:08:58.972Z",
+ "main_idea": "AfterQuery warmup lifts MOPD GDPval score near the teacher model",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7",
+  "Student scores lowest, teacher highest, warmup closes gap",
+  "GDPval score measured after distillation"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and complete: one bar chart with a clear title, labelled bars and values, and a single logo; nothing needs removing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 5.9,
+  "usd": 0.0032140600000000004,
+  "tokens": 26128,
+  "outputTokens": 748
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Title names benchmark and metric; bars, values and category labels are all needed",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible and appropriately small",
+   "ids": [
+    "e13"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 42
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 16,
+  "textElements": 9
+ }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On-policy distillation improves GDPval across model families</title>
+<style>
+@font-face{font-family:Diatype;src:url('./assets/diatype.woff2') format('woff2');font-weight:400}
+@font-face{font-family:Plantijn;src:url('./assets/plantijn.woff2') format('woff2');font-weight:400}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#f8f8f3;color:#000}
+svg{display:block;width:1200px;height:1200px;font-family:Diatype,Arial,sans-serif}
+.title{font-family:Plantijn,Georgia,serif;font-size:42px}.context{font-size:24px;fill:#65655f}.value{font-size:42px;fill:#026340;letter-spacing:-1px}.model{font-size:28px;fill:#222}
+.logo{position:absolute;top:65px;right:65px;width:164px;height:28px;background:#000;mask:url('./assets/logo.svg') left center/contain no-repeat;-webkit-mask:url('./assets/logo.svg') left center/contain no-repeat}
+</style>
+</head>
+<body>
+<div class="logo" role="img" aria-label="AfterQuery"></div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">GDPval net win–loss margin</title>
+<desc id="chart-desc">On-policy distilled models versus their base models. Nemotron-3-Nano achieves a positive 20.9 percent net win–loss margin; Qwen3.5-9B achieves a positive 21.4 percent margin. Bars share a zero baseline.</desc>
+<text class="title" x="65" y="103">GDPval net win–loss margin</text>
+<text class="context" x="65" y="148">On-policy distilled vs. base</text>
+<!-- Common zero baseline; 36 SVG units per percentage point. -->
+<path d="M65 1060H1135" stroke="#a8a7a1" stroke-width="1.5"/>
+<rect x="155" y="307.6" width="365" height="752.4" fill="#026340"/>
+<rect x="680" y="289.6" width="365" height="770.4" fill="#026340"/>
+<text class="value" x="337.5" y="277.6" text-anchor="middle">+20.9%</text>
+<text class="value" x="862.5" y="259.6" text-anchor="middle">+21.4%</text>
+<text class="model" x="337.5" y="1110" text-anchor="middle">Nemotron-3-Nano</text>
+<text class="model" x="862.5" y="1110" text-anchor="middle">Qwen3.5-9B</text>
+</svg>
+</body>
+</html>

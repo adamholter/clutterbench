@@ -1,0 +1,109 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:09:39.097Z",
+ "main_idea": "GRPO on 500 tasks lifts Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO improves DeepSWE pass@1 over base"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete, with one benchmark chart and short labels. The only problem is the nearly invisible logo.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo at top left is almost invisible, white on light background"
+ ],
+ "cost": {
+  "seconds": 7.6,
+  "usd": 0.0466679,
+  "tokens": 21808,
+  "outputTokens": 598
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo",
+   "reason": "Single brand mark, though it is nearly invisible.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark metric tag",
+   "reason": "Short context naming the benchmark and metric.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "The two bars with one value label each.",
+   "ids": [
+    "e2",
+    "e7",
+    "e4",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Axis ticks needed to read the bars.",
+   "ids": [
+    "e3",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Change connector",
+   "reason": "Small dotted annotation marking the change between the bars.",
+   "ids": [
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar labels",
+   "reason": "Short category labels identifying each bar.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 14.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 7
+ }
+}

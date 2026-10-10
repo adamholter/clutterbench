@@ -1,0 +1,129 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:48.027Z",
+ "main_idea": "Distilled Qwen3.5-9B wins far more GDPval task pairs than it loses.",
+ "ideas": [
+  "Distilled Qwen wins more GDPval pairs than it loses",
+  "123 wins, 20 ties, 77 losses out of 220"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean, focused win-tie-loss chart; only the repeated footer wordmark should go, and the graphic does not say the pairs are against the base model.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline",
+   "why": "Pairs are never said to be against the base model, so wins and losses lack a reference."
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [],
+ "cost": {
+  "seconds": 11.9,
+  "usd": 0.00418205,
+  "tokens": 34767,
+  "outputTokens": 2059
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline names the finding and the benchmark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and pair count subtitle",
+   "reason": "Names the model, the unit (task pairs), and the sample size.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bars",
+   "reason": "Main visual: segmented bar with one value label per segment.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Legend",
+   "reason": "The one legend that names each segment's colour.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Top AfterQuery logo",
+   "reason": "The single brand mark on the graphic.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Website contact line",
+   "reason": "Small quiet contact line in the footer.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark; the top logo already covers branding.",
+   "ids": [
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 97.5,
+   "orange": 0,
+   "red": 2.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 2.5,
+  "ideaCount": 2,
+  "missingCount": 1,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

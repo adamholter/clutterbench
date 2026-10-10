@@ -1,0 +1,184 @@
+{
+ "grader": "luna-high-v3",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:23.443Z",
+ "main_idea": "SFT and RLVR raised gpt-oss-20b’s Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "The model improved from 3.1% to 17.0%.",
+  "SFT accounts for the largest gain.",
+  "RLVR added 3.5 points using GRPO."
+ ],
+ "clutter_score": 4,
+ "summary": "The long subtitle, navigation, kicker, and oversized training cards add clutter; the graphic is otherwise complete.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 20.8,
+  "usd": null,
+  "tokens": 12666,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The logo identifies the publisher.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header navigation",
+   "reason": "Blog and Research navigation does not help explain the result.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "The kicker repeats the research context without adding needed information.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "A short headline states the central finding.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Explanatory subtitle",
+   "reason": "It packs model, scores, methods, tools, and caveat into a long sentence.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart heading",
+   "reason": "Names the pass-rate metric and agent context.",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Base model result",
+   "reason": "Label, value, and bar establish the baseline.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "SFT result",
+   "reason": "Shows the intermediate pass rate after supervised fine-tuning.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "RLVR result",
+   "reason": "Shows the final pass rate after RLVR.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Training stage cards",
+   "reason": "The methods matter, but these large cards could be condensed into a brief note.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footer",
+   "reason": "The quiet footer gives evaluation details and a contact.",
+   "ids": [
+    "e38",
+    "e39",
+    "e40"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 67.2,
+   "orange": 30.8,
+   "red": 2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 17.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

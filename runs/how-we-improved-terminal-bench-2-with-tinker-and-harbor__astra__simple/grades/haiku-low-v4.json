@@ -1,0 +1,99 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:42:55.345Z",
+ "main_idea": "SFT plus RLVR raises gpt-oss-20b Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Training raises Terminal-Bench 2.0 pass rate step by step",
+  "Base 3.1% rises to 17.0% after SFT and RLVR",
+  "SFT contributes most of the gain"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one simple bar chart with a short title, labelled bars, values, and a small logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.3,
+  "usd": 0.0035402000000000003,
+  "tokens": 28414,
+  "outputTokens": 966
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Title and metric context",
+   "reason": "Names the benchmark, model, and metric in short form",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and unobtrusive",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Result bars",
+   "reason": "The main visual: three bars showing the progression",
+   "ids": [
+    "e4",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, exactly what is needed",
+   "ids": [
+    "e3",
+    "e5",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar category labels",
+   "reason": "Names each bar's training stage",
+   "ids": [
+    "e9",
+    "e10",
+    "e11"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.4
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 14,
+  "textElements": 8
+ }
+}

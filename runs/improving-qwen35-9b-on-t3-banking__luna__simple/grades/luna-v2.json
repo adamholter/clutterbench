@@ -1,0 +1,103 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:34.192Z",
+ "main_idea": "Qwen3.5-9B improved its τ³-Banking pass@5 score from 11.3% to 17.5%.",
+ "ideas": [
+  "Qwen3.5-9B improved pass@5 by 6.2 percentage points."
+ ],
+ "clutter_score": 2,
+ "summary": "The gain callout repeats the bar comparison, while the graphic omits the benchmark name and what changed between conditions.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "τ³-Banking benchmark",
+   "why": "The benchmark being measured is not named."
+  },
+  {
+   "mid": "m1",
+   "what": "Condition definitions",
+   "why": "“Before” and “After” do not explain what changed between evaluations."
+  }
+ ],
+ "completeness_score": 6,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The sole brand mark identifies the publisher.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric",
+   "reason": "Names the model and the measured metric.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Before after bars",
+   "reason": "Bars and labels compare the two scores and conditions.",
+   "ids": [
+    "e4",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Gain callout",
+   "reason": "Restates the difference already visible in the bar heights and values.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Outer frame",
+   "reason": "The chart border adds no information.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74,
+   "orange": 3.4,
+   "red": 22.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 8.6
+  },
+  "clutterShare": 24.3,
+  "ideaCount": 1,
+  "missingCount": 2,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 9,
+  "textElements": 7
+ }
+}

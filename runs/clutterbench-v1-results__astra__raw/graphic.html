@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simple instructions reduce clutter — ClutterBench</title>
+<style>
+@font-face{font-family:Outfit;src:url('./assets/outfit.woff2') format('woff2');font-weight:400 700;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#fff;color:#101828;font-family:Outfit,sans-serif}main{padding:58px 64px;width:1200px;height:1200px}.mark{font-size:28px;font-weight:700;letter-spacing:-.4px}.mark span{color:#1971c2}h1{font-size:64px;line-height:1.06;letter-spacing:-1.1px;margin:57px 0 25px;font-weight:700}.sub{font-size:26px;color:#475467;margin:0}.sub b{font-weight:500;color:#101828}.sub .simple{color:#1971c2}svg{display:block;margin-top:39px;overflow:visible}svg text{font-family:Outfit,sans-serif}.note{margin:24px 0 0;font-size:21px;color:#475467}
+</style>
+</head>
+<body><main>
+<div class="mark"><span>Clutter</span>Bench</div>
+<h1>Simple instructions<br>reduce clutter.</h1>
+<p class="sub">Clutter score: <b>Raw prompt</b> <span style="padding:0 8px">→</span> <b class="simple">Simple prompt</b></p>
+<svg width="1072" height="674" viewBox="0 0 1072 674" role="img" aria-label="Clutter scores fall from raw to simple prompts: Claude Sonnet 5.5, 29% to 0%; Claude Haiku 5.5, 42% to 0%; GPT-6.1 Sol, 46% to 0%; GPT-6 Luna, 61% to 6%.">
+<g fill="#f5f7fa">
+<rect x="0" y="0" width="250" height="674" rx="8"/><rect x="274" y="0" width="250" height="674" rx="8"/><rect x="548" y="0" width="250" height="674" rx="8"/><rect x="822" y="0" width="250" height="674" rx="8"/>
+</g>
+<g fill="#101828" font-size="26" font-weight="600" text-anchor="middle">
+<text x="125" y="43">Claude Sonnet 5.5</text><text x="399" y="43">Claude Haiku 5.5</text><text x="673" y="43">GPT-6.1 Sol</text><text x="947" y="43">GPT-6 Luna</text>
+</g>
+<!-- A common linear scale: y = 602 − score × 7.2. -->
+<g stroke="#e4e7ec" stroke-width="2"><path d="M24 602H226 M298 602H500 M572 602H774 M846 602H1048"/></g>
+<g fill="none" stroke="#1971c2" stroke-opacity=".45" stroke-width="5">
+<path d="M58 393.2L192 602"/><path d="M332 299.6L466 602"/><path d="M606 270.8L740 602"/><path d="M880 162.8L1014 558.8"/>
+</g>
+<g fill="#101828"><circle cx="58" cy="393.2" r="9"/><circle cx="332" cy="299.6" r="9"/><circle cx="606" cy="270.8" r="9"/><circle cx="880" cy="162.8" r="9"/></g>
+<g fill="#101828" text-anchor="middle" font-size="38" font-weight="600"><text x="58" y="367">29%</text><text x="332" y="273">42%</text><text x="606" y="244">46%</text><text x="880" y="136">61%</text></g>
+<g fill="#1971c2" stroke="#fff" stroke-width="3"><circle cx="192" cy="602" r="11"/><circle cx="466" cy="602" r="11"/><circle cx="740" cy="602" r="11"/><circle cx="1014" cy="558.8" r="11"/></g>
+<g fill="#1971c2" text-anchor="middle" font-size="38" font-weight="600"><text x="192" y="646">0%</text><text x="466" y="646">0%</text><text x="740" y="646">0%</text><text x="1014" y="603">6%</text></g>
+</svg>
+<p class="note">Lower is better. Each score is the mean of 6 graphics.</p>
+</main></body></html>

@@ -1,0 +1,240 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.940Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 2,
+  "tiebreak": true,
+  "scores": [
+   6,
+   6,
+   6
+  ]
+ },
+ "main_idea": "On-policy distillation gives about +21% net win-loss margin on GDPval in both Nemotron and Qwen.",
+ "ideas": [
+  "Distillation lifts GDPval win-loss margin",
+  "Result transfers across two model families",
+  "Win/tie/loss breakdown for Nemotron",
+  "How on-policy distillation works"
+ ],
+ "summary": "A pipeline diagram, subtitle, tags, extra stats and a second brand mention clutter two good result cards; nothing essential is missing.",
+ "clutter_score": 6,
+ "completeness_score": 9,
+ "missing": [],
+ "defects": [
+  "Logo mark nearly invisible, pale on light background",
+  "Header logo mark e1 is near-invisible, white-ish on cream background",
+  "Logo mark e1 is nearly invisible: faint white triangle on cream background"
+ ],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo",
+   "reason": "Single brand mark with header rule.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag",
+   "reason": "Category tag; adds nothing.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow line",
+   "reason": "Kicker above headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Large slogan-like headline; states no number or finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle",
+   "reason": "Sentence restating what the cards show.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron result card",
+   "reason": "Main result: margin and win/tie/loss bar with labels.",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen result card",
+   "reason": "Second family's main margin result with context.",
+   "ids": [
+    "e8",
+    "e10",
+    "e12",
+    "e14",
+    "e16",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Qwen extra stats",
+   "reason": "Extra score and win-rate stats beyond main margin.",
+   "ids": [
+    "e19",
+    "e21",
+    "e25",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Nemotron footer stats",
+   "reason": "Repeats win rate and points; extra stats.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Transfer caption",
+   "reason": "Sentence restating the two-family point.",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline",
+   "reason": "Method diagram is a second idea beside results.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer brand",
+   "reason": "Second brand mention; logo already present.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Quiet note naming benchmark.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 31.1,
+   "orange": 20.9,
+   "red": 48.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 58.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 6,
+   "extra_idea": 30,
+   "repetition": 6
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

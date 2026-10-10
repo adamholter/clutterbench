@@ -1,0 +1,217 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:02:49.223Z",
+ "main_idea": "BAR, a 5,161-case legal benchmark co-built with Legora, lifted output quality 5%.",
+ "ideas": [
+  "Co-built legal benchmark tests agents end-to-end",
+  "BAR has 5,161 benchmark cases",
+  "Covers 28 practice areas",
+  "11,075 source documents underpin the benchmark",
+  "BAR-informed harness changes raised quality 5%",
+  "Contact line for custom evaluation sets"
+ ],
+ "clutter_score": 5,
+ "summary": "The 28-cell practice-area grid, dataset-size stats, a long subtitle, a category tag and a repeated footer brand clutter the graphic; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 32.4,
+  "usd": 0.00479674,
+  "tokens": 31208,
+  "outputTokens": 7088
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline title",
+   "reason": "Short title naming the subject, not a slogan.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark on the graphic.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark case count",
+   "reason": "Main benchmark scale figure with its short unit label.",
+   "ids": [
+    "e10",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Quality gain figure",
+   "reason": "The headline result figure, shown in the accent colour.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Stat row rules",
+   "reason": "Structural rules framing the main stat row.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "Quiet contact line, acceptable as a footnote.",
+   "ids": [
+    "e50"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Quality gain label",
+   "reason": "Three-line label; 'output quality, one month' would carry the same fact.",
+   "ids": [
+    "e17"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Real facts about the benchmark, but a long sentence; shorten or footnote.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Source documents stat",
+   "reason": "Dataset-size stat serves a second point, not the main result.",
+   "ids": [
+    "e12",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Practice areas stat",
+   "reason": "Coverage stat serving a second point; the grid already shows it.",
+   "ids": [
+    "e11",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Practice-area grid",
+   "reason": "Unlabelled 28-cell grid and caption make a coverage point, not the main result.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Category tag that says nothing the reader needs to read the chart.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark and tagline",
+   "reason": "Brand already shown by the logo; tagline is unneeded.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 51.3,
+   "orange": 20.5,
+   "red": 28.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 38.5,
+  "ideaCount": 6,
+  "missingCount": 0,
+  "redByType": {
+   "extra_idea": 3,
+   "unneeded": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

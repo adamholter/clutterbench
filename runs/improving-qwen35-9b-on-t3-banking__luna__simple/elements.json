@@ -1,0 +1,153 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 12,
+  "textElements": 7,
+  "words": 9,
+  "fontSizes": 4,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 64,
+   "y": 59,
+   "w": 152,
+   "h": 26,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e1",
+   "kind": "box",
+   "tag": "section",
+   "x": 64,
+   "y": 125,
+   "w": 1072,
+   "h": 999,
+   "color": "rgba(29, 29, 27, 0.16)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 64,
+   "y": 160,
+   "w": 208,
+   "h": 65,
+   "text": "Qwen3.5-9B",
+   "fontSize": 42,
+   "color": "rgb(29, 29, 27)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "span",
+   "x": 1085,
+   "y": 193,
+   "w": 51,
+   "h": 20,
+   "text": "pass@5",
+   "fontSize": 15,
+   "color": "rgb(98, 98, 93)"
+  },
+  {
+   "id": "e4",
+   "kind": "box",
+   "tag": "div",
+   "x": 84,
+   "y": 269,
+   "w": 1032,
+   "h": 850,
+   "color": "rgb(29, 29, 27)"
+  },
+  {
+   "id": "e5",
+   "kind": "text",
+   "tag": "div",
+   "x": 513,
+   "y": 430,
+   "w": 174,
+   "h": 22,
+   "text": "+6.2 percentage points",
+   "fontSize": 17,
+   "color": "rgb(85, 86, 80)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "span",
+   "x": 732,
+   "y": 452,
+   "w": 121,
+   "h": 84,
+   "text": "17.5%",
+   "fontSize": 54,
+   "color": "rgb(29, 29, 27)"
+  },
+  {
+   "id": "e7",
+   "kind": "box",
+   "tag": "div",
+   "x": 663,
+   "y": 524,
+   "w": 260,
+   "h": 594,
+   "color": "rgb(36, 36, 34)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "span",
+   "x": 346,
+   "y": 662,
+   "w": 123,
+   "h": 84,
+   "text": "11.3%",
+   "fontSize": 54,
+   "color": "rgb(29, 29, 27)"
+  },
+  {
+   "id": "e9",
+   "kind": "box",
+   "tag": "div",
+   "x": 277,
+   "y": 734,
+   "w": 260,
+   "h": 384,
+   "color": "rgb(200, 200, 194)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "span",
+   "x": 382,
+   "y": 1139,
+   "w": 50,
+   "h": 22,
+   "text": "Before",
+   "fontSize": 17,
+   "color": "rgb(85, 86, 80)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "span",
+   "x": 774,
+   "y": 1139,
+   "w": 37,
+   "h": 22,
+   "text": "After",
+   "fontSize": 17,
+   "color": "rgb(85, 86, 80)"
+  }
+ ]
+}

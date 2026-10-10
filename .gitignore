@@ -1,0 +1,25 @@
+node_modules/
+ui/dist/
+video/out/
+video/public/shots/
+site-host/
+selfcheck/
+design/
+.DS_Store
+
+# third-party material: publisher fonts and logos the agents downloaded, and the posts' text
+runs/*/assets/
+runs/*/article.md
+data/articles/*
+!data/articles/clutterbench-v1-results.md
+
+# agent session logs (large, machine-specific) and scratch previews
+runs/*/gen.log
+runs/*/preview.png
+
+# pages and stylesheets some agents saved while browsing the publisher's site
+runs/*/*.html
+!runs/*/graphic.html
+runs/*/*.css
+runs/*/*.js
+runs/*/*.svg

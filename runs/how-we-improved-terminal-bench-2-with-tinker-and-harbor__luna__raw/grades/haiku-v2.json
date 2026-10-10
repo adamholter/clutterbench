@@ -1,0 +1,258 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:48.612Z",
+ "main_idea": "AfterQuery's two-stage pipeline raised gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Post-training lifts gpt-oss-20b pass rate from 3.1% to 17.0%",
+  "Five-times stronger terminal agent after AfterQuery post-training",
+  "RLVR stage adds 3.5 points after SFT",
+  "Two-stage pipeline: supervised fine-tuning then reinforcement learning"
+ ],
+ "clutter_score": 8,
+ "summary": "Clutter: the 5.5x and +10.4 stats and the pipeline cards, plus the eyebrows, footer and chart border, compete with the bar chart; the 17.0% value appears three times. Nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, keep as the one logo",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header category tag",
+   "reason": "Category tag tells the reader nothing needed",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above headline adds no finding",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "Runs two lines and spells out what the chart shows; shorten",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric subtitle",
+   "reason": "Names model, metric, and benchmark; short context",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card border",
+   "reason": "Frame drawn around the main chart",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart metric label",
+   "reason": "Names the measured metric",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated benchmark label",
+   "reason": "Benchmark already named in subtitle and header",
+   "ids": [
+    "e11"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and value labels",
+   "reason": "Chart marks, one value per bar, and category labels",
+   "ids": [
+    "e12",
+    "e13",
+    "e15",
+    "e20",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "orange",
+   "type": "verbose",
+   "name": "5.5x stat callout",
+   "reason": "Big stat restates the chart's difference; far too large",
+   "ids": [
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "5.5x explanatory sentence",
+   "reason": "Sentence restates what the chart already shows",
+   "ids": [
+    "e14"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "orange",
+   "type": "verbose",
+   "name": "+10.4 points stat",
+   "reason": "Big stat restates the chart's difference; far too large",
+   "ids": [
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "+10.4 explanatory sentence",
+   "reason": "Label and sentence restate the chart's difference",
+   "ids": [
+    "e18",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "RLVR gain callout",
+   "reason": "Separate callout for RLVR contribution, a second point",
+   "ids": [
+    "e21",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Pipeline eyebrow",
+   "reason": "Section kicker adds no information",
+   "ids": [
+    "e29"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Pipeline method cards",
+   "reason": "Method stages serve a separate how-it-works point",
+   "ids": [
+    "e28",
+    "e30",
+    "e31",
+    "e33",
+    "e34",
+    "e36",
+    "e37",
+    "e39",
+    "e41",
+    "e42"
+   ]
+  },
+  {
+   "rid": "r16",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated 17.0% result card",
+   "reason": "Repeats the 17.0% value already on the bar chart",
+   "ids": [
+    "e32",
+    "e35",
+    "e38",
+    "e40",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r17",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer source line",
+   "reason": "Source and method line is a footer, not needed to read chart",
+   "ids": [
+    "e44",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r18",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand already shown by the top-left logo",
+   "ids": [
+    "e45"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 33.4,
+   "orange": 31.6,
+   "red": 35,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30
+  },
+  "clutterShare": 50.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 7,
+   "repetition": 3,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 105,
+  "textElements": 32
+ }
+}

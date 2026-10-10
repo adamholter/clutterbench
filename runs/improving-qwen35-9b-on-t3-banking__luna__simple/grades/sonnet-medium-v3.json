@@ -1,0 +1,94 @@
+{
+ "grader": "sonnet-medium-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:55.076Z",
+ "main_idea": "Qwen3.5-9B pass@5 improved from 11.3% to 17.5% after training.",
+ "ideas": [
+  "Qwen3.5-9B pass@5 rose from 11.3% to 17.5%"
+ ],
+ "clutter_score": 0,
+ "summary": "The graphic is clean with nothing to remove, but it never names the benchmark (τ³-Banking).",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "benchmark name",
+   "why": "Nothing says the benchmark is τ³-Banking, so the task being measured is unclear."
+  }
+ ],
+ "completeness_score": 7,
+ "defects": [],
+ "cost": {
+  "seconds": 7.7,
+  "usd": 0.028183899999999998,
+  "tokens": 22359,
+  "outputTokens": 530
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible and quiet.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and metric",
+   "reason": "Short context naming the model and the metric.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bars",
+   "reason": "Bars, value labels and category labels are needed to read the chart.",
+   "ids": [
+    "e1",
+    "e4",
+    "e7",
+    "e9",
+    "e6",
+    "e8",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Delta annotation",
+   "reason": "Small annotation marking the change between the two bars.",
+   "ids": [
+    "e5"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 8.6
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 9,
+  "textElements": 7
+ }
+}

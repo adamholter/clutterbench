@@ -1,0 +1,128 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:35.423Z",
+ "main_idea": "On-policy distillation lifts Nemotron Nano to a +20.9% net win-loss margin on GDPval",
+ "ideas": [
+  "On-policy distillation improves Nemotron Nano on GDPval",
+  "Net win-loss margin of +20.9% against the base model",
+  "123 wins, 77 losses, 20 ties out of 220 tasks",
+  "Same recipe gives gains on Qwen3.5-9B too"
+ ],
+ "clutter_score": 4,
+ "summary": "A solid main win-loss visual is followed by a Qwen stats row and an eyebrow and tagline that should go; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 9.3,
+  "usd": 0.004421390000000001,
+  "tokens": 34560,
+  "outputTokens": 1566
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline and main margin",
+   "reason": "Short title and the big number with its metric and model",
+   "ids": [
+    "e2",
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-loss bar chart",
+   "reason": "The chart marks with one value label per segment",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet evaluation detail: task count, ties, win rate",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Category tag above the headline adds nothing the reader needs",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Second-model stats row",
+   "reason": "Qwen results and rubric scores serve a separate point, not the main chart",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Method tagline",
+   "reason": "Explanatory tagline restating what the chart already implies",
+   "ids": [
+    "e18"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 81.6,
+   "orange": 0,
+   "red": 18.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 40.8
+  },
+  "clutterShare": 18.4,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 50,
+  "textElements": 14
+ }
+}

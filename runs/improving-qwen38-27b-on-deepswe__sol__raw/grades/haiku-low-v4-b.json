@@ -1,0 +1,175 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:17.768Z",
+ "main_idea": "GRPO training lifted Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%",
+  "Gain is +11.3 points on DeepSWE",
+  "Training used 500 expert-authored tasks",
+  "Real software workflows from private codebases"
+ ],
+ "clutter_score": 4,
+ "summary": "A solid bar chart is crowded by a slogan headline, a redundant gain callout, and a dataset stats row that should go; the chart is complete and readable.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 11.4,
+  "usd": 0.00129046,
+  "tokens": 25767,
+  "outputTokens": 2107
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, kept as the only logo.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart context title",
+   "reason": "Short line naming the model, benchmark and method.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Names the measure: DeepSWE pass@1, averaged over three attempts.",
+   "ids": [
+    "e4",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, 27.8% and 39.1%.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and axis",
+   "reason": "The chart marks and baseline gridlines.",
+   "ids": [
+    "e12",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar category labels",
+   "reason": "Says which bar is the base model and which is GRPO.",
+   "ids": [
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Category tag above the header; restates the section, not the finding.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; the chart carries the point.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Gain callout box",
+   "reason": "Boxed +11.3 points restates the gap the bars already show.",
+   "ids": [
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset counts and tagline serve a second point beyond the results chart.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving the evaluation setup and site URL.",
+   "ids": [
+    "e27",
+    "e28"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 56.3,
+   "orange": 0,
+   "red": 43.7,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35
+  },
+  "clutterShare": 43.7,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 21
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:15:27.578Z",
+ "main_idea": "AfterQuery warmup raises Nemotron 3 Ultra’s GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup improves Nemotron 3 Ultra’s GDPval score.",
+  "Warmup brings the score close to the teacher.",
+  "Nemotron 3 Ultra has about six times the throughput of comparable open models."
+ ],
+ "clutter_score": 7,
+ "summary": "The headline, stat cards, and footer crowd the chart with repeated or separate takeaways; the chart includes the model, metric, conditions, and values.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The sole brand mark identifies the company.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Section tag",
+   "reason": "Blog and case study labels add no chart context.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "The finding headline wraps across two lines.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart frame",
+   "reason": "The border around the chart card is unnecessary.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart context",
+   "reason": "Names the GDPval metric, model, and report.",
+   "ids": [
+    "e6",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Training stage chart",
+   "reason": "Bars, values, and labels compare the four training stages.",
+   "ids": [
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Warmup gain card",
+   "reason": "The oversized +11.4 restates the chart’s 35.3-to-46.7 increase.",
+   "ids": [
+    "e24",
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Teacher gap card",
+   "reason": "Adds a separate teacher comparison takeaway.",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Throughput card",
+   "reason": "Adds a separate throughput claim unrelated to the chart.",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer and source",
+   "reason": "Source sentence and repeated wordmark are unnecessary here.",
+   "ids": [
+    "e33",
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 27.9,
+   "orange": 25.5,
+   "red": 46.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 59.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

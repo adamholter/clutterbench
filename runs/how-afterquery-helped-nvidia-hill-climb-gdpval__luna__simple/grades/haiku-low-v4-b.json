@@ -1,0 +1,109 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:13.610Z",
+ "main_idea": "Warmup lifts Ultra's GDPval score most of the way to the expert teacher.",
+ "ideas": [
+  "Warmup raises GDPval score",
+  "Warmup closes most of the teacher gap"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete; only the headline could be shortened to a crisper finding.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.7,
+  "usd": 0.0037050900000000003,
+  "tokens": 27398,
+  "outputTokens": 1654
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Header with brand and context",
+   "reason": "Single logo and short model/benchmark tag identify the graphic.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "Finding is right but could shorten to 'Warmup closes most of the gap'.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "The chart marks showing the four conditions and their scores.",
+   "ids": [
+    "e8",
+    "e9",
+    "e12",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, which the reader needs to read the chart.",
+   "ids": [
+    "e5",
+    "e7",
+    "e11",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis label, ticks and categories",
+   "reason": "Metric name, axis ticks and category labels needed to read the bars.",
+   "ids": [
+    "e4",
+    "e6",
+    "e10",
+    "e14",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

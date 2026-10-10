@@ -1,0 +1,214 @@
+{
+ "grader": "sonnet-medium-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:29.571Z",
+ "main_idea": "BAR is a large legal agent benchmark whose findings improved Legora's product by 5%.",
+ "ideas": [
+  "BAR tests agents on end-to-end legal work",
+  "BAR scale: cases, practice areas, documents",
+  "Three-step process from matter to scoring",
+  "BAR-informed harness changes gave +5% quality"
+ ],
+ "clutter_score": 8,
+ "summary": "Dense dashboard of stat rows, process cards, taglines and repeated branding buries the single +5% result, which has no chart and no baseline.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "baseline for +5%",
+   "why": "No before/after or chart shows the +5% improvement."
+  }
+ ],
+ "completeness_score": 7,
+ "defects": [
+  "Tiny logo image next to the wordmark is barely legible",
+  "Logo and AfterQuery wordmark are duplicated side by side"
+ ],
+ "cost": {
+  "seconds": 9.5,
+  "usd": 0.0342493,
+  "tokens": 24177,
+  "outputTokens": 1118
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and quiet.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag",
+   "reason": "Kicker tag adds nothing needed.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Eyebrow line above headline.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Question headline",
+   "reason": "Slogan-style question, not a finding.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Sentence describing benchmark; could be shortened to a short title.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "5,161 stat card",
+   "reason": "Dataset size stat, separate from main point.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset counts, unrelated to the main result.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Process cards",
+   "reason": "Method pipeline panel, large and secondary to the result.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Impact banner",
+   "reason": "The key result is worth keeping, but it's wordy and banner-sized.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline adds nothing.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Brand repeated a second time.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 5.6,
+   "orange": 21.4,
+   "red": 73,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 83.7,
+  "ideaCount": 4,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

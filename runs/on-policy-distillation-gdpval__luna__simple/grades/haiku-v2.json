@@ -1,0 +1,138 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:17:35.917Z",
+ "main_idea": "Distilled Qwen3.5-9B wins far more GDPval task pairs than it loses against the base.",
+ "ideas": [
+  "Distilled Qwen beats base model on GDPval",
+  "123 wins, 20 ties, 77 losses across 220 pairs",
+  "Clear net win on professional knowledge-work tasks"
+ ],
+ "clutter_score": 2,
+ "summary": "Nearly clean: a duplicate footer logo and URL should go, but the graphic omits that the wins and losses are measured against the base model.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline",
+   "why": "Graphic never says wins and losses are against the base model."
+  },
+  {
+   "mid": "m1",
+   "what": "metric definition",
+   "why": "Reader cannot tell wins are rubric-based pairwise GDPval judgments."
+  }
+ ],
+ "completeness_score": 6,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline stating the finding in a few words.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and pair count",
+   "reason": "Names the model and sample size in one short line.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "The single brand mark for this post's company.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar",
+   "reason": "The chart marks showing the three outcome segments.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Segment values",
+   "reason": "One value label per segment, the numbers the reader needs.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Single legend",
+   "reason": "One legend identifying what each segment colour means.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer logo repeat",
+   "reason": "Second instance of the logo already shown top right.",
+   "ids": [
+    "e16"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer URL",
+   "reason": "Website footer line adds nothing to the chart's point.",
+   "ids": [
+    "e15"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 95.7,
+   "orange": 0,
+   "red": 4.3,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 4.3,
+  "ideaCount": 3,
+  "missingCount": 2,
+  "redByType": {
+   "repetition": 1,
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

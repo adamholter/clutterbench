@@ -1,0 +1,107 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:23.022Z",
+ "main_idea": "AfterQuery training raised the pass rate from 3.1% to 17.0% on Terminal-Bench 2.0",
+ "ideas": [
+  "Trained AfterQuery model passes far more Terminal-Bench 2.0 tasks than base",
+  "Pass rate rose from 3.1% to 17.0%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and nearly complete; it lacks the model name (openai/gpt-oss-20b) and a clearer label for the Base condition. The top-left logo and the axis line are visible but have no ids in the element list, so I could not grade them.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "Reader cannot tell which model 'Base' and 'AfterQuery' refer to (gpt-oss-20b)"
+  },
+  {
+   "mid": "m1",
+   "what": "meaning of Base",
+   "why": "'Base' is unclear without saying it is the untrained base model"
+  }
+ ],
+ "completeness_score": 7,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Canvas background",
+   "reason": "Background of the graphic, not a frame or decoration around the chart",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and metric",
+   "reason": "Short title naming the benchmark and metric",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery bar and value",
+   "reason": "Chart mark with its single value label",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Base bar and value",
+   "reason": "Chart mark with its single value label",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Base category label",
+   "reason": "Category label identifying the bar",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery category label",
+   "reason": "Category label identifying the bar",
+   "ids": [
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 2,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

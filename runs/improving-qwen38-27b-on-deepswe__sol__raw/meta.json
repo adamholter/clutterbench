@@ -1,0 +1,19 @@
+{
+  "id": "improving-qwen38-27b-on-deepswe__sol__raw",
+  "task": "improving-qwen38-27b-on-deepswe",
+  "title": "Improving Qwen3.8-27B-Medium on DeepSWE with GRPO",
+  "model": "sol",
+  "modelId": "gpt-6.1-sol",
+  "effort": "low",
+  "variant": "raw",
+  "canvas": {
+    "w": 1200,
+    "h": 1200
+  },
+  "produced": true,
+  "exitCode": 0,
+  "timedOut": false,
+  "seconds": 93,
+  "flags": [],
+  "createdAt": "2026-10-10T18:04:21.662Z"
+}

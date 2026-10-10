@@ -1,0 +1,91 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:06:57.966Z",
+ "main_idea": "Warmup brings Nemotron Ultra’s GDPval score close to the expert teacher.",
+ "ideas": [
+  "Warmup closes most of the GDPval gap to the teacher."
+ ],
+ "clutter_score": 3,
+ "summary": "The brand header and score eyebrow add clutter, and the headline is longer than needed.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "brand header",
+   "reason": "The logo, model tag, and divider add no information needed to read the chart.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "headline",
+   "reason": "The two-line headline can be shortened to a brief claim.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "score eyebrow",
+   "reason": "The chart’s score scale is clear without this extra label.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval bar chart",
+   "reason": "Bars, values, axis ticks, and categories show the warmup gain and remaining teacher gap.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 61.8,
+   "orange": 22.8,
+   "red": 15.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 31.6
+  },
+  "clutterShare": 26.8,
+  "ideaCount": 1,
+  "redByType": {
+   "unneeded": 2
+  },
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:47.428Z",
+ "main_idea": "GRPO lifts Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO raises DeepSWE pass@1 from 27.8% to 39.1%",
+  "Gain is +11.3 points on the same mini-swe-agent setup",
+  "Training data: 500 tasks from a 10,000+ task dataset",
+  "Mean training reward rises from 0.570 to 0.856",
+  "Training tasks are mostly feature requests",
+  "Entropy stays stable with no sustained decline"
+ ],
+ "clutter_score": 6,
+ "summary": "The before/after bar chart is a clear core, but a large stat card repeats it, and the reward chart, task-type chart, dataset stats row and entropy footer are extras that should go; the long subtitle and footer URL should shrink or go.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 24.4,
+  "usd": 0.00391109,
+  "tokens": 30205,
+  "outputTokens": 5308
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, identifies the publisher.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog kicker tag",
+   "reason": "Category tag above the headline tells the reader nothing new.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title headline",
+   "reason": "Short title naming the model, benchmark and method.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Real facts (500 tasks, pass@1, three attempts) in a long sentence; shorten or footnote.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "Big 39.1% stat card",
+   "reason": "Restates the 27.8% to 39.1% difference the bar chart already shows.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Names what is measured: DeepSWE pass@1.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Base vs GRPO bar chart",
+   "reason": "Main visual with labelled bars and values.",
+   "ids": [
+    "e7",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation setup footnote",
+   "reason": "Quiet footnote giving the evaluation setup for both models.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats row",
+   "reason": "Dataset counts serve a second point, not reading the before/after bars.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training reward line chart",
+   "reason": "Second chart on training dynamics; separate from the main result.",
+   "ids": [
+    "e28",
+    "e33",
+    "e34",
+    "e35",
+    "e39",
+    "e43",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type breakdown chart",
+   "reason": "Second chart on data composition; does not support the main claim.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy takeaway footer",
+   "reason": "Sentence on entropy serves a separate point from the main visual.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Brand already shown by the logo at top.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 38.9,
+   "orange": 9.1,
+   "red": 52,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 56.6,
+  "ideaCount": 6,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

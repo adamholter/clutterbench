@@ -1,0 +1,203 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:23.769Z",
+ "main_idea": "Simple prompts cut clutter to near zero for most models, while raw prompts leave much more",
+ "ideas": [
+  "Simple prompts cut clutter to almost nothing",
+  "Raw prompts leave high clutter across all models",
+  "Share of graphic area marked remove or shrink",
+  "GPT-6 Luna keeps clutter even under simple prompt"
+ ],
+ "clutter_score": 3,
+ "summary": "Clutter is two takeaway callouts and a repeated footer wordmark around a clear main chart; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.8,
+  "usd": 0.00404644,
+  "tokens": 27416,
+  "outputTokens": 2517
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench logo",
+   "reason": "Single brand mark, kept once",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Colour legend",
+   "reason": "One legend explaining the keep, shrink and remove colours",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "Kicker line above the headline adds nothing the reader needs",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline stating the finding, seven words or fewer",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric subtitle",
+   "reason": "Short line naming the measured quantity and direction",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Clutter bar chart",
+   "reason": "Main visual with model labels, bars, values and column headers",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Clean is possible callout",
+   "reason": "Takeaway sentence restating what the bars already show",
+   "ids": [
+    "e53",
+    "e55",
+    "e57",
+    "e59",
+    "e60"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "One exception callout",
+   "reason": "Takeaway sentence restating Luna's bars and adding a side point",
+   "ids": [
+    "e54",
+    "e56",
+    "e58",
+    "e61",
+    "e62",
+    "e63"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving run size and sample details",
+   "ids": [
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated wordmark",
+   "reason": "Second brand mark already shown in the header logo",
+   "ids": [
+    "e66"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 81.2,
+   "orange": 0,
+   "red": 18.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 26.4
+  },
+  "clutterShare": 18.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 114,
+  "textElements": 33
+ }
+}

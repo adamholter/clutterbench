@@ -1,0 +1,85 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:15:43.275Z",
+ "main_idea": "BAR-informed harness changes raised Legora's output quality by 5% in one month.",
+ "ideas": [
+  "Harness changes informed by BAR raised output quality 5%",
+  "BAR helps Legora diagnose model versus harness failures"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and minimal, but it omits what BAR is, which system was measured, and the before/after baseline behind the 5%.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "benchmark name",
+   "why": "BAR is never expanded, so a reader who has not read the post cannot tell what it is."
+  },
+  {
+   "mid": "m1",
+   "what": "model or system",
+   "why": "Nothing says which models or Legora product the gain applies to."
+  },
+  {
+   "mid": "m2",
+   "what": "compared conditions",
+   "why": "No baseline is shown, so the reader cannot tell what the 5% is relative to."
+  },
+  {
+   "mid": "m3",
+   "what": "metric unit",
+   "why": "Unclear whether +5% is relative or percentage points on the quality score."
+  }
+ ],
+ "completeness_score": 4,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, top left, carries the company identity.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% headline stat",
+   "reason": "The finding itself, large and legible; the chart's only mark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric caption",
+   "reason": "Short, said once; states what the 5% measures and its source.",
+   "ids": [
+    "e2"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 4,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 2
+ }
+}

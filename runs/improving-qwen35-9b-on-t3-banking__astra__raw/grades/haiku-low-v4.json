@@ -1,0 +1,182 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:04.402Z",
+ "main_idea": "Training Qwen3.5-9B with 50 teacher tasks lifts pass@5 from 11.3% to 17.5%",
+ "ideas": [
+  "Training lifts banking agent pass@5 from 11.3% to 17.5%",
+  "Fewer than 250 training tasks drive the gain",
+  "Method: hybrid distillation then PivotRL",
+  "PivotRL uses 193 pivots from 50 teacher trajectories"
+ ],
+ "clutter_score": 5,
+ "summary": "The pass@5 bar chart is a clear main visual, but the method cards, kicker, subtitle, and footer add a second point and repeat the chart; the headline is wordy.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 14.4,
+  "usd": 0.004204530000000001,
+  "tokens": 27767,
+  "outputTokens": 2822
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one logo",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "repetition",
+   "name": "Category tag",
+   "reason": "Research category tag; a section label that tells the reader nothing new",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence slogan-style headline; shorten to a finding, such as 'Over 50% more passes with 50 tasks'",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "repetition",
+   "name": "Subtitle restating chart",
+   "reason": "Restates model, benchmark and method already named in the chart and labels",
+   "ids": [
+    "e24"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "pass@5 bar chart",
+   "reason": "Main visual: labelled bars, values, benchmark, metric and evaluation footnote",
+   "ids": [
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Kicker line",
+   "reason": "Eyebrow-style section kicker above the method cards",
+   "ids": [
+    "e37"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline cards",
+   "reason": "Stage 1 and Stage 2 method cards serve a second point beside the results chart",
+   "ids": [
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer data-source line",
+   "reason": "Data-source note and footer strip add nothing needed to read the chart",
+   "ids": [
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer website URL",
+   "reason": "Brand shown again after the logo already marks the source",
+   "ids": [
+    "e53"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 42.2,
+   "orange": 24.2,
+   "red": 33.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 35.1
+  },
+  "clutterShare": 45.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 3,
+   "unneeded": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 99,
+  "textElements": 25
+ }
+}

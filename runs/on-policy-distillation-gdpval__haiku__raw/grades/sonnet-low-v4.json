@@ -1,0 +1,170 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:09:40.764Z",
+ "main_idea": "On-policy distillation gives large GDPval win-loss gains on both Nemotron and Qwen students.",
+ "ideas": [
+  "Distillation improves Nemotron GDPval net win-loss margin",
+  "Same recipe reproduces gain on Qwen",
+  "Nemotron wins 123 of 220 task pairs",
+  "Result is statistically significant"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid stat-row main visual is cluttered by a slogan headline, subtitle, eyebrow tag, and a redundant win/loss bar with footnotes.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 8.7,
+  "usd": 0.0723635,
+  "tokens": 33118,
+  "outputTokens": 913
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Eyebrow tag like 'Research · GDPval' adds nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Names the method, not the finding; large and slogan-like.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explaining method and restating setup.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Result stat rows",
+   "reason": "Main visual: gains per model with metric labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Model names",
+   "reason": "Identify which student each row is.",
+   "ids": [
+    "e10",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Teacher detail lines",
+   "reason": "Wordy teacher/steps descriptions; could be shortened.",
+   "ids": [
+    "e11",
+    "e19"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Win/tie/loss bar",
+   "reason": "Second chart restating Nemotron margin already shown above.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stats footnotes",
+   "reason": "Sign test and training split are side details.",
+   "ids": [
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom rule",
+   "reason": "Decorative line.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 26.2,
+   "orange": 4.6,
+   "red": 69.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 71.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

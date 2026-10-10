@@ -1,0 +1,193 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:16:57.497Z",
+ "main_idea": "PivotRL lifted Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "PivotRL raised Qwen3.5-9B task success on τ³-Banking",
+  "Before versus after PivotRL, pass@5 bars",
+  "Only 50 solved teacher trajectories were needed",
+  "Fewer examples yield more capable agents"
+ ],
+ "clutter_score": 6,
+ "summary": "Clutter is the slogan headline, restating subtitle, eyebrow, frame, decorative shapes, and a second stat-card idea about 50 teacher trajectories; the chart itself is clear, but 'Before' is not defined as the base model.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "baseline definition",
+   "why": "'Before' does not say it is the untuned base Qwen3.5-9B model."
+  }
+ ],
+ "completeness_score": 8,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand lockup",
+   "reason": "Single brand mark, needed for a company post.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark tag",
+   "reason": "Short tag naming model and benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Names the metric and unit context.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Before and after bars",
+   "reason": "The chart marks with category labels and one value each.",
+   "ids": [
+    "e10",
+    "e11",
+    "e12",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Needed to read bar lengths.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Task success axis title",
+   "reason": "Short axis label saying what is measured.",
+   "ids": [
+    "e14"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan, not a statement of the finding.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Category tag above the chart adds nothing.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle restating chart",
+   "reason": "Paragraph restates what the bars already show.",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card frame",
+   "reason": "Border drawn around the chart card.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative shapes",
+   "reason": "Decorative graphics with no data meaning.",
+   "ids": [
+    "e6",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Teacher and pivot stat cards",
+   "reason": "Data-efficiency claim is a second point beside the results chart.",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline and footer",
+   "reason": "Tagline and attribution line add nothing to the finding.",
+   "ids": [
+    "e27",
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 19.2,
+   "orange": 0,
+   "red": 80.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 80.8,
+  "ideaCount": 4,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 6,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

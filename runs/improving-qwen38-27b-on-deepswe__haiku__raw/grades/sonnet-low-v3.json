@@ -1,0 +1,198 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:17.131Z",
+ "main_idea": "GRPO training raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "DeepSWE pass@1 rose from 27.8% to 39.1%",
+  "Training set: 500 tasks, 422 repos, 8 attempts",
+  "Training reward rose from 0.570 to 0.856",
+  "Task type breakdown of training set",
+  "Entropy stayed stable during training"
+ ],
+ "clutter_score": 7,
+ "summary": "The DeepSWE before/after bars are the main visual, but a duplicate big stat, a dataset stats row, two extra charts, an entropy note and a tag and footer crowd them; nothing is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.1,
+  "usd": 0.062167099999999996,
+  "tokens": 24415,
+  "outputTokens": 1074
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog tag",
+   "reason": "Category tag above headline; tells reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming model, benchmark and method.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle",
+   "reason": "Carries method and metric facts in a long sentence; could be a footnote.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bars",
+   "reason": "Main chart with labels, values and setup footnote.",
+   "ids": [
+    "e8",
+    "e7",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "Big stat callout",
+   "reason": "Restates 39.1% and the +11.3 difference the bars already show.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset size and attempts stats are a secondary idea.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Reward chart",
+   "reason": "Second chart about training diagnostics, not the main result.",
+   "ids": [
+    "e28",
+    "e33",
+    "e35",
+    "e39",
+    "e43",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Task type bar",
+   "reason": "Third chart about dataset composition, unrelated to main result.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e34",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Entropy note",
+   "reason": "Training diagnostic sentence unrelated to main result.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention; logo already present.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 38.9,
+   "orange": 9.1,
+   "red": 52,
+   "unlabelled": 0,
+   "paintedOfCanvas": 41.7
+  },
+  "clutterShare": 56.6,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

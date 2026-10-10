@@ -1,0 +1,121 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:23.494Z",
+ "main_idea": "GRPO lifts Qwen3.8-27B DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO raises Qwen3.8-27B DeepSWE pass@1 by 11.3 points",
+  "Base model scores 27.8%, trained model 39.1%",
+  "Training stats: dataset size, repos, attempts, reward"
+ ],
+ "clutter_score": 3,
+ "summary": "The main before-after chart is clear and complete; the bottom stats row about dataset size and reward is extra, and the date tag is unneeded.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.4,
+  "usd": 0.0009337199999999999,
+  "tokens": 24736,
+  "outputTokens": 1400
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after results chart",
+   "reason": "Main visual: bars with values, change annotation, and labels",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline naming finding",
+   "reason": "Short title naming model, benchmark, and method",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric line",
+   "reason": "Names benchmark, metric, and evaluation setup",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category and date tag",
+   "reason": "Eyebrow-style tag; tells the reader nothing needed",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset and training stats row",
+   "reason": "Dataset sizes and reward figures serve a second point, not the main chart",
+   "ids": [
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 85.8,
+   "orange": 0,
+   "red": 14.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.1
+  },
+  "clutterShare": 14.2,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 43,
+  "textElements": 18
+ }
+}

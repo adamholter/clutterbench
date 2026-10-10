@@ -1,0 +1,143 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:49.232Z",
+ "main_idea": "A simple prompt cuts clutter scores from high raw levels to near zero.",
+ "ideas": [
+  "Simple prompt cuts clutter to near zero",
+  "Raw prompts leave substantial clutter across models",
+  "Clutter score is lower for simple prompts"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly free of clutter, but the bars are misaligned with their model labels and tick marks, so the chart cannot be read reliably.",
+ "missing": [],
+ "completeness_score": 7,
+ "defects": [
+  "Model row labels do not line up with their bars; reader cannot tell which bar belongs to which model",
+  "Y-axis percentage ticks (60, 45, 30, 15, 0) do not match the model rows",
+  "Simple-prompt bars start at a different x-origin than raw-prompt bars",
+  "Two raw-prompt bars for one model stack and overlap vertically",
+  "X-axis 0 to 80 scale has no unit label",
+  "Value labels sit beside the wrong rows in places, such as 46% and 42%"
+ ],
+ "cost": {
+  "seconds": 12.7,
+  "usd": 0.0023369600000000003,
+  "tokens": 26209,
+  "outputTokens": 2305
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "One brand mark, small and at top-left.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline stating the finding, under seven words.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Prompt column labels",
+   "reason": "Short labels that name the two bar series.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart with values and axes",
+   "reason": "The main visual, with value labels, ticks and gridlines needed to read it.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model row labels",
+   "reason": "Names the models being compared, though aligned poorly with their bars.",
+   "ids": [
+    "e9",
+    "e16",
+    "e23",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer metric note",
+   "reason": "Quiet footnote naming the metric, direction and averaging.",
+   "ids": [
+    "e36",
+    "e37",
+    "e38",
+    "e39"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.1
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 51,
+  "textElements": 30
+ }
+}

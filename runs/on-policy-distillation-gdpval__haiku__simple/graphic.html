@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype-Regular.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype-Medium.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype-Bold.woff2") format("woff2"); font-weight: 700; }
+  html, body { margin: 0; padding: 0; width: 1200px; height: 1200px; overflow: hidden; background: #f8f8f3; }
+  svg { display: block; }
+  text { font-family: "ABC Diatype", Inter, system-ui, sans-serif; }
+</style>
+</head>
+<body>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" fill="#f8f8f3"/>
+
+  <image href="assets/afterquery-logo.svg" x="60" y="56" width="150" height="25.4"/>
+
+  <text x="60" y="140" font-size="34" font-weight="500" fill="#000">+20.9% net win–loss margin vs. base model on GDPval</text>
+
+  <!-- Wins 123 / Ties 20 / Losses 77 of 220 tasks, widths proportional -->
+  <rect x="60" y="200" width="603.8" height="940" fill="#026340"/>
+  <rect x="663.8" y="200" width="98.2" height="940" fill="#a8a7a1"/>
+  <rect x="762" y="200" width="378" height="940" fill="#9c5b23"/>
+
+  <text x="92" y="262" font-size="56" font-weight="700" fill="#f8f8f3">123</text>
+  <text x="92" y="306" font-size="28" font-weight="400" fill="#f8f8f3">wins</text>
+
+  <text x="682" y="262" font-size="56" font-weight="700" fill="#000">20</text>
+  <text x="682" y="306" font-size="28" font-weight="400" fill="#000">ties</text>
+
+  <text x="790" y="262" font-size="56" font-weight="700" fill="#f8f8f3">77</text>
+  <text x="790" y="306" font-size="28" font-weight="400" fill="#f8f8f3">losses</text>
+</svg>
+</body>
+</html>

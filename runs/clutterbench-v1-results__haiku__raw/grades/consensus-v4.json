@@ -1,0 +1,147 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.880Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 1,
+  "tiebreak": true,
+  "scores": [
+   2,
+   1,
+   1
+  ]
+ },
+ "main_idea": "A simple prompt cuts clutter from 29–61% to 0–6% across all four models.",
+ "ideas": [
+  "Simple prompt slashes clutter versus raw prompt",
+  "Clutter varies by model under raw prompt"
+ ],
+ "summary": "Mostly clean dumbbell chart; the sentence headline is verbose and the subtitle is unneeded.",
+ "clutter_score": 1,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "Single brand mark, small and quiet.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence headline with numbers the chart already shows; could be shorter.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Explains the chart; metric is covered by the footnote and legend.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Legend",
+   "reason": "One legend identifies the raw and simple prompt dots.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Dumbbell rows",
+   "reason": "Model labels, dots and value labels are the main visual.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Axis ticks are needed to read the scale.",
+   "ids": [
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Footnote",
+   "reason": "Small quiet footnote with metric definition and sample size.",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 34.8,
+   "orange": 46.6,
+   "red": 18.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 18.7
+  },
+  "clutterShare": 41.9,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 28
+ }
+}

@@ -1,0 +1,188 @@
+{
+ "grader": "luna-high-v3",
+ "model": "gpt-6-luna",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:46.348Z",
+ "main_idea": "AfterQuery and Legora built BAR, a broad benchmark for end-to-end legal work.",
+ "ideas": [
+  "BAR covers 5,161 cases across 28 practice areas.",
+  "BAR uses 11,075 source documents.",
+  "BAR-informed harness changes improved output quality by 5% in one month.",
+  "The cases reflect realistic legal matters."
+ ],
+ "clutter_score": 4,
+ "summary": "The long subtitle, separate quality improvement result, navigation, and repeated footer branding add clutter; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 23.2,
+  "usd": null,
+  "tokens": 11404,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the research team.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Navigation links",
+   "reason": "Blog and case study links do not explain the benchmark.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Names the subject clearly and concisely.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Benchmark subtitle",
+   "reason": "Useful context, but the long sentence could be shortened.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark scale",
+   "reason": "Shows case, practice area, and source document counts.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Quality improvement",
+   "reason": "The product improvement result is a separate point from benchmark scale.",
+   "ids": [
+    "e9",
+    "e13",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Practice area grid",
+   "reason": "The 28 marks depict one cell per practice area.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Grid explanation",
+   "reason": "Explains the grid and adds brief context about realistic cases.",
+   "ids": [
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer branding",
+   "reason": "Repeats AfterQuery after the logo already identifies the brand.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "A quiet, useful contact line.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 73.6,
+   "orange": 17.8,
+   "red": 8.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 17.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

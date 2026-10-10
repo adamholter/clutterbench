@@ -1,0 +1,69 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:34.863Z",
+ "main_idea": "GRPO raised DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO training improves DeepSWE pass@1",
+  "Base model scores 27.8%",
+  "Trained model scores 39.1%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple two-bar chart with the benchmark, metric, values and labels, with nothing to remove and nothing essential missing; the visible top-right logo is not in the element list.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Top-right logo is visible in the screenshot but has no element in the list"
+ ],
+ "cost": {
+  "seconds": 8,
+  "usd": 0.0018548500000000001,
+  "tokens": 24060,
+  "outputTokens": 1237
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars with values and labels",
+   "reason": "Core chart marks, one value per bar, and category labels that name both bars.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric title",
+   "reason": "Short label naming the benchmark and metric being measured.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

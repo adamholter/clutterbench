@@ -1,0 +1,100 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:08:55.384Z",
+ "main_idea": "AfterQuery warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "AfterQuery warmup raises Nemotron 3 Ultra GDPval score",
+  "Warmup gains about 11 points over no warmup"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and simple: a single before/after bar chart with a title and logo; it lacks only the metric name for the GDPval values.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "metric or unit",
+   "why": "Benchmark is named but the 35.3 and 46.7 values have no stated metric (score, pass rate, Elo)"
+  }
+ ],
+ "completeness_score": 7,
+ "defects": [],
+ "cost": {
+  "seconds": 6.8,
+  "usd": 0.0033142200000000005,
+  "tokens": 26147,
+  "outputTokens": 997
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming model and benchmark; identifies what is measured",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible and rendered",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars",
+   "reason": "Main chart marks comparing the two conditions",
+   "ids": [
+    "e3",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar, required to read the chart",
+   "ids": [
+    "e2",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Name each bar's condition; needed to read the chart",
+   "ids": [
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 11,
+  "textElements": 5
+ }
+}

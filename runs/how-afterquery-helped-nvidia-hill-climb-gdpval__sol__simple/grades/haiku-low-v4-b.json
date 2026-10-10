@@ -1,0 +1,67 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:15.775Z",
+ "main_idea": "AfterQuery warmup raises Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "AfterQuery warmup raises Nemotron 3 Ultra GDPval score",
+  "Warmup gives 46.7 versus 35.3 without warmup"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a short title, a logo, and a two-bar chart with labelled values make one point.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 6.4,
+  "usd": 0.00069336,
+  "tokens": 26033,
+  "outputTokens": 883
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Title and brand mark",
+   "reason": "Short chart title naming model and benchmark, plus the one AfterQuery logo.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Two-bar chart",
+   "reason": "Bars, value labels and category labels that make the comparison readable.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 11,
+  "textElements": 5
+ }
+}

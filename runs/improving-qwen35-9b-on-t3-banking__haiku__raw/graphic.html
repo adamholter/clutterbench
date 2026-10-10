@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Improving Qwen3.5-9B on τ³-Banking using PivotRL</title>
+<style>
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Bold-s.p.2g11yfly1dr71.woff2") format("woff2"); font-weight: 700; }
+
+  :root {
+    --ink: #0c0c0c;
+    --cream: #f6f5ee;
+    --gold: #d1b56a;
+    --grey: #a8a7a1;
+    --line: rgba(246, 245, 238, 0.14);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    width: 1200px;
+    height: 1200px;
+    overflow: hidden;
+    background: var(--ink);
+  }
+
+  body {
+    font-family: "ABC Diatype", "Helvetica Neue", Arial, sans-serif;
+    color: var(--cream);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .canvas {
+    position: relative;
+    width: 1200px;
+    height: 1200px;
+    padding: 72px 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .canvas > * { flex-shrink: 0; }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .brand img { height: 52px; width: auto; }
+  .brand span { font-size: 26px; font-weight: 500; letter-spacing: 0.02em; }
+  .tag {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--grey);
+    border: 1px solid var(--line);
+    padding: 10px 16px;
+    border-radius: 999px;
+  }
+
+  h1 {
+    margin-top: 64px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+  }
+  h1 .gold { color: var(--gold); }
+
+  .lede {
+    margin-top: 22px;
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--grey);
+    max-width: 900px;
+  }
+
+  /* headline chart */
+  .hero {
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: end;
+    border-top: 1px solid var(--line);
+    padding-top: 40px;
+  }
+  .hero-label {
+    font-size: 17px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--grey);
+  }
+  .hero-value {
+    margin-top: 10px;
+    font-size: 104px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .hero-value.after { color: var(--gold); }
+  .hero-sub { margin-top: 12px; font-size: 20px; color: var(--grey); }
+  .delta {
+    margin-top: 28px;
+    font-size: 22px;
+    color: var(--cream);
+  }
+  .delta b { color: var(--gold); font-weight: 700; }
+
+  /* pipeline */
+  .section-label {
+    margin-top: 48px;
+    font-size: 17px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--grey);
+  }
+  .pipeline {
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: 1fr 44px 1fr 44px 1fr;
+    align-items: stretch;
+  }
+  .stage {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 26px 26px 24px;
+    background: rgba(246, 245, 238, 0.03);
+  }
+  .stage .num {
+    font-size: 15px;
+    letter-spacing: 0.16em;
+    color: var(--gold);
+    font-weight: 500;
+  }
+  .stage h3 {
+    margin-top: 12px;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .stage p {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--grey);
+  }
+  .arrow { align-self: center; justify-self: center; }
+
+  /* stats row */
+  .stats {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--line);
+  }
+  .stat {
+    padding: 30px 22px 0 0;
+  }
+  .stat + .stat {
+    padding-left: 22px;
+    border-left: 1px solid var(--line);
+  }
+  .stat .big {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .stat .cap {
+    margin-top: 12px;
+    font-size: 17px;
+    line-height: 1.35;
+    color: var(--grey);
+  }
+
+  .footer {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    color: var(--grey);
+    letter-spacing: 0.02em;
+  }
+  .footer .dot { color: var(--gold); }
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <header class="top">
+    <div class="brand">
+      <img src="assets/hero-mark.svg" alt="">
+      <span>AfterQuery</span>
+    </div>
+    <div class="tag">Research · Jul 2026</div>
+  </header>
+
+  <h1>Improving Qwen3.5-9B on <span class="gold">τ³-Banking</span> with PivotRL and fewer than 250 tasks</h1>
+  <p class="lede">Distill a larger teacher, then pivot RL on the turns that matter.</p>
+
+  <section class="hero">
+    <div>
+      <div class="hero-label">Baseline · pass@5</div>
+      <div class="hero-value">11.3%</div>
+      <div class="hero-sub">Qwen3.5-9B</div>
+    </div>
+    <div>
+      <div class="hero-label">After training · pass@5</div>
+      <div class="hero-value after">17.5%</div>
+      <div class="hero-sub">Qwen3.5-9B, selected checkpoint</div>
+    </div>
+  </section>
+
+  <svg width="1040" height="44" viewBox="0 0 1040 44" style="margin-top:28px" aria-label="Pass@5 bars">
+    <rect x="0" y="0" width="1040" height="16" fill="rgba(246,245,238,0.10)" rx="8"/>
+    <rect x="0" y="0" width="587.6" height="16" fill="#a8a7a1" rx="8"/>
+    <rect x="0" y="28" width="1040" height="16" fill="rgba(246,245,238,0.10)" rx="8"/>
+    <rect x="0" y="28" width="910" height="16" fill="#d1b56a" rx="8"/>
+  </svg>
+
+  <div class="section-label">How it was done</div>
+  <section class="pipeline">
+    <div class="stage">
+      <div class="num">STAGE 0 · TEACHER</div>
+      <h3>Qwen3.6-27B</h3>
+      <p>Distilled into the 9B student.</p>
+    </div>
+    <svg class="arrow" width="44" height="24" viewBox="0 0 44 24"><path d="M0 12H38M30 4L38 12L30 20" stroke="#d1b56a" stroke-width="2" fill="none"/></svg>
+    <div class="stage">
+      <div class="num">STAGE 1 · HYBRID OPD</div>
+      <h3>Distill → RL</h3>
+      <p>Reverse-KL (β=1) shifted toward binary-reward RL (β→0).</p>
+    </div>
+    <svg class="arrow" width="44" height="24" viewBox="0 0 44 24"><path d="M0 12H38M30 4L38 12L30 20" stroke="#d1b56a" stroke-width="2" fill="none"/></svg>
+    <div class="stage">
+      <div class="num">STAGE 2 · PIVOTRL</div>
+      <h3>50 teacher tasks</h3>
+      <p>193 pivots, scored by a functional-equivalence verifier.</p>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat">
+      <div class="big">97</div>
+      <div class="cap">τ³-Banking tasks, 5 attempts each</div>
+    </div>
+    <div class="stat">
+      <div class="big">193</div>
+      <div class="cap">pivots from 50 solved teacher trajectories</div>
+    </div>
+    <div class="stat">
+      <div class="big">16</div>
+      <div class="cap">continuations per pivot (G=16), 16 pivots per step</div>
+    </div>
+    <div class="stat">
+      <div class="big">0</div>
+      <div class="cap">of 6 general benchmarks with a significant change</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>afterquery.com</span>
+    <span class="dot">●</span>
+    <span>Applied research lab · Data for foundation models</span>
+  </footer>
+
+</div>
+</body>
+</html>

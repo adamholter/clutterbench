@@ -1,0 +1,158 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:07.482Z",
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO lifts DeepSWE pass@1 by 11.3 points",
+  "Base model scores 27.8%, trained model 39.1%",
+  "Training used 500 tasks from real workflows",
+  "Evaluation used mini-swe-agent at medium reasoning"
+ ],
+ "clutter_score": 4,
+ "summary": "A clean bar chart is buried under a stats row and a tagline footer, and the headline is a slogan rather than the finding; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 12.1,
+  "usd": 0.0038178199999999995,
+  "tokens": 25996,
+  "outputTokens": 2314
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Main bar chart",
+   "reason": "Bars, labels, values, metric and the +11.3 change annotation the graphic is built on.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark subtitle",
+   "reason": "Short context naming the model and benchmark.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Slogan headline",
+   "reason": "Vague slogan-style headline; should state the finding, e.g. '+11.3 points on DeepSWE with GRPO'.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category kicker",
+   "reason": "Section tag above the graphic tells the reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Task, repository and update counts serve a second point, not reading the bars.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footnote",
+   "reason": "Quiet footnote giving evaluation details and task context.",
+   "ids": [
+    "e27"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline footer",
+   "reason": "Company tagline restates what the brand already says; decorative.",
+   "ids": [
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Website contact line",
+   "reason": "Quiet contact line.",
+   "ids": [
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 53.1,
+   "orange": 31.1,
+   "red": 15.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 32.3
+  },
+  "clutterShare": 31.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 59,
+  "textElements": 22
+ }
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Terminal-Bench 2.0: over 5x with SFT and RLVR</title>
+<style>
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype-Regular.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype-Medium.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype-Bold.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Martina Plantijn"; src: url("assets/MartinaPlantijn-Regular.woff2") format("woff2"); font-weight: 400; }
+
+  :root {
+    --bg: #f8f8f3;
+    --ink: #000;
+    --ink-60: rgba(0, 0, 0, 0.6);
+    --ink-10: rgba(0, 0, 0, 0.1);
+    --green: #026340;
+    --blue: #2d4995;
+    --gold: #cdaf5d;
+    --base: #c9c8c0;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    width: 1200px;
+    height: 1200px;
+    overflow: hidden;
+    background: var(--bg);
+  }
+
+  body {
+    position: relative;
+    font-family: "ABC Diatype", Inter, system-ui, sans-serif;
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .frame {
+    position: absolute;
+    inset: 72px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--ink-10);
+  }
+  header img { width: 210px; height: auto; display: block; }
+  .kicker {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--ink-60);
+  }
+
+  .eyebrow {
+    margin-top: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+
+  h1 {
+    margin-top: 18px;
+    font-family: "Martina Plantijn", Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 1.02;
+    letter-spacing: -0.015em;
+  }
+  h1 em { font-style: normal; color: var(--green); white-space: nowrap; }
+
+  .sub {
+    margin-top: 22px;
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--ink-60);
+    max-width: 900px;
+  }
+
+  .chart {
+    margin-top: 40px;
+  }
+  .chart-title {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-60);
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--ink-10);
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 250px 1fr 110px;
+    align-items: center;
+    height: 78px;
+    border-bottom: 1px solid var(--ink-10);
+  }
+  .row .label {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .row .label small {
+    display: block;
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ink-60);
+  }
+  .track {
+    position: relative;
+    height: 34px;
+    background: transparent;
+  }
+  .bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    /* 20% maps to the full track width (approx. 740px) */
+    width: calc(var(--v) / 20 * 100%);
+    background: var(--c);
+  }
+  .value {
+    text-align: right;
+    font-family: "ABC Diatype", Inter, system-ui, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .row.final .value { color: var(--green); }
+
+  .stages {
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .stage {
+    padding: 22px 28px 24px;
+    border: 1px solid var(--ink-10);
+    background: rgba(255, 255, 255, 0.45);
+  }
+  .stage .num {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-60);
+  }
+  .stage h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .stage p {
+    margin-top: 10px;
+    font-size: 19px;
+    line-height: 1.4;
+    color: var(--ink-60);
+  }
+  .stage .delta {
+    margin-top: 14px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 6px 12px;
+    color: var(--ink);
+    background: var(--gold);
+  }
+  .stage.sft .bar-accent { background: var(--blue); }
+  .stage .stripe { width: 44px; height: 4px; margin-bottom: 18px; }
+  .stage.sft .stripe { background: var(--blue); }
+  .stage.rl .stripe { background: var(--green); }
+
+  footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 24px;
+    border-top: 1px solid var(--ink-10);
+    font-size: 16px;
+    line-height: 1.45;
+    color: var(--ink-60);
+  }
+  footer strong { color: var(--ink); font-weight: 500; }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <header>
+      <img src="assets/afterquery-logo.svg" alt="AfterQuery">
+      <div class="kicker">Blog · Research</div>
+    </header>
+
+    <div class="eyebrow">Post-training case study</div>
+    <h1>Over 5x on <em>Terminal-Bench&nbsp;2.0</em></h1>
+    <p class="sub">openai/gpt-oss-20b pass rate, from 3.1% to 17.0%, trained with SFT then RLVR using Tinker and Harbor, with no training on the official eval tasks.</p>
+
+    <section class="chart">
+      <div class="chart-title">Pass rate, Terminus 2 agent</div>
+
+      <div class="row">
+        <div class="label">Base model<small>openai/gpt-oss-20b</small></div>
+        <div class="track"><div class="bar" style="--v:3.1; --c:var(--base)"></div></div>
+        <div class="value">3.1%</div>
+      </div>
+
+      <div class="row">
+        <div class="label">SFT only<small>Gold trajectories</small></div>
+        <div class="track"><div class="bar" style="--v:13.5; --c:var(--blue)"></div></div>
+        <div class="value">13.5%</div>
+      </div>
+
+      <div class="row final">
+        <div class="label">SFT + RLVR<small>Our pipeline</small></div>
+        <div class="track"><div class="bar" style="--v:17; --c:var(--green)"></div></div>
+        <div class="value">17.0%</div>
+      </div>
+    </section>
+
+    <section class="stages">
+      <div class="stage sft">
+        <div class="stripe"></div>
+        <div class="num">Stage 1</div>
+        <h3>Supervised fine-tuning</h3>
+        <p>Successful terminal-agent trajectories. Eval NLL drops from 0.65 to 0.45 over ~300 steps.</p>
+        <span class="delta">Largest gain</span>
+      </div>
+      <div class="stage rl">
+        <div class="stripe"></div>
+        <div class="num">Stage 2</div>
+        <h3>RLVR with GRPO</h3>
+        <p>Group size 16, per-test reward with 20-turn episodes, on tasks with a 10–80% solve rate.</p>
+        <span class="delta">+3.5 points</span>
+      </div>
+    </section>
+
+    <footer>
+      <div>Terminal-Bench 2.0 · 89 tasks · terminus-2 · Pass@1 averaged over 5 runs</div>
+      <div><strong>research@afterquery.com</strong></div>
+    </footer>
+  </div>
+</body>
+</html>

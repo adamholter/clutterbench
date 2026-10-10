@@ -1,0 +1,142 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:09.432Z",
+ "main_idea": "Distilled Qwen3.5-9B wins 123 of 220 GDPval task pairs against the base model",
+ "ideas": [
+  "Distilled Qwen wins far more GDPval task pairs than it loses",
+  "Distilled model: 123 wins, 20 ties, 77 losses",
+  "Net win-loss margin favors the distilled model"
+ ],
+ "clutter_score": 1,
+ "summary": "Clean and nearly complete; only the repeated footer wordmark should go, and the graphic should say wins and losses are against the base model.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline",
+   "why": "Wins and losses are never tied to the base model; subtitle does not say against what"
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [
+  "Losses legend swatch is nearly invisible against the cream background",
+  "Losses bar is pale grey and low contrast against the background"
+ ],
+ "cost": {
+  "seconds": 12.7,
+  "usd": 0.00252586,
+  "tokens": 35326,
+  "outputTokens": 2373
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short headline naming the finding and benchmark",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and pair count",
+   "reason": "Short subtitle giving model and number of task pairs",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar chart",
+   "reason": "The main visual: proportional outcome bars",
+   "ids": [
+    "e3",
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per mark, needed to read the bars",
+   "ids": [
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Single legend",
+   "reason": "One legend naming the three outcome colors",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Top brand logo",
+   "reason": "The one brand mark for the graphic",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact URL",
+   "reason": "Small quiet contact line",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark repeats the top logo",
+   "ids": [
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 97.5,
+   "orange": 0,
+   "red": 2.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.6
+  },
+  "clutterShare": 2.5,
+  "ideaCount": 3,
+  "missingCount": 1,
+  "redByType": {
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 19,
+  "textElements": 9
+ }
+}

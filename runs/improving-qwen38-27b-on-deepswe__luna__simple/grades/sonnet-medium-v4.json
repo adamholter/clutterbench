@@ -1,0 +1,91 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:28.770Z",
+ "main_idea": "GRPO on 500 tasks raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training improves DeepSWE pass@1"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete, with only a nearly invisible logo as a rendering defect.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo is nearly invisible, faint white on a light background"
+ ],
+ "cost": {
+  "seconds": 5.8,
+  "usd": 0.0278042,
+  "tokens": 21709,
+  "outputTokens": 499
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and labels",
+   "reason": "Two bars with values, category labels and axis ticks make the point.",
+   "ids": [
+    "e4",
+    "e9",
+    "e2",
+    "e7",
+    "e11",
+    "e12",
+    "e3",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark tag",
+   "reason": "Short tag naming benchmark and metric.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Improvement connector",
+   "reason": "Small dotted arrow marking the change between bars.",
+   "ids": [
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo",
+   "reason": "Single brand mark, quiet.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 14.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 7
+ }
+}

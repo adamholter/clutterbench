@@ -1,0 +1,132 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.934Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 0,
+  "tiebreak": true,
+  "scores": [
+   4,
+   4,
+   3
+  ]
+ },
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO lifts DeepSWE pass@1 by 11.3 points",
+  "Training setup: 500 tasks, 422 repos, 8 attempts",
+  "Training reward rose from 0.570 to 0.856"
+ ],
+ "summary": "A stats row of training facts and a date tag clutter an otherwise clear before/after result, and the headline is wordy; nothing essential is missing.",
+ "clutter_score": 4,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo",
+   "reason": "Single brand mark, visible and harmless.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research date tag",
+   "reason": "Category and date tag tells the reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Title",
+   "reason": "Short title naming the model, benchmark and method.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric subtitle",
+   "reason": "Names the benchmark and metric in one short line.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Before/after bars",
+   "reason": "Main visual: two boxes with values and labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Delta annotation",
+   "reason": "Small annotation marking the change between the two bars.",
+   "ids": [
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Training stats row",
+   "reason": "Training details and reward serve a second idea unrelated to the result.",
+   "ids": [
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 85.8,
+   "orange": 0,
+   "red": 14.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.1
+  },
+  "clutterShare": 14.2,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "extra_idea": 9
+  },
+  "coverage": 100,
+  "words": 43,
+  "textElements": 18
+ }
+}

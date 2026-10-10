@@ -1,0 +1,351 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 29,
+  "textElements": 21,
+  "words": 66,
+  "fontSizes": 11,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 70,
+   "y": 63,
+   "w": 200,
+   "h": 34,
+   "text": "AfterQuery"
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "span",
+   "x": 821,
+   "y": 71,
+   "w": 309,
+   "h": 18,
+   "text": "Applied research / SWE agents",
+   "fontSize": 15,
+   "color": "rgb(86, 86, 79)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 70,
+   "y": 150,
+   "w": 659,
+   "h": 171,
+   "text": "Expert tasks. Stronger software agents.",
+   "fontSize": 65,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "p",
+   "x": 70,
+   "y": 325,
+   "w": 602,
+   "h": 30,
+   "text": "Improving Qwen3.8-27B-Medium on DeepSWE with GRPO",
+   "fontSize": 23,
+   "color": "rgb(82, 82, 76)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "div",
+   "x": 70,
+   "y": 394,
+   "w": 212,
+   "h": 26,
+   "text": "DeepSWE performance",
+   "fontSize": 20,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e5",
+   "kind": "box",
+   "tag": "div",
+   "x": 820,
+   "y": 394,
+   "w": 310,
+   "h": 96,
+   "color": "rgb(233, 238, 230)"
+  },
+  {
+   "id": "e6",
+   "kind": "text",
+   "tag": "strong",
+   "x": 840,
+   "y": 400,
+   "w": 168,
+   "h": 56,
+   "text": "+11.3 points",
+   "fontSize": 36,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "div",
+   "x": 70,
+   "y": 425,
+   "w": 243,
+   "h": 21,
+   "text": "pass@1 · average of three attempts",
+   "fontSize": 16,
+   "color": "rgb(105, 105, 98)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "span",
+   "x": 840,
+   "y": 454,
+   "w": 146,
+   "h": 22,
+   "text": "after GRPO training",
+   "fontSize": 17,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e9",
+   "kind": "text",
+   "tag": "text",
+   "x": 800,
+   "y": 461,
+   "w": 96,
+   "h": 91,
+   "text": "39.1",
+   "fontSize": 59,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "tspan",
+   "x": 896,
+   "y": 487,
+   "w": 29,
+   "h": 56,
+   "text": "%",
+   "fontSize": 36,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "text",
+   "x": 272,
+   "y": 544,
+   "w": 103,
+   "h": 91,
+   "text": "27.8",
+   "fontSize": 59,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e12",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 710,
+   "y": 547,
+   "w": 305,
+   "h": 289,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e13",
+   "kind": "text",
+   "tag": "tspan",
+   "x": 374,
+   "y": 570,
+   "w": 29,
+   "h": 56,
+   "text": "%",
+   "fontSize": 36,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e14",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 185,
+   "y": 631,
+   "w": 305,
+   "h": 205,
+   "color": "rgb(175, 152, 136)"
+  },
+  {
+   "id": "e15",
+   "kind": "shape",
+   "tag": "path",
+   "x": 70,
+   "y": 636,
+   "w": 1060,
+   "h": 100,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e16",
+   "kind": "text",
+   "tag": "text",
+   "x": 281,
+   "y": 853,
+   "w": 114,
+   "h": 29,
+   "text": "Base model",
+   "fontSize": 22,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e17",
+   "kind": "text",
+   "tag": "text",
+   "x": 732,
+   "y": 853,
+   "w": 262,
+   "h": 29,
+   "text": "GRPO · step-15 checkpoint",
+   "fontSize": 22,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e18",
+   "kind": "box",
+   "tag": "section",
+   "x": 70,
+   "y": 906,
+   "w": 1060,
+   "h": 141,
+   "color": "rgb(206, 206, 199)"
+  },
+  {
+   "id": "e19",
+   "kind": "text",
+   "tag": "div",
+   "x": 70,
+   "y": 919,
+   "w": 77,
+   "h": 74,
+   "text": "500",
+   "fontSize": 47,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e20",
+   "kind": "text",
+   "tag": "div",
+   "x": 391,
+   "y": 919,
+   "w": 72,
+   "h": 74,
+   "text": "422",
+   "fontSize": 47,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e21",
+   "kind": "text",
+   "tag": "div",
+   "x": 682,
+   "y": 931,
+   "w": 357,
+   "h": 58,
+   "text": "Real software workflows. Private, enterprise-grade codebases.",
+   "fontSize": 22,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e22",
+   "kind": "box",
+   "tag": "div",
+   "x": 360,
+   "y": 932,
+   "w": 290,
+   "h": 88,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e23",
+   "kind": "box",
+   "tag": "div",
+   "x": 651,
+   "y": 932,
+   "w": 479,
+   "h": 88,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e24",
+   "kind": "text",
+   "tag": "div",
+   "x": 70,
+   "y": 989,
+   "w": 238,
+   "h": 23,
+   "text": "expert-authored training tasks",
+   "fontSize": 18,
+   "color": "rgb(98, 98, 91)"
+  },
+  {
+   "id": "e25",
+   "kind": "text",
+   "tag": "div",
+   "x": 391,
+   "y": 989,
+   "w": 195,
+   "h": 23,
+   "text": "repositories represented",
+   "fontSize": 18,
+   "color": "rgb(98, 98, 91)"
+  },
+  {
+   "id": "e26",
+   "kind": "text",
+   "tag": "div",
+   "x": 682,
+   "y": 997,
+   "w": 320,
+   "h": 23,
+   "text": "AfterQuery’s SWE agent training dataset",
+   "fontSize": 18,
+   "color": "rgb(98, 98, 91)"
+  },
+  {
+   "id": "e27",
+   "kind": "text",
+   "tag": "span",
+   "x": 70,
+   "y": 1073,
+   "w": 465,
+   "h": 21,
+   "text": "Both models evaluated with mini-swe-agent at medium reasoning.",
+   "fontSize": 16,
+   "color": "rgb(98, 98, 91)"
+  },
+  {
+   "id": "e28",
+   "kind": "text",
+   "tag": "span",
+   "x": 1024,
+   "y": 1073,
+   "w": 106,
+   "h": 21,
+   "text": "afterquery.com",
+   "fontSize": 16,
+   "color": "rgb(98, 98, 91)"
+  }
+ ]
+}

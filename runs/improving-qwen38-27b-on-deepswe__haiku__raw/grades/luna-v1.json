@@ -1,0 +1,188 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:21.991Z",
+ "main_idea": "GRPO improved Qwen3.8-27B’s DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO improved DeepSWE pass@1 by 11.3 points.",
+  "Training used 500 tasks across 422 repositories.",
+  "Training reward rose from 0.570 to 0.856.",
+  "The training set was mostly feature requests.",
+  "Entropy showed no sustained decline."
+ ],
+ "clutter_score": 8,
+ "summary": "Training diagnostics, dataset details, and explanatory copy compete with the central pass-rate improvement.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "brand header",
+   "reason": "Logo and blog category do not help communicate the result.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "long headline",
+   "reason": "The headline can be shortened while retaining the model, benchmark, and method.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "explainer subtitle",
+   "reason": "Restates context and evaluation details that are not needed to read the result.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "pass rate comparison",
+   "reason": "The large result and labeled bars show the central improvement.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "gain caption",
+   "reason": "Repeats the base and improved scores already shown in the comparison.",
+   "ids": [
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "setup note",
+   "reason": "Method detail is not needed to grasp the main result.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "training facts",
+   "reason": "Task count, repository count, and attempts describe training setup, a separate point.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "reward trend",
+   "reason": "Training reward trajectory and its penalty note are a separate diagnostic.",
+   "ids": [
+    "e28",
+    "e33",
+    "e34",
+    "e35",
+    "e39",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "task type breakdown",
+   "reason": "Task category mix is a separate training-data point.",
+   "ids": [
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e36",
+    "e37",
+    "e38",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "entropy note",
+   "reason": "Entropy stability introduces another training diagnostic.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "site footer",
+   "reason": "The website address adds no information to the chart.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 30,
+   "orange": 21.1,
+   "red": 48.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 56.7
+  },
+  "clutterShare": 59.4,
+  "ideaCount": 5,
+  "redByType": {
+   "unneeded": 4,
+   "repetition": 1,
+   "extra_idea": 4
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 32
+ }
+}

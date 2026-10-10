@@ -1,0 +1,154 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:00.860Z",
+ "main_idea": "Warmup lifts GDPval from 35.3 to 46.7, close to the teacher's 49.5",
+ "ideas": [
+  "Light SFT warmup raises GDPval score substantially",
+  "Warmup lands near the office teacher",
+  "Warmup helps across GDPval, BrowseComp, and HLE"
+ ],
+ "clutter_score": 3,
+ "summary": "A clean bar chart with a wordy headline, a restating subtitle, an eyebrow, and a duplicate wordmark to remove; the metric is not named.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "metric or unit",
+   "why": "Scores are unlabelled; the reader cannot tell whether they are pass rates or percentages."
+  }
+ ],
+ "completeness_score": 8,
+ "defects": [
+  "BrowseComp and HLE bars have no row labels, unlike the GDPval group",
+  "Logo renders correctly at bottom right"
+ ],
+ "cost": {
+  "seconds": 12.1,
+  "usd": 0.00405087,
+  "tokens": 28647,
+  "outputTokens": 2188
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark bar chart",
+   "reason": "Main visual: benchmark titles, labelled bars, value labels, and row names.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "Nine words; a shorter finding title like 'Warmup lifts GDPval 35.3 to 46.7' would do.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker line",
+   "reason": "Kicker above the headline; orients nothing the chart does not already show.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway subtitle",
+   "reason": "Sentence restates the 2.8-point gap the bars already show.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept as the one brand element.",
+   "ids": [
+    "e34"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Quiet footnote naming the source tables.",
+   "ids": [
+    "e35"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Duplicate wordmark",
+   "reason": "Brand already shown by the logo beside it.",
+   "ids": [
+    "e36"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 57.9,
+   "orange": 35.3,
+   "red": 6.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 32.3
+  },
+  "clutterShare": 24.5,
+  "ideaCount": 3,
+  "missingCount": 1,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 58,
+  "textElements": 24
+ }
+}

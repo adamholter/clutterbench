@@ -1,0 +1,85 @@
+{
+ "grader": "sonnet-low-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:09:32.035Z",
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO training improves DeepSWE pass@1"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: two labelled bars, values, and the benchmark and metric named.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo is in the screenshot but not in the element list"
+ ],
+ "cost": {
+  "seconds": 6.9,
+  "usd": 0.0448444,
+  "tokens": 21474,
+  "outputTokens": 455
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Short label naming the benchmark and metric.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "After GRPO bar",
+   "reason": "Bar with its single value label.",
+   "ids": [
+    "e2",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Base bar",
+   "reason": "Bar with its single value label.",
+   "ids": [
+    "e4",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Short labels identifying what each bar is.",
+   "ids": [
+    "e5",
+    "e6"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

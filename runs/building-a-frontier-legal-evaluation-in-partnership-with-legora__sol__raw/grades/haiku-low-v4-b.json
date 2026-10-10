@@ -1,0 +1,197 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:09:59.082Z",
+ "main_idea": "BAR-informed harness changes raised Legora's output quality 5% in one month",
+ "ideas": [
+  "Legal benchmark built with Legora",
+  "Benchmark tests end-to-end legal agent work",
+  "BAR-informed harness changes raised output quality 5%",
+  "Benchmark scale: cases, practice areas, documents",
+  "Three-step process from tasks to product changes"
+ ],
+ "clutter_score": 7,
+ "summary": "Clutter: a slogan headline, kicker, dataset stats row, process cards and footer repeat brand and tagline; the +5% callout is the one point. Missing nothing essential, though the 5% metric is only loosely defined.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 15,
+  "usd": 0.0025875599999999996,
+  "tokens": 26738,
+  "outputTokens": 2813
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark, kept as the one logo.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name and scope",
+   "reason": "Names the benchmark and what it measures, short and said once.",
+   "ids": [
+    "e25"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result callout",
+   "reason": "The main claim, shown as a large stat with a short title naming the metric.",
+   "ids": [
+    "e44",
+    "e45",
+    "e46"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Callout explanation sentence",
+   "reason": "Useful, but the sentence restates the title and runs long; shorten it.",
+   "ids": [
+    "e47"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Partnership tag",
+   "reason": "Top-right tag repeats the partnership already named in the subtitle context.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline adds no finding.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan headline that does not state the finding.",
+   "ids": [
+    "e24"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats row",
+   "reason": "Dataset counts serve a second point unrelated to the 5% result.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Three-step process row",
+   "reason": "Method cards beside the result serve a separate point about how the benchmark was built.",
+   "ids": [
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Tagline footer",
+   "reason": "Slogan-style tagline that does not state a finding.",
+   "ids": [
+    "e48"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer website URL",
+   "reason": "Brand already shown by the logo; the URL is a second brand mark.",
+   "ids": [
+    "e49"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 26.6,
+   "orange": 6.6,
+   "red": 66.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34.8
+  },
+  "clutterShare": 70.1,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 98,
+  "textElements": 22
+ }
+}

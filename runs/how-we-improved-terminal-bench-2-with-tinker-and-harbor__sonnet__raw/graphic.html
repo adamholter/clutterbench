@@ -1,0 +1,26 @@
+<!doctype html><meta charset=utf-8><style>
+@font-face{font-family:D;src:url(assets/reg.woff2)}
+@font-face{font-family:D;font-weight:500;src:url(assets/med.woff2)}
+@font-face{font-family:S;src:url(assets/serif.woff2)}
+*{margin:0;box-sizing:border-box}
+body{width:1200px;height:1200px;background:#000;color:#e8e8e3;font-family:D,sans-serif;padding:80px;position:relative;overflow:hidden}
+.k{font-size:22px;letter-spacing:.14em;text-transform:uppercase;color:#a8a7a1}
+h1{font-family:S;font-weight:400;font-size:84px;line-height:1.05;margin-top:28px;letter-spacing:-.01em}
+.logo{position:absolute;right:80px;top:70px;width:56px}
+svg{position:absolute;left:0;top:430px}
+.f{position:absolute;left:80px;right:80px;bottom:64px;display:flex;justify-content:space-between;font-size:20px;color:#a8a7a1;border-top:1px solid #333;padding-top:22px}
+</style>
+<img class=logo src=assets/mark.svg>
+<div class=k>Terminal-Bench 2.0 · gpt-oss-20b</div>
+<h1>Pass rate, 5x higher<br>with SFT, then RLVR</h1>
+<svg width=1200 height=600 viewBox="0 0 1200 600" font-family=D>
+<g font-size=24 fill=#e8e8e3>
+<text x=80 y=60>Base model</text><text x=80 y=240>SFT only</text><text x=80 y=420>SFT + RLVR</text></g>
+<g fill=#a8a7a1 font-size=20><text x=80 y=92>Terminus 2</text><text x=80 y=272>Stage 1</text><text x=80 y=452>Stage 2</text></g>
+<rect x=330 y=30 width=134 height=70 fill="#555"/>
+<rect x=330 y=210 width=583 height=70 fill="#a8a7a1"/>
+<rect x=330 y=390 width=790 height=70 fill="#ceaf5c"/>
+<g font-family=S font-size=60 fill=#e8e8e3><text x=484 y=82>3.1%</text><text x=933 y=262>13.5%</text><text x=1096 text-anchor=end y=442 fill=#000 font-size=60>17.0%</text></g>
+<line x1=330 x2=1120 y1=520 y2=520 stroke=#333 />
+</svg>
+<div class=f><span>Zero training tasks from the official eval set</span><span>afterquery.com</span></div>

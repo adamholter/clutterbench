@@ -1,0 +1,188 @@
+{
+ "grader": "sonnet-high-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:05:32.396Z",
+ "main_idea": "AfterQuery and Legora built BAR, a large frontier benchmark for agentic legal work.",
+ "ideas": [
+  "AfterQuery and Legora co-designed the BAR legal benchmark",
+  "BAR is large: cases, practice areas, documents",
+  "BAR-informed harness changes gave +5% output quality",
+  "Cases are grounded in realistic law-firm matters"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid headline and stat row are cluttered by a decorative 28-cell grid repeating a stat, a +5% side claim, a tag, a footer tagline and a wordy subtitle.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 16.1,
+  "usd": 0.040987600000000006,
+  "tokens": 24360,
+  "outputTokens": 1796
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet and legible.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog case-study tag",
+   "reason": "Category tag in the corner that tells the reader nothing needed.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the topic: a frontier legal evaluation.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle sentence",
+   "reason": "Needed to explain BAR, but a long three-line sentence.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark scale stats",
+   "reason": "Cases, practice areas and documents describe BAR's size, with short labels.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "+5% product stat",
+   "reason": "Second point about product improvement, unrelated to describing the benchmark.",
+   "ids": [
+    "e9",
+    "e13",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "28-cell practice grid",
+   "reason": "Restates the '28 practice areas' stat as decorative cells.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e39"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Grounding caption",
+   "reason": "Sentence that adds nothing the reader needs to read the stats.",
+   "ids": [
+    "e40"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark tagline",
+   "reason": "Brand repeated after the logo, plus a tagline.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact email",
+   "reason": "Small, quiet contact line.",
+   "ids": [
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 54.7,
+   "orange": 17.8,
+   "red": 27.6,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 36.5,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

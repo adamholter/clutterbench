@@ -1,0 +1,235 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:47.646Z",
+ "main_idea": "Distillation lifts two model families by about 21% net win-loss on GDPval.",
+ "ideas": [
+  "Nemotron student gains +20.9% net win-loss on GDPval",
+  "Same recipe transfers to Qwen: +21.4% net win-loss",
+  "On-policy distillation trains the student on its own tokens"
+ ],
+ "clutter_score": 6,
+ "summary": "Clean two-card results layout, but a method pipeline, duplicate stat blocks, a win-rate pill row, and taglines clutter it; the logo mark is nearly invisible.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Logo mark e1 is nearly invisible: faint white triangle on cream background"
+ ],
+ "cost": {
+  "seconds": 25.6,
+  "usd": 0.00653169,
+  "tokens": 40510,
+  "outputTokens": 5324
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo wordmark",
+   "reason": "One brand mark, kept as the header.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline sentence",
+   "reason": "Vague sentence; should name the +21% finding and GDPval directly.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Subtitle paragraph",
+   "reason": "Restates the chart; shorten to a one-line benchmark and metric note.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron margin and paired bar",
+   "reason": "Main visual: +20.9% margin with labelled wins, ties, losses.",
+   "ids": [
+    "e7",
+    "e9",
+    "e11",
+    "e13",
+    "e15",
+    "e17",
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen margin headline",
+   "reason": "Second family's headline margin with its model names and metric label.",
+   "ids": [
+    "e8",
+    "e10",
+    "e12",
+    "e14",
+    "e16",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval evaluation footnote",
+   "reason": "Quiet footnote naming the benchmark and evaluation set.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header tag and eyebrow",
+   "reason": "Category tag and kicker line add nothing the reader needs.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Transfer takeaway sentence",
+   "reason": "Takeaway sentence restating the point the cards already show.",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline and dot",
+   "reason": "Tagline and decorative dot repeat the brand already in the logo.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Qwen +7.9 pts stat",
+   "reason": "Mean-score stat card duplicates the Nemotron footer's mean-score figure.",
+   "ids": [
+    "e19",
+    "e21",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Nemotron footer stat row",
+   "reason": "Repeats the 55.9% win rate the bar already shows, plus mean score.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Win rate base vs distilled",
+   "reason": "Second win-rate comparison; side detail not needed for the main point.",
+   "ids": [
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Four-step method pipeline",
+   "reason": "Method explainer panel serves a second point beside the results.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 31.1,
+   "orange": 31.1,
+   "red": 37.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 53.4,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "repetition": 2,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

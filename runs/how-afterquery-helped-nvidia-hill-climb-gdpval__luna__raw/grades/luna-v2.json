@@ -1,0 +1,224 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:26.213Z",
+ "main_idea": "Warmup raises Nemotron 3 Ultra’s GDPval score close to the specialized teacher.",
+ "ideas": [
+  "Warmup improves the student’s GDPval score toward the teacher.",
+  "The warmup result is 2.8 points below the teacher."
+ ],
+ "clutter_score": 6,
+ "summary": "A slogan, explanatory copy, footer, and oversized repeated takeaway clutter an otherwise complete chart.",
+ "missing": [],
+ "completeness_score": 10,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark identifies the company behind the graphic.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research tag",
+   "reason": "The section tag adds no context needed to read the chart.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow label",
+   "reason": "The kicker duplicates model context and is unnecessary above the headline.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "The slogan does not state the chart’s finding.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "It restates the result already shown by the chart.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Chart card border",
+   "reason": "The frame around the chart is unnecessary.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart context",
+   "reason": "Names the benchmark, teacher domain, score, and ablation.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart marks",
+   "reason": "Bars, values, ticks, and dotted comparison show the measured scores.",
+   "ids": [
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Condition labels",
+   "reason": "Labels identify the student, no-warmup, warmup, and teacher conditions.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart legend",
+   "reason": "The single legend explains the chart’s color coding.",
+   "ids": [
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway divider",
+   "reason": "The box groups a secondary takeaway below the chart.",
+   "ids": [
+    "e36"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Gain label",
+   "reason": "It labels a stat that repeats the chart’s visible score difference.",
+   "ids": [
+    "e37"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Teacher comparison",
+   "reason": "It restates the teacher gap already readable from the bars.",
+   "ids": [
+    "e38"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Gain statistic",
+   "reason": "The large +11.4 points repeats a difference visible in the chart.",
+   "ids": [
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "The brand already appears in the logo.",
+   "ids": [
+    "e41"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "The tagline adds no information needed to understand the result.",
+   "ids": [
+    "e42"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 44.1,
+   "orange": 2,
+   "red": 53.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 22.4
+  },
+  "clutterShare": 54.9,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 9,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 84,
+  "textElements": 29
+ }
+}

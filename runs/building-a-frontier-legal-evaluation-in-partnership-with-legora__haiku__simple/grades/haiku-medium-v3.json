@@ -1,0 +1,72 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:40.651Z",
+ "main_idea": "Harness changes informed by BAR raised output quality 5% in one month",
+ "ideas": [
+  "Harness changes raised output quality 5%",
+  "BAR informed the harness changes",
+  "Gain came in one month"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one large stat, a short caption naming the metric and BAR, and a single logo; the only gap is that BAR is never expanded, which is minor.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 7.6,
+  "usd": 0.00176736,
+  "tokens": 23396,
+  "outputTokens": 1053
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline stat",
+   "reason": "Large +5% figure is the main visual and states the finding",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric caption",
+   "reason": "Names the metric, time frame, cause, and BAR in one short line",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and quiet",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 2
+ }
+}

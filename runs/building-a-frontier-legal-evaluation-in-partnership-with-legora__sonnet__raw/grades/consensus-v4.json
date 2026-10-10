@@ -1,0 +1,127 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.874Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 1,
+  "tiebreak": true,
+  "scores": [
+   6,
+   4,
+   5
+  ]
+ },
+ "main_idea": "AfterQuery and Legora built BAR, a large legal agent benchmark that improved Legora's product.",
+ "ideas": [
+  "BAR is a frontier legal benchmark",
+  "BAR's scale: cases, practice areas, documents",
+  "BAR-informed changes gave +5% output quality"
+ ],
+ "summary": "A dataset stats row, a partner tag and a footer URL clutter a long headline and wordy +5% callout; nothing essential is missing.",
+ "clutter_score": 5,
+ "completeness_score": 8,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "repetition",
+   "name": "Partnership tag",
+   "reason": "Partner names already in title and logo; brand repeated.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Headline",
+   "reason": "Full-sentence headline spanning three lines; could be 'BAR: legal agent benchmark'.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset stats row",
+   "reason": "Dataset size counts serve a second point unrelated to the +5% result.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result callout",
+   "reason": "Main result stat with its label stating what was measured.",
+   "ids": [
+    "e13",
+    "e14"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "+5% callout",
+   "reason": "Useful result, but wordy description in a big box.",
+   "ids": [
+    "e15"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Website footer",
+   "reason": "Quiet contact line for the source.",
+   "ids": [
+    "e16"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 12.5,
+   "orange": 68.5,
+   "red": 19,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38
+  },
+  "clutterShare": 53.3,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 1,
+   "extra_idea": 9
+  },
+  "coverage": 100,
+  "words": 39,
+  "textElements": 12
+ }
+}

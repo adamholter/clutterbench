@@ -1,0 +1,71 @@
+{
+ "grader": "sonnet-medium-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:02:07.116Z",
+ "main_idea": "Distilled model beats base model on GDPval: 123 wins, 20 ties, 77 losses.",
+ "ideas": [
+  "Distilled model wins more GDPval pairs than it loses"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one win-tie-loss bar with a short headline naming the metric and benchmark.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "AfterQuery logo is visible in the screenshot but absent from the element list"
+ ],
+ "cost": {
+  "seconds": 5.7,
+  "usd": 0.027784700000000002,
+  "tokens": 31549,
+  "outputTokens": 400
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-tie-loss bar",
+   "reason": "Chart marks with value and category labels; clear and readable.",
+   "ids": [
+    "e0",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title stating the finding, metric, and benchmark.",
+   "ids": [
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

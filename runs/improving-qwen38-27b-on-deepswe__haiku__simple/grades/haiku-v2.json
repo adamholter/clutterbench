@@ -1,0 +1,84 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:17:05.251Z",
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "GRPO improves DeepSWE pass@1 score",
+  "Base model scores 27.8% pass@1",
+  "Trained model scores 39.1% pass@1"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and nearly complete; the only gap is the model name (Qwen3.8-27B), which the title should carry.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "Reader cannot tell which model was tested; title names only the benchmark and metric."
+  }
+ ],
+ "completeness_score": 8,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric title",
+   "reason": "Short, names the benchmark and metric, orients the reader.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Two value labels",
+   "reason": "One value label per bar, the values the graphic exists to show.",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Before and after bars",
+   "reason": "The chart marks carrying the comparison.",
+   "ids": [
+    "e2",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar category labels",
+   "reason": "Name each bar's condition: Base and After GRPO.",
+   "ids": [
+    "e5",
+    "e6"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 33.5
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 1,
+  "redByType": {},
+  "coverage": 100,
+  "words": 7,
+  "textElements": 5
+ }
+}

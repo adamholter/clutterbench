@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Regular-s.p.101_s0sdv3-ds.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Medium-s.p.1zfhlow4l3tdq.woff2") format("woff2"); font-weight: 500; }
+@font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Bold-s.p.2g11yfly1dr71.woff2") format("woff2"); font-weight: 700; }
+@font-face { font-family: "Fragment Mono"; src: url("assets/FragmentMono.woff2") format("woff2"); }
+html, body { margin: 0; width: 1200px; height: 1200px; overflow: hidden; background: #f8f8f3; }
+svg { display: block; width: 1200px; height: 1200px; }
+text { font-family: "ABC Diatype", Inter, system-ui, sans-serif; fill: #000; }
+.value { font-weight: 700; font-size: 96px; letter-spacing: -2px; }
+.cat { font-weight: 500; font-size: 34px; fill: #393939; }
+.metric { font-family: "Fragment Mono", ui-monospace, monospace; font-size: 26px; fill: #393939; }
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <!-- metric name, small -->
+  <text x="110" y="130" class="metric">DeepSWE pass@1</text>
+  <!-- logo -->
+  <image href="assets/icon-ink.svg" x="1030" y="90" width="60" height="60"/>
+
+  <!-- baseline -->
+  <line x1="110" y1="1000" x2="1090" y2="1000" stroke="#000" stroke-width="2"/>
+
+  <!-- scale: 1 pt = 17.9 px; 27.8% -> 498 px, 39.1% -> 700 px -->
+  <!-- base -->
+  <rect x="235" y="502" width="330" height="498" fill="#b9b6aa" rx="4" ry="4"/>
+  <text x="400" y="440" text-anchor="middle" class="value" fill="#393939">27.8%</text>
+  <text x="400" y="1058" text-anchor="middle" class="cat">Base</text>
+
+  <!-- trained -->
+  <rect x="635" y="300" width="330" height="700" fill="#026340" rx="4" ry="4"/>
+  <text x="800" y="238" text-anchor="middle" class="value" fill="#026340">39.1%</text>
+  <text x="800" y="1058" text-anchor="middle" class="cat">After GRPO</text>
+</svg>
+</body>
+</html>

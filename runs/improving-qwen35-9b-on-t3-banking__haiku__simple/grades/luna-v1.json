@@ -1,0 +1,67 @@
+{
+ "grader": "luna-v1",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T15:07:11.839Z",
+ "main_idea": "Qwen3.5-9B pass@5 on τ³-Banking rose from 11.3% to 17.5% after training.",
+ "ideas": [
+  "Qwen3.5-9B pass@5 improved from 11.3% to 17.5% on τ³-Banking."
+ ],
+ "clutter_score": 1,
+ "summary": "The footer logo is unnecessary; the rest directly supports the before-and-after result.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "chart title",
+   "reason": "Names the model, metric, and benchmark.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "comparison bars",
+   "reason": "Bars, values, and category labels show the improvement.",
+   "ids": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer logo",
+   "reason": "The chart communicates its point without the logo.",
+   "ids": [
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 99.6,
+   "orange": 0,
+   "red": 0.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 27.6
+  },
+  "clutterShare": 0.4,
+  "ideaCount": 1,
+  "redByType": {
+   "unneeded": 1
+  },
+  "coverage": 100,
+  "words": 10,
+  "textElements": 5
+ }
+}

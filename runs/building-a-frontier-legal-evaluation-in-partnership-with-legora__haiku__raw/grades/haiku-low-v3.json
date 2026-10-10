@@ -1,0 +1,178 @@
+{
+ "grader": "haiku-low-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:57:29.329Z",
+ "main_idea": "BAR-informed harness changes raised Legora's output quality 5% in one month",
+ "ideas": [
+  "BAR is a legal benchmark co-built by AfterQuery and Legora",
+  "BAR-informed harness changes raised output quality 5%",
+  "BAR covers thousands of cases across 28 practice areas"
+ ],
+ "clutter_score": 6,
+ "summary": "Clutter is a dataset stat row, a 28-cell practice-area grid, a verbose subtitle, a category tag, and a repeated footer brand; the +5% result is clear, and nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 16.4,
+  "usd": 0.0037358899999999995,
+  "tokens": 27097,
+  "outputTokens": 2977
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% result stat",
+   "reason": "The post's main finding, with a short metric label stating what it measures.",
+   "ids": [
+    "e9",
+    "e13",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline title",
+   "reason": "Short title naming the topic, not a slogan; reads as a title.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, correctly placed and visible.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact email",
+   "reason": "Quiet contact line in the footer.",
+   "ids": [
+    "e50"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Names BAR usefully, but the full sentence is longer than needed; shorten to a tag.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Category tag ('Blog · Case study') tells the reader nothing needed for the finding.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats",
+   "reason": "Case, practice-area, and document counts serve a second point, not the +5% result.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Practice-area cell grid",
+   "reason": "A second visual of practice-area coverage that does not support the main finding.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark and tagline",
+   "reason": "Brand already shown by the top logo; tagline is repeated branding.",
+   "ids": [
+    "e48",
+    "e49"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 47.3,
+   "orange": 17.8,
+   "red": 35,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 43.9,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "extra_idea": 2,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.897Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 1,
+  "tiebreak": true,
+  "scores": [
+   5,
+   4,
+   4
+  ]
+ },
+ "main_idea": "AfterQuery warmup lifted Nemotron Ultra's GDPval score close to its teacher's.",
+ "ideas": [
+  "Warmup raises GDPval score to near teacher",
+  "AfterQuery data powered SFT warmup then pivot RL"
+ ],
+ "summary": "A solid bar chart is cluttered by an eyebrow, subtitle, legend, a method-steps row and a footer URL; nothing essential is missing.",
+ "clutter_score": 4,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [
+  "Annotation pill overlaps the teacher bar and warmup bar",
+  "Bracket connector near top of bars is awkwardly drawn"
+ ],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, kept.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow tag",
+   "reason": "Category tag above headline; not needed.",
+   "ids": [
+    "e8"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short title naming the topic, GDPval and NVIDIA.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle paragraph",
+   "reason": "Explains method and restates chart takeaway.",
+   "ids": [
+    "e24"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names benchmark and the ablation being shown.",
+   "ids": [
+    "e25"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Warmup ablation bar chart",
+   "reason": "Main visual with labelled bars, values, metric title, and one teacher-gap callout.",
+   "ids": [
+    "e26"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Bars, values and category labels carry the finding.",
+   "ids": [
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e35",
+    "e36",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Gap annotation",
+   "reason": "Small annotation marking difference between warmup and teacher.",
+   "ids": [
+    "e33",
+    "e34",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method steps row",
+   "reason": "Pipeline cards serve a second point beyond the results chart.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Quiet source line.",
+   "ids": [
+    "e53",
+    "e54"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer URL",
+   "reason": "Second brand mention; logo already present.",
+   "ids": [
+    "e55"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 77.8,
+   "orange": 0,
+   "red": 22.2,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34.1
+  },
+  "clutterShare": 22.2,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 7,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 92,
+  "textElements": 26
+ }
+}

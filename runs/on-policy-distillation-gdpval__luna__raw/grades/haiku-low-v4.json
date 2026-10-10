@@ -1,0 +1,263 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:54.051Z",
+ "main_idea": "Distillation gives a net win-loss margin of about +21% on GDPval in two model families",
+ "ideas": [
+  "Distillation lifts GDPval margin in two model families",
+  "Nemotron margin +20.9% net win-loss vs base",
+  "Qwen margin +21.4% net win-loss vs base",
+  "Student learns from its own rollouts via reverse-KL"
+ ],
+ "clutter_score": 6,
+ "summary": "The two margin stats and paired bar carry the point, but the pipeline panel, second win-rate row, mean-score stat, and slogan headline clutter it; the header logo is nearly invisible.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Header logo mark e1 is near-invisible, white-ish on cream background"
+ ],
+ "cost": {
+  "seconds": 22.7,
+  "usd": 0.005679979999999999,
+  "tokens": 39731,
+  "outputTokens": 4530
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand mark",
+   "reason": "One brand mark, kept as the header identity",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Section tag",
+   "reason": "Category tag restating the context, tells nothing new",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline, no finding",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding numerically",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph restating what the stat cards already show",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron headline margin",
+   "reason": "Main stat with unit and metric label",
+   "ids": [
+    "e7",
+    "e13",
+    "e15",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen headline margin",
+   "reason": "Second family's main stat with unit and metric label",
+   "ids": [
+    "e8",
+    "e14",
+    "e16",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Card context labels",
+   "reason": "Short titles naming model families and teacher",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Paired comparisons bar",
+   "reason": "Wins, ties, losses chart that supports the Nemotron margin",
+   "ids": [
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Qwen mean score stat",
+   "reason": "Separate rubric-score stat competing with the margin headline",
+   "ids": [
+    "e19",
+    "e21",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Qwen win rate row",
+   "reason": "Second win-rate metric beside the main margin",
+   "ids": [
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "repetition",
+   "name": "Nemotron footer stats",
+   "reason": "Win rate and mean score repeat numbers shown in the card",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Transfer takeaway line",
+   "reason": "Takeaway sentence explaining the result instead of showing it",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Method pipeline panel",
+   "reason": "Training-loop explainer, a second point beside the results",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer tagline",
+   "reason": "Second brand mention with the same company name",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation set footnote",
+   "reason": "Quiet footnote naming the benchmark",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 31.1,
+   "orange": 0,
+   "red": 68.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 68.9,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 3,
+   "repetition": 2
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:55.124Z",
+ "main_idea": "A simpler prompt drops clutter scores to near zero for every model.",
+ "ideas": [
+  "Simple prompt drops clutter to near zero",
+  "Raw prompt clutter ranges from 29% to 61%",
+  "Clutter score is lower-is-better, per model"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a single slope chart with a finding headline, metric label, and quiet footnote, with nothing to remove.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 10.3,
+  "usd": 0.00215132,
+  "tokens": 25813,
+  "outputTokens": 1935
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "One brand mark, small and unobtrusive.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Finding headline",
+   "reason": "Short headline stating the finding, under seven words.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric and direction",
+   "reason": "Names the measured score and that lower is better.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Raw and Simple column labels",
+   "reason": "Needed to read the two points on each model's line.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Slope chart marks and values",
+   "reason": "The main visual: paired points, connecting lines, and one value per point.",
+   "ids": [
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Model name labels",
+   "reason": "Identify which model each slope belongs to.",
+   "ids": [
+    "e34",
+    "e35",
+    "e36",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer rule and evaluation note",
+   "reason": "Quiet footnote giving the averaging method.",
+   "ids": [
+    "e38",
+    "e39"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 51.8
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 48,
+  "textElements": 25
+ }
+}

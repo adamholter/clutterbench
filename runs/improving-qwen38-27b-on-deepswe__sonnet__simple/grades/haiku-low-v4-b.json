@@ -1,0 +1,67 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:22.059Z",
+ "main_idea": "GRPO raised Qwen3.8-27B's DeepSWE pass@1 from 27.8% to 39.1%.",
+ "ideas": [
+  "Qwen3.8-27B DeepSWE pass@1 is 27.8% before training",
+  "GRPO training raises DeepSWE pass@1 to 39.1%"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple before-after bar chart with a title naming the benchmark, metric and model, and one logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 5.9,
+  "usd": 0.00066818,
+  "tokens": 23515,
+  "outputTokens": 883
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Bars, value labels and category labels make the single comparison readable.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Title and brand logo",
+   "reason": "Short title names the benchmark, metric and model; one logo is the brand mark.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 40.1
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

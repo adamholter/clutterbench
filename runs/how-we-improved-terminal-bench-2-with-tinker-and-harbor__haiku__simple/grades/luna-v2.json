@@ -1,0 +1,61 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T15:46:18.944Z",
+ "main_idea": "AfterQuery raises Terminal-Bench 2.0 pass rate from 3.1% to 17.0%.",
+ "ideas": [
+  "AfterQuery scores higher than Base on Terminal-Bench 2.0."
+ ],
+ "clutter_score": 0,
+ "summary": "The chart is uncluttered, but it omits the model name and leaves the Base and AfterQuery conditions underspecified.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "model name",
+   "why": "The graphic does not identify the evaluated model."
+  },
+  {
+   "mid": "m1",
+   "what": "comparison conditions",
+   "why": "Base and AfterQuery do not say which training stages each represents."
+  }
+ ],
+ "completeness_score": 6,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate chart",
+   "reason": "Title, bars, values, and condition labels show the benchmark comparison.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 2,
+  "redByType": {},
+  "coverage": 100,
+  "words": 8,
+  "textElements": 5
+ }
+}

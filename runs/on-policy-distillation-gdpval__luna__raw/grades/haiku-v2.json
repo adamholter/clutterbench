@@ -1,0 +1,310 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:17:44.937Z",
+ "main_idea": "Distillation gives a 21% net win-loss margin on GDPval, in two model families.",
+ "ideas": [
+  "Distillation lifts Nemotron student's GDPval win-loss margin",
+  "Same recipe transfers to Qwen family",
+  "Student learns from its own generations",
+  "Win rate and rubric gains quantify the improvement"
+ ],
+ "clutter_score": 7,
+ "summary": "Clutter: a method pipeline, extra win-rate and rubric stats, repeated labels, and decorative frames and taglines compete with the two headline results. Missing: the baseline model's name and a clear identity of the Nemotron student.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "base model name",
+   "why": "'vs. base model' never says which model is the baseline."
+  },
+  {
+   "mid": "m1",
+   "what": "Nemotron student variant",
+   "why": "Card says 'Nano student' but never names the model family size clearly."
+  }
+ ],
+ "completeness_score": 7,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Header rule",
+   "reason": "Decorative divider line with no information.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, appropriate for a company post.",
+   "ids": [
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark tag",
+   "reason": "Names the benchmark, GDPval, in a short tag.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Kicker line above the headline adds no information.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "Two-line claim could be shortened or shown by the chart.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle paragraph",
+   "reason": "Restates the headline and the chart values.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Card frames",
+   "reason": "Borders drawn around the chart cards add no information.",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron card title",
+   "reason": "Short chart title naming the model and task count.",
+   "ids": [
+    "e9",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen card title",
+   "reason": "Short chart title naming the second model family.",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Qwen model parenthetical",
+   "reason": "Long model pair label; could be shorter.",
+   "ids": [
+    "e12"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron headline value",
+   "reason": "Main result value with its metric and unit.",
+   "ids": [
+    "e13",
+    "e15",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen headline value",
+   "reason": "Second family's main result value with unit.",
+   "ids": [
+    "e14",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated metric label",
+   "reason": "Same 'net win-loss margin' label already shown on the Nemotron card.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen rubric improvement",
+   "reason": "Value with unit and description of the rubric gain.",
+   "ids": [
+    "e19",
+    "e21",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "blue",
+   "type": "core",
+   "name": "Paired comparison bar",
+   "reason": "Bar with wins, ties, and losses labels showing the paired results.",
+   "ids": [
+    "e20",
+    "e22",
+    "e23",
+    "e24",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Win-rate flow",
+   "reason": "Separate 57.3% win-rate statistic serving a second point.",
+   "ids": [
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38"
+   ]
+  },
+  {
+   "rid": "r16",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Nemotron footer stats",
+   "reason": "Extra win-rate and rubric statistics beyond the main claim.",
+   "ids": [
+    "e39",
+    "e41",
+    "e42",
+    "e43"
+   ]
+  },
+  {
+   "rid": "r17",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Transfer takeaway",
+   "reason": "Takeaway sentence restating what the Qwen card shows.",
+   "ids": [
+    "e40",
+    "e44",
+    "e45"
+   ]
+  },
+  {
+   "rid": "r18",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Distillation pipeline",
+   "reason": "Method flow serves a separate explanatory point, plus its caption.",
+   "ids": [
+    "e46",
+    "e47",
+    "e48",
+    "e49",
+    "e50",
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55",
+    "e56",
+    "e57",
+    "e58",
+    "e59",
+    "e60",
+    "e61",
+    "e62",
+    "e63",
+    "e64",
+    "e65"
+   ]
+  },
+  {
+   "rid": "r19",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline and dot footer with no finding.",
+   "ids": [
+    "e66",
+    "e69"
+   ]
+  },
+  {
+   "rid": "r20",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated benchmark footer",
+   "reason": "GDPval already named in the top tag.",
+   "ids": [
+    "e67",
+    "e68"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 20.2,
+   "orange": 22.3,
+   "red": 57.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28
+  },
+  "clutterShare": 68.7,
+  "ideaCount": 4,
+  "missingCount": 2,
+  "redByType": {
+   "unneeded": 6,
+   "repetition": 2,
+   "extra_idea": 3
+  },
+  "coverage": 100,
+  "words": 172,
+  "textElements": 53
+ }
+}

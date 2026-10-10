@@ -1,0 +1,137 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:11:47.406Z",
+ "main_idea": "On-policy distillation lifted Nemotron-3-Nano to a +20.9% net win-loss margin on GDPval.",
+ "ideas": [
+  "On-policy distillation improves Nemotron-3-Nano on GDPval",
+  "+20.9% net win-loss margin over the base model",
+  "123 wins, 77 losses, 20 ties across 220 tasks",
+  "Same recipe also works on Qwen3.5-9B"
+ ],
+ "clutter_score": 4,
+ "summary": "A solid win-loss hero visual with a bottom row of secondary stat cards, plus an eyebrow and tagline that should go; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 10.8,
+  "usd": 0.0012303000000000001,
+  "tokens": 34794,
+  "outputTokens": 1800
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Hero net margin stat",
+   "reason": "Large headline number with its metric and model, the main point.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Win-loss bar chart",
+   "reason": "Bar marks with wins and losses labelled; shows the margin visually.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation detail line",
+   "reason": "Quiet line giving task count, ties and win rate; useful context.",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short title naming the topic and benchmark.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark, rendered correctly.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Category kicker above the headline; the logo already brands the graphic.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory tagline",
+   "reason": "Subtitle-style sentence explaining the method rather than the finding.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Secondary stats row",
+   "reason": "Qwen and rubric-score stat cards form a second point beside the main chart.",
+   "ids": [
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 81.6,
+   "orange": 0,
+   "red": 18.4,
+   "unlabelled": 0,
+   "paintedOfCanvas": 40.8
+  },
+  "clutterShare": 18.4,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 50,
+  "textElements": 14
+ }
+}

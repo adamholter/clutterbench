@@ -1,0 +1,93 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:00:05.585Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score close to the expert teacher.",
+ "ideas": [
+  "Warmup lifts GDPval score most of the way to teacher",
+  "No warmup scores 35.3; warmup scores 46.7",
+  "Teacher scores 49.5 on GDPval",
+  "Student is the starting checkpoint"
+ ],
+ "clutter_score": 1,
+ "summary": "Nearly clean: only the headline runs long and could be shortened to a few words; the chart names the metric, benchmark, and bars, so nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 11.5,
+  "usd": 0.0022667,
+  "tokens": 27984,
+  "outputTokens": 1992
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo and tag row",
+   "reason": "Brand mark plus short tag naming benchmark and model; both keep.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Full-sentence headline",
+   "reason": "States the finding but runs long; shorten to about seven words.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart with labels",
+   "reason": "Main visual with metric label, axis ticks, value labels, and category labels.",
+   "ids": [
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

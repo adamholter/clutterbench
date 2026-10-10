@@ -1,0 +1,171 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:27.413Z",
+ "main_idea": "PivotRL lifts Qwen3.5-9B pass@5 from 11.3% to 17.5% using 50 teacher trajectories",
+ "ideas": [
+  "PivotRL raises Qwen3.5-9B task success on τ³-Banking",
+  "Before 11.3% versus after 17.5% pass@5",
+  "Only 50 solved teacher trajectories needed",
+  "Verifier rewards functionally equivalent tool calls"
+ ],
+ "clutter_score": 5,
+ "summary": "The clear before-after bar chart is buried under a slogan headline, explanatory subtitle, dataset stat cards, a tagline, and decorative artwork; the chart itself is complete and needs no added labels.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Decorative faint blocks at top right run off the canvas edge",
+  "Decorative block image at right is nearly invisible against background"
+ ],
+ "cost": {
+  "seconds": 13.8,
+  "usd": 0.00361034,
+  "tokens": 26797,
+  "outputTokens": 2730
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, small and unobtrusive",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Model and benchmark tag",
+   "reason": "Short context naming the model and benchmark",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Before-after bar chart",
+   "reason": "Main visual with labels, values, axis, and metric context",
+   "ids": [
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag top right",
+   "reason": "Category tag that tells the reader nothing needed",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan 'A smaller model. Better at the work.' does not state the finding",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explains the method and restates the chart",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative faint blocks",
+   "reason": "Decorative image with no informational content, cropped at edge",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset count stat cards",
+   "reason": "Stat cards about trajectory and pivot counts serve a second point",
+   "ids": [
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway tagline",
+   "reason": "Tagline restates the headline's message with no data",
+   "ids": [
+    "e27"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "repetition",
+   "name": "Second brand line",
+   "reason": "AfterQuery branding already shown by the logo at top",
+   "ids": [
+    "e30"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 28.9,
+   "orange": 0,
+   "red": 71.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 15.7
+  },
+  "clutterShare": 71.1,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 1,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 66,
+  "textElements": 23
+ }
+}

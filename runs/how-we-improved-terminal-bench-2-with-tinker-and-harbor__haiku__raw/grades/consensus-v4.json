@@ -1,0 +1,166 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.904Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 1,
+  "tiebreak": true,
+  "scores": [
+   6,
+   4,
+   5
+  ]
+ },
+ "main_idea": "Two-stage post-training lifted gpt-oss-20b from 3.1% to 17.0% on Terminal-Bench 2.0.",
+ "ideas": [
+  "Pass rate rose over 5x on Terminal-Bench 2.0",
+  "SFT gives most of the gain",
+  "RLVR adds 3.5 points",
+  "Training method details for each stage"
+ ],
+ "summary": "The bar chart and headline are clear, but the eyebrow, subtitle, blog tag and two method cards are clutter.",
+ "clutter_score": 5,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [
+  "13.5% and 17.0% value labels extend slightly past right margin",
+  "Value labels 13.5% and 17.0% extend slightly past the right margin rule",
+  "13.5% and 17.0% value labels run slightly past the right margin rule"
+ ],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo header",
+   "reason": "Single brand mark in header.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog tag",
+   "reason": "Category tag, tells the reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Eyebrow line above the headline.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short headline naming the finding and benchmark.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "Subtitle paragraph",
+   "reason": "Restates the 3.1% to 17.0% result the bars already show.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass rate bars",
+   "reason": "Main chart with labels, values, and metric title.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage cards",
+   "reason": "Method cards beside results chart serve a second point about the pipeline.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Footer footnote",
+   "reason": "Quiet evaluation details and contact line.",
+   "ids": [
+    "e38",
+    "e39",
+    "e40"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 67.2,
+   "orange": 0,
+   "red": 32.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 32.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 2,
+   "repetition": 1,
+   "extra_idea": 14
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

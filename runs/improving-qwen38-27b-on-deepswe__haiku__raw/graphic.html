@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Improving Qwen3.8-27B on DeepSWE with GRPO</title>
+<style>
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Regular-s.p.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Medium-s.p.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: "ABC Diatype"; src: url("assets/ABCDiatype_Bold-s.p.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Martina Plantijn"; src: url("assets/MartinaPlantijn_Regular-s.p.woff2") format("woff2"); font-weight: 400; }
+
+  :root {
+    --bg: #f8f8f3;
+    --ink: #000;
+    --ink-60: rgba(0, 0, 0, 0.6);
+    --ink-15: rgba(0, 0, 0, 0.15);
+    --ink-6: rgba(0, 0, 0, 0.06);
+    --green: #026340;
+    --gold: #cdaf5d;
+    --blue: #2d4995;
+    --brown: #9c5b23;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    width: 1200px;
+    height: 1200px;
+    overflow: hidden;
+    background: var(--bg);
+  }
+
+  .canvas {
+    position: relative;
+    width: 1200px;
+    height: 1200px;
+    padding: 64px 88px 56px;
+    display: flex;
+    flex-direction: column;
+    color: var(--ink);
+    font-family: "ABC Diatype", system-ui, sans-serif;
+    background: var(--bg);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header img { height: 34px; width: auto; display: block; }
+  .kicker {
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-60);
+    font-weight: 500;
+  }
+
+  h1 {
+    margin-top: 44px;
+    font-family: "Martina Plantijn", Georgia, serif;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 1.02;
+    letter-spacing: -0.01em;
+    max-width: 1000px;
+  }
+  .deck {
+    margin-top: 18px;
+    font-size: 23px;
+    line-height: 1.45;
+    color: var(--ink-60);
+    max-width: 880px;
+  }
+
+  /* Hero: pass@1 comparison */
+  .hero {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: end;
+    border-top: 1px solid var(--ink);
+    padding-top: 30px;
+  }
+  .hero-stat .label {
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-60);
+    font-weight: 500;
+  }
+  .hero-stat .big {
+    font-family: "Martina Plantijn", Georgia, serif;
+    font-size: 150px;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    margin-top: 16px;
+  }
+  .hero-stat .big .delta {
+    color: var(--green);
+  }
+  .hero-stat .sub {
+    margin-top: 14px;
+    font-size: 20px;
+    color: var(--ink-60);
+  }
+  .bars svg { display: block; width: 100%; height: auto; }
+
+  /* Stat row */
+  .stats {
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--ink-15);
+  }
+  .stat {
+    padding: 26px 0 0;
+  }
+  .stat + .stat { padding-left: 32px; border-left: 1px solid var(--ink-15); }
+  .stat .n {
+    font-family: "Martina Plantijn", Georgia, serif;
+    font-size: 56px;
+    line-height: 1;
+  }
+  .stat .t {
+    margin-top: 10px;
+    font-size: 19px;
+    line-height: 1.4;
+    color: var(--ink-60);
+  }
+
+  /* Lower panels */
+  .lower {
+    margin-top: auto;
+    padding-top: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+  .panel .ptitle {
+    font-size: 17px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-60);
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+  .panel svg { display: block; width: 100%; height: auto; }
+
+  footer {
+    margin-top: 28px;
+    padding-top: 18px;
+    border-top: 1px solid var(--ink-15);
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: var(--ink-60);
+  }
+  footer .url { color: var(--ink); font-weight: 500; }
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <header>
+    <img src="assets/afterquery-logo.svg" alt="AfterQuery">
+    <div class="kicker">Blog · SWE agent training</div>
+  </header>
+
+  <h1>Improving Qwen3.8-27B on DeepSWE with GRPO</h1>
+  <p class="deck">Reinforcement learning on 500 real software engineering tasks, evaluated as pass@1 averaged over three attempts.</p>
+
+  <section class="hero">
+    <div class="hero-stat">
+      <div class="label">DeepSWE pass@1</div>
+      <div class="big">39.1<span class="delta">%</span></div>
+      <div class="sub">up from 27.8% for the base model, <span style="color:var(--green);font-weight:500">+11.3 points</span></div>
+    </div>
+
+    <div class="bars">
+      <svg viewBox="0 0 500 230" aria-label="DeepSWE pass@1 bars: base 27.8%, post-GRPO 39.1%">
+        <!-- scale: 0-50% across 500px -->
+        <text x="0" y="22" font-family="ABC Diatype" font-size="18" fill="rgba(0,0,0,0.6)">Base model</text>
+        <rect x="0" y="34" width="500" height="34" fill="rgba(0,0,0,0.06)"/>
+        <rect x="0" y="34" width="278" height="34" fill="#000"/>
+        <text x="288" y="60" font-family="ABC Diatype" font-size="22" font-weight="500" fill="#000">27.8%</text>
+
+        <text x="0" y="122" font-family="ABC Diatype" font-size="18" fill="rgba(0,0,0,0.6)">After GRPO (step 15)</text>
+        <rect x="0" y="134" width="500" height="34" fill="rgba(0,0,0,0.06)"/>
+        <rect x="0" y="134" width="391" height="34" fill="#026340"/>
+        <text x="401" y="160" font-family="ABC Diatype" font-size="22" font-weight="500" fill="#000">39.1%</text>
+
+        <text x="0" y="220" font-family="ABC Diatype" font-size="15" fill="rgba(0,0,0,0.5)">Same mini-swe-agent setup at medium reasoning, both models</text>
+      </svg>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat">
+      <div class="n">500</div>
+      <div class="t">training tasks from a 10,000+ task dataset</div>
+    </div>
+    <div class="stat">
+      <div class="n">422</div>
+      <div class="t">repositories in five languages</div>
+    </div>
+    <div class="stat">
+      <div class="n">8</div>
+      <div class="t">attempts per task, ranked against each other</div>
+    </div>
+  </section>
+
+  <section class="lower">
+    <div class="panel">
+      <div class="ptitle">Mean training reward, 15 updates</div>
+      <svg viewBox="0 0 500 170" aria-label="Mean reward rose from 0.570 to 0.856">
+        <line x1="0" y1="130" x2="500" y2="130" stroke="rgba(0,0,0,0.15)"/>
+        <line x1="0" y1="30" x2="500" y2="30" stroke="rgba(0,0,0,0.06)" stroke-dasharray="4 4"/>
+        <!-- y: 0.5 at y=130, 0.9 at y=30 (linear); 0.570 -> 116, 0.856 -> 44.5 -->
+        <line x1="20" y1="116" x2="480" y2="44.5" stroke="#026340" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="20" cy="116" r="7" fill="#f8f8f3" stroke="#000" stroke-width="3"/>
+        <circle cx="480" cy="44.5" r="7" fill="#026340"/>
+        <text x="20" y="104" font-family="ABC Diatype" font-size="20" font-weight="500" fill="#000">0.570</text>
+        <text x="480" y="28" text-anchor="end" font-family="ABC Diatype" font-size="20" font-weight="500" fill="#000">0.856</text>
+        <text x="0" y="160" font-family="ABC Diatype" font-size="15" fill="rgba(0,0,0,0.5)">Penalised for incomplete attempts and response token limits</text>
+      </svg>
+    </div>
+
+    <div class="panel">
+      <div class="ptitle">Training set by task type, 500 tasks</div>
+      <svg viewBox="0 0 500 170" aria-label="402 feature requests, 58 bug fixes, 40 enhancements">
+        <rect x="0" y="0" width="402" height="48" fill="#000"/>
+        <rect x="402" y="0" width="58" height="48" fill="#026340"/>
+        <rect x="460" y="0" width="40" height="48" fill="#cdaf5d"/>
+        <rect x="0" y="66" width="14" height="14" fill="#000"/>
+        <text x="24" y="78" font-family="ABC Diatype" font-size="18" fill="#000">Feature requests</text>
+        <text x="330" y="78" font-family="ABC Diatype" font-size="18" font-weight="500" fill="#000">402 · 80.4%</text>
+        <rect x="0" y="92" width="14" height="14" fill="#026340"/>
+        <text x="24" y="104" font-family="ABC Diatype" font-size="18" fill="#000">Bug fixes</text>
+        <text x="330" y="104" font-family="ABC Diatype" font-size="18" font-weight="500" fill="#000">58 · 11.6%</text>
+        <rect x="0" y="118" width="14" height="14" fill="#cdaf5d"/>
+        <text x="24" y="130" font-family="ABC Diatype" font-size="18" fill="#000">Enhancements (perf, refactors)</text>
+        <text x="330" y="130" font-family="ABC Diatype" font-size="18" font-weight="500" fill="#000">40 · 8.0%</text>
+      </svg>
+    </div>
+  </section>
+
+  <footer>
+    <span>Entropy stayed between 0.509 and 0.605 nats/token with no sustained decline.</span>
+    <span class="url">afterquery.com</span>
+  </footer>
+
+</div>
+</body>
+</html>

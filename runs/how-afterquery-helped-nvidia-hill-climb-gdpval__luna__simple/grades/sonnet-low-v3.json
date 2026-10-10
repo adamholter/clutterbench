@@ -1,0 +1,129 @@
+{
+ "grader": "sonnet-low-v3",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:58:58.850Z",
+ "main_idea": "Warmup lifts Nemotron 3 Ultra's GDPval score close to the expert teacher's.",
+ "ideas": [
+  "Warmup nearly closes gap to teacher on GDPval"
+ ],
+ "clutter_score": 1,
+ "summary": "The graphic is clean with one chart; only the sentence headline is wordy, and the bars are drawn at heights that don't match their labelled values.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Bar heights do not match values; axis starts at 10 and bars look inflated",
+  "49.5 label sits above the 60 gridline while the bar reaches about 59"
+ ],
+ "cost": {
+  "seconds": 8.9,
+  "usd": 0.06096549999999999,
+  "tokens": 25164,
+  "outputTokens": 728
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, quiet header.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and model tag",
+   "reason": "Short context naming benchmark and model.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Sentence headline",
+   "reason": "Full-sentence headline, large; could be shorter, e.g. 'Warmup nearly matches teacher'.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Names what is measured.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and values",
+   "reason": "The bars with one value label each.",
+   "ids": [
+    "e5",
+    "e7",
+    "e11",
+    "e13",
+    "e8",
+    "e9",
+    "e12",
+    "e15"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Y-axis ticks",
+   "reason": "Axis ticks needed to read the chart.",
+   "ids": [
+    "e6",
+    "e10",
+    "e14",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Short labels identifying each bar.",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 74.9,
+   "orange": 25.1,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 28.7
+  },
+  "clutterShare": 12.6,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 32,
+  "textElements": 17
+ }
+}

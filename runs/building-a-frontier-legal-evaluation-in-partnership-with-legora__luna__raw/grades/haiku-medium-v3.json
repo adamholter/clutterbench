@@ -1,0 +1,224 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:57.574Z",
+ "main_idea": "BAR-informed harness changes raised Legora's production output quality by 5%.",
+ "ideas": [
+  "BAR benchmark tests agents on end-to-end legal work",
+  "Legora harness changes raised output quality 5%",
+  "Benchmark evaluates legal work in three steps",
+  "Dataset size stats: 5,161 cases, 28 areas, 11,075 documents",
+  "Partnership between AfterQuery and Legora"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid impact banner and method cards are surrounded by dataset stats, a repeated brand, a slogan footer, and decorative bars that should go; the headline and subtitle should be shortened, and nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 24.5,
+  "usd": 0.0038003100000000003,
+  "tokens": 29701,
+  "outputTokens": 5086
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand mark",
+   "reason": "One brand mark, small and quiet, identifies the publisher.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Pipeline section title",
+   "reason": "Short title and tag naming what the diagram shows.",
+   "ids": [
+    "e19",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "+5% impact banner",
+   "reason": "The post's key finding, stated with its metric and qualifier.",
+   "ids": [
+    "e51",
+    "e52",
+    "e53",
+    "e54",
+    "e55"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long headline question",
+   "reason": "Question-style title is long; a short finding-style headline would do.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle sentence",
+   "reason": "Real facts in a two-line sentence; shorten to a few words.",
+   "ids": [
+    "e9"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Three-step method cards",
+   "reason": "Method steps take a large block; fold them into a footnote or short caption.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e50"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "Header partner tag",
+   "reason": "Legora is already named in the subtitle and footer.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker line",
+   "reason": "Kicker above headline adds no finding; the benchmark is named in the stat card.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Dataset size stats",
+   "reason": "Case, area and document counts serve a second point, not the main impact claim.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Step category tags",
+   "reason": "Evidence, Execution, Evaluation tags repeat the step titles' role.",
+   "ids": [
+    "e31",
+    "e32",
+    "e33"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Decorative progress bars",
+   "reason": "Decorative bars in each card carry no information.",
+   "ids": [
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e48",
+    "e49"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Footer tagline",
+   "reason": "Tagline is a slogan with no finding.",
+   "ids": [
+    "e56"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "repetition",
+   "name": "Footer wordmark",
+   "reason": "Second brand mark; the header logo already identifies the publisher.",
+   "ids": [
+    "e57",
+    "e58"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 22.4,
+   "orange": 51.7,
+   "red": 26,
+   "unlabelled": 0,
+   "paintedOfCanvas": 24.3
+  },
+  "clutterShare": 51.9,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "repetition": 2,
+   "unneeded": 4,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 126,
+  "textElements": 34
+ }
+}

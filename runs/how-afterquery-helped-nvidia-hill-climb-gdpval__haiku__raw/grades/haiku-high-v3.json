@@ -1,0 +1,167 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:02:51.005Z",
+ "main_idea": "AQ warmup lifts Nemotron 3 Ultra GDPval score from 35.3 to 46.7.",
+ "ideas": [
+  "Warmup raises GDPval score from 35.3 to 46.7",
+  "Warmed-up model nears the teacher's 49.5",
+  "Stage-by-stage GDPval scores for Nemotron 3 Ultra",
+  "AfterQuery data helped NVIDIA's Ultra model",
+  "Ultra runs about 6x faster than comparable open models"
+ ],
+ "clutter_score": 4,
+ "summary": "A clear bar chart is cluttered by three stat cards that repeat or sidestep the chart, a category tag, and a wordy footnote; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Captions in the 2.8 and ~6x cards overflow below their card borders",
+  "The 49.5 value label collides with the dashed teacher bar's top edge"
+ ],
+ "cost": {
+  "seconds": 24.4,
+  "usd": 0.003966590000000001,
+  "tokens": 32129,
+  "outputTokens": 5363
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery brand logo",
+   "reason": "One brand mark, small and top-left.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog category tag",
+   "reason": "Category tag about the page type; tells the reader nothing new.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Six words naming the subject and the benchmark.",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval stage bar chart",
+   "reason": "Main visual with title, metric source, labelled bars, values and short stage labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "repetition",
+   "name": "+11.4 stat card",
+   "reason": "Restates the 35.3 to 46.7 gain that the bars already show.",
+   "ids": [
+    "e24",
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "2.8 gap stat card",
+   "reason": "Restates the gap to the teacher already visible in the bars.",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Throughput stat card",
+   "reason": "Throughput claim is a second point, unrelated to the GDPval chart.",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long source footnote",
+   "reason": "Source line is useful; the claim sentence repeats the headline. Shorten to source only.",
+   "ids": [
+    "e33"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "blue",
+   "type": "core",
+   "name": "Website URL",
+   "reason": "Quiet contact line.",
+   "ids": [
+    "e34"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 77,
+   "orange": 5.2,
+   "red": 17.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 20.4,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

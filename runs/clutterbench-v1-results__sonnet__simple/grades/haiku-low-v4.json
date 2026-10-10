@@ -1,0 +1,126 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:36.535Z",
+ "main_idea": "Simple prompts cut every model's clutter to near zero, versus 29-61% raw.",
+ "ideas": [
+  "Simple prompt yields near-zero clutter for every model",
+  "Raw prompt clutter ranges 29% to 61%",
+  "Lower clutter share is better"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a single dot plot with labelled models, values, scale, title and one logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.5,
+  "usd": 0.0035307000000000003,
+  "tokens": 25292,
+  "outputTokens": 1768
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "ClutterBench wordmark",
+   "reason": "One brand mark, short and needed for context.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Prompt legend",
+   "reason": "Single legend identifying the two colored series.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Short metric and direction: clutter share, lower is better.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Dot marks and values",
+   "reason": "The chart marks with one value label each; these carry the finding.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e21",
+    "e22",
+    "e23",
+    "e24"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Model row labels",
+   "reason": "Needed to tell which model each row describes.",
+   "ids": [
+    "e10",
+    "e15",
+    "e20",
+    "e25"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis tick labels",
+   "reason": "Axis ticks needed to read the percentage scale.",
+   "ids": [
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 39,
+  "textElements": 22
+ }
+}

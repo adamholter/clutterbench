@@ -1,0 +1,275 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 22,
+  "textElements": 18,
+  "words": 43,
+  "fontSizes": 8,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 80,
+   "y": 80,
+   "w": 59,
+   "h": 48,
+   "text": ""
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "span",
+   "x": 897,
+   "y": 90,
+   "w": 223,
+   "h": 29,
+   "text": "Research · Oct 8, 2026",
+   "fontSize": 22,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "h1",
+   "x": 80,
+   "y": 178,
+   "w": 872,
+   "h": 199,
+   "text": "Improving Qwen3.8-27B on DeepSWE with",
+   "fontSize": 76,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "i",
+   "x": 575,
+   "y": 258,
+   "w": 206,
+   "h": 119,
+   "text": "GRPO",
+   "fontSize": 76,
+   "color": "rgb(209, 181, 106)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "div",
+   "x": 80,
+   "y": 380,
+   "w": 674,
+   "h": 32,
+   "text": "DeepSWE pass@1 (avg 3), mini-swe-agent at medium reasoning",
+   "fontSize": 24,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 680,
+   "y": 480,
+   "w": 440,
+   "h": 320,
+   "color": "rgb(209, 181, 106)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 80,
+   "y": 520,
+   "w": 440,
+   "h": 280,
+   "color": "rgb(42, 42, 40)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 182,
+   "y": 575,
+   "w": 235,
+   "h": 143,
+   "text": "27.8%",
+   "fontSize": 92,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "text",
+   "x": 789,
+   "y": 575,
+   "w": 222,
+   "h": 143,
+   "text": "39.1%",
+   "fontSize": 92,
+   "color": "rgb(12, 12, 12)"
+  },
+  {
+   "id": "e9",
+   "kind": "text",
+   "tag": "text",
+   "x": 584,
+   "y": 631,
+   "w": 31,
+   "h": 50,
+   "text": "→",
+   "fontSize": 40,
+   "color": "rgb(209, 181, 106)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "text",
+   "x": 572,
+   "y": 695,
+   "w": 56,
+   "h": 32,
+   "text": "+11.3",
+   "fontSize": 26,
+   "color": "rgb(209, 181, 106)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "text",
+   "x": 80,
+   "y": 824,
+   "w": 187,
+   "h": 29,
+   "text": "Qwen3.8-27B base",
+   "fontSize": 22,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e12",
+   "kind": "text",
+   "tag": "text",
+   "x": 680,
+   "y": 824,
+   "w": 201,
+   "h": 29,
+   "text": "After GRPO (step 15)",
+   "fontSize": 22,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e13",
+   "kind": "box",
+   "tag": "div",
+   "x": 80,
+   "y": 982,
+   "w": 1040,
+   "h": 138,
+   "color": "rgb(51, 51, 51)"
+  },
+  {
+   "id": "e14",
+   "kind": "text",
+   "tag": "b",
+   "x": 80,
+   "y": 1011,
+   "w": 92,
+   "h": 84,
+   "text": "500",
+   "fontSize": 54,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e15",
+   "kind": "text",
+   "tag": "b",
+   "x": 324,
+   "y": 1011,
+   "w": 87,
+   "h": 84,
+   "text": "422",
+   "fontSize": 54,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e16",
+   "kind": "text",
+   "tag": "b",
+   "x": 568,
+   "y": 1011,
+   "w": 29,
+   "h": 84,
+   "text": "8",
+   "fontSize": 54,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e17",
+   "kind": "text",
+   "tag": "b",
+   "x": 812,
+   "y": 1011,
+   "w": 308,
+   "h": 84,
+   "text": "0.570→0.856",
+   "fontSize": 54,
+   "color": "rgb(246, 245, 238)"
+  },
+  {
+   "id": "e18",
+   "kind": "text",
+   "tag": "span",
+   "x": 80,
+   "y": 1095,
+   "w": 111,
+   "h": 25,
+   "text": "training tasks",
+   "fontSize": 19,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e19",
+   "kind": "text",
+   "tag": "span",
+   "x": 324,
+   "y": 1095,
+   "w": 99,
+   "h": 25,
+   "text": "repositories",
+   "fontSize": 19,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e20",
+   "kind": "text",
+   "tag": "span",
+   "x": 568,
+   "y": 1095,
+   "w": 145,
+   "h": 25,
+   "text": "attempts per task",
+   "fontSize": 19,
+   "color": "rgb(168, 167, 161)"
+  },
+  {
+   "id": "e21",
+   "kind": "text",
+   "tag": "span",
+   "x": 812,
+   "y": 1095,
+   "w": 208,
+   "h": 25,
+   "text": "mean reward, 15 updates",
+   "fontSize": 19,
+   "color": "rgb(168, 167, 161)"
+  }
+ ]
+}

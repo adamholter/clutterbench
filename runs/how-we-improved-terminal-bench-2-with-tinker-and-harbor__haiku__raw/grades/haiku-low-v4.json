@@ -1,0 +1,161 @@
+{
+ "grader": "haiku-low-v4",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:07.382Z",
+ "main_idea": "A two-stage training pipeline lifts the base model's Terminal-Bench 2.0 pass rate over 5x",
+ "ideas": [
+  "Training lifts pass rate over 5x on Terminal-Bench 2.0",
+  "Base 3.1% versus SFT + RLVR 17.0%",
+  "SFT alone reaches 13.5%",
+  "Two stages: supervised fine-tuning, then RLVR"
+ ],
+ "clutter_score": 4,
+ "summary": "The bar chart is clear and complete, but the eyebrow, section tag, restating subtitle, and two stage cards with gain tags are clutter that should go.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Value labels 13.5% and 17.0% extend slightly past the right margin rule"
+ ],
+ "cost": {
+  "seconds": 12.5,
+  "usd": 0.0039149399999999996,
+  "tokens": 31286,
+  "outputTokens": 2317
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Logo header",
+   "reason": "One brand mark, kept as the single logo.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog section tag",
+   "reason": "Category tag repeats site context; tells the reader nothing new.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Post-training eyebrow",
+   "reason": "Kicker line above the headline; not needed to read the chart.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline finding",
+   "reason": "Short headline naming the finding and benchmark.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph restates the chart's numbers and setup.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Main visual: labelled bars, values, metric title, and row labels.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage method cards",
+   "reason": "Pipeline method cards beside the results chart serve a second point; their tags repeat the chart.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Evaluation footer",
+   "reason": "Quiet footnote giving benchmark, task count, and averaging, plus contact line.",
+   "ids": [
+    "e38",
+    "e39",
+    "e40"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 67.2,
+   "orange": 0,
+   "red": 32.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 32.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

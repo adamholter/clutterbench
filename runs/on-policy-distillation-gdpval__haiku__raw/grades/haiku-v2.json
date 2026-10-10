@@ -1,0 +1,281 @@
+{
+ "grader": "haiku-v2",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:17:29.746Z",
+ "main_idea": "Distillation lifts Nemotron Nano and Qwen3.5-9B on GDPval against their base models.",
+ "ideas": [
+  "On-policy distillation improves GDPval performance",
+  "Nemotron Nano gains +20.9% net win-loss margin",
+  "Qwen3.5-9B reproduces the gain with +21.4%",
+  "Student beats base on most of 220 tasks"
+ ],
+ "clutter_score": 5,
+ "summary": "Clutter comes from the eyebrow tag, explanatory subtitle, card and row frames, footer lines, and a repeated Qwen label row; the graphic lacks an explicit base-model comparison for its stat rows.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "comparison baseline",
+   "why": "Stat rows never say the win-loss and rubric gains are versus the base model."
+  },
+  {
+   "mid": "m1",
+   "what": "base model name",
+   "why": "The model being compared against is never named."
+  }
+ ],
+ "completeness_score": 7,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Brand mark, kept once.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Section tag above the headline; the chart title already names GDPval.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "Two-line headline names the topic; the chart already shows the result.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "Paragraph explains the method and restates what the chart shows.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Outer card border",
+   "reason": "Decorative frame around the chart area.",
+   "ids": [
+    "e5"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Row divider frame",
+   "reason": "Decorative rule box around the Nano row.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Nano headline values",
+   "reason": "Key result values for the Nano student.",
+   "ids": [
+    "e7",
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "Nano model name",
+   "reason": "Names the model being measured.",
+   "ids": [
+    "e10"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Nano student subline",
+   "reason": "Teacher name and step count are detail; shorten to model role.",
+   "ids": [
+    "e11"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Nano stat labels",
+   "reason": "Metric names for the first row's values.",
+   "ids": [
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Qwen row frame",
+   "reason": "Decorative rule box around the Qwen row.",
+   "ids": [
+    "e14"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen headline values",
+   "reason": "Key result values for the Qwen student.",
+   "ids": [
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen model name",
+   "reason": "Names the second model being measured.",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Qwen student subline",
+   "reason": "Teacher name and recipe note are detail; shorten.",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r14",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated Qwen labels",
+   "reason": "Same metric labels already shown in the Nano row.",
+   "ids": [
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r15",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "States the benchmark, comparison, and task count.",
+   "ids": [
+    "e22"
+   ]
+  },
+  {
+   "rid": "r16",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Win rate figure",
+   "reason": "Extra figure; a bar-chart label could carry it more quietly.",
+   "ids": [
+    "e23"
+   ]
+  },
+  {
+   "rid": "r17",
+   "label": "blue",
+   "type": "core",
+   "name": "Win/tie/loss bars",
+   "reason": "The chart marks showing the outcome split.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r18",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar value labels",
+   "reason": "One value label per bar segment.",
+   "ids": [
+    "e27",
+    "e28",
+    "e29"
+   ]
+  },
+  {
+   "rid": "r19",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Statistical footnote",
+   "reason": "Significance caveat is a footer detail, not needed to read the chart.",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r20",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Training split footer",
+   "reason": "Dataset detail outside the main claim.",
+   "ids": [
+    "e31"
+   ]
+  },
+  {
+   "rid": "r21",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom divider",
+   "reason": "Empty decorative rule at the bottom edge.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 35.1,
+   "orange": 40,
+   "red": 24.9,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 44.9,
+  "ideaCount": 4,
+  "missingCount": 2,
+  "redByType": {
+   "unneeded": 8,
+   "repetition": 1
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "clutterbench",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "fetch": "node scripts/fetch_articles.cjs",
+    "gen": "node scripts/run_gen.cjs",
+    "grade": "node scripts/grade.cjs",
+    "compare": "node scripts/compare.cjs",
+    "build": "cd ui && npm run build",
+    "start": "node server.cjs"
+  },
+  "dependencies": {
+    "jsdom": "^29.1.1",
+    "playwright": "^1.64.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}

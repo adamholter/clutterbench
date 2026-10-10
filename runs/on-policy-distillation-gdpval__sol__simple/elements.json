@@ -1,0 +1,121 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 9,
+  "textElements": 6,
+  "words": 12,
+  "fontSizes": 3,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "text",
+   "tag": "text",
+   "x": 65,
+   "y": 55,
+   "w": 513,
+   "h": 65,
+   "text": "GDPval net win–loss margin",
+   "fontSize": 42,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e1",
+   "kind": "shape",
+   "tag": "div",
+   "x": 971,
+   "y": 65,
+   "w": 164,
+   "h": 28,
+   "color": "rgb(0, 0, 0)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "text",
+   "x": 65,
+   "y": 125,
+   "w": 282,
+   "h": 32,
+   "text": "On-policy distilled vs. base",
+   "fontSize": 24,
+   "color": "rgb(101, 101, 95)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 801,
+   "y": 219,
+   "w": 122,
+   "h": 56,
+   "text": "+21.4%",
+   "fontSize": 42,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e4",
+   "kind": "text",
+   "tag": "text",
+   "x": 271,
+   "y": 237,
+   "w": 132,
+   "h": 56,
+   "text": "+20.9%",
+   "fontSize": 42,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 680,
+   "y": 290,
+   "w": 365,
+   "h": 770,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 155,
+   "y": 308,
+   "w": 365,
+   "h": 752,
+   "color": "rgb(2, 99, 64)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 223,
+   "y": 1083,
+   "w": 229,
+   "h": 37,
+   "text": "Nemotron-3-Nano",
+   "fontSize": 28,
+   "color": "rgb(34, 34, 34)"
+  },
+  {
+   "id": "e8",
+   "kind": "text",
+   "tag": "text",
+   "x": 783,
+   "y": 1083,
+   "w": 158,
+   "h": 37,
+   "text": "Qwen3.5-9B",
+   "fontSize": 28,
+   "color": "rgb(34, 34, 34)"
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "grader": "luna-v2",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v2.md",
+ "gradedAt": "2026-10-10T16:15:29.220Z",
+ "main_idea": "BAR measures end-to-end legal work and informs improvements to Legora’s harness.",
+ "ideas": [
+  "BAR covers thousands of legal cases across practice areas.",
+  "BAR-informed harness changes improved output quality by 5% in one month."
+ ],
+ "clutter_score": 8,
+ "summary": "A stats row, practice-area grid, explanatory copy, and footer compete for attention; the 5% result lacks a defined metric and comparison.",
+ "missing": [
+  {
+   "mid": "m0",
+   "what": "Comparison conditions",
+   "why": "The 5% improvement lacks a baseline or comparison condition."
+  },
+  {
+   "mid": "m1",
+   "what": "Output quality metric",
+   "why": "The graphic gives no definition or unit for output quality."
+  },
+  {
+   "mid": "m2",
+   "what": "Models evaluated",
+   "why": "It does not identify which production models improved."
+  }
+ ],
+ "completeness_score": 4,
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark orients readers to the graphic.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Navigation label",
+   "reason": "Blog and case study navigation do not explain the graphic’s point.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Two-line headline",
+   "reason": "The headline wraps across two lines and describes the topic, not the finding.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Explanatory subtitle",
+   "reason": "The sentence spells out what the benchmark measures and repeats its name.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Benchmark statistics",
+   "reason": "The case, area, and document counts form a separate scale and coverage idea.",
+   "ids": [
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e14",
+    "e15",
+    "e16"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Large improvement stat",
+   "reason": "The 5% result is useful, but its standalone size gives it too much weight.",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Improvement caption",
+   "reason": "The caption explains the stat in a long phrase instead of naming a compact metric.",
+   "ids": [
+    "e17"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Practice area grid",
+   "reason": "The grid and copy add a separate practice-area coverage idea.",
+   "ids": [
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e41",
+    "e42",
+    "e43",
+    "e44",
+    "e45",
+    "e46",
+    "e47",
+    "e39",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Contact footer",
+   "reason": "The lab tagline and contact details are footer material unrelated to the main point.",
+   "ids": [
+    "e48",
+    "e49",
+    "e50"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 1,
+   "orange": 41.9,
+   "red": 57,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.6
+  },
+  "clutterShare": 78,
+  "ideaCount": 2,
+  "missingCount": 3,
+  "redByType": {
+   "unneeded": 4,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 77,
+  "textElements": 18
+ }
+}

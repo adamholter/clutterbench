@@ -1,0 +1,101 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.876Z",
+ "consensus": {
+  "haikuAgreed": false,
+  "elementsChanged": 0,
+  "tiebreak": true,
+  "scores": [
+   1,
+   1,
+   0
+  ]
+ },
+ "main_idea": "BAR is a large legal benchmark: 5,161 cases, 11,075 documents, 28 practice areas.",
+ "ideas": [
+  "BAR benchmark scale",
+  "Case count",
+  "Source document count",
+  "Practice area breadth"
+ ],
+ "summary": "Clean and complete: a three-stat scale graphic with benchmark name and logo, with no extras to remove.",
+ "clutter_score": 1,
+ "completeness_score": 9,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark, visible and appropriate.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark name",
+   "reason": "Short tag identifying what the numbers describe.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Cases stat",
+   "reason": "Core scale statistic with its label.",
+   "ids": [
+    "e2",
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Documents stat",
+   "reason": "Core scale statistic with its label.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Practice areas stat",
+   "reason": "Core scale statistic with its label.",
+   "ids": [
+    "e8",
+    "e9",
+    "e10"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 34
+  },
+  "clutterShare": 0,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 10,
+  "textElements": 7
+ }
+}

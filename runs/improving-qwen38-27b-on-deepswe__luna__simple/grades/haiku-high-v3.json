@@ -1,0 +1,111 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:04:17.139Z",
+ "main_idea": "GRPO on 500 tasks lifted DeepSWE pass@1 from 27.8% to 39.1%",
+ "ideas": [
+  "GRPO lifts DeepSWE pass@1 from 27.8% to 39.1%",
+  "Training on 500 tasks drove the gain",
+  "Trained model beats base model on DeepSWE"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete; the only defect is the top-left logo, which is almost invisible on the light background.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Logo at top-left is near-invisible, pale on cream background"
+ ],
+ "cost": {
+  "seconds": 15,
+  "usd": 0.00270298,
+  "tokens": 25964,
+  "outputTokens": 2917
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Bars and change marker",
+   "reason": "The chart marks themselves, with a dotted connector showing the change.",
+   "ids": [
+    "e4",
+    "e9",
+    "e5",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, as the chart needs.",
+   "ids": [
+    "e2",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Names each bar, including the training scale.",
+   "ids": [
+    "e11",
+    "e12"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Scale ticks at 0 and 40% that anchor the bar heights.",
+   "ids": [
+    "e3",
+    "e10"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Benchmark and metric tag",
+   "reason": "Short, quiet context naming the benchmark and metric measured.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "The single brand mark, though it renders almost invisibly.",
+   "ids": [
+    "e0"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 14.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 7
+ }
+}

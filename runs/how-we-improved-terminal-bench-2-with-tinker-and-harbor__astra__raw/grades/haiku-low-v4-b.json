@@ -1,0 +1,169 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:43:35.059Z",
+ "main_idea": "Training lifts gpt-oss-20b terminal pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Training raises gpt-oss-20b pass rate on Terminal-Bench 2.0",
+  "SFT alone gives most of the gain (13.5%)",
+  "RLVR on top of SFT reaches 17.0%",
+  "Two-stage method: teach workflow, then learn from tests",
+  "No official eval tasks used for training"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid bar chart is buried under a slogan headline, a subtitle, a tag, and a two-card method block that should go; nothing needed is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 12.2,
+  "usd": 0.0014613,
+  "tokens": 30895,
+  "outputTokens": 2351
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, visible and small.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title and model",
+   "reason": "Names the benchmark, metric, and model in short form.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Pass-rate bar chart",
+   "reason": "Main visual: labelled bars, values, and axis zero tick.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e20"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Footnote and contact",
+   "reason": "Quiet evaluation details and site line.",
+   "ids": [
+    "e30",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Category tag",
+   "reason": "Section tag in the header restates nothing the reader needs.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Slogan that does not state the finding; chart already shows it.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Restating subtitle",
+   "reason": "Subtitle restates what the title and chart already convey.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Takeaway caption",
+   "reason": "Takeaway sentence about SFT data; not needed to read the chart.",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage 1 and 2 method cards",
+   "reason": "Method explanation beside the results chart serves a second point.",
+   "ids": [
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Training-data takeaway line",
+   "reason": "Extra claim about evaluation set; does not help read the chart.",
+   "ids": [
+    "e29"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 49.9,
+   "orange": 0,
+   "red": 50.1,
+   "unlabelled": 0,
+   "paintedOfCanvas": 38.2
+  },
+  "clutterShare": 50.1,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 98,
+  "textElements": 23
+ }
+}

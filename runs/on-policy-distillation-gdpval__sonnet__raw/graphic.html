@@ -1,0 +1,26 @@
+<html><head><style>
+@font-face{font-family:D;src:url(assets/ABCDiatype_Regular.woff2);font-weight:400}
+@font-face{font-family:D;src:url(assets/ABCDiatype_Medium.woff2);font-weight:500}
+@font-face{font-family:S;src:url(assets/MartinaPlantijn_Regular.woff2)}
+*{margin:0;box-sizing:border-box}
+body{width:1200px;height:1200px;background:#000;color:#e8e8e3;font-family:D,sans-serif;padding:80px;position:relative;overflow:hidden}
+.k{font-size:22px;letter-spacing:.14em;text-transform:uppercase;color:#a8a7a1}
+h1{font-family:S;font-weight:400;font-size:72px;line-height:1.08;margin-top:28px;max-width:900px}
+.big{font-family:S;font-size:230px;line-height:1;margin-top:70px;letter-spacing:-.02em}
+.big small{display:block;margin-top:10px;font-size:30px;font-family:D;color:#a8a7a1;letter-spacing:0;margin-left:0}
+.bar{display:flex;height:64px;margin-top:20px;font-size:24px;font-weight:500}
+.bar div{display:flex;align-items:center;padding-left:18px}
+.row{display:flex;gap:40px;margin-top:56px;border-top:1px solid #333;padding-top:30px}
+.row div{flex:1}.row b{font-family:S;font-weight:400;font-size:64px;display:block}.row span{color:#a8a7a1;font-size:22px}
+.logo{position:absolute;right:80px;top:76px;width:60px}
+.foot{position:absolute;left:80px;bottom:70px;font-size:22px;color:#a8a7a1}
+</style></head><body>
+<img class="logo" src="assets/mark.svg">
+<div class="k">AfterQuery · Research</div>
+<h1>On-policy distillation on GDPval</h1>
+<div class="big">+20.9%<small>net win-loss margin, Nemotron-3-Nano, 50 steps</small></div>
+<div class="bar"><div style="width:56%;background:#e8e8e3;color:#000">123 wins</div><div style="width:9%;background:#555"></div><div style="width:35%;background:#222;">77 losses</div></div>
+<div class="k" style="margin-top:14px;font-size:18px">220 GDPval tasks · 20 ties · 55.9% win rate</div>
+<div class="row"><div><b>+5.1</b><span>mean rubric score, Nemotron</span></div><div><b>+7.9</b><span>mean rubric score, Qwen3.5-9B</span></div><div><b>+21.4%</b><span>net margin, Qwen3.5-9B</span></div></div>
+<div class="foot">Student trained on-policy from a frozen larger teacher</div>
+</body></html>

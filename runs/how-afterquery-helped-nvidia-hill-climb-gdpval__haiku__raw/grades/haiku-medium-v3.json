@@ -1,0 +1,160 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T16:59:54.745Z",
+ "main_idea": "AQ warmup lifts Nemotron 3 Ultra's GDPval score from 35.3 to 46.7",
+ "ideas": [
+  "AQ warmup raises GDPval score",
+  "Warmup stage nearly matches specialized teacher",
+  "Warmup outperforms no-warmup and student",
+  "AfterQuery data helped NVIDIA training",
+  "Throughput of Ultra versus open models"
+ ],
+ "clutter_score": 4,
+ "summary": "The chart is clear and labelled, but three stat cards below it (a +11.4 restatement, a 2.8 restatement, and an unrelated ~6× throughput claim) plus an eyebrow line are clutter, and the card text overflows its boxes.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [
+  "Stat card text for 2.8 and ~6× overflows below its box borders",
+  "49.5 value label sits on the teacher bar's dashed top border",
+  "Dashed reference line near 35.3 is not in the element list",
+  "Score unit (for example pass rate or Elo) is never stated"
+ ],
+ "cost": {
+  "seconds": 14.1,
+  "usd": 0.0025949899999999997,
+  "tokens": 29366,
+  "outputTokens": 2633
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Names the subject and the finding in a short title",
+   "ids": [
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval training-stage chart",
+   "reason": "Main visual: bars, values, labels, chart title and source context",
+   "ids": [
+    "e5",
+    "e6",
+    "e9",
+    "e7",
+    "e8",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Source footnote",
+   "reason": "Quiet source line and contact URL",
+   "ids": [
+    "e33",
+    "e34"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog case-study eyebrow",
+   "reason": "Category tag above the headline; tells the reader nothing new",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "red",
+   "type": "repetition",
+   "name": "+11.4 stat card",
+   "reason": "Restates the 35.3 to 46.7 difference the bars already show",
+   "ids": [
+    "e24",
+    "e27",
+    "e30"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "red",
+   "type": "repetition",
+   "name": "2.8 points stat card",
+   "reason": "Restates the gap to the teacher bar already shown in the chart",
+   "ids": [
+    "e25",
+    "e28",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Throughput stat card",
+   "reason": "Serves a second point about model speed, unrelated to the training chart",
+   "ids": [
+    "e26",
+    "e29",
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 82.2,
+   "orange": 0,
+   "red": 17.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 60.2
+  },
+  "clutterShare": 17.8,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 1,
+   "repetition": 2,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 86,
+  "textElements": 26
+ }
+}

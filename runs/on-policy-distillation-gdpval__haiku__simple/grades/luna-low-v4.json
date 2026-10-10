@@ -1,0 +1,62 @@
+{
+ "grader": "luna-low-v4",
+ "model": "gpt-6-luna",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:08:25.718Z",
+ "main_idea": "The model wins more GDPval task comparisons than it loses.",
+ "ideas": [
+  "The model has a +20.9% net win-loss margin on GDPval."
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete; the AfterQuery logo is missing from the screenshot.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "AfterQuery logo is absent from the screenshot."
+ ],
+ "cost": {
+  "seconds": 5.6,
+  "usd": null,
+  "tokens": 11680,
+  "outputTokens": null
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "GDPval results",
+   "reason": "The headline, logo, and labeled win, tie, and loss counts make the result clear.",
+   "ids": [
+    "e0",
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 100
+  },
+  "clutterShare": 0,
+  "ideaCount": 1,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 15,
+  "textElements": 7
+ }
+}

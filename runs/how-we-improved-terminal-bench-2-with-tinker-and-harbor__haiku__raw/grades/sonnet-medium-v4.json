@@ -1,0 +1,189 @@
+{
+ "grader": "sonnet-medium-v4",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T17:10:10.354Z",
+ "main_idea": "Training lifted gpt-oss-20b from 3.1% to 17.0% on Terminal-Bench 2.0.",
+ "ideas": [
+  "Over 5x pass rate gain on Terminal-Bench 2.0",
+  "SFT then RLVR progression raises pass rate",
+  "Stage 1 SFT gave the largest gain",
+  "Stage 2 RLVR adds 3.5 points"
+ ],
+ "clutter_score": 5,
+ "summary": "A solid bar chart and headline are cluttered by a tag, an eyebrow, a restating subtitle and two method cards; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [
+  "Value labels 13.5% and 17.0% extend slightly past the right margin"
+ ],
+ "cost": {
+  "seconds": 10.2,
+  "usd": 0.0339703,
+  "tokens": 28458,
+  "outputTokens": 1045
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "Single brand mark, header container.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Blog Research tag",
+   "reason": "Category tag that tells the reader nothing needed.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Eyebrow kicker",
+   "reason": "Eyebrow line above the headline.",
+   "ids": [
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Headline",
+   "reason": "Short headline naming the finding and benchmark.",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Subtitle paragraph",
+   "reason": "Restates the chart numbers and method in a sentence.",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names the metric and agent.",
+   "ids": [
+    "e7",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar chart",
+   "reason": "Bars, row labels and values form the main visual.",
+   "ids": [
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e19",
+    "e20",
+    "e21",
+    "e22"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "red",
+   "type": "repetition",
+   "name": "Row sublabels",
+   "reason": "Secondary captions add little. 'Our pipeline' and 'Gold trajectories' are redundant with row labels.",
+   "ids": [
+    "e18",
+    "e23"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Stage cards",
+   "reason": "Method cards beside the results chart serve a second point and repeat the bar labels.",
+   "ids": [
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "Eval footnote",
+   "reason": "Quiet evaluation details footnote.",
+   "ids": [
+    "e38",
+    "e40"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Contact line",
+   "reason": "Small contact line is harmless.",
+   "ids": [
+    "e39"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 66.2,
+   "orange": 0,
+   "red": 33.8,
+   "unlabelled": 0,
+   "paintedOfCanvas": 36.9
+  },
+  "clutterShare": 33.8,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 110,
+  "textElements": 25
+ }
+}

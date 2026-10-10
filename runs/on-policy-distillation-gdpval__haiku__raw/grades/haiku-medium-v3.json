@@ -1,0 +1,189 @@
+{
+ "grader": "haiku-medium-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "medium",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:01:06.362Z",
+ "main_idea": "Distillation lifts two model families to about +21% net GDPval win-loss margin.",
+ "ideas": [
+  "Nemotron student beats base by +20.9% net win-loss margin",
+  "Qwen family reproduces the gain at +21.4% margin",
+  "Mean rubric points rise 5.1 and 7.9",
+  "Wins outnumber losses 123 to 77 on 220 tasks",
+  "Training used no GDPval eval tasks"
+ ],
+ "clutter_score": 5,
+ "summary": "A clear two-row stat layout is buried under a slogan headline, a category tag, a wordy subtitle, and a win-loss bar chart that drifts from the two-family claim; nothing essential is missing.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 26.1,
+  "usd": 0.0040121900000000005,
+  "tokens": 39340,
+  "outputTokens": 5331
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "One brand mark, small and quiet.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Research category tag",
+   "reason": "Category tag above the chart; tells the reader nothing new.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Slogan headline",
+   "reason": "Two-line slogan naming the topic, not the finding.",
+   "ids": [
+    "e2",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Long subtitle",
+   "reason": "Real facts in a two-line sentence; shorten to a footnote or cut method detail.",
+   "ids": [
+    "e4"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Nemotron result row",
+   "reason": "Main claim: big margin and rubric gain with model name and metric labels.",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e12",
+    "e13"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Nemotron teacher detail",
+   "reason": "Wordy row label; the teacher and step count fit a shorter footnote.",
+   "ids": [
+    "e11"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "Qwen result row",
+   "reason": "Second family's margin and rubric gain; shows the result reproduces.",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Qwen teacher detail",
+   "reason": "Wordy row label; teacher and recipe belong in a footnote.",
+   "ids": [
+    "e19"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "red",
+   "type": "repetition",
+   "name": "Repeated metric labels",
+   "reason": "Same metric labels already shown on the Nemotron row.",
+   "ids": [
+    "e20",
+    "e21"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "Win-loss bar chart",
+   "reason": "Second visual on one model's pair counts; drops the two-family claim.",
+   "ids": [
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e31"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "blue",
+   "type": "core",
+   "name": "Significance footnote",
+   "reason": "Quiet evaluation detail giving the statistical test.",
+   "ids": [
+    "e30"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "unneeded",
+   "name": "Bottom divider rule",
+   "reason": "Decorative shape with no content.",
+   "ids": [
+    "e32"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 26.5,
+   "orange": 15,
+   "red": 58.5,
+   "unlabelled": 0,
+   "paintedOfCanvas": 39.7
+  },
+  "clutterShare": 66,
+  "ideaCount": 5,
+  "missingCount": 0,
+  "redByType": {
+   "unneeded": 3,
+   "repetition": 1,
+   "extra_idea": 1
+  },
+  "coverage": 100,
+  "words": 102,
+  "textElements": 25
+ }
+}

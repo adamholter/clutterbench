@@ -1,0 +1,100 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T20:17:58.320Z",
+ "main_idea": "A simple prompt cuts each model's clutter from 29-61% to near zero",
+ "ideas": [
+  "Simple prompt cuts clutter to near zero",
+  "Raw prompts leave 29-61% clutter across models",
+  "Claude Sonnet 5.5 is least cluttered raw",
+  "GPT-6 Luna is most cluttered raw"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple dot plot with one metric, labelled values and one brand mark; the benchmark itself is not named but the metric is clear.",
+ "missing": [],
+ "completeness_score": 9,
+ "defects": [],
+ "cost": {
+  "seconds": 8.8,
+  "usd": 0.00186428,
+  "tokens": 24898,
+  "outputTokens": 1364
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand wordmark",
+   "reason": "Single brand mark, short and needed for identification",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Prompt legend",
+   "reason": "One legend explaining the two colour series",
+   "ids": [
+    "e2",
+    "e3",
+    "e4"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Dot-plot chart",
+   "reason": "Main visual with metric subtitle, value labels, model names and axis ticks",
+   "ids": [
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e15",
+    "e16",
+    "e17",
+    "e18",
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 9.2
+  },
+  "clutterShare": 0,
+  "ideaCount": 4,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 39,
+  "textElements": 22
+ }
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clutter drops with a simple prompt</title>
+<style>
+@font-face{font-family:Outfit;src:url('assets/outfit.woff2') format('woff2');font-weight:400 700}
+*{box-sizing:border-box}html,body{margin:0;width:1200px;height:1200px;overflow:hidden;background:#fff;color:#101828;font-family:Outfit,sans-serif}svg{display:block;width:1200px;height:1200px}text{font-family:Outfit,sans-serif} .name{font-size:25px;font-weight:500}.value{font-size:26px;font-weight:600}.head{font-size:25px;font-weight:500;fill:#475467}
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+<title id="title">Clutter drops with a simple prompt</title>
+<desc id="desc">Clutter scores fall from 29% to 0% for Claude Sonnet 5.5, 42% to 0% for Claude Haiku 5.5, 46% to 0% for GPT-6.1 Sol, and 61% to 6% for GPT-6 Luna.</desc>
+<text x="64" y="69" font-size="24" font-weight="700"><tspan fill="#1971c2">Clutter</tspan><tspan>Bench</tspan></text>
+<text x="64" y="130" font-size="38" font-weight="700" letter-spacing="-.4">Clutter drops with a simple prompt</text>
+<text class="head" x="505" y="218" text-anchor="middle">Raw prompt</text>
+<text class="head" x="1015" y="218" text-anchor="middle">Simple prompt</text>
+<text x="64" y="218" font-size="22" fill="#475467">Clutter score</text>
+<g stroke="#e4e7ec" stroke-width="2">
+<path d="M505 265V1040M1015 265V1040"/>
+</g>
+<g fill="none" stroke="#1971c2" stroke-opacity=".5" stroke-width="4">
+<path d="M505 310L1015 992"/>
+<path d="M505 496L1015 1066"/>
+<path d="M505 546L1015 1066"/>
+<path d="M505 707L1015 1066"/>
+</g>
+<g class="name" fill="#101828">
+<text x="64" y="319">GPT-6 Luna</text>
+<text x="64" y="505">GPT-6.1 Sol</text>
+<text x="64" y="555">Claude Haiku 5.5</text>
+<text x="64" y="716">Claude Sonnet 5.5</text>
+</g>
+<g class="value" fill="#101828" text-anchor="end">
+<text x="470" y="319">61%</text><text x="470" y="505">46%</text><text x="470" y="555">42%</text><text x="470" y="716">29%</text>
+</g>
+<g fill="#fff" stroke="#1971c2" stroke-width="4">
+<circle cx="505" cy="310" r="8"/><circle cx="505" cy="496" r="8"/><circle cx="505" cy="546" r="8"/><circle cx="505" cy="707" r="8"/>
+</g>
+<g fill="#1971c2"><circle cx="1015" cy="992" r="9"/><circle cx="1015" cy="1066" r="9"/></g>
+<g class="value" fill="#1971c2"><text x="1040" y="1001">6%</text><text x="1040" y="1075">0%</text></g>
+</svg>
+</body>
+</html>

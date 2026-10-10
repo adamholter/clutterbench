@@ -1,0 +1,210 @@
+{
+ "grader": "haiku-v1",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v1.md",
+ "gradedAt": "2026-10-10T14:59:57.194Z",
+ "main_idea": "Training lifted Qwen3.5-9B pass@5 on τ³-Banking from 11.3% to 17.5%.",
+ "ideas": [
+  "Pass@5 on τ³-Banking rose from 11.3% to 17.5%",
+  "Method: distill a teacher, then pivot RL",
+  "Fewer than 250 tasks were needed",
+  "General benchmarks showed no significant change"
+ ],
+ "clutter_score": 8,
+ "summary": "The headline, method pipeline and stats row compete with the 11.3% to 17.5% comparison, and the logo, date pill, subtitle and footer add nothing.",
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "red",
+   "type": "unneeded",
+   "name": "logo and wordmark",
+   "reason": "Brand mark adds nothing to the chart's point",
+   "ids": [
+    "e0",
+    "e2"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "red",
+   "type": "unneeded",
+   "name": "date pill",
+   "reason": "Badge tag; the reader gets the point without it",
+   "ids": [
+    "e1",
+    "e3"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "orange",
+   "type": "verbose",
+   "name": "two-line headline",
+   "reason": "Long headline; the point needs only the model and the score",
+   "ids": [
+    "e4",
+    "e5"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "red",
+   "type": "unneeded",
+   "name": "subtitle",
+   "reason": "Explanatory line restating the method",
+   "ids": [
+    "e6"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "chart card frame",
+   "reason": "Frames the main before-and-after comparison",
+   "ids": [
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "orange",
+   "type": "verbose",
+   "name": "bar eyebrow labels",
+   "reason": "Wordy eyebrows; 'pass@5' repeated on both",
+   "ids": [
+    "e8",
+    "e9"
+   ]
+  },
+  {
+   "rid": "r6",
+   "label": "blue",
+   "type": "core",
+   "name": "headline values",
+   "reason": "The two values carry the main claim",
+   "ids": [
+    "e10",
+    "e11"
+   ]
+  },
+  {
+   "rid": "r7",
+   "label": "blue",
+   "type": "core",
+   "name": "baseline row label",
+   "reason": "Short label naming the baseline model",
+   "ids": [
+    "e12"
+   ]
+  },
+  {
+   "rid": "r8",
+   "label": "orange",
+   "type": "verbose",
+   "name": "after-training row label",
+   "reason": "Parenthetical 'selected checkpoint' is longer than needed",
+   "ids": [
+    "e13"
+   ]
+  },
+  {
+   "rid": "r9",
+   "label": "blue",
+   "type": "core",
+   "name": "comparison bars",
+   "reason": "The bar marks showing the gain",
+   "ids": [
+    "e14",
+    "e15",
+    "e16",
+    "e17"
+   ]
+  },
+  {
+   "rid": "r10",
+   "label": "red",
+   "type": "unneeded",
+   "name": "section heading",
+   "reason": "Heading for the method section, which is a second point",
+   "ids": [
+    "e18"
+   ]
+  },
+  {
+   "rid": "r11",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "method pipeline cards",
+   "reason": "Explains how training was done, a different point from the result",
+   "ids": [
+    "e19",
+    "e20",
+    "e21",
+    "e22",
+    "e23",
+    "e24",
+    "e25",
+    "e26",
+    "e27",
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32"
+   ]
+  },
+  {
+   "rid": "r12",
+   "label": "red",
+   "type": "extra_idea",
+   "name": "secondary stats row",
+   "reason": "Task counts and benchmark results serve other points",
+   "ids": [
+    "e33",
+    "e34",
+    "e35",
+    "e36",
+    "e37",
+    "e38",
+    "e39",
+    "e40",
+    "e41",
+    "e42",
+    "e43",
+    "e44"
+   ]
+  },
+  {
+   "rid": "r13",
+   "label": "red",
+   "type": "unneeded",
+   "name": "footer",
+   "reason": "URL, dot and tagline; not part of the chart's point",
+   "ids": [
+    "e45",
+    "e46",
+    "e47"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 30.8,
+   "orange": 21.2,
+   "red": 48,
+   "unlabelled": 0,
+   "paintedOfCanvas": 56.5
+  },
+  "clutterShare": 58.6,
+  "ideaCount": 4,
+  "redByType": {
+   "unneeded": 5,
+   "extra_idea": 2
+  },
+  "coverage": 100,
+  "words": 125,
+  "textElements": 32
+ }
+}

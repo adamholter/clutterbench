@@ -1,0 +1,163 @@
+{
+ "canvas": {
+  "w": 1200,
+  "h": 1200
+ },
+ "stats": {
+  "elements": 13,
+  "textElements": 7,
+  "words": 12,
+  "fontSizes": 4,
+  "overflow": false,
+  "content": {
+   "w": 1200,
+   "h": 1200
+  }
+ },
+ "elements": [
+  {
+   "id": "e0",
+   "kind": "image",
+   "tag": "img",
+   "x": 64,
+   "y": 56,
+   "w": 42,
+   "h": 42,
+   "text": ""
+  },
+  {
+   "id": "e1",
+   "kind": "text",
+   "tag": "div",
+   "x": 997,
+   "y": 65,
+   "w": 139,
+   "h": 21,
+   "text": "DeepSWE · pass@1",
+   "fontSize": 16,
+   "color": "rgb(53, 67, 61)"
+  },
+  {
+   "id": "e2",
+   "kind": "text",
+   "tag": "text",
+   "x": 722,
+   "y": 355,
+   "w": 104,
+   "h": 67,
+   "text": "39.1%",
+   "fontSize": 43,
+   "color": "rgb(38, 51, 46)"
+  },
+  {
+   "id": "e3",
+   "kind": "text",
+   "tag": "text",
+   "x": 148,
+   "y": 416,
+   "w": 28,
+   "h": 19,
+   "text": "40%",
+   "fontSize": 14,
+   "color": "rgb(120, 130, 124)"
+  },
+  {
+   "id": "e4",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 679,
+   "y": 435,
+   "w": 190,
+   "h": 489,
+   "color": "url(\"#improved\")"
+  },
+  {
+   "id": "e5",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 651,
+   "y": 470,
+   "w": 8,
+   "h": 8,
+   "color": "rgb(107, 153, 137)"
+  },
+  {
+   "id": "e6",
+   "kind": "shape",
+   "tag": "path",
+   "x": 546,
+   "y": 474,
+   "w": 109,
+   "h": 104,
+   "color": "rgb(107, 153, 137)"
+  },
+  {
+   "id": "e7",
+   "kind": "text",
+   "tag": "text",
+   "x": 371,
+   "y": 497,
+   "w": 110,
+   "h": 67,
+   "text": "27.8%",
+   "fontSize": 43,
+   "color": "rgb(38, 51, 46)"
+  },
+  {
+   "id": "e8",
+   "kind": "shape",
+   "tag": "circle",
+   "x": 542,
+   "y": 574,
+   "w": 8,
+   "h": 8,
+   "color": "rgb(107, 153, 137)"
+  },
+  {
+   "id": "e9",
+   "kind": "shape",
+   "tag": "rect",
+   "x": 331,
+   "y": 577,
+   "w": 190,
+   "h": 347,
+   "color": "rgb(201, 207, 202)"
+  },
+  {
+   "id": "e10",
+   "kind": "text",
+   "tag": "text",
+   "x": 167,
+   "y": 916,
+   "w": 9,
+   "h": 19,
+   "text": "0",
+   "fontSize": 14,
+   "color": "rgb(120, 130, 124)"
+  },
+  {
+   "id": "e11",
+   "kind": "text",
+   "tag": "text",
+   "x": 405,
+   "y": 959,
+   "w": 42,
+   "h": 25,
+   "text": "Base",
+   "fontSize": 19,
+   "color": "rgb(79, 92, 86)"
+  },
+  {
+   "id": "e12",
+   "kind": "text",
+   "tag": "text",
+   "x": 700,
+   "y": 959,
+   "w": 148,
+   "h": 25,
+   "text": "GRPO · 500 tasks",
+   "fontSize": 19,
+   "color": "rgb(79, 92, 86)"
+  }
+ ]
+}

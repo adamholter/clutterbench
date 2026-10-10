@@ -1,0 +1,71 @@
+{
+ "grader": "haiku-high-v3",
+ "model": "claude-haiku-5-5",
+ "effort": "high",
+ "prompt": "grader_v3.md",
+ "gradedAt": "2026-10-10T17:02:26.600Z",
+ "main_idea": "BAR-informed harness changes raised output quality 5% in one month.",
+ "ideas": [
+  "Harness changes informed by BAR raised output quality",
+  "The gain is 5% in one month"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: one large stat, a short caption naming the metric and source, and a single logo.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 9.8,
+  "usd": 0.0019680599999999998,
+  "tokens": 23792,
+  "outputTokens": 1458
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "AfterQuery logo",
+   "reason": "The single brand mark, small and top-left, out of the way.",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Main +5% stat",
+   "reason": "The finding itself, large and legible; the main visual.",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric caption",
+   "reason": "Short context saying what the 5% measures, over what time, and the BAR source.",
+   "ids": [
+    "e2"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 61.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 2,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 12,
+  "textElements": 2
+ }
+}

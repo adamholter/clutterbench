@@ -1,0 +1,108 @@
+{
+ "grader": "haiku-low-v4-b",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "prompt": "grader_v4.md",
+ "gradedAt": "2026-10-10T18:10:40.211Z",
+ "main_idea": "Two-stage training raises gpt-oss-20b's Terminal-Bench 2.0 pass rate from 3.1% to 17.0%",
+ "ideas": [
+  "Training raises gpt-oss-20b pass rate on Terminal-Bench 2.0",
+  "Base 3.1%, SFT 13.5%, SFT plus RLVR 17.0%",
+  "Each training stage adds to the pass rate"
+ ],
+ "clutter_score": 0,
+ "summary": "Clean and complete: a simple labelled bar chart with a clear title, metric, and logo, with nothing to remove.",
+ "missing": [],
+ "completeness_score": 10,
+ "defects": [],
+ "cost": {
+  "seconds": 8.1,
+  "usd": 0.00080484,
+  "tokens": 28508,
+  "outputTokens": 1060
+ },
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart title",
+   "reason": "Names the model, benchmark and orients the reader",
+   "ids": [
+    "e0"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "blue",
+   "type": "core",
+   "name": "Metric label",
+   "reason": "Short unit context: pass rate",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand logo",
+   "reason": "Single brand mark, small and unobtrusive",
+   "ids": [
+    "e1"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Bar marks",
+   "reason": "The main visual: three bars showing the stages",
+   "ids": [
+    "e4",
+    "e6",
+    "e8"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Value labels",
+   "reason": "One value label per bar, as required for reading",
+   "ids": [
+    "e3",
+    "e5",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Category labels",
+   "reason": "Name each bar's training stage",
+   "ids": [
+    "e9",
+    "e10",
+    "e11"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 100,
+   "orange": 0,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 30.7
+  },
+  "clutterShare": 0,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 14,
+  "textElements": 8
+ }
+}

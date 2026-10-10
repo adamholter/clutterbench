@@ -1,0 +1,132 @@
+{
+ "grader": "consensus-v4",
+ "protocol": "haiku-low-v4 x2, sonnet-low-v4 tiebreak",
+ "gradedAt": "2026-10-10T20:44:09.887Z",
+ "consensus": {
+  "haikuAgreed": true,
+  "elementsChanged": 0,
+  "tiebreak": false,
+  "scores": [
+   1
+  ]
+ },
+ "main_idea": "A simple prompt removes nearly all clutter from every model's graphics",
+ "ideas": [
+  "Simple prompt drops clutter to near zero",
+  "Raw prompts leave 29-61% clutter",
+  "Clutter score differs by model and prompt"
+ ],
+ "summary": "Clean dumbbell chart with no extras; only the nine-word headline could be shorter.",
+ "clutter_score": 1,
+ "completeness_score": 10,
+ "missing": [],
+ "defects": [],
+ "regions": [
+  {
+   "rid": "r0",
+   "label": "blue",
+   "type": "core",
+   "name": "Brand wordmark",
+   "reason": "One brand mark, short and quiet.",
+   "ids": [
+    "e0",
+    "e1"
+   ]
+  },
+  {
+   "rid": "r1",
+   "label": "orange",
+   "type": "verbose",
+   "name": "Nine-word headline",
+   "reason": "Names the finding but runs nine words; shorten to about seven.",
+   "ids": [
+    "e2"
+   ]
+  },
+  {
+   "rid": "r2",
+   "label": "blue",
+   "type": "core",
+   "name": "Legend",
+   "reason": "One legend explaining both colours and the metric.",
+   "ids": [
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7"
+   ]
+  },
+  {
+   "rid": "r3",
+   "label": "blue",
+   "type": "core",
+   "name": "Row labels and values",
+   "reason": "Model names and one value per mark, needed to read the chart.",
+   "ids": [
+    "e8",
+    "e9",
+    "e12",
+    "e13",
+    "e14",
+    "e17",
+    "e18",
+    "e19",
+    "e22",
+    "e23",
+    "e24",
+    "e27"
+   ]
+  },
+  {
+   "rid": "r4",
+   "label": "blue",
+   "type": "core",
+   "name": "Chart marks",
+   "reason": "Dumbbell markers and connecting bars are the main visual.",
+   "ids": [
+    "e10",
+    "e11",
+    "e15",
+    "e16",
+    "e20",
+    "e21",
+    "e25",
+    "e26"
+   ]
+  },
+  {
+   "rid": "r5",
+   "label": "blue",
+   "type": "core",
+   "name": "Axis ticks",
+   "reason": "Percentage ticks needed to read the marks.",
+   "ids": [
+    "e28",
+    "e29",
+    "e30",
+    "e31",
+    "e32",
+    "e33",
+    "e34",
+    "e35"
+   ]
+  }
+ ],
+ "metrics": {
+  "shares": {
+   "blue": 35.5,
+   "orange": 64.5,
+   "red": 0,
+   "unlabelled": 0,
+   "paintedOfCanvas": 17.1
+  },
+  "clutterShare": 32.3,
+  "ideaCount": 3,
+  "missingCount": 0,
+  "redByType": {},
+  "coverage": 100,
+  "words": 46,
+  "textElements": 26
+ }
+}
