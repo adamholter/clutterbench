@@ -45,6 +45,10 @@ Click mode (default): every element is a box; pick a colour (`1` red, `2` orange
 - Public site: `node scripts/build_site.cjs` writes `site/data.json` and `site/shots/`; `site/` is static and is published to ChatGPT Sites from `site-host/`.
 - Caveat: some of Adam's element labels were started from `haiku-v2` via Copy grader, so that grader's label agreement is inflated.
 
+## Skill
+
+`skill/clutterbench/` is an agent skill with the two parts worth reusing: the simple prompt that removes most clutter, and the grader as a prompt for a sub-agent of whatever harness you are in (no API key, no scripts). Copy or link the folder into your skills directory, for example `~/.claude/skills/clutterbench`. The sub-agent grader reads a screenshot and replies in words; it gives a 0 to 10 clutter score, not the area-based percentage the benchmark reports.
+
 ## Not in this repository
 
 - The text of the AfterQuery posts (`data/articles/`): run `npm run fetch` to download them.
